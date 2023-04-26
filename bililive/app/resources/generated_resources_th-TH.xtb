@@ -1,0 +1,833 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="th-TH">
+  <!--Common-->
+  <translation id="IDS_EXIT">退出</translation>
+  <translation id="IDS_SURE">ยืนยัน</translation>
+  <translation id="IDS_CANCEL">ยกเลิก</translation>
+  <translation id="IDS_BACK">返回</translation>
+  <translation id="IDS_IKNOW">我知道了</translation>
+  <translation id="IDS_COMMON_NO_CAMERA">ตรวจสอบไม่พบอุปกรณ์ไมโครโฟน</translation>
+  <translation id="IDS_COMMON_NO_SYS_VOICE">ตรวจสอบไม่พบอุปกรณ์เสียงระบบ</translation>
+  <translation id="IDS_HELP">帮助</translation>
+  <translation id="IDS_SET">设置</translation>
+  <!--Common-->
+  <translation id="IDS_BILILIVE_TITLE_2">直播姬</translation>
+
+  <translation id="IDS_BILILIVE_TITLE">Bilibili Studio (Beta)</translation>
+
+  <!--Exit window-->
+  <translation id="IDS_MAIN_CLOSE_TITLE">คำแนะนำ</translation>
+  <translation id="IDS_MAIN_CLOSE_LABEL_TITLE">กรุณาเลือกวิธีออก :</translation>
+  <translation id="IDS_MAIN_CLOSE_MIN">ย่อไปที่ System Tray</translation>
+  <translation id="IDS_MAIN_CLOSE_EXIT">ออกทันที</translation>
+  <translation id="IDS_MAIN_CLOSE_REMEMBER">จดจำตัวเลือกของฉัน</translation>
+  <!--Exit window-->
+
+  <translation id="IDS_LIVEHIME_MY_LIVE_ROOM">ห้องไลฟ์สดของฉัน</translation>
+  <translation id="IDS_LIVEHIME_LIVE_DATA">ข้อมูลไลฟ์สด</translation>
+
+  <!-- Live room info edit dialog -->
+  <translation id="IDS_LIVE_ROOM_INFO_EDIT_OK">确认</translation>
+  <translation id="IDS_LIVE_ROOM_MSGBOX_TITLE">提示</translation>
+  <translation id="IDS_LIVE_ROOM_MSGBOX_IKNOW">我知道了</translation>
+  <!-- Live room info edit dialog -->
+
+  <translation id="IDS_TITLEBAR_MORE_PREVIEWPROJECT">แคสต์เต็มหน้าจอ</translation>
+  <translation id="IDS_TITLEBAR_MORE_PROJECT_MONITOR">ดิสเพลย์</translation>
+  <translation id="IDS_TITLEBAR_MORE_HELP">ช่วยเหลือ</translation>
+  <translation id="IDS_TITLEBAR_MORE_DETECT">ตรวจสอบอัปเดต</translation>
+  <translation id="IDS_TITLEBAR_MORE_LOG_FILE">ไฟล์บันทึก</translation>
+  <translation id="IDS_TITLEBAR_MORE_LOGOUT">ออกจากระบบ</translation>
+  <translation id="IDS_HELP_VIEW_HELP">查看帮助</translation>
+
+  <translation id="IDS_TOOLBAR_CAMERA">กล้อง</translation>
+  <translation id="IDS_TOOLBAR_CAMERA_NOTES">เพิ่มกล้องลงในไลฟ์สด ทำให้การไลฟ์สดน่าสนใจและดึงดูดผู้ชมได้มากยิ่งขึ้น</translation>
+  <translation id="IDS_TOOLBAR_GAME">ไซฟอน</translation>
+  <translation id="IDS_TOOLBAR_SCREEN_FULL">จับภาพดิสเพลย์</translation>
+  <translation id="IDS_TOOLBAR_SCREEN_FULL_NOTES">คุณเลือกไลฟ์สดเต็มหน้าจอ กรุณาปรับหน้าจอเกมหรือโหมดไร้ขอบหน้าต่าง เพื่อป้องกันไม่ให้เกิดปัญหาภาพหน้าจอดำ</translation>
+  <translation id="IDS_TOOLBAR_SCREEN_MONITOR">ดิสเพลย์</translation>
+  <translation id="IDS_TOOLBAR_SCREEN_WINDOW">จับภาพหน้าจอ</translation>
+  <translation id="IDS_TOOLBAR_SCREEN_WINDOW_NOTES">คุณเลือกหน้าต่างเกมตอนไลฟ์สด เมื่อคุณเลื่อนหน้าต่างจะยังคงจับภาพเนื้อหาเกมได้</translation>
+  <translation id="IDS_TOOLBAR_VIDEO">สื่อ</translation>
+  <translation id="IDS_TOOLBAR_VIDEO_NOTES">สามารถเพิ่มดาวน์สตรีมหรือไฟล์ข้อความไปยังภาพหน้าจอไลฟ์สด</translation>
+  <translation id="IDS_TOOLBAR_TEXT">ข้อความ</translation>
+  <translation id="IDS_TOOLBAR_TEXT_NOTES">เพิ่มข้อความอธิบายให้ผู้ใช้ทราบถึงกิจกรรม กติกาและอื่น ๆ ในห้องไลฟ์สดของคุณ</translation>
+  <translation id="IDS_TOOLBAR_SCREEN_PROJECTION">แคสต์หน้าจอ</translation>
+  <translation id="IDS_TOOLBAR_PICTURE">รูปภาพ</translation>
+  <translation id="IDS_TOOLBAR_PICTURE_NOTES">เพิ่มรูปภาพ แสดงให้ผู้ใช้เห็น</translation>
+  <translation id="IDS_TOOLBAR_ALBUM">อัลบั้ม</translation>
+  <translation id="IDS_TOOLBAR_COLORSOURCE">สีโทนเดียว</translation>
+  <translation id="IDS_TOOLBAR_BROWSER">เบราว์เซอร์</translation>
+  <translation id="IDS_TOOLBAR_BROWSER_NOTES">เบราว์เซอร์สามารถเพิ่มส่วนขยายประเภทเว็บได้</translation>
+  <translation id="IDS_TOOLBAR_AUDIO_DEVICE">音频</translation>
+  <translation id="IDS_TOOLBAR_AUDIO_DEVICE_INPUT">นำเข้าเสียงในอุปกรณ์เพิ่ม</translation>
+  <translation id="IDS_TOOLBAR_AUDIO_DEVICE_OUTPUT">เอาต์พุตเสียงออกจากอุปกรณ์เพิ่ม</translation>
+  <translation id="IDS_TOOLBAR_VOLUME">ระดับเสียง</translation>
+  <translation id="IDS_TOOLBAR_VOLUME_MIC_OPEN_TIPS">开启 麦克风</translation>
+  <translation id="IDS_TOOLBAR_VOLUME_MIC_CLOSE_TIPS">ปิดไมโครโฟน</translation>
+  <translation id="IDS_TOOLBAR_VOLUME_MIC_WARNING">ตรวจสอบไม่พบไมโครโฟน</translation>
+  <translation id="IDS_TOOLBAR_VOLUME_SYSTEM_SOUND_OPEN_TIPS">开启 系统声音</translation>
+  <translation id="IDS_TOOLBAR_VOLUME_SYSTEM_SOUND_CLOSE_TIPS">ปิดเสียงระบบ</translation>
+  <translation id="IDS_TOOLBAR_VOLUME_SYSTEM_WARNING">ตรวจสอบไม่พบเสียงระบบ</translation>
+  <translation id="IDS_TOOLBAR_VOLUME_SYSTEM_RENDER_WARNING">系统声音采集异常</translation>
+  <translation id="IDS_TOOLBAR_VOLUME_SYSTEM_RENDER_WARNING_KILL">请结束掉进程：</translation>
+  <translation id="IDS_TOOLBAR_VOLUME_SYSTEM_RENDER_WARNING_RESTART">，然后重启直播姬！（如果这个进程结束后还不断重启，找到所在位置删掉或者改名再结束掉，然后重启直播姬）</translation>
+  <translation id="IDS_TOOLBAR_VOLUME_SOUND_EFFECT">เสียงเอฟเฟกต์</translation>
+  <translation id="IDS_TOOLBAR_CONFIG">ตั้งค่า</translation>
+  <translation id="IDS_TOOLBAR_DANMAKU_HIME">弹幕姬</translation>
+  <translation id="IDS_TOOLBAR_TEXTURE">材质源</translation>
+  <translation id="IDS_TOOLBAR_START_RECORDING">录制</translation>
+  <translation id="IDS_TOOLBAR_STOP_RECORDING">停止</translation>
+  <translation id="IDS_TOOLBAR_START_LIVE">เริ่มไลฟ์สด</translation>
+  <translation id="IDS_TOOLBAR_START_LIVE_WAITING">等待中...</translation>
+  <translation id="IDS_TOOLBAR_UPDATE_CHANNEL">更新分区</translation>
+  <translation id="IDS_TOOLBAR_STOP_LIVE">หยุดไลฟ์สด</translation>
+  <translation id="IDS_TOOLBAR_LIVE_RETRY">正在重试</translation>
+  <translation id="IDS_TOOLBAR_CONFIG_VIDEO">วิดีโอ</translation>
+  <translation id="IDS_TOOLBAR_CONFIG_AUDIO">ไฟล์เสียง</translation>
+  <translation id="IDS_TOOLBAR_CONFIG_ACCELERATORS">快捷键</translation>
+  <translation id="IDS_TOOLBAR_LOADING_ROOMINFO_TIPS">正在加载个人信息，请稍后再试~</translation>
+  <translation id="IDS_TOOLBAR_LOADED_ROOMINFO_TIPS">个人信息加载完毕，开始您的直播吧~</translation>
+  <translation id="IDS_TOOLBAR_NET_ERROR">更新房间信息失败~</translation>
+  <translation id="IDS_TOOLBAR_REPLAY_TIPS">直播很精彩哦~可在“设置-全局设置”中开启自动保存并发布到动态，快去试试吧！</translation>
+  <translation id="IDS_TOOLBAR_REPLAY_LIVE_REPALY">直播回放</translation>
+  <translation id="IDS_TOOLBAR_BITRATE">码率:</translation>
+  <translation id="IDS_TOOLBAR_FPS">FPS:</translation>
+  <translation id="IDS_TOOLBAR_FRAME_LOSS">丢帧:</translation>
+  <translation id="IDS_TOOLBAR_CPU">CPU:</translation>
+  <translation id="IDS_TOOLBAR_MEMORY">内存:</translation>
+  <translation id="IDS_TOOLBAR_QUALITY">画质:</translation>
+  <translation id="IDS_TOOLBAR_QUALITY_NONE">无</translation>
+  <translation id="IDS_TOOLBAR_STARTING">开播中</translation>
+  <translation id="IDS_TOOLBAR_STOPPED">未开播</translation>
+  <translation id="IDS_TOOLBAR_SYSTEM_VOICE_WARN">การใช้เสียงระบบมีปัญหา</translation>
+  <translation id="IDS_TOOLBAR_LIVE_PARTITION">选择分区</translation>
+  <translation id="IDS_TOOLBAR_ROOMINFO_LOAD_FAILED">房间信息加载失败，请稍后重试~</translation>
+
+  <!-- Streaming detection prompt dialog -->
+  <translation id="IDS_PROMPT_EMPTY_SCENE_TITLE">提示</translation>
+  <translation id="IDS_PROMPT_EMPTY_SCENE_MSG">你还一个源都没有添加呢，确定就这么开启直播么？</translation>
+
+  <translation id="IDS_CONFIG_VIDEO_CORERATE">อัตราบิต</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_CORERATE_800">800</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_CORERATE_1000">1000</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_CORERATE_1500">1500</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_CORERATE_2000">2000</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_CORERATE_3000">3000</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_CORERATE_4000">4000</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_CORERATE_5000">5000</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_CORERATE_8000">8000</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_CORERATE_10000">10000（慎重选择，观众网速差观看会卡顿）</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_CORERATE_12000">12000（慎重选择，观众网速差观看会卡顿）</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_CORERATE_14000">14000（慎重选择，观众网速差观看会卡顿）</translation>
+
+  <translation id="IDS_CONFIG_VIDEO_BITRATE_CONTROL">ควบคุมอัตราบิต</translation>
+  <translation id="IDS_CONFIG_VIDEO_BITRATE_CONTROL_CBR">固定码率</translation>
+  <translation id="IDS_CONFIG_VIDEO_BITRATE_CONTROL_ABR">动态平均码率</translation>
+  <translation id="IDS_CONFIG_VIDEO_BITRATE_CONTROL_TIPS">เมื่อสัญญาณอินเทอร์เน็ตดี สามารถเลือกอัตราบิตเฉลี่ยแบบไดนามิกได้ เพื่อป้องกันการกระตุกเมื่อไลฟ์สด</translation>
+
+  <translation id="IDS_CONFIG_VIDEO_FRAMERATE">อัตราเฟรม</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_FRAMERATE_24">24</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_FRAMERATE_30">30 (แนะนำ)</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_FRAMERATE_60">60</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_PREVIEWDPI_712">712x400（16:9）</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_PREVIEWDPI_800">800x600（4:3）</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_PREVIEWDPI_1280">1280x720（推荐）</translation>
+  <translation id="IDS_CONFIG_VIDEO_STREAMING_RES">ความละเอียดภาพ</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_STREAMING_RES_712">712x400（16:9）</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_STREAMING_RES_800">800x600（4:3）</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_STREAMING_RES_1280">1280x720 (แนะนำ)</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_STREAMING_RES_1920">1920x1080（16:9）</translation>
+  <translation id="IDS_CONFIG_VIDEO_ENCODER">ตัวเข้ารหัส</translation>
+  <translation id="IDS_CONFIG_VIDEO_ENCODER_TIP">การเข้ารหัสซอฟต์แวร์ : การเข้ารหัสด้วย CPU จะใช้ประสิทธิภาพของ CPU &#xD;&#xA; การเข้ารหัสฮาร์ดแวร์ : การเข้ารหัสด้วยกราฟิกการ์ดจะใช้ประสิทธิภาพของ GPU ของกราฟิกการ์ด</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_ENCODER_SOFTWARE">ตัวเข้ารหัสซอฟต์แวร์</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_ENCODER_NVIDIA">การเข้ารหัสฮาร์ดแวร์ NVIDIA</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_ENCODER_INTEL">การเข้ารหัสฮาร์ดแวร์ Intel</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_ENCODER_AMD">การเข้ารหัสฮาร์ดแวร์ AMD</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_ENCODER_NVIDIA_TURING">การเข้ารหัสฮาร์ดแวร์ NVIDIA TURING (ใหม่)</translation>
+  <translation id="IDS_CONFIG_VIDEO_PERFORMANCE_BALANCE">ความสมดุลของประสิทธิภาพ</translation>
+  <translation id="IDS_CONFIG_VIDEO_PERFORMANCE_BALANCE_TIP">ประสิทธิภาพสูงจะใช้พื้นที่น้อยลง คุณภาพของภาพจะต่ำลง เมื่อคุณภาพของภาพสูงจะใช้พื้นที่มากขึ้น คุณภาพของภาพจะดีกว่า</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_PERFORMANCE_BALANCE_1">ประสิทธิภาพสูง</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_PERFORMANCE_BALANCE_2">สมดุล (แนะนำ)</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_PERFORMANCE_BALANCE_3">ความคมชัดสูง</translation>
+  <translation id="IDS_CONFIG_VIDEO_RECORDING_FORMAT">录像保存格式</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_RECORDING_FORMAT_FLV">FLV格式</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_RECORDING_FORMAT_MP4">MP4格式</translation>
+  <translation id="IDS_CONFIG_VIDEO_CMB_RECORDING_FORMAT_FMP4">流式MP4格式</translation>
+  <translation id="IDS_CONFIG_VIDEO_RECORDING_FMT_MP4_TIP">对视频编辑软件兼容性最好，但是异常退出可能会造成录像整个损坏。</translation>
+  <translation id="IDS_CONFIG_VIDEO_RECORDING_FMT_FMP4_TIP">兼容性好、异常退出不会造成录像损坏，但是个别视频编辑软件可能不支持，部分播放器可能不支持进度拖拽。</translation>
+  <translation id="IDS_CONFIG_VIDEO_RECORDING_FMT_FLV_TIP">原原本本保存推流数据，但是视频编辑软件可能大多不支持。</translation>
+  <translation id="IDS_CONFIG_VIDEO_SAVEPATH">录像保存路径</translation>
+  <translation id="IDS_CONFIG_VIDEO_OPENDIR">打开目录</translation>
+  <translation id="IDS_CONFIG_VIDEO_SYNCRECORDING">每次开启直播都启用录制功能</translation>
+  <translation id="IDS_CONFIG_VIDEO_TIP">การตั้งค่าการเข้ารหัสข้างต้นใช้กับทั้งฟังก์ชันการสตรีมสดและการบันทึกหน้าจอ</translation>
+
+  <translation id="IDS_CONFIG_VIDEO_SETTING_TITLE">คุณภาพวิดีโอ</translation>
+  <translation id="IDS_CONFIG_VIDEO_SETTING_ADAVANCE">ตั้งค่าขั้นสูง</translation>
+  <translation id="IDS_CONFIG_VIDEO_ENCODER_TIP_LABEL">คอมพิวเตอร์ไม่สนับสนุนฮาร์ดโค้ด</translation>
+  <translation id="IDS_CONFIG_VIDEO_SETTING_TIP_AUTO">เลือกคุณภาพวิดีโออัตโนมัติจากอุปกรณ์และสัญญาณอินเทอร์เน็ตของคุณ แนะนำสำหรับสตรีมเมอร์มือใหม่</translation>
+  <translation id="IDS_CONFIG_VIDEO_SETTING_TIP_CUSTOM">หากคุณมีความเข้าใจในพารามิเตอร์อัปสตรีมเป็นอย่างดี สามารถตั้งค่าเงื่อนไขการไลฟ์สดด้วยตนเองได้</translation>
+
+  <translation id="IDS_CONFIG_AUDIO_MIC">麦克风</translation>
+  <translation id="IDS_CONFIG_AUDIO_MIC_NO_MIX">ไม่ต้องมิกซ์</translation>
+  <translation id="IDS_CONFIG_AUDIO_MIC_L_TO_DUAL">ลำโพงซ้ายใช้เป็นสองฝั่ง</translation>
+  <translation id="IDS_CONFIG_AUDIO_MIC_R_TO_DUAL">ลำโพงขวาใช้เป็นสองฝั่ง</translation>
+  <translation id="IDS_CONFIG_AUDIO_MIC_MIX">มิกซ์เสียงลำโพงทั้งสองฝั่ง</translation>
+  <translation id="IDS_CONFIG_AUDIO_DEFAULTDEVICE">อุปกรณ์เริ่มต้น</translation>
+  <translation id="IDS_CONFIG_AUDIO_SYSVOL">系统声音</translation>
+  <translation id="IDS_CONFIG_AUDIO_CORERATE">音频码率</translation>
+  <translation id="IDS_CONFIG_AUDIO_CMB_CORERATE_96">96 kbps</translation>
+  <translation id="IDS_CONFIG_AUDIO_CMB_CORERATE_128">128 kbps</translation>
+  <translation id="IDS_CONFIG_AUDIO_CMB_CORERATE_192">192 kbps</translation>
+  <translation id="IDS_CONFIG_AUDIO_CMB_CORERATE_256">256 kbps</translation>
+  <translation id="IDS_CONFIG_AUDIO_CMB_CORERATE_320">320 kbps</translation>
+  <translation id="IDS_CONFIG_AUDIO_CORERATE_TIP">增加音频码率可以提高用户观看直播时的音质，但会增加网络负载</translation>
+
+  <translation id="IDS_CONFIG_AUDIO_TITLE">ตั้งค่าไมโครโฟน</translation>
+  <translation id="IDS_CONFIG_AUDIO_DEVICE">อุปกรณ์</translation>
+  <translation id="IDS_CONFIG_AUDIO_INPUT_VOLUME">ระดับเสียงนำเข้า</translation>
+  <translation id="IDS_CONFIG_AUDIO_SPEAKER_SETTING">ตั้งค่าลำโพง</translation>
+  <translation id="IDS_CONFIG_AUDIO_OUTPUT_VOLUME">ระดับเสียงจากอุปกรณ์</translation>
+  <translation id="IDS_CONFIG_AUDIO_MAIN_MIC_ADV_SETTING">สเตตัสขั้นสูงของไมโครโฟนหลัก</translation>
+  <translation id="IDS_CONFIG_AUDIO_MICPHONE_DENOISE">ลดเสียงแทรกไมโครโฟน</translation>
+  <translation id="IDS_CONFIG_AUDIO_RATE">เรตไฟล์เสียง</translation>
+  <translation id="IDS_CONFIG_AUDIO_TRACE">ช่องเสียง</translation>
+  <translation id="IDS_CONFIG_AUDIO_MONO_CAN_TRY">สามารถลองใช้ไมโครโฟนระบบเสียงโมโนได้</translation>
+  <translation id="IDS_CONFIG_AUDIO_RATE_TIP">เรตไฟล์เสียงยิ่งสูง ยิ่งต้องการความเร็วอินเทอร์เน็ตที่มีความเสถียรยิ่งขึ้น</translation>
+
+
+  <!-- sound reverb view -->
+  <translation id="IDS_CONFIG_AUDIO_SOUND_REVERB_TITLE">เปิดใช้มิกซ์เสียง</translation>
+  <translation id="IDS_CONFIG_AUDIO_SOUND_REVERB_RESET">รีเซ็ต</translation>
+  <translation id="IDS_CONFIG_AUDIO_SOUND_REVERB_ROOM">พื้นที่</translation>
+  <translation id="IDS_CONFIG_AUDIO_SOUND_REVERB_WET">ระดับอุณหภูมิ</translation>
+  <translation id="IDS_CONFIG_AUDIO_SOUND_REVERB_DRY">ระดับความชื้น</translation>
+  <translation id="IDS_CONFIG_AUDIO_SOUND_REVERB_WIDTH">ระดับความกว้าง</translation>
+  <translation id="IDS_CONFIG_AUDIO_SOUND_REVERB_DAMP">ลดความสั่นไหว</translation>
+  <translation id="IDS_CONFIG_AUDIO_SOUND_REVERB_FREEZE">ฟรีซโหมด</translation>
+  <translation id="IDS_CONFIG_AUDIO_SOUND_REVERB_CHECK">ทดลองฟังไมโครโฟน</translation>
+  <translation id="IDS_CONFIG_AUDIO_SOUND_REVERB_CHECK_TIP">คลิกปุ่ม "ทดลองฟัง" พูดใส่ไมโครโฟนและทดลองฟัง</translation>
+
+  <!-- Noise reduction related  denoise_slider -->
+  <translation id="IDS_CONFIG_AUDIO_SOUND_DENOISE_CLOSE">ปิด</translation>
+  <translation id="IDS_CONFIG_AUDIO_SOUND_DENOISE_LEVEL1">ต่ำ</translation>
+  <translation id="IDS_CONFIG_AUDIO_SOUND_DENOISE_LEVEL2">กลาง</translation>
+  <translation id="IDS_CONFIG_AUDIO_SOUND_DENOISE_LEVEL3">สูง</translation>
+
+
+
+  <translation id="IDS_CONFIG_SWITCH_CDN">切换CDN</translation>
+  <translation id="IDS_CONFIG_SWITCH_CDN_TIP">如遇网络异常，可尝试切换线路，切换后请于本次退出直播姬之前开播，否则不会生效哦~</translation>
+
+  <translation id="IDS_CONFIG_ACCELERATORS_INPUT">请输入快捷键</translation>
+  <translation id="IDS_CONFIG_ACCELERATORS_DEL">删除</translation>
+  <translation id="IDS_CONFIG_ACCELERATORS_AUDIO">音频快捷键</translation>
+  <translation id="IDS_CONFIG_ACCELERATORS_AUDIO_MIC">麦克风静音/恢复</translation>
+  <translation id="IDS_CONFIG_ACCELERATORS_AUDIO_SYSVOL">系统静音/恢复</translation>
+  <translation id="IDS_CONFIG_ACCELERATORS_SENCE">场景快捷键</translation>
+  <translation id="IDS_CONFIG_ACCELERATORS_SENCE_SWAP">เปลี่ยนฉาก</translation>
+  <translation id="IDS_CONFIG_ACCELERATORS_LIVE">直播和录制快捷键</translation>
+  <translation id="IDS_CONFIG_ACCELERATORS_LIVE_LIVE">开始/停止直播</translation>
+  <translation id="IDS_CONFIG_ACCELERATORS_LIVE_RECORD">开始/停止录制</translation>
+  <translation id="IDS_CONFIG_ACCELERATORS_OTHERS">其它</translation>
+  <translation id="IDS_CONFIG_ACCELERATORS_OTHERS_CLEAR_DANMAKU_TTS_QUEUE">清空语音弹幕</translation>
+  <translation id="IDS_CONFIG_ACCELERATORS_CONFLICT">以下快捷键与其他程序有冲突：</translation>
+  <translation id="IDS_CONFIG_ACCELERATORS_CONFLICT_DEAL">您确认继续保存配置吗？</translation>
+
+  <translation id="IDS_CONFIG_GLOBAL_WINDOW_CAPTURE">窗口捕捉引擎</translation>
+  <translation id="IDS_CONFIG_GLOBAL_WINDOW_CAPTURE_OPTIMIZE_FOR_PERFORMANCE">为性能优化</translation>
+  <translation id="IDS_CONFIG_GLOBAL_WINDOW_CAPTURE_OPTIMIZE_FOR_PERFORMANCE_TOOLTIP">捕捉更流畅，但对显卡要求较高；某些机器上可能会抓取失败显示黑屏（win8以上系统有效，需要重启直播姬）</translation>
+  <translation id="IDS_CONFIG_GLOBAL_EXCLUDE_FROM_CAPTURE">从捕捉中排除直播姬主窗口</translation>
+  <translation id="IDS_CONFIG_GLOBAL_EXCLUDE_FROM_CAPTURE_TOOLTIP">使直播姬主窗口从所有本机屏幕内容捕捉手段中隐藏</translation>
+  <translation id="IDS_CONFIG_GLOBAL_ZOOM_RENDER">缩放渲染</translation>
+  <translation id="IDS_CONFIG_GLOBAL_ZOOM_RENDER_DRAG_FULL_WINDOWS">拖动时不显示窗口内容</translation>
+  <translation id="IDS_CONFIG_GLOBAL_ZOOM_RENDER_DRAG_FULL_WINDOWS_TOOLTIP">拖拽主界面若出现“闪烁”时，可尝试勾选该选项</translation>
+  <translation id="IDS_CONFIG_GLOBAL_EXIT">退出提示</translation>
+  <translation id="IDS_CONFIG_GLOBAL_EXIT_MIN">最小化到托盘</translation>
+  <translation id="IDS_CONFIG_GLOBAL_EXIT_IMMEDIATELY">直接退出</translation>
+  <translation id="IDS_CONFIG_GLOBAL_EXIT_REMIND">每次询问我</translation>
+
+  <translation id="IDS_STREAM_NV_WARN">您目前直播姬使用的内存过大，存在闪退风险，可以尝试将直播姬设置中的视频设置，修改【硬件编码intel】为【软件编码器】</translation>
+  <translation id="IDS_STREAM_NV_IMAGE_WARN">您目前直播姬使用的内存过大，存在闪退风险，可以尝试以下操作
+  1、检查图片素材源的图片是否过大，清理对应的图片素材源。
+  2、检查直直播姬设置中的视频设置，修改【硬件编码intel】为【软件编码器】</translation>
+  <translation id="IDS_STREAM_IMAGE_WARN">您目前直播姬使用的内存过大，存在闪退风险，可以尝试检查图片素材源的图片资源是否过大，清理对应的图片素材源</translation>
+  <translation id="IDS_STREAM_MATER_WARN">您目前直播姬使用的内存过大，存在闪退风险，可以尝试检查素材源的资源是否过大，清理对应的素材源</translation>
+
+  <!-- Studio live streaming -->
+  <translation id="IDS_STUDIO_LIVE_STREAMING_TIPS_START">演播厅模式已开启，直播内容将发送至演播厅。</translation>
+  <translation id="IDS_STUDIO_LIVE_STREAMING_TIPS_END">演播厅模式已关闭，重新开播即可进入正常模式。</translation>
+
+
+  <!-- Novice -->
+  <translation id="IDS_PADDING_CHAR">空</translation>
+
+  <translation id="IDS_HOTKEY_LIVE_START">直播启动了</translation>
+  <translation id="IDS_HOTKEY_LIVE_STOP">直播停止了</translation>
+  <translation id="IDS_HOTKEY_MIC_MUTE">麦克风静音</translation>
+  <translation id="IDS_HOTKEY_MIC_UNMUTE">麦克风恢复</translation>
+  <translation id="IDS_HOTKEY_RECORD_START">录像启动了</translation>
+  <translation id="IDS_HOTKEY_RECORD_STOP">录像停止了</translation>
+  <translation id="IDS_HOTKEY_SYSTEM_MUTE">系统音静音</translation>
+  <translation id="IDS_HOTKEY_SYSTEM_UNMUTE">系统音恢复</translation>
+  <translation id="IDS_HOTKEY_CLEAR_DANMAKU_TTS_QUEUE">已清空语音列队</translation>
+
+  <translation id="IDS_TABAREA_SCENE">ฉาก</translation>
+  <translation id="IDS_TABAREA_SCENE_TIP_UP">เลื่อนขึ้น</translation>
+  <translation id="IDS_TABAREA_SCENE_TIP_DOWN">เลื่อนลง</translation>
+  <translation id="IDS_TABAREA_SCENE_TIP_TOP">บนสุด</translation>
+  <translation id="IDS_TABAREA_SCENE_TIP_BOTTOM">ล่างสุด</translation>
+  <translation id="IDS_TABAREA_SCENE_TIP_DEL">ลบ</translation>
+  <translation id="IDS_TABAREA_SCENE_TIP_SHOW">แสดง</translation>
+  <translation id="IDS_TABAREA_SCENE_TIP_HIDE">ซ่อน</translation>
+  <translation id="IDS_TABAREA_SCENE_TIP_EDIT">แก้ไข</translation>
+  <translation id="IDS_TABAREA_SCENE_TIP_LOCK">ล็อก</translation>
+  <translation id="IDS_TABAREA_SCENE_TIP_UNLOCK">解除锁定</translation>
+  <translation id="IDS_TABAREA_SCENE_MATERIALS">แหล่งข้อมูล</translation>
+  <translation id="IDS_TABAREA_SCENE_ADD_MATERIALS">แหล่งข้อมูล</translation>
+  <translation id="IDS_TABAREA_SCENE_CLEAR_MATERIALS">ล้างข้อมูล</translation>
+  <translation id="IDS_TABAREA_SCENE_PLUGIN">H5插件</translation>
+  <translation id="IDS_TABAREA_MODEL_TYPE_H">ฉาก</translation>
+  <translation id="IDS_TABAREA_MODEL_TYPE_V">竖屏场景</translation>
+  <translation id="IDS_TABAREA_MODEL_TYPE_H_GUIDE">横屏</translation>
+  <translation id="IDS_TABAREA_MODEL_TYPE_V_GUIDE">竖屏</translation>
+  <translation id="IDS_TABAREA_MODEL_BUTTON_GUIDE">直播姬支持竖屏开播啦~观众姥爷们观看体验更佳哦~</translation>
+  <translation id="IDS_TABAREA_MODEL_PREVIEW_GUIDE">点击这里可查看观众视角的直播间效果哦~</translation>
+  <translation id="IDS_TABAREA_MODEL_LAYOUT_SUGGESTION">布局建议</translation>
+  <translation id="IDS_TABAREA_MODEL_TYPE_SWITCH_GUIDE">切换</translation>
+  <translation id="IDS_CONTENTMENU_ONETOONE">ขนาดเดิม</translation>
+  <translation id="IDS_CONTENTMENU_FULLSCREEN">พอดีจอ</translation>
+  <translation id="IDS_CONTENTMENU_DELCUR">ลบออก</translation>
+  <translation id="IDS_CONTENTMENU_TOTOP">เลื่อนไปบนสุด</translation>
+  <translation id="IDS_CONTENTMENU_TOBOTTOM">เลื่อนไปล่างสุด</translation>
+  <translation id="IDS_CONTENTMENU_ATTR">คุณสมบัติ</translation>
+  <translation id="IDS_CONTENTMENU_INTERACTION">คอลแลป</translation>
+  <translation id="IDS_CONTENTMENU_INTERACTION_WITH">คอลแลปกับ '%ls'</translation>
+
+  <translation id="IDS_STATUS_AUDIENCE_UNIT_1E4">万</translation>
+  <translation id="IDS_DANMAKU_GOVERNOR">【总督】</translation>
+  <translation id="IDS_DANMAKU_ADMIRAL">【提督】</translation>
+  <translation id="IDS_DANMAKU_CAPTAIN">【舰长】</translation>
+  <translation id="IDS_DANMAKU_BUY"> 购买 </translation>
+
+  <!-- Danmaku history -->
+  <translation id="IDS_DANMAKU_HISTORY_MYSELF">【主播】</translation>
+  <translation id="IDS_DANMAKU_HISTORY_MANAGE">【房管】</translation>
+  <translation id="IDS_DANMAKU_HISTORY_SVIP">【年费老爷】</translation>
+  <translation id="IDS_DANMAKU_HISTORY_VIP">【月费老爷】</translation>
+  <translation id="IDS_DANMAKU_HISTORY_GIFT">【礼物提示】</translation>
+
+  <translation id="IDS_DANMAKUHIME_FLAG_LOCAL">主播</translation>
+  <translation id="IDS_DANMAKUHIME_STATUS_UPLOAD_QUALITY_DEFAULT">画质:</translation>
+  <translation id="IDS_DANMAKUHIME_STATUS_UPLOAD_QUALITY_BEST">最佳</translation>
+  <translation id="IDS_DANMAKUHIME_STATUS_UPLOAD_QUALITY_CLEAR">清晰</translation>
+  <translation id="IDS_DANMAKUHIME_STATUS_UPLOAD_QUALITY_SLIGHTLY_BLURRED">轻微</translation>
+  <translation id="IDS_DANMAKUHIME_STATUS_UPLOAD_QUALITY_BLURRED">模糊</translation>
+  <translation id="IDS_DANMAKUHIME_STATUS_UPLOAD_QUALITY_SERIOUSLY_BLURRED">严重</translation>
+  <translation id="IDS_DANMAKUHIME_TOOLTIP_SETTING">ตั้งค่า</translation>
+  <translation id="IDS_DANMAKUHIME_DMK_REGION_TIPS">展示本场直播观众进场、弹幕评论、送礼消息及动画等互动信息</translation>
+
+  <!-- Recording -->
+  <translation id="IDS_RECORDING_START_FAILED">录制出错!</translation>
+  <translation id="IDS_RECORDING_TIP_STARTING">准备中...</translation>
+  <translation id="IDS_RECORDING_TIP_UNKNOWN">未知的错误</translation>
+  <translation id="IDS_RECORDING_TIP_UNSUPPORTED">不支持该操作</translation>
+  <translation id="IDS_RECORDING_TIP_NOSPACE">磁盘空间不足</translation>
+  <translation id="IDS_RECORDING_TIP_FILEPATH">录制的文件已经保存。</translation>
+  <translation id="IDS_RECORDING_TIP_STOPPING">终止中...</translation>
+  <translation id="IDS_RECORDING_TIP_FILENOTEXISTS">录制的文件没有保存，可能是因为录制的时间过短</translation>
+  <translation id="IDS_RECORDING_TIP_NOTE">注意：如果你使用的英伟达或者AMD的硬件编码，请确保你现在的显卡驱动程序是最新的</translation>
+
+  <!--Recording -->
+  <translation id="IDS_STREAMING_START_FAILED">无法开始推流！</translation>
+  <translation id="IDS_STREAMING_GET_LIVE_STATUS_ERROR">无法获取直播间信息！</translation>
+  <translation id="IDS_STREAMING_TIP_STARTING">กำลังเตรียม ...</translation>
+  <translation id="IDS_STREAMING_TIP_UNKNOWN">未知的错误</translation>
+  <translation id="IDS_STREAMING_TIP_BAD_PATH">无效的推流服务器地址</translation>
+  <translation id="IDS_STREAMING_TIP_CONNECT_FAILED">连接失败</translation>
+  <translation id="IDS_STREAMING_TIP_INVALID_STREAM">无法连接流</translation>
+  <translation id="IDS_STREAMING_TIP_DISCONNECTED">连接已断开</translation>
+  <translation id="IDS_STREAMING_TIP_STOPPING">กำลังออก ...</translation>
+  <translation id="IDS_STREAMING_TIP_RESTREAMING">重推流中...</translation>
+  <translation id="IDS_STREAMING_BAD_CUSTOM_SERVER">自定义推流服务器或推流码错误！</translation>
+  <translation id="IDS_STREAMING_INVALID_MID_AND_CHANNEL">房间号和分区错误！</translation>
+  <translation id="IDS_STREAMING_INVALID_MID">房间号错误！</translation>
+  <translation id="IDS_STREAMING_INVALID_CHANNEL">分区错误！</translation>
+
+  <translation id="IDS_TIP_LIVEROOM_LOCK">房间已锁定</translation>
+  <translation id="IDS_LIVEROOM_CUT_MESSAGE">流被切断！</translation>
+
+  <translation id="IDS_ESC_CLOSE_PREVIEW_PROJECTOR">按ESC退出全屏投影</translation>
+
+  <!-- SOURCE_DRAGMODE -->
+  <translation id="IDS_SOURCE_DRAGMODE_ZOOM">ย่อ-ขยาย</translation>
+  <translation id="IDS_SOURCE_DRAGMODE_STRETCH">ขยาย</translation>
+  <translation id="IDS_SOURCE_DRAGMODE_STRETCH_TIP">（SHIFT+鼠标左键拖拽）</translation>
+  <translation id="IDS_SOURCE_DRAGMODE_CUT">ตัดภาพ</translation>
+  <translation id="IDS_SOURCE_DRAGMODE_CUT_TIP">（ALT+鼠标左键拖拽）</translation>
+
+  <!-- SRCPROP_CAMERA -->
+  <translation id="IDS_SRCPROP_COMMON_TIPS_TITLE">คำแนะนำ</translation>
+  <translation id="IDS_SRCPROP_COMMON_OK">ยืนยัน</translation>
+  <translation id="IDS_SRCPROP_COMMON_CANCEL">ยกเลิก</translation>
+  <translation id="IDS_SRCPROP_COMMON_SOURCENAME">ตั้งชื่อแหล่งข้อมูล</translation>
+  <translation id="IDS_SRCPROP_COMMON_MUTED_TIP">ปิดเสียง</translation>
+  <translation id="IDS_SRCPROP_COMMON_MUTED_CANCEL_TIP">恢复音量</translation>
+  <translation id="IDS_SRCPROP_COMMON_ADVANCED_SETTING">高级设置</translation>
+
+  <!-- SRCPROP_CAMERA -->
+  <translation id="IDS_SRCPROP_CAMERA_CAPTION">กล้อง</translation>
+  <translation id="IDS_SRCPROP_CAMERA_DEVICE_NOSELECT">未选择</translation>
+  <translation id="IDS_SRCPROP_CAMERA_DIRECTION">มุมกล้อง</translation>
+  <translation id="IDS_SRCPROP_CAMERA_DIR_HORFLIP">หมุุนแนวนอน</translation>
+  <translation id="IDS_SRCPROP_CAMERA_DIR_VERFLIP">หมุนแนวตั้ง</translation>
+  <translation id="IDS_SRCPROP_CAMERA_ROTATE_ANGLE">旋转角度</translation>
+  <translation id="IDS_SRCPROP_CAMERA_ROTATE_RIGHT">หมุน 90°</translation>
+  <translation id="IDS_SRCPROP_CAMERA_AUTO_BEAUTY">智能美颜</translation>
+  <translation id="IDS_SRCPROP_CAMERA_AUTO_BEAUTY_ON">一键美颜</translation>
+  <translation id="IDS_SRCPROP_CAMERA_RESOLUTION">分辨率</translation>
+  <translation id="IDS_SRCPROP_CAMERA_RESOLUTION_NOTUSED">ค่าเริ่มต้น</translation>
+  <translation id="IDS_SRCPROP_CAMERA_AUDIOOUTPUT">音频输出</translation>
+  <translation id="IDS_SRCPROP_CAMERA_AUDIOOUTPUT_STREAM">เอาต์พุตสู่สตรีม</translation>
+  <translation id="IDS_SRCPROP_CAMERA_AUDIOOUTPUT_DIRECTSOUND">เล่นผ่าน DirectSound (จัดการเสียงได้มีประสิทธิภาพดีกว่า แนะนำสำหรับการ์ดจับภาพเท่านั้น)</translation>
+  <translation id="IDS_SRCPROP_CAMERA_AUDIOOUTPUT_WAVEOUT">เล่นผ่าน WaveOut (เข้ากันได้ดีกว่า แนะนำสำหรับการ์ดจับภาพเท่านั้น)</translation>
+  <translation id="IDS_SRCPROP_CAMERA_AUDIO_TIP">有些外接头摄像头会自带麦克风，在此处可设置它的音量哦~</translation>
+  <translation id="IDS_SRCPROP_CAMERA_SETTING_TIP">สามารถใช้ฟังก์ชันนี้ได้ หากต้องใช้พื้นหลังสีเขียวเพื่อลบพื้นหลังออก</translation>
+  <translation id="IDS_SRCPROP_CAMERA_ADDSRC_BEAUTY_TIPS">点击摄像头源的编辑按钮，可以尝试更多的「美颜」和「贴纸」哟～</translation>
+
+  <!-- SRCPROP_MONITOR -->
+  <translation id="IDS_SRCPROP_MONITOR_CAPTION">ดิสเพลย์</translation>
+  <translation id="IDS_SRCPROP_MONITOR_SELETE">เลือกจอสกรีน</translation>
+
+  <!-- SRCPROP_WINDOW -->
+  <translation id="IDS_SRCPROP_WINDOW_CAPTION">หน้าต่าง</translation>
+  <translation id="IDS_SRCPROP_WINDOW_CAPTURE_MOUSE">แสดงเมาส์</translation>
+  <translation id="IDS_SRCPROP_WINDOW_COMPATIBLE_MODE">โหมดพื้นที่หน้าต่าง</translation>
+  <translation id="IDS_SRCPROP_WINDOW_SLI_MODE">โหมดความเข้ากันได้สำหรับการ์ดแสดงผลหลายตัว</translation>
+  <translation id="IDS_SRCPROP_WINDOW_AERO_SWITCH">切换Aero</translation>
+  <translation id="IDS_SRCPROP_WINDOW_AERO_ERROR_TITLE">错误</translation>
+  <translation id="IDS_SRCPROP_WINDOW_AERO_ERROR_TEXT">Aero在这个版本的系统上无法操作。</translation>
+  <translation id="IDS_SRCPROP_WINDOW_CAPTURE_MODEL">捕获方式</translation>
+  <translation id="IDS_SRCPROP_WINDOW_CAPTURE_MODEL_AUTO">อัตโนมัติ</translation>
+  <translation id="IDS_SRCPROP_WINDOW_CAPTURE_MODEL_BITBLT">BitBlt (Windows 7 หรือเวอร์ชันอัปเดต)</translation>
+  <translation id="IDS_SRCPROP_WINDOW_CAPTURE_MODEL_WINDOWS">Windows จับภาพกราฟิก (Windows10 1903 ขึ้นไป)</translation>
+
+  <translation id="IDS_SRCPROP_WINDOW_SELECT_WINDOW">เลือกหน้าต่าง</translation>
+  <translation id="IDS_SRCPROP_WINDOW_SELECT_WINDOW_WARNING">*กรุณาเปิดหน้าต่างที่คุณต้องการเพิ่ม</translation>
+  <translation id="IDS_SRCPROP_WINDOW_ADVANCE_SETTING">ตั้งค่าขั้นสูง</translation>
+  <translation id="IDS_SRCPROP_WINDOW_ADVANCE_SETTING_WARNING">เมื่อจับภาพล้มเหลว สามารถลองเปิดโหมดพื้นที่หน้าต่างได้</translation>
+  <translation id="IDS_SRCPROP_WINDOW_SLI_MODE_WARNING">สามารถลองเมื่อการ์ดแสดงผลแหล่งเกมคอมพิวเตอร์ล้มเหลว</translation>
+  <translation id="IDS_SRCPROP_WINDOW_AERO_SWITCH_TITLE">เปลี่ยนเป็นโหมด Aero</translation>
+  <translation id="IDS_SRCPROP_WINDOW_AERO_SWITCH_WARNING">สามารถลองปิดธีม Aero เมื่อการดึงหน้าต่างล้มเหลว</translation>
+  <translation id="IDS_SRCPROP_WINDOW_CAPTURE_MODEL_TITLE">วิธีจับ</translation>
+	
+
+  <!-- SRCPROP_FFMPEG -->
+  <translation id="IDS_SRCPROP_FFMPEG_CAPTION">สื่อ</translation>
+  <translation id="IDS_SRCPROP_FFMPEG_LOOP">เล่นซ้ำ</translation>
+  <translation id="IDS_SRCPROP_FFMPEG_TIP">สามารถเพิ่มที่อยู่ดาวน์สตรีมหรือไฟล์ในเครื่องได้</translation>
+  <translation id="IDS_SRCPROP_FFMPEG_STREAM_OR_FILE">ดาวน์สตรีมหรือไฟล์</translation>
+
+  <!-- SRCPROP_TEXT -->
+  <translation id="IDS_SRCPROP_TEXT_CAPTION">ข้อความ</translation>
+  <translation id="IDS_SRCPROP_TEXT_LOADFILE">อ่านจากไฟล์</translation>
+  <translation id="IDS_SRCPROP_TEXT_BROWSE">รับชม</translation>
+  <translation id="IDS_SRCPROP_TEXT_FONT">รูปแบบ</translation>
+  <translation id="IDS_SRCPROP_TEXT_FONT_SIZE">10#12#14#16#18#20#24#28#32#36#48#72#</translation>
+  <translation id="IDS_SRCPROP_TEXT_DEFAULT">ค่าเริ่มต้น</translation>
+  <translation id="IDS_SRCPROP_TEXT_BOLD">ตัวหนา</translation>
+  <translation id="IDS_SRCPROP_TEXT_ITALIC">ตัวเอียง</translation>
+  <translation id="IDS_SRCPROP_TEXT_BOLD_ITALIC">ตัวหนา+ตัวเอียง</translation>
+  <translation id="IDS_SRCPROP_TEXT_OUTLINE">ขอบ</translation>
+  <translation id="IDS_SRCPROP_TEXT_USE_OUTLINE">เปิดใช้ขอบ</translation>
+  <translation id="IDS_SRCPROP_TEXT_HORIZONTAL_SCROLL">เคลื่อนที่แนวนอน</translation>
+  <translation id="IDS_SRCPROP_TEXT_VERTICAL_SCROLL">เคลื่อนที่แนวตั้ง</translation>
+  <translation id="IDS_SRCPROP_TEXT_TRANSPARENT">ระดับความไม่โปร่งแสง</translation>
+  <translation id="IDS_SRCPROP_TEXT_CONTAIN_SENSITIVE">包含敏感内容，请修改</translation>
+  <translation id="IDS_SRCPROP_TEXT_INVALID_OPERATION">操作异常，请重试</translation>
+
+  <!-- SRCPROP_IMAGE -->
+  <translation id="IDS_SRCPROP_IMAGE_CAPTION">รูปภาพ</translation>
+  <translation id="IDS_SRCPROP_IMAGE_BROWSE">รับชม</translation>
+  <translation id="IDS_SRCPROP_IMAGE_ROTATE">旋转</translation>
+  <translation id="IDS_SRCPROP_IMAGE_ROTATE_LEFT">ตามเข็มนาฬิกา</translation>
+  <translation id="IDS_SRCPROP_IMAGE_ROTATE_RIGHT">ทวนเข็มนาฬิกา</translation>
+  <translation id="IDS_SRCPROP_IMAGE_FLIP">翻转</translation>
+  <translation id="IDS_SRCPROP_IMAGE_FLIP_HORIZINTAL">หมุุนแนวนอน</translation>
+  <translation id="IDS_SRCPROP_IMAGE_FLIP_VERTICAL">หมุุนแนวตั้ง</translation>
+  <translation id="IDS_SRCPROP_IMAGE_ADD_LOCAL">เพิ่มรูปภาพจากเครื่อง</translation>
+  <translation id="IDS_SRCPROP_IMAGE_ADD_DEFAULT_BACKGROUND">เพิ่มภาพพื้นหลังค่าเริ่มต้น</translation>
+  <translation id="IDS_SRCPROP_IMAGE_ADVANCE_SETTING">ตั้ั้งค่ารูปภาพขั้นสูง</translation>
+  <translation id="IDS_SRCPROP_IMAGE_DIRECTION">ทิศทางรูปภาพ</translation>
+  <translation id="IDS_SRCPROP_IMAGE_RORATE_DEGREE">ปรับหมุนมุม</translation>
+  <translation id="IDS_SRCPROP_IMAGE_OPACITY">ระดับความไม่โปร่งแสง</translation>
+
+  <!-- SRCPROP_ALBUM -->
+  <translation id="IDS_SRCPROP_ALBUM_CAPTION">อัลบั้ม</translation>
+  <translation id="IDS_SRCPROP_ALBUM_TIPS">เล่นรูปภาพ สติกเกอร์มีม รูปโปรไฟล์แฟนคลับคนสำคัญของสตรีมเมอร์...</translation>
+  <translation id="IDS_SRCPROP_ALBUM_ADD">เพิ่มรูปภาพ</translation>
+  <translation id="IDS_SRCPROP_ALBUM_ADD_FILE">เพิ่มข้อความ</translation>
+  <translation id="IDS_SRCPROP_ALBUM_ADD_DIRECTORY">เพิ่มไดเรกทอรี</translation>
+  <translation id="IDS_SRCPROP_ALBUM_DELETE">ลบ</translation>
+  <translation id="IDS_SRCPROP_ALBUM_EMPTY">ล้างข้อมูล</translation>
+  <translation id="IDS_SRCPROP_ALBUM_FILES_TIPS">ความละเอียดภาพที่สูงเกินไปหรือจำนวนภาพที่มากเกินไปอาจส่งผลต่อประสิทธิภาพการทำงาน</translation>
+  <translation id="IDS_SRCPROP_ALBUM_TRANSITION">เปลี่ยนฉาก</translation>
+  <translation id="IDS_SRCPROP_ALBUM_TRANSITION_STYLE_DEFAULT">ค่าเริ่มต้น</translation>
+  <translation id="IDS_SRCPROP_ALBUM_TRANSITION_STYLE_LEFT_OUT">เลื่อนไปทางซ้าย</translation>
+  <translation id="IDS_SRCPROP_ALBUM_TRANSITION_STYLE_RIGHT_IN">เลื่อนออกทางซ้าย</translation>
+  <translation id="IDS_SRCPROP_ALBUM_TRANSITION_STYLE_FADE_OUT">เฟดเอาต์</translation>
+  <translation id="IDS_SRCPROP_ALBUM_PLAYTIME">เวลาเล่น</translation>
+  <translation id="IDS_SRCPROP_ALBUM_TRANSITION_TIME">เวลาเปลี่ยนฉาก</translation>
+  <translation id="IDS_SRCPROP_ALBUM_PLAY">เล่น</translation>
+  <translation id="IDS_SRCPROP_ALBUM_LOOP">วนซ้ำ</translation>
+  <translation id="IDS_SRCPROP_ALBUM_RANDOM">สุ่ม</translation>
+
+  <!-- SRCPROP_COLOR -->
+  <translation id="IDS_SRCPROP_COLOR_CAPTION">纯色</translation>
+  <translation id="IDS_SRCPROP_COLOR_COLOR">颜色</translation>
+  <translation id="IDS_SRCPROP_COLOR_WIDTH">宽度</translation>
+  <translation id="IDS_SRCPROP_COLOR_HEIGHT">高度</translation>
+  <translation id="IDS_SRCPROP_COLOR_TRANSPARENT">不透明度</translation>
+
+  <!-- SRCPROP_MOBILE -->
+  <translation id="IDS_SRCPROP_MOBILE_VOLUME">手机音量</translation>
+
+  <!-- SRCPROP_BROWSER -->
+  <translation id="IDS_SRCPROP_BROWSER_CAPTION">เบราว์เซอร์</translation>
+  <translation id="IDS_SRCPROP_BROWSER_URL">URL</translation>
+  <translation id="IDS_SRCPROP_BROWSER_WIDTH">ความกว้าง</translation>
+  <translation id="IDS_SRCPROP_BROWSER_HEIGHT">ความสูง</translation>
+  <translation id="IDS_SRCPROP_BROWSER_CSS">CSS ที่กำหนดเอง</translation>
+  <translation id="IDS_SRCPROP_BROWSER_REFRESH">รีเฟรชหน้าดาวน์โหลด</translation>
+
+  <!-- SRCPROP_AUDIO_DEVICE -->
+  <translation id="IDS_SRCPROP_AUDIO_DEVICE_MONITER">ดักฟังไฟล์เสียง</translation>
+  <translation id="IDS_SRCPROP_AUDIO_DEVICE_MONITER_NONE">ไม่ดักฟัง เอาต์พุตเสียงสู่สตรีม</translation>
+  <translation id="IDS_SRCPROP_AUDIO_DEVICE_MONITER_ONLY">ดักฟังเท่านั้น เอาต์พุตเสียงสู่เสียงระบบ</translation>
+  <translation id="IDS_SRCPROP_AUDIO_DEVICE_MONITER_AND_OUTPUT">ดักฟังและเอาต์พุตเสียงสู่สตรีม โปรดใช้อย่างระมัดระวัง อาจทำให้เกิดเสียงซ้อนกัน</translation>
+
+  <!-- SRCPROP_DMKHIME -->
+  <translation id="IDS_SRCPROP_DMKHIME_CAPTION">弹幕姬</translation>
+  <translation id="IDS_SRCPROP_DMKHIME_TIPS">Tips: 要在分离模式下才能捕捉到新弹幕哦~</translation>
+
+  <!-- COLIVE -->
+  <translation id="IDS_COLIVE_CROP_SCENE_TIP">拖动调整画面截取位置</translation>
+  <translation id="IDS_COLIVE_MSGBOX_CANCEL">取消</translation>
+  <translation id="IDS_COLIVE_MSGBOX_QUIT">确定退出</translation>
+
+  <!-- LUCKYGIFT -->
+  <translation id="IDS_LUCKYGIFT_INFO_STATUS_LOADING">กำลังโหลด...</translation>
+  <translation id="IDS_LUCKYGIFT_INFO_STATUS_NO_RECORD">这里什么都没有...</translation>
+  <translation id="IDS_LUCKYGIFT_INFO_STATUS_LOADING_FAILED">การเชื่อมต่อล้มเหลว กรุณาตรวจสอบอินเทอร์เน็ต...</translation>
+
+  <!-- MELEE -->
+  <translation id="IDS_MELEE_MSGBOX_NOTIFICATION">通知</translation>
+
+  <!-- 音效 -->
+  <translation id="IDS_VOLUME_SOUND_EFFECT_CAPTION">เอฟเฟกต์เสียง</translation>
+
+  <!-- FILEDIALOG -->
+  <translation id="IDS_FILEDIALOG_IMAGE_FILTER">ไฟล์ภาพ</translation>
+  <translation id="IDS_FILEDIALOG_MEDIA_FILTER">ไฟล์จากสื่อ</translation>
+  <translation id="IDS_FILEDIALOG_TEXT_FILTER">ไฟล์ข้อความ</translation>
+
+  <!-- TIP_DLG -->
+  <translation id="IDS_TIP_DLG_TIP">คำแนะนำ</translation>
+  <translation id="IDS_TIP_DLG_TIP_INFO">信息</translation>
+  <translation id="IDS_TIP_DLG_NAVY_ACHIEVEMENT_IKNOW">知道啦(%d)</translation>
+  <translation id="IDS_MESSAGEBOX_CONTENTS_INVALIDFOLDER">目录不存在</translation>
+  <translation id="IDS_MESSAGEBOX_OPER_TITLE">提示</translation>
+  <translation id="IDS_MESSAGEBOX_OPER_CONTENTS">变更该设置，会中断并重新启动当前正在进行的任务（直播或录制），该过程可能需要5-10秒</translation>
+  <translation id="IDS_MESSAGEBOX_BUTTON_RESTREAM">确定变更</translation>
+  <translation id="IDS_MESSAGEBOX_CONTENTS_CONFIRMEXIT">您确定要退出吗？</translation>
+  <translation id="IDS_MESSAGEBOX_CONTENTS_CONFIRMLOGOUT">คุณต้องการออกจากระบบหรือไม่ ?</translation>
+  <translation id="IDS_TOKEN_INVALID"> 登录信息已过期,请重新登录! </translation>
+  <!-- TIP_DLG_REMOVE -->
+  <translation id="IDS_TIP_DLG_REMOVE_ITEM">ยืนยันลบข้อมูลที่เลือกหรือไม่ ?</translation>
+
+  <!-- TIP_DLG_RENAME -->
+  <translation id="IDS_TIP_DLG_RENAME_ITEM">名字重复, 无法重命名!</translation>
+
+  <!-- Blacklist -->
+  <translation id="IDS_DANMUKU_NAMELIST_WINDOW_TITLE">名单</translation>
+
+  <translation id="IDS_DANMUKU_ROOMMNGLIST_LOADING_NODATA">当前还没有人被设置为房管~</translation>
+  <!-- Blacklist end -->
+
+  <!-- Report -->
+  <translation id="IDS_DANMUKU_REPORT_TOAST_SUCCESS">举报提交成功！请安心等待处理...</translation>
+  <translation id="IDS_DANMUKU_REPORT_TOAST_FAIL">举报提交失败！可能是没连上网吧...</translation>
+  <!-- Report end-->
+
+  <!-- room admin -->
+  <translation id="IDS_DANMUKU_ROOM_ADMIN_ADD_TOAST_SUCCESS">设置房管成功</translation>
+  <translation id="IDS_DANMUKU_ROOM_ADMIN_ADD_TOAST_FAIL">设置房管失败！可能是没连上网吧...</translation>
+  <!-- room admin end-->
+
+  <!-- LIVEHIME_TRAY_MODEL -->
+  <translation id="IDS_LIVEHIME_TRAY_MODEL_MAIN_SHOW">แสดงในเมนูหลัก</translation>
+  <translation id="IDS_LIVEHIME_TRAY_MODEL_DANMAKU_SHOW">แสดง/ปิด Bilibili Studio (Beta)</translation>
+  <translation id="IDS_LIVEHIME_TRAY_MODEL_EXIT">ออก</translation>
+  <!-- LIVEHIME_TRAY_MODEL end -->
+
+  <!-- DANMUKU_BANNED -->
+  <translation id="IDS_DANMUKU_BANNED_TITLE">全局禁言</translation>
+  <translation id="IDS_DANMUKU_BANNED_TIME">禁言时间</translation>
+  <translation id="IDS_DANMUKU_BANNED_LOADING">加载中......</translation>
+  <translation id="IDS_DANMUKU_BANNED_ERROR">加载禁言信息出错!</translation>
+  <translation id="IDS_DANMUKU_BANNED_NO_BANNED">禁言</translation>
+  <translation id="IDS_DANMUKU_BANNED_REMOVE">解除禁言</translation>
+  <translation id="IDS_DANMUKU_BANNED_THIS_LIVE">本场直播禁言</translation>
+  <translation id="IDS_DANMUKU_BANNED_BEGIN_TIPS">开启后所有用户都将无法发送弹幕</translation>
+  <translation id="IDS_DANMUKU_BANNED_END_TIPS">禁言已开启，目标用户将无法发送弹幕</translation>
+  <translation id="IDS_DANMUKU_BANNED_TOAST_UNOPENED">要开播后才能开启禁言哦~</translation>
+  <translation id="IDS_DANMUKU_BANNED_TOAST_ERROR">操作失败！可能没连上网吧...</translation>
+  <!-- DANMUKU_BANNED end -->
+
+  <!-- DANMUKU_SEARCH -->
+  <translation id="IDS_DANMUKU_SEARCH_TITLE">搜索</translation>
+  <translation id="IDS_DANMUKU_SEARCH_HOLDER_TEXT">输入关键字或礼物名称</translation>
+  <translation id="IDS_DANMUKU_SEARCH_TIME_RANGE">时间范围</translation>
+  <translation id="IDS_DANMUKU_SEARCH_TIME_RANGE_ALL">全部</translation>
+  <translation id="IDS_DANMUKU_SEARCH_TIME_RANGE_WEEK">最近一周</translation>
+  <translation id="IDS_DANMUKU_SEARCH_TIME_RANGE_MONTH">最近一个月</translation>
+  <translation id="IDS_DANMUKU_SEARCH_TIME_RANGE_QUARTER">最近三个月</translation>
+  <!-- DANMUKU_SEARCH end -->
+
+  <!-- VOICELINK -->
+  <translation id="IDS_VOICELINK_SETTING_CUSTOM">กำหนดเอง</translation>
+  <!-- VOICELINK end -->
+
+  <!-- VTUBER begin -->
+  <translation id="IDS_VTUBER_GUIDE_BUBBLE">直播姬支持虚拟形象啦！快来试试吧~</translation>
+  <!-- VTUBER end -->
+
+  <!-- TOOL v4.0-->
+  <translation id="IDS_TOOL_TITLE_NAME">直播工具</translation>
+  <!-- TOOL -->
+
+  <!-- LOGIN begin -->
+  <translation id="IDS_LOGIN_UID_HINT">你的手机号码/邮箱</translation>
+  <translation id="IDS_LOGIN_PWD_HINT">密码</translation>
+  <translation id="IDS_LOGIN_REGISTER_LINK">注册账号</translation>
+  <translation id="IDS_LOGIN_LOST_LINK">找回密码</translation>
+  <translation id="IDS_LOGIN_REMEMBER_PWD">记住密码</translation>
+  <translation id="IDS_LOGIN_AUTO_LOGIN">自动登录</translation>
+  <translation id="IDS_LOGIN_CAPTCHA_HINT">验证码</translation>
+  <translation id="IDS_LOGIN_SECURITY_VERIFY">账号安全</translation>
+  <translation id="IDS_LOGIN_REFRESH">刷新</translation>
+  <translation id="IDS_LOGIN_TITLE">เข้าสู่ระบบ</translation>
+  <translation id="IDS_LOGIN_NO_ID">用户名缺失</translation>
+  <translation id="IDS_LOGIN_NO_PASSWARD">密码缺失</translation>
+  <translation id="IDS_LOGIN_NO_CAPTCHA">验证码缺失</translation>
+  <translation id="IDS_LOGINING">登录中...</translation>
+  <translation id="IDS_LOGIN">登录</translation>
+  <translation id="IDS_LOGIN_NERWORK_BROKEN">别费劲了，网断了...</translation>
+  <translation id="IDS_LOGIN_ERROR_ELSE">暂时无法连接到服务器，请检查网络连接或防火墙</translation>
+  <translation id="IDS_LOGIN_ERROR">登录失败，请尝试重新输入账号/密码</translation>
+  <translation id="IDS_LOGIN_PASSWORD_LEAK">密码泄露，禁止登陆</translation>
+  <translation id="IDS_LOGIN_PASSWORD_ERROR">用户名或密码错误</translation>
+  <translation id="IDS_LOGIN_TOKEN_ERROR">验证信息错误或已过期，请重新输入密码</translation>
+  <translation id="IDS_LOGIN_ABNORMAL_ACCOUNT">账号信息异常，请登录网页端查看并验证账户信息</translation>
+  <translation id="IDS_LOGIN_ERROR_STATUS_PHONE">当前用户存在风险，请绑定手机...</translation>
+  <translation id="IDS_LOGIN_ERROR_STATUS_DEVICE">当前设备需要进行验证...</translation>
+  <translation id="IDS_LOGIN_ERROR_STATUS_DEFAULT">当前用户账号信息异常</translation>
+
+  <!-- LOGIN end -->
+
+  <!-- captcha begin -->
+  <translation id="IDS_LOGIN_PASSWORD_REPLACEMENT_CHAR">●</translation>
+  <!-- captcha end -->
+
+  <!-- third_party_streaming begin -->
+  <translation id="IDS_TPS_TITLE_FULLNAME">第三方推流模式</translation>
+  <translation id="IDS_TPS_STEP_FIRST">获取推流地址和推流码</translation>
+  <translation id="IDS_TPS_STEP_SECOND">填入OBS等第三方推流软件</translation>
+  <translation id="IDS_TPS_STEP_THIRD">第三方推流软件点击开播</translation>
+  <translation id="IDS_TPS_STEP_FOURTH">直播姬选择分区自动开播</translation>
+  <translation id="IDS_TPS_COPY">复制</translation>
+  <!-- third_party_streaming end -->
+
+  <!-- UGC begin -->
+  <translation id="IDS_UGC_MORE">เพิ่มเติม</translation>
+  <translation id="IDS_UGC_MINIMISE">ย่อสุด</translation>
+  <translation id="IDS_UGC_MAXIMIN">ขยายสุด</translation>
+  <translation id="IDS_UGC_RESTORE">还原</translation>
+  <translation id="IDS_UGC_CLOSE">ปิด</translation>
+  <translation id="IDS_UGC_MSGBOX_SURE">ยืนยัน</translation>
+  <translation id="IDS_UGC_MSGBOX_CANCEL">ยกเลิก</translation>
+  <translation id="IDS_UGC_MSGBOX_GETUSERINFO_FAILED">用户信息获取失败，请重新登录。</translation>
+  <translation id="IDS_UGC_MSGBOX_VIDEO_FILTER">视频文件</translation>
+  <!-- UGC end -->
+
+
+  <!-- GAIN -->
+  <translation id="IDS_GAIN_TXT">เพิ่ม</translation>
+
+  <!-- Runtime validation -->
+  <translation id="IDS_D3D_COMPONENT_ERROR_DLG_TITLE">DirectX检测失败</translation>
+  <translation id="IDS_D3D_COMPONENT_NOT_FOUND">找不到D3DCompiler组件! 请先安装DirectX!</translation>
+  <translation id="IDS_D3D_COMPONENT_INVALID">无效的D3DCompiler组件! 请先移除无效组件再安装DirectX!</translation>
+  <!-- Runtime validation -->
+
+  <!-- OBS Core initialization failure -->
+  <translation id="IDS_INITIALIZE_OBS_CORE_ERROR_TITLE">严重错误</translation>
+  <translation id="IDS_INITIALIZE_OBS_CORE_ERROR_MSG">初始化核心组件失败! 请确定直播姬已经正确安装!</translation>
+  <translation id="IDS_VIDEO_HARDWARE_NOT_SUPPORTED">无法初始化D3D组件，请确认显卡或显卡驱动支持D3D10！</translation>
+  <!-- OBS Core initialization failure -->
+
+  <!-- REALNAME_AUTH begin -->
+  <translation id="IDS_REALNAME_AUTH">申请开播权限</translation>
+  <!-- REALNAME_AUTH end -->
+
+  <!-- STOP_DIALOG begin -->
+  <translation id="IDS_STOP_DIALOG_MSGBOX_DF_TITTLE">是否设置为默认生成直播回放？</translation>
+  <translation id="IDS_STOP_DIALOG_MSGBOX_DF_TEXT">后续仍可在设置项中改为“每次询问”</translation>
+  <translation id="IDS_STOP_DIALOG_MSGBOX_DF_CONFIRM">默认生成</translation>
+  <translation id="IDS_STOP_DIALOG_MSGBOX_MORE_THINK">我再想想</translation>
+  <!-- STOP_DIALOG end -->
+
+  <!-- CAMERA_BEAUTY 2.0 begin -->
+  <translation id="IDS_CAMERA_BEAUTY_ADJUST_CAMERA">ปรับคุณภาพวิดีโอ</translation>
+  <translation id="IDS_CAMERA_BEAUTY_CHOICE_ANGLE">เลือกมุม</translation>
+  <translation id="IDS_CAMERA_BEAUTY_DANMAKU_MASK">Flying Comment วางหลัง</translation>
+  <translation id="IDS_CAMERA_BEAUTY_DANMAKU_MASK_TEXT">ป้องกัน flying comment บังคน</translation>
+  <translation id="IDS_CAMERA_BEAUTY_DANMAKU_MASK_TIP">เมื่อเปิดใช้ flying comment ในห้องไลฟ์สดจะไม่บังพื้นที่ของคนในหน้ากล้อง</translation>
+
+  <translation id="IDS_CAMERA_BEAUTY_CAMERA">กล้อง</translation>
+  <translation id="IDS_CAMERA_BEAUTY_MAKE_UP_2">妆容</translation>
+  <translation id="IDS_CAMERA_BEAUTY_AUDIO_SETTING">ตั้งค่าไฟล์เสียง</translation>
+  <translation id="IDS_CAMERA_BEAUTY_ERASE_BACKGROUND">ลบพื้นหลัง</translation>
+
+  <translation id="IDS_CAMERA_BEAUTY_TIP3">确定清空所有美颜效果吗？</translation>
+  <translation id="IDS_CAMERA_BEAUTY_RESET">重置</translation>
+  <!-- CAMERA_BEAUTY 2.0 begin -->
+
+  <!-- CONFIG_PATH -->
+  <translation id="IDS_CONFIG_UPDATE_PATH">修改路径</translation>
+  <translation id="IDS_CONFIG_OTHER_PATH">其他缓存保存路径</translation>
+  <translation id="IDS_CONFIG_OTHER_PATH_TIP">虚拟开播/互动玩法</translation>
+
+  <!--NOTICE-->
+  <translation id="IDS_NOTICE_New_ROOM_EDITTEXT">未填写内容时，主播公告将隐藏</translation>
+  <translation id="IDS_NOTICE_WINDOW_TITLE">设置主播公告</translation>
+  <translation id="IDS_NOTICE_TITLE">我的公告</translation>
+  <translation id="IDS_NOTICE_DESCRIPTION_TITLE">主播公告说明</translation>
+  <translation id="IDS_NOTICE_DESCRIPTION">主播公告可以向用户介绍你的直播内容与后续直播计划，能吸引小伙伴们停留</translation>
+  <translation id="IDS_NOTICE_DESCRIPTION_PART">且不错过你的每场直播噢～</translation>
+  <translation id="IDS_NOTICE_LIVEROOM_NEW">新版直播间</translation>
+  <translation id="IDS_NOTICE_LIVEROOM_OLD">旧版直播间</translation>
+  <translation id="IDS_NOTICE_LIVEROOM_WEB">网页版直播间</translation>
+  <translation id="IDS_NOTICE_PAGE_FLOOW">关注页面</translation>
+  <translation id="IDS_NOTICE_SERVER_CONNNECT_FAIL">服务连接失败，请稍后再试试~</translation>
+  <translation id="IDS_NOTICE_SENSITIVE_INFORMATION">包含敏感信息，请修改内容</translation>
+  <translation id="IDS_NOTICE_NOTICE_SET_SUCCESS">主播公告设置成功~</translation>
+  <translation id="IDS_NOTICE_EMPTY">未填写任何内容，主播公告将不展示</translation>
+  <!--NOTICE-->
+
+  <translation id="IDS_PRESET_MATERIAL_BACKGROUND_PREVIEW_VIEW_BACKGROUND_NAME">พื้นหลัง</translation>
+  <translation id="IDS_DANMAKU_INTERFACTION_SEND">ส่ง</translation>
+  <translation id="IDS_DANMAKU_INTERFACTION_PLACEHOLDER">พูดคุยอะไรกับผู้ชมหน่อยสิ ~</translation>
+  <translation id="IDS_DANMAKU_INTERFACTION_SEND_FAIL">อินเทอร์เน็ตเกิดความผิดปกติ กรุณาลองใหม่</translation>
+
+  <!-- TEMP_SET -->
+  <translation id="IDS_TEMP_SET_DANMU_HUDONG">ฟีดกิจกรรม</translation>
+
+  <translation id="IDS_TABAREA_MATERIALS_WIDGET_TITLE">เพิ่มแหล่งข้อมูลไลฟ์สด</translation>
+
+  <translation id="IDS_CONFIG_LANGUAGE_TAB">ภาษา</translation>
+  <translation id="IDS_CONFIG_LANGUAGE_TITLE">ภาษาที่ใช้</translation>
+  <translation id="IDS_DANMAKU_INTERACTION_TIPS">ยินดีต้อนรับเข้าสู่ห้องไลฟ์สด ! เราสนับสนุนให้มีการสร้างสรรค์เนื้อหาที่สดใหม่และหลากหลาย ในขณะเดียวกัน เราจำเป็นต้องใช้มาตรการเพื่อป้องกันและยับยั้งการกระทำที่ผิดต่อกฎหมายและข้อบังคับ เงื่อนไขการกำกับดูแลในท้องถิ่นหรือขอบเขตทางจริยธรรมใด ๆ ก็ตาม หรือละเมิดสิทธิและผลประโยชน์ที่ชอบด้วยกฎหมายของผู้อื่น หรืออาจส่งผลกระทบต่อความปลอดภัยและความเหมาะสมของชุมชนจากการเผยแพร่สื่อภายในชุมชน นอกจากนี้อาจมีการรายงานการละเมิดดังกล่าวต่อหน่วยงานกำกับดูแลตามกฎหมายและข้อบังคับที่เกี่ยวข้อง</translation>
+  <translation id="IDS_DANMU_NEW_MSG">แจ้งเตือนใหม่</translation>
+  <translation id="IDS_DANMU_NEW">ใหม่</translation>
+  <translation id="IDS_DANMU_GOTO_BOTTOM">ไปด้านล่างสุด</translation>
+  <translation id="IDS_START_PROMPT_TIPS">กรุณาเปิดไลฟ์สดก่อนเปิด flying comment</translation>
+
+  <!-- source_audio_base_view.cpp -->
+  <translation id="IDS_SRCPROP_CAMERA_AUDIO_INPUT_DEVICE">นำเข้าอุปกรณ์</translation>
+  <translation id="IDS_SRCPROP_CAMERA_AUDIO_INPUT_VOLUME">นำเข้าระดับเสียง</translation>
+  <translation id="IDS_SRCPROP_CAMERA_AUDIO_INPUT_SETTING">ตั้งค่าดักฟัง</translation>
+  <translation id="IDS_SRCPROP_CAMERA_AUDIO_INPUT_SETTING_TIP">ตรวจสอบเพื่อควบคุมว่าจะเล่นเสียงในเครื่องหรือไม่ และเอาต์พุตเพื่อควบคุมว่าเล่นในห้องไลฟ์สดหรือไม่</translation>
+  <translation id="IDS_SRCPROP_CAMERA_AUDIO_OUTPUT">เอาต์พุตไฟล์เสียง</translation>
+  <translation id="IDS_SRCPROP_CAMERA_AUDIO_DEFAULT_DEVICE">อุปกรณ์เริ่มต้น</translation>
+
+  <!-- source_filter_base_property_view.cpp -->
+  <translation id="IDS_SRCPROP_FILTER_BASE_PROPERTY_VIEW_FILTER_COLOR">ลบสี</translation>
+  <translation id="IDS_SRCPROP_FILTER_BASE_PROPERTY_VIEW_CUSTOM">กำหนดเอง</translation>
+  <translation id="IDS_SRCPROP_FILTER_BASE_PROPERTY_VIEW_SIMILARITY">ความคล้าย</translation>
+  <translation id="IDS_SRCPROP_FILTER_BASE_PROPERTY_VIEW_SMOOTHNESS">ความเนียน</translation>
+  <translation id="IDS_SRCPROP_FILTER_BASE_PROPERTY_VIEW_TRANSPARENCY">ค่าความโปร่งใส</translation>
+  <translation id="IDS_SRCPROP_FILTER_BASE_PROPERTY_VIEW_MAIN_COLOR_OVERFLOW">เน้นสีหลัก</translation>
+  
+  <!-- OPEN_LIVE -->
+  <translation id="IDS_OPEN_LIVE_FAILED">เปิดไลฟ์สดล้มเหลว</translation>
+  <translation id="IDS_OPEN_LIVE_FAILED_APPLY_THAI">ประเทศไทย</translation>
+  <translation id="IDS_OPEN_LIVE_FAILED_APPLY_INDONESIA">อินโดนีเซีย</translation>
+  <translation id="IDS_OPEN_LIVE_FAILED_MESSAGE">บัญชีของคุณยังไม่ได้เปิดใช้สิทธิ์การไลฟ์สดจึงไม่สามารถไลฟ์สดได้ เมื่อต้องการไลฟ์สดใน Bilibili กรุณาคลิกที่ "ส่งคำร้องเปิดไลฟ์สด" และส่งข้อมูลของคุณ เมื่อผ่านการพิจารณาแล้วจะสามารถเปิดไลฟ์สดได้ทันที ขอบคุณสำหรับการสนับสนุนของคุณ !</translation>
+  <translation id="IDS_STREAMING_WARNING_NOTIFY_LAGGING">ไลฟ์สดสะดุด</translation>
+  <translation id="IDS_STREAMING_WARNING_USE_HARD_ENCODE">ตรวจพบว่าภาพของคุณมีการสะดุด แนะนำให้ปิดแอปพลิเคชันอื่นที่ไม่เกี่ยวข้องหรือใช้คอมพิวเตอร์ที่มีการ์ดจอกราฟิกแยกในการไลฟ์สด</translation>
+  <translation id="IDS_STREAMING_WARNING_NET_LOSS">ตรวจพบว่าภาพของคุณมีการสะดุด แนะนำให้ตรวจสอบสัญญาณอินเทอร์เน็ต</translation>
+  <translation id="IDS_STREAMING_WARNING_NET_LOSS_AUTO">ตรวจพบว่าภาพของคุณมีการสะดุด แนะนำให้ตรวจสอบสัญญาณอินเทอร์เน็ต โดยสามารถเลือก [อัตโนมัติ] ได้ที่การตั้งค่าคุณภาพวิดีโอ</translation>
+  <translation id="IDS_STREAMING_WARNING_CHANGE_GAME_SETTING">ตรวจพบว่าภาพของคุณมีการสะดุด แนะนำให้ปิดแอปพลิเคชันอื่นที่ไม่เกี่ยวข้องหรือลดการตั้งค่าพารามิเตอร์ของเกม</translation>
+  <translation id="IDS_STREAMING_WARNING_CHANGE_LIVEHIME_SETTING">ตรวจพบว่าภาพของคุณมีการสะดุด แนะนำให้ลดบิตเรต ความละเอียดภาพ เฟรมเรต โดยสามารถเลือก [อัตโนมัติ] ได้ที่การตั้งค่าคุณภาพวิดีโอ</translation>
+  <translation id="IDS_STREAMING_SETTING_TITLE">คุณภาพอัปสตรีม</translation>
+  <translation id="IDS_STREAMING_CHECKBOX_LAGGING">เตือนไลฟ์สดสะดุด</translation>
+  <translation id="IDS_STREAMING_CHECKBOX_LAGGING_LABEL">เมื่อเปิดแล้วจะมีการแจ้งเตือนเหตุผลให้คุณทราบหากเกิดภาพสะดุดหลังไลฟ์สด</translation>
+  <translation id="IDS_STREAMING_SETTING_STATISTICS_LABEL">ตัวบ่งชี้ประสิทธิภาพต่าง ๆ</translation>
+  <translation id="IDS_STREAMING_SETTING_STATISTICS_SEC_LABEL">การเปลี่ยนแปลงตัวบ่งชี้ประสิทธิภาพต่าง ๆ ภายใน x วิ</translation>
+  <translation id="IDS_SEC_LABEL">วิ</translation>
+  <translation id="IDS_STREAMING_SETTING_CPU_LABEL">อัตราการใช้ CPU :</translation>
+  <translation id="IDS_STREAMING_SETTING_GPU_LABEL">อัตราการใช้ GPU :</translation>
+  <translation id="IDS_STREAMING_SETTING_MEM_LABEL">ใช้พื้นที่ :</translation>
+  <translation id="IDS_STREAMING_SETTING_P_CPU_LABEL">Bilibili Studio (Beta) อัตราการใช้ CPU :</translation>
+  <translation id="IDS_STREAMING_SETTING_P_MEM_LABEL">Bilibili Studio (Beta) ใช้พื้นที่ :</translation>
+  <translation id="IDS_STREAMING_SETTING_NDF_LABEL">FPS อินเทอร์เน็ตดรอป :</translation>
+  <translation id="IDS_STREAMING_SETTING_EDF_LABEL">FPS โค้ดดรอป :</translation>
+  <translation id="IDS_STREAMING_SETTING_RDF_LABEL">FPS เรนเดอร์ดรอป :</translation>
+  <translation id="IDS_STREAMING_SETTING_GRAB_SAMPLING_LABEL">สุ่มตัวอย่างทันที</translation>
+  <translation id="IDS_STREAMING_SETTING_HARDWARE_BTN_LABEL">เกี่ยวกับฮาร์ดโค้ด</translation>
+  <translation id="IDS_STREAMING_SETTING_SOFTWARE_BTN_LABEL">เกี่ยวกับการเข้ารหัสซอฟต์แวร์</translation>
+  
+  <!-- Login module -->
+  <translation id="IDS_WEB_CORE_INVALID">การเริ่มต้น Core Components ล้มเหลว การดาวน์โหลดหน้าเว็บล้มเหลว</translation>
+  <translation id="IDS_WEB_MINI_LOGIN_INFO">กำลังเรียกข้อมูลผู้ใช้ ...</translation>
+  <translation id="IDS_WEB_MINI_LOGIN_AUTO_LOGIN">กำลังเข้าสู่ระบบโดยอัตโนมัติ ...</translation>
+  
+  <!-- MAIN_VIEW -->
+  <translation id="IDS_MAIN_VIEW_FILE_LOSS_LABEL">ตรวจพบไฟล์ที่จำเป็นสำหรับโปรแกรมหายไป</translation>
+  <translation id="IDS_MAIN_VIEW_FILE_LOSS_LIST_LABEL">คุณสามารถแก้ไขปัญหาด้วยการทดลองปิดโปรแกรมกำจัดไวรัสและติดตั้ง Bilibili Studio (Beta) ใหม่อีกครั้ง
+\n รายชื่อไฟล์ที่หายไป(%u ไฟล์): \n</translation>
+
+  <translation id="IDS_MAIN_VIEW_LOGFILE_DISK">ตำแหน่งไฟล์</translation>
+  <translation id="IDS_MAIN_VIEW_FILE_LOGFILE_UPLOAD">อัปโหลดในคลิกเดียว</translation>
+  <translation id="IDS_MAIN_VIEW_FILE_LOGFILE_UPLOAD_FINISH">อัปโหลดล็อกบุ๊กแล้ว ขอบคุณสำหรับการรายงาน</translation>
+  <translation id="IDS_MAIN_VIEW_USER_AGREEMENT">ข้อตกลงผู้ใช้</translation>
+  <translation id="IDS_MAIN_VIEW_PRIVACY_AGREEMENT">นโยบายความเป็นส่วนตัว</translation>
+
+  <!-- titlebar_viddup_view -->
+  <translation id="IDS_TITLEBAR_MORE_LOG_SUB_MENU_FILE_LOCATE">ตำแหน่งไฟล์</translation>
+  <translation id="IDS_TITLEBAR_MORE_LOG_SUB_MENU_UPLOAD">อัปโหลดในคลิกเดียว</translation>
+  <translation id="IDS_TITLEBAR_MORE_OPEN_TEST_PAGE">ป็อปอัปแสดงการลองหน้าเว็บ</translation>
+  <translation id="IDS_TITLEBAR_MORE_USER_AGREEMENT">ข้อตกลงผู้ใช้</translation>
+  <translation id="IDS_TITLEBAR_MORE_PRIVACY">นโยบายความเป็นส่วนตัว</translation>
+
+  <!-- LANGUAGE_CHANGED_RESTART -->
+  <translation id="IDS_LANGUAGE_CHANGED_RESTART_TIP_TITLE">ต้องรีสตาร์ท</translation>
+  <translation id="IDS_LANGUAGE_CHANGED_RESTART_TIP_CONTENT">Bilibili Studio (Beta) จำเป็นต้องเปิดใช้งานใหม่เพื่อใช้การเปลี่ยนแปลงของคุณ คุณยืนยันการรีสตาร์ท Bilibili Studio (Beta) หรือไม่ ?</translation>
+
+  <!-- SELECT_FILE_DIALOG -->
+  <translation id="IDS_SELECT_FILE_DIALOG_PATH_TOO_LONG">ไฟล์แพทช์ที่เลือกยาวเกินไป</translation>
+  <translation id="IDS_SELECT_FILE_DIALOG_PATH_INVALID">ไฟล์แพทช์ไม่เกิดผล</translation>
+  <translation id="IDS_SELECT_FILE_DIALOG_PATH_ERROR_FORMAT">เกิดข้อผิดพลาดขณะเลือกไฟล์ %d</translation>
+
+  <translation id="IDS_CLEAR_ALL_ADDED_SOURCE">ยืนยันการล้างแหล่งข้อมูลทั้งหมดในฉากนี้หรือไม่ ?</translation>
+  <translation id="IDS_SCENE_EMPTY_PLACEHOLDER">เพิ่มแหล่งข้อมูลไลฟ์สด</translation>
+
+  <!-- User info -->
+  <translation id="IDS_LIVEHIME_MY_LIVE_ROOM_ID_LABEL">LiveRoom ID</translation>
+  <translation id="IDS_LIVEHIME_MY_UID_LABEL">UID</translation>
+
+  <translation id="IDS_LEFT_CLICK_SELECT_COLOR">คลิกเมาส์ซ้ายเพื่อเลือกสี</translation>
+
+</translationbundle>

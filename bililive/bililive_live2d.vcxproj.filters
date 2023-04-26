@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="framework">
+      <UniqueIdentifier>{48fdc942-e791-46f0-9a34-65d0f8ff827a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\Effect">
+      <UniqueIdentifier>{51c55dc7-bc30-4d73-a893-1b59110036f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\Id">
+      <UniqueIdentifier>{a4228057-a119-4c5c-a9b7-58f3ae5c8340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\Math">
+      <UniqueIdentifier>{7dbd8c74-90b7-4256-b40f-e722c6e4118d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\Model">
+      <UniqueIdentifier>{75bfe825-1752-42c6-94c7-d35f17dfc23c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\Motion">
+      <UniqueIdentifier>{122e8e8d-0b12-4898-bbd6-307d09961cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\Physics">
+      <UniqueIdentifier>{ea3881a2-6df7-42c8-95bd-31a9192c6706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\Rendering">
+      <UniqueIdentifier>{ea5ce8b9-27bd-4875-b84d-3dff421e270f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\Type">
+      <UniqueIdentifier>{e3aa240b-5b06-423a-a903-73016bac45d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\Utils">
+      <UniqueIdentifier>{4f87ad74-fcae-43fb-93c3-959251e6b002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\Rendering\D3D11">
+      <UniqueIdentifier>{edf20a4d-0ffc-4fd2-a1be-eb3a9bade869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="livehime">
+      <UniqueIdentifier>{bcd71372-a902-4760-b9a4-6d02291c843e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{a7b82ac9-63fe-48d6-89f5-b7b654a8bd46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obs">
+      <UniqueIdentifier>{f35bc38f-70f9-4a0d-a479-d244627bc018}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bililive_live2d\framework\CubismCdiJson.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\CubismDefaultParameterId.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\CubismFramework.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\CubismModelSettingJson.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Effect\CubismBreath.cpp">
+      <Filter>framework\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Effect\CubismEyeBlink.cpp">
+      <Filter>framework\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Effect\CubismPose.cpp">
+      <Filter>framework\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Id\CubismId.cpp">
+      <Filter>framework\Id</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Id\CubismIdManager.cpp">
+      <Filter>framework\Id</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Math\CubismMath.cpp">
+      <Filter>framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Math\CubismMatrix44.cpp">
+      <Filter>framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Math\CubismModelMatrix.cpp">
+      <Filter>framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Math\CubismTargetPoint.cpp">
+      <Filter>framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Math\CubismVector2.cpp">
+      <Filter>framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Math\CubismViewMatrix.cpp">
+      <Filter>framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Model\CubismMoc.cpp">
+      <Filter>framework\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Model\CubismModel.cpp">
+      <Filter>framework\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Model\CubismModelUserData.cpp">
+      <Filter>framework\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Model\CubismModelUserDataJson.cpp">
+      <Filter>framework\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Model\CubismUserModel.cpp">
+      <Filter>framework\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Motion\ACubismMotion.cpp">
+      <Filter>framework\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Motion\CubismExpressionMotion.cpp">
+      <Filter>framework\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Motion\CubismMotion.cpp">
+      <Filter>framework\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Motion\CubismMotionJson.cpp">
+      <Filter>framework\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Motion\CubismMotionManager.cpp">
+      <Filter>framework\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Motion\CubismMotionQueueEntry.cpp">
+      <Filter>framework\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Motion\CubismMotionQueueManager.cpp">
+      <Filter>framework\Motion</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Utils\CubismDebug.cpp">
+      <Filter>framework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Utils\CubismJson.cpp">
+      <Filter>framework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Utils\CubismString.cpp">
+      <Filter>framework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Type\csmRectF.cpp">
+      <Filter>framework\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Type\csmString.cpp">
+      <Filter>framework\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Rendering\CubismRenderer.cpp">
+      <Filter>framework\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Physics\CubismPhysics.cpp">
+      <Filter>framework\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Physics\CubismPhysicsJson.cpp">
+      <Filter>framework\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Rendering\D3D11\CubismOffscreenSurface_D3D11.cpp">
+      <Filter>framework\Rendering\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Rendering\D3D11\CubismRenderer_D3D11.cpp">
+      <Filter>framework\Rendering\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Rendering\D3D11\CubismRenderState_D3D11.cpp">
+      <Filter>framework\Rendering\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\framework\Rendering\D3D11\CubismShader_D3D11.cpp">
+      <Filter>framework\Rendering\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\livehime\file_utils.cpp">
+      <Filter>livehime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\livehime\live2d_impl.cpp">
+      <Filter>livehime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\livehime\l2d_allocator.cpp">
+      <Filter>livehime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\livehime\sprite.cpp">
+      <Filter>livehime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\livehime\texture_manager.cpp">
+      <Filter>livehime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\livehime\model.cpp">
+      <Filter>livehime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\livehime\constants.cpp">
+      <Filter>livehime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\livehime\render_view.cpp">
+      <Filter>livehime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\math\face_resolver.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\livehime\live2d.cpp">
+      <Filter>livehime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\obs\live2d_obs_wrapper_impl.cpp">
+      <Filter>obs</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_live2d\obs\live2d_obs_wrapper.cpp">
+      <Filter>obs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bililive_live2d\framework\CubismCdiJson.hpp">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\CubismDefaultParameterId.hpp">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\CubismFramework.hpp">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\CubismFrameworkConfig.hpp">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\CubismModelSettingJson.hpp">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\ICubismAllocator.hpp">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\ICubismModelSetting.hpp">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Live2DCubismCore.hpp">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Effect\CubismBreath.hpp">
+      <Filter>framework\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Effect\CubismEyeBlink.hpp">
+      <Filter>framework\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Effect\CubismPose.hpp">
+      <Filter>framework\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Id\CubismId.hpp">
+      <Filter>framework\Id</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Id\CubismIdManager.hpp">
+      <Filter>framework\Id</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Math\CubismMath.hpp">
+      <Filter>framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Math\CubismMatrix44.hpp">
+      <Filter>framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Math\CubismModelMatrix.hpp">
+      <Filter>framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Math\CubismTargetPoint.hpp">
+      <Filter>framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Math\CubismVector2.hpp">
+      <Filter>framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Math\CubismViewMatrix.hpp">
+      <Filter>framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Model\CubismMoc.hpp">
+      <Filter>framework\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Model\CubismModel.hpp">
+      <Filter>framework\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Model\CubismModelUserData.hpp">
+      <Filter>framework\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Model\CubismModelUserDataJson.hpp">
+      <Filter>framework\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Model\CubismUserModel.hpp">
+      <Filter>framework\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Motion\ACubismMotion.hpp">
+      <Filter>framework\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Motion\CubismExpressionMotion.hpp">
+      <Filter>framework\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Motion\CubismMotion.hpp">
+      <Filter>framework\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Motion\CubismMotionInternal.hpp">
+      <Filter>framework\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Motion\CubismMotionJson.hpp">
+      <Filter>framework\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Motion\CubismMotionManager.hpp">
+      <Filter>framework\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Motion\CubismMotionQueueEntry.hpp">
+      <Filter>framework\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Motion\CubismMotionQueueManager.hpp">
+      <Filter>framework\Motion</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Utils\CubismDebug.hpp">
+      <Filter>framework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Utils\CubismJson.hpp">
+      <Filter>framework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Utils\CubismString.hpp">
+      <Filter>framework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Type\csmMap.hpp">
+      <Filter>framework\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Type\csmRectF.hpp">
+      <Filter>framework\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Type\csmString.hpp">
+      <Filter>framework\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Type\csmVector.hpp">
+      <Filter>framework\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Type\CubismBasicType.hpp">
+      <Filter>framework\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Rendering\CubismRenderer.hpp">
+      <Filter>framework\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Physics\CubismPhysics.hpp">
+      <Filter>framework\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Physics\CubismPhysicsInternal.hpp">
+      <Filter>framework\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Physics\CubismPhysicsJson.hpp">
+      <Filter>framework\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Rendering\D3D11\CubismNativeInclude_D3D11.hpp">
+      <Filter>framework\Rendering\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Rendering\D3D11\CubismOffscreenSurface_D3D11.hpp">
+      <Filter>framework\Rendering\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Rendering\D3D11\CubismRenderer_D3D11.hpp">
+      <Filter>framework\Rendering\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Rendering\D3D11\CubismRenderState_D3D11.hpp">
+      <Filter>framework\Rendering\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Rendering\D3D11\CubismShader_D3D11.hpp">
+      <Filter>framework\Rendering\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\framework\Rendering\D3D11\CubismType_D3D11.hpp">
+      <Filter>framework\Rendering\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\livehime\file_utils.h">
+      <Filter>livehime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\livehime\live2d_impl.h">
+      <Filter>livehime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\livehime\l2d_allocator.h">
+      <Filter>livehime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\livehime\sprite.h">
+      <Filter>livehime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\livehime\texture_manager.h">
+      <Filter>livehime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\livehime\model.h">
+      <Filter>livehime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\livehime\constants.h">
+      <Filter>livehime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\livehime\render_view.h">
+      <Filter>livehime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\math\matrix.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\math\point.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\math\vector.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\math\face_resolver.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\livehime\live2d.h">
+      <Filter>livehime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\obs\live2d_obs_wrapper_impl.h">
+      <Filter>obs</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_live2d\obs\live2d_obs_wrapper.h">
+      <Filter>obs</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

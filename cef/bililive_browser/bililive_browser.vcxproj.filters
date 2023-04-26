@@ -1,0 +1,895 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="public">
+      <UniqueIdentifier>{591fbdda-b292-439d-b12a-30e16babbd7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{ce25773d-b1e5-4692-a57a-8d2ce32f8256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cef_core">
+      <UniqueIdentifier>{e5b5b1eb-d672-4e15-8f00-1a158bf4a762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{490816ac-3b7f-4283-9e8e-94119f6df12e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer">
+      <UniqueIdentifier>{f0366151-ca64-4624-bf90-238a853b95ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\other">
+      <UniqueIdentifier>{200fb506-aa64-4610-8c35-48ff55b680b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\obs_studio">
+      <UniqueIdentifier>{8427af27-a6bb-41d0-9f43-fbe78cb3e197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\obs_studio\obs-browser-page">
+      <UniqueIdentifier>{ce3c9e09-d71c-4589-bf99-fd350f72d3f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\bilibili">
+      <UniqueIdentifier>{779b329f-9d7d-47eb-97f8-4d47cc8750d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shared">
+      <UniqueIdentifier>{43740553-671e-45c6-9d9c-46b842cd798f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\biliyun">
+      <UniqueIdentifier>{2e46ea7c-1f37-4440-ab65-0a6343120b45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\mini_login">
+      <UniqueIdentifier>{1641e403-51cd-419c-8a7e-044011992c51}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_browser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bililive_browser_switches.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\cef_atomicops.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\cef_atomic_ref_count.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\cef_basictypes.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\cef_bind.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\cef_bind_helpers.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\cef_build.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\cef_callback.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\cef_callback_forward.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\cef_callback_helpers.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\cef_callback_list.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\cef_cancelable_callback.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\cef_lock.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\cef_logging.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\cef_macros.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\cef_move.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\cef_platform_thread.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\cef_ref_counted.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\cef_scoped_ptr.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\cef_string16.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\cef_template_util.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\cef_thread_checker.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\cef_trace_event.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\cef_tuple.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\cef_weak_ptr.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\internal\cef_atomicops_x86_msvc.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\internal\cef_bind_internal.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\internal\cef_bind_internal_win.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\internal\cef_callback_internal.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\internal\cef_lock_impl.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\internal\cef_raw_scoped_refptr_mismatch_checker.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\base\internal\cef_thread_checker_impl.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_accessibility_handler_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_app_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_auth_callback_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_base_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_browser_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_browser_process_handler_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_callback_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_client_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_command_line_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_context_menu_handler_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_cookie_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_crash_util_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_dialog_handler_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_display_handler_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_dom_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_download_handler_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_download_item_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_drag_data_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_drag_handler_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_extension_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_extension_handler_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_file_util_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_find_handler_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_focus_handler_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_frame_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_image_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_jsdialog_handler_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_keyboard_handler_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_life_span_handler_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_load_handler_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_menu_model_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_menu_model_delegate_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_navigation_entry_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_origin_whitelist_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_parser_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_path_util_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_print_handler_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_print_settings_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_process_message_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_process_util_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_render_handler_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_render_process_handler_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_request_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_request_context_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_request_context_handler_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_request_handler_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_resource_bundle_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_resource_bundle_handler_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_resource_handler_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_response_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_response_filter_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_scheme_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_server_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_ssl_info_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_ssl_status_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_stream_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_string_visitor_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_task_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_thread_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_trace_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_urlrequest_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_v8_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_values_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_waitable_event_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_web_plugin_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_x509_certificate_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_xml_reader_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\cef_zip_reader_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\test\cef_test_helpers_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\test\cef_translator_test_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\views\cef_box_layout_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\views\cef_browser_view_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\views\cef_browser_view_delegate_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\views\cef_button_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\views\cef_button_delegate_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\views\cef_display_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\views\cef_fill_layout_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\views\cef_label_button_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\views\cef_layout_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\views\cef_menu_button_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\views\cef_menu_button_delegate_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\views\cef_panel_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\views\cef_panel_delegate_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\views\cef_scroll_view_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\views\cef_textfield_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\views\cef_textfield_delegate_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\views\cef_view_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\views\cef_view_delegate_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\views\cef_window_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\capi\views\cef_window_delegate_capi.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_accessibility_handler.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_app.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_auth_callback.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_base.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_browser.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_browser_process_handler.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_callback.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_client.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_command_line.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_context_menu_handler.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_cookie.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_crash_util.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_dialog_handler.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_display_handler.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_dom.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_download_handler.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_download_item.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_drag_data.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_drag_handler.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_extension.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_extension_handler.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_file_util.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_find_handler.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_focus_handler.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_frame.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_image.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_jsdialog_handler.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_keyboard_handler.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_life_span_handler.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_load_handler.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_menu_model.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_menu_model_delegate.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_navigation_entry.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_origin_whitelist.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_pack_resources.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_pack_strings.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_parser.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_path_util.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_print_handler.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_print_settings.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_process_message.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_process_util.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_render_handler.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_render_process_handler.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_request.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_request_context.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_request_context_handler.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_request_handler.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_resource_bundle.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_resource_bundle_handler.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_resource_handler.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_response.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_response_filter.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_sandbox_win.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_scheme.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_server.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_ssl_info.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_ssl_status.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_stream.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_string_visitor.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_task.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_thread.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_trace.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_urlrequest.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_v8.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_values.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_version.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_waitable_event.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_web_plugin.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_x509_certificate.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_xml_reader.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\cef_zip_reader.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\internal\cef_export.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\internal\cef_logging_internal.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\internal\cef_ptr.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\internal\cef_string.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\internal\cef_string_list.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\internal\cef_string_map.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\internal\cef_string_multimap.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\internal\cef_string_types.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\internal\cef_string_wrappers.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\internal\cef_thread_internal.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\internal\cef_time.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\internal\cef_trace_event_internal.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\internal\cef_types.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\internal\cef_types_win.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\internal\cef_types_wrappers.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\internal\cef_win.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\test\cef_test_helpers.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\test\cef_translator_test.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\views\cef_box_layout.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\views\cef_browser_view.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\views\cef_browser_view_delegate.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\views\cef_button.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\views\cef_button_delegate.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\views\cef_display.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\views\cef_fill_layout.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\views\cef_label_button.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\views\cef_layout.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\views\cef_menu_button.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\views\cef_menu_button_delegate.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\views\cef_panel.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\views\cef_panel_delegate.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\views\cef_scroll_view.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\views\cef_textfield.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\views\cef_textfield_delegate.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\views\cef_view.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\views\cef_view_delegate.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\views\cef_window.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\views\cef_window_delegate.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\wrapper\cef_byte_read_handler.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\wrapper\cef_closure_task.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\wrapper\cef_helpers.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\wrapper\cef_message_router.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\wrapper\cef_resource_manager.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\wrapper\cef_scoped_temp_dir.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\wrapper\cef_stream_resource_handler.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\wrapper\cef_xml_object.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef_core\include\wrapper\cef_zip_archive.h">
+      <Filter>cef_core</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bililive_browser_js_values.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bililive_browser_ipc_messages.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\obs\obs-studio\plugins\obs-browser\deps\json11\json11.hpp">
+      <Filter>renderer\obs_studio\obs-browser-page</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\obs\obs-studio\plugins\obs-browser\browser-app.hpp">
+      <Filter>renderer\obs_studio\obs-browser-page</Filter>
+    </ClInclude>
+    <ClInclude Include="util\bililive_browser_util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bililive_cef_headers.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="util\bililive_js_bridge_contract.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\livehime_cef_app.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\bilibili\livehime_bilibili_render_delegate.h">
+      <Filter>renderer\bilibili</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\livehime_cef_app_render.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\livehime_cef_app_other.h">
+      <Filter>renderer\other</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\obs_studio\livehime_obs_studio_render_delegate.h">
+      <Filter>renderer\obs_studio</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\biliyun\livehime_biliyun_render_delegate.h">
+      <Filter>renderer\biliyun</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\mini_login\livehime_login_render_viddup_delegate.h">
+      <Filter>renderer\mini_login</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_browser.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\obs\obs-studio\plugins\obs-browser\browser-app.cpp">
+      <Filter>renderer\obs_studio\obs-browser-page</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\obs\obs-studio\plugins\obs-browser\deps\json11\json11.cpp">
+      <Filter>renderer\obs_studio\obs-browser-page</Filter>
+    </ClCompile>
+    <ClCompile Include="util\bililive_browser_util.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\bililive_js_bridge_contract.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\bilibili\livehime_bilibili_render_delegate.cpp">
+      <Filter>renderer\bilibili</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\livehime_cef_app_render.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\livehime_cef_app_render_delegate.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\livehime_cef_app_other.cpp">
+      <Filter>renderer\other</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\obs_studio\livehime_obs_studio_render_delegate.cpp">
+      <Filter>renderer\obs_studio</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\livehime_cef_app.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\biliyun\livehime_biliyun_render_delegate.cpp">
+      <Filter>renderer\biliyun</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\mini_login\livehime_login_render_viddup_delegate.cpp">
+      <Filter>renderer\mini_login</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="bililive_browser.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="bililive_browser.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="browser_for_test.html" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="obs_livehime_ipc">
+      <UniqueIdentifier>{8cea9f11-8c42-41b1-b11a-0afc0ea1b399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive">
+      <UniqueIdentifier>{755a4da6-2d3e-49f5-b0af-a89f39ccd735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\public">
+      <UniqueIdentifier>{c6168899-630a-410d-94f7-765f0b02afe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ipc">
+      <UniqueIdentifier>{0cbe5375-4143-49bd-ad04-bd8390d75bd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\public\common">
+      <UniqueIdentifier>{c3ded5c4-8e45-4e64-89ad-bafc41117539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\public\bililive">
+      <UniqueIdentifier>{ac9205ad-a939-407f-bb9a-801e86c1d279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="profiles">
+      <UniqueIdentifier>{9d47446f-063c-4f4e-8757-d7c21f5943a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="threads">
+      <UniqueIdentifier>{04947360-3267-45b3-873d-9a04aadbce4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public">
+      <UniqueIdentifier>{503a9b5d-bbf9-4f78-b08b-93ee0d515d9f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bililive_obs_plugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="obs_livehime_ipc\obs_livehime_ipc_service.cc">
+      <Filter>obs_livehime_ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="profiles\obs_livehime_profile.cc">
+      <Filter>profiles</Filter>
+    </ClCompile>
+    <ClCompile Include="threads\obs_livehime_thread_manager.cc">
+      <Filter>threads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\bililive\bililive\ipc\bililive_ipc_channel.cc">
+      <Filter>bililive\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\bililive\public\common\bililive_constants.cc">
+      <Filter>bililive\public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\bililive\public\common\bililive_paths.cc">
+      <Filter>bililive\public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\bililive\public\common\bililive_paths_win.cc">
+      <Filter>bililive\public\common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="obs_livehime_ipc\obs_livehime_ipc_service.h">
+      <Filter>obs_livehime_ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="profiles\obs_livehime_profile.h">
+      <Filter>profiles</Filter>
+    </ClInclude>
+    <ClInclude Include="threads\obs_livehime_thread_manager.h">
+      <Filter>threads</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_obs_plugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="public\obs_livehime_pref_constants.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\bililive\bililive\ipc\bililive_ipc_channel.h">
+      <Filter>bililive\ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\bililive\public\common\bililive_constants.h">
+      <Filter>bililive\public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\bililive\public\common\bililive_paths_internal.h">
+      <Filter>bililive\public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\bililive\public\common\bililive_paths.h">
+      <Filter>bililive\public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\bililive\public\bililive\livehime_obs_ipc_message.h">
+      <Filter>bililive\public\bililive</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5E7AFCC2-89FF-62E8-E092-05A8D6105883}</ProjectGuid>
+    <RootNamespace>packed_resources</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <DllDataFileName>%(Filename).dlldata.c</DllDataFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <DllDataFileName>%(Filename).dlldata.c</DllDataFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <DllDataFileName>%(Filename).dlldata.c</DllDataFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <DllDataFileName>%(Filename).dlldata.c</DllDataFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="$(OutDir)obj\global_intermediate\fake-bidi.pak">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Copying $(OutDir)obj/global_intermediate/fake-bidi.pak to $(OutDir)pseudo_locales\fake-bidi.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mkdir "$(OutDir)pseudo_locales" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\fake-bidi.pak" "$(OutDir)pseudo_locales\fake-bidi.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)obj\global_intermediate\fake-bidi.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)pseudo_locales\fake-bidi.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying $(OutDir)obj/global_intermediate/fake-bidi.pak to $(OutDir)pseudo_locales\fake-bidi.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mkdir "$(OutDir)pseudo_locales" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\fake-bidi.pak" "$(OutDir)pseudo_locales\fake-bidi.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)obj\global_intermediate\fake-bidi.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)pseudo_locales\fake-bidi.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Copying $(OutDir)obj/global_intermediate/fake-bidi.pak to $(OutDir)pseudo_locales\fake-bidi.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">mkdir "$(OutDir)pseudo_locales" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\fake-bidi.pak" "$(OutDir)pseudo_locales\fake-bidi.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)obj\global_intermediate\fake-bidi.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)pseudo_locales\fake-bidi.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying $(OutDir)obj/global_intermediate/fake-bidi.pak to $(OutDir)pseudo_locales\fake-bidi.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mkdir "$(OutDir)pseudo_locales" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\fake-bidi.pak" "$(OutDir)pseudo_locales\fake-bidi.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)obj\global_intermediate\fake-bidi.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)pseudo_locales\fake-bidi.pak;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="$(OutDir)obj\global_intermediate\repack\bililive_100_percent.pak">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Copying $(OutDir)obj/global_intermediate/repack/bililive_100_percent.pak to $(OutDir)bililive_100_percent.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mkdir "$(OutDir)" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\bililive_100_percent.pak" "$(OutDir)bililive_100_percent.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)obj\global_intermediate\repack\bililive_100_percent.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)bililive_100_percent.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying $(OutDir)obj/global_intermediate/repack/bililive_100_percent.pak to $(OutDir)bililive_100_percent.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mkdir "$(OutDir)" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\bililive_100_percent.pak" "$(OutDir)bililive_100_percent.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)obj\global_intermediate\repack\bililive_100_percent.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)bililive_100_percent.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Copying $(OutDir)obj/global_intermediate/repack/bililive_100_percent.pak to $(OutDir)bililive_100_percent.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">mkdir "$(OutDir)" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\bililive_100_percent.pak" "$(OutDir)bililive_100_percent.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)obj\global_intermediate\repack\bililive_100_percent.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)bililive_100_percent.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying $(OutDir)obj/global_intermediate/repack/bililive_100_percent.pak to $(OutDir)bililive_100_percent.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mkdir "$(OutDir)" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\bililive_100_percent.pak" "$(OutDir)bililive_100_percent.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)obj\global_intermediate\repack\bililive_100_percent.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)bililive_100_percent.pak;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="$(OutDir)obj\global_intermediate\repack\bililive_150_percent.pak">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Copying $(OutDir)obj/global_intermediate/repack/bililive_150_percent.pak to $(OutDir)bililive_150_percent.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mkdir "$(OutDir)" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\bililive_150_percent.pak" "$(OutDir)bililive_150_percent.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)obj\global_intermediate\repack\bililive_150_percent.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)bililive_150_percent.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying $(OutDir)obj/global_intermediate/repack/bililive_150_percent.pak to $(OutDir)bililive_150_percent.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mkdir "$(OutDir)" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\bililive_150_percent.pak" "$(OutDir)bililive_150_percent.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)obj\global_intermediate\repack\bililive_150_percent.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)bililive_150_percent.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Copying $(OutDir)obj/global_intermediate/repack/bililive_150_percent.pak to $(OutDir)bililive_150_percent.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">mkdir "$(OutDir)" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\bililive_150_percent.pak" "$(OutDir)bililive_150_percent.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)obj\global_intermediate\repack\bililive_150_percent.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)bililive_150_percent.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying $(OutDir)obj/global_intermediate/repack/bililive_150_percent.pak to $(OutDir)bililive_150_percent.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mkdir "$(OutDir)" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\bililive_150_percent.pak" "$(OutDir)bililive_150_percent.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)obj\global_intermediate\repack\bililive_150_percent.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)bililive_150_percent.pak;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="$(OutDir)obj\global_intermediate\repack\bililive_200_percent.pak">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Copying $(OutDir)obj/global_intermediate/repack/bililive_200_percent.pak to $(OutDir)bililive_200_percent.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mkdir "$(OutDir)" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\bililive_200_percent.pak" "$(OutDir)bililive_200_percent.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)obj\global_intermediate\repack\bililive_200_percent.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)bililive_200_percent.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying $(OutDir)obj/global_intermediate/repack/bililive_200_percent.pak to $(OutDir)bililive_200_percent.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mkdir "$(OutDir)" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\bililive_200_percent.pak" "$(OutDir)bililive_200_percent.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)obj\global_intermediate\repack\bililive_200_percent.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)bililive_200_percent.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Copying $(OutDir)obj/global_intermediate/repack/bililive_200_percent.pak to $(OutDir)bililive_200_percent.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">mkdir "$(OutDir)" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\bililive_200_percent.pak" "$(OutDir)bililive_200_percent.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)obj\global_intermediate\repack\bililive_200_percent.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)bililive_200_percent.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying $(OutDir)obj/global_intermediate/repack/bililive_200_percent.pak to $(OutDir)bililive_200_percent.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mkdir "$(OutDir)" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\bililive_200_percent.pak" "$(OutDir)bililive_200_percent.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)obj\global_intermediate\repack\bililive_200_percent.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)bililive_200_percent.pak;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="$(OutDir)obj\global_intermediate\repack\en-US.pak">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Copying $(OutDir)obj/global_intermediate\repack\en-US.pak to $(OutDir)locales\en-US.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mkdir "$(OutDir)locales" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\en-US.pak" "$(OutDir)locales\en-US.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)obj\global_intermediate\repack\en-US.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)locales\en-US.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying $(OutDir)obj/global_intermediate\repack\en-US.pak to $(OutDir)locales\en-US.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mkdir "$(OutDir)locales" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\en-US.pak" "$(OutDir)locales\en-US.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)obj\global_intermediate\repack\en-US.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)locales\en-US.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Copying $(OutDir)obj/global_intermediate\repack\en-US.pak to $(OutDir)locales\en-US.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">mkdir "$(OutDir)locales" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\en-US.pak" "$(OutDir)locales\en-US.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)obj\global_intermediate\repack\en-US.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)locales\en-US.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying $(OutDir)obj/global_intermediate\repack\en-US.pak to $(OutDir)locales\en-US.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mkdir "$(OutDir)locales" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\en-US.pak" "$(OutDir)locales\en-US.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)obj\global_intermediate\repack\en-US.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)locales\en-US.pak;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="$(OutDir)obj\global_intermediate\repack\zh-CN.pak">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Copying $(OutDir)obj/global_intermediate\repack\zh-CN.pak to $(OutDir)locales\zh-CN.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mkdir "$(OutDir)locales" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\zh-CN.pak" "$(OutDir)locales\zh-CN.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)obj\global_intermediate\repack\zh-CN.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)locales\zh-CN.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying $(OutDir)obj/global_intermediate\repack\zh-CN.pak to $(OutDir)locales\zh-CN.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mkdir "$(OutDir)locales" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\zh-CN.pak" "$(OutDir)locales\zh-CN.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)obj\global_intermediate\repack\zh-CN.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)locales\zh-CN.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Copying $(OutDir)obj/global_intermediate\repack\zh-CN.pak to $(OutDir)locales\zh-CN.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">mkdir "$(OutDir)locales" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\zh-CN.pak" "$(OutDir)locales\zh-CN.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)obj\global_intermediate\repack\zh-CN.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)locales\zh-CN.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying $(OutDir)obj/global_intermediate\repack\zh-CN.pak to $(OutDir)locales\zh-CN.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mkdir "$(OutDir)locales" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\zh-CN.pak" "$(OutDir)locales\zh-CN.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)obj\global_intermediate\repack\zh-CN.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)locales\zh-CN.pak;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="$(OutDir)obj\global_intermediate\repack\id-ID.pak">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Copying $(OutDir)obj/global_intermediate\repack\id-ID.pak to $(OutDir)locales\id-ID.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mkdir "$(OutDir)locales" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\id-ID.pak" "$(OutDir)locales\id-ID.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)obj\global_intermediate\repack\id-ID.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)locales\id-ID.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying $(OutDir)obj/global_intermediate\repack\id-ID.pak to $(OutDir)locales\id-ID.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mkdir "$(OutDir)locales" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\id-ID.pak" "$(OutDir)locales\id-ID.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)obj\global_intermediate\repack\id-ID.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)locales\id-ID.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Copying $(OutDir)obj/global_intermediate\repack\id-ID.pak to $(OutDir)locales\id-ID.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">mkdir "$(OutDir)locales" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\id-ID.pak" "$(OutDir)locales\id-ID.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)obj\global_intermediate\repack\id-ID.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)locales\id-ID.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying $(OutDir)obj/global_intermediate\repack\id-ID.pak to $(OutDir)locales\id-ID.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mkdir "$(OutDir)locales" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\id-ID.pak" "$(OutDir)locales\id-ID.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)obj\global_intermediate\repack\id-ID.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)locales\id-ID.pak;%(Outputs)</Outputs>
+    </CustomBuild>
+        <CustomBuild Include="$(OutDir)obj\global_intermediate\repack\th-TH.pak">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Copying $(OutDir)obj/global_intermediate\repack\th-TH.pak to $(OutDir)locales\th-TH.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">mkdir "$(OutDir)locales" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\th-TH.pak" "$(OutDir)locales\th-TH.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)obj\global_intermediate\repack\th-TH.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)locales\th-TH.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying $(OutDir)obj/global_intermediate\repack\th-TH.pak to $(OutDir)locales\th-TH.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mkdir "$(OutDir)locales" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\th-TH.pak" "$(OutDir)locales\th-TH.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)obj\global_intermediate\repack\th-TH.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)locales\th-TH.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Copying $(OutDir)obj/global_intermediate\repack\th-TH.pak to $(OutDir)locales\th-TH.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">mkdir "$(OutDir)locales" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\th-TH.pak" "$(OutDir)locales\th-TH.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)obj\global_intermediate\repack\th-TH.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)locales\th-TH.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying $(OutDir)obj/global_intermediate\repack\th-TH.pak to $(OutDir)locales\th-TH.pak</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mkdir "$(OutDir)locales" 2&gt;nul &amp; set ERRORLEVEL=0 &amp; copy /Y "$(OutDir)obj\global_intermediate\repack\th-TH.pak" "$(OutDir)locales\th-TH.pak"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)obj\global_intermediate\repack\th-TH.pak;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)locales\th-TH.pak;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="tools\build\repack_locales.py">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">repack_locales, and also repack_pseudo_locales</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">set PATH=..\..\third_party\python_26;%PATH% &amp;&amp; call "$(ProjectDir)..\third_party\cygwin\setup_env.bat" &amp;&amp; set CYGWIN=nontsec&amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"tools/build/repack_locales.py\" \"-b\" \"chromium\" \"-p\" \"win\" \"-g\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/bililive\" \"-s\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate\" \"-x\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/.\" \"en-US\" \"zh-CN\" \"id-ID\" \"th-TH\" "
+set CYGWIN=nontsec&amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"tools/build/repack_locales.py\" \"-b\" \"chromium\" \"-p\" \"win\" \"-g\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/bililive\" \"-s\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate\" \"-x\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/.\" \"fake-bidi\""</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)obj\global_intermediate\repack\en-US.pak;$(OutDir)obj\global_intermediate\repack\zh-CN.pak;$(OutDir)obj\global_intermediate\repack\id-ID.pak;$(OutDir)obj\global_intermediate\repack\th-TH.pak;$(OutDir)obj\global_intermediate\fake-bidi.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">repack_locales, and also repack_pseudo_locales</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">set PATH=..\..\third_party\python_26;%PATH% &amp;&amp; call "$(ProjectDir)..\third_party\cygwin\setup_env.bat" &amp;&amp; set CYGWIN=nontsec&amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"tools/build/repack_locales.py\" \"-b\" \"chromium\" \"-p\" \"win\" \"-g\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/bililive\" \"-s\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate\" \"-x\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/.\" \"en-US\" \"zh-CN\" \"id-ID\" \"th-TH\" "
+set CYGWIN=nontsec&amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"tools/build/repack_locales.py\" \"-b\" \"chromium\" \"-p\" \"win\" \"-g\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/bililive\" \"-s\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate\" \"-x\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/.\" \"fake-bidi\""</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)obj\global_intermediate\repack\en-US.pak;$(OutDir)obj\global_intermediate\repack\zh-CN.pak;$(OutDir)obj\global_intermediate\repack\id-ID.pak;$(OutDir)obj\global_intermediate\repack\th-TH.pak;$(OutDir)obj\global_intermediate\fake-bidi.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">repack_locales, and also repack_pseudo_locales</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">set PATH=..\..\third_party\python_26;%PATH% &amp;&amp; call "$(ProjectDir)..\third_party\cygwin\setup_env.bat" &amp;&amp; set CYGWIN=nontsec&amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"tools/build/repack_locales.py\" \"-b\" \"chromium\" \"-p\" \"win\" \"-g\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/bililive\" \"-s\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate\" \"-x\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/.\" \"en-US\" \"zh-CN\" \"id-ID\" \"th-TH\" "
+set CYGWIN=nontsec&amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"tools/build/repack_locales.py\" \"-b\" \"chromium\" \"-p\" \"win\" \"-g\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/bililive\" \"-s\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate\" \"-x\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/.\" \"fake-bidi\""</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)obj\global_intermediate\repack\en-US.pak;$(OutDir)obj\global_intermediate\repack\zh-CN.pak;$(OutDir)obj\global_intermediate\repack\id-ID.pak;$(OutDir)obj\global_intermediate\repack\th-TH.pak;$(OutDir)obj\global_intermediate\fake-bidi.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">repack_locales, and also repack_pseudo_locales</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">set PATH=..\..\third_party\python_26;%PATH% &amp;&amp; call "$(ProjectDir)..\third_party\cygwin\setup_env.bat" &amp;&amp; set CYGWIN=nontsec&amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"tools/build/repack_locales.py\" \"-b\" \"chromium\" \"-p\" \"win\" \"-g\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/bililive\" \"-s\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate\" \"-x\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/.\" \"en-US\" \"zh-CN\" \"id-ID\" \"th-TH\" "
+set CYGWIN=nontsec&amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"tools/build/repack_locales.py\" \"-b\" \"chromium\" \"-p\" \"win\" \"-g\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/bililive\" \"-s\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate\" \"-x\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/.\" \"fake-bidi\""</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)obj\global_intermediate\repack\en-US.pak;$(OutDir)obj\global_intermediate\repack\zh-CN.pak;$(OutDir)obj\global_intermediate\repack\id-ID.pak;$(OutDir)obj\global_intermediate\repack\th-TH.pak;$(OutDir)obj\global_intermediate\fake-bidi.pak;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\tools\grit\grit\format\repack.py">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">set PATH=..\..\third_party\python_26;%PATH% &amp;&amp; call "$(ProjectDir)..\third_party\cygwin\setup_env.bat" &amp;&amp; set CYGWIN=nontsec&amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"../tools/grit/grit/format/repack.py\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/repack/bililive_100_percent.pak\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/bililive/theme_resources_100_percent.pak\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/ui/ui_resources/ui_resources_100_percent.pak\"" set CYGWIN=nontsec&amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"../tools/grit/grit/format/repack.py\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/repack/bililive_150_percent.pak\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/bililive/theme_resources_150_percent.pak\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/ui/ui_resources/ui_resources_150_percent.pak\"" &amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"../tools/grit/grit/format/repack.py\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/repack/bililive_200_percent.pak\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/bililive/theme_resources_200_percent.pak\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/ui/ui_resources/ui_resources_200_percent.pak\""
+</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">repack bililive_resources_100_percent, bililive_resources_150_percent, and also repack bililive_resources_200_percent.</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)obj\global_intermediate\repack\bililive_100_percent.pak;$(OutDir)obj\global_intermediate\repack\bililive_150_percent.pak;$(OutDir)obj\global_intermediate\repack\bililive_200_percent.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">repack bililive_resources_100_percent, bililive_resources_150_percent, and also repack bililive_resources_200_percent.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">set PATH=..\..\third_party\python_26;%PATH% &amp;&amp; call "$(ProjectDir)..\third_party\cygwin\setup_env.bat" &amp;&amp; set CYGWIN=nontsec&amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"../tools/grit/grit/format/repack.py\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/repack/bililive_100_percent.pak\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/bililive/theme_resources_100_percent.pak\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/ui/ui_resources/ui_resources_100_percent.pak\"" set CYGWIN=nontsec&amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"../tools/grit/grit/format/repack.py\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/repack/bililive_150_percent.pak\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/bililive/theme_resources_150_percent.pak\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/ui/ui_resources/ui_resources_150_percent.pak\"" &amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"../tools/grit/grit/format/repack.py\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/repack/bililive_200_percent.pak\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/bililive/theme_resources_200_percent.pak\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/ui/ui_resources/ui_resources_200_percent.pak\""</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)obj\global_intermediate\repack\bililive_100_percent.pak;$(OutDir)obj\global_intermediate\repack\bililive_150_percent.pak;$(OutDir)obj\global_intermediate\repack\bililive_200_percent.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">repack bililive_resources_100_percent, bililive_resources_150_percent, and also repack bililive_resources_200_percent.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">set PATH=..\..\third_party\python_26;%PATH% &amp;&amp; call "$(ProjectDir)..\third_party\cygwin\setup_env.bat" &amp;&amp; set CYGWIN=nontsec&amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"../tools/grit/grit/format/repack.py\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/repack/bililive_100_percent.pak\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/bililive/theme_resources_100_percent.pak\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/ui/ui_resources/ui_resources_100_percent.pak\"" set CYGWIN=nontsec&amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"../tools/grit/grit/format/repack.py\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/repack/bililive_150_percent.pak\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/bililive/theme_resources_150_percent.pak\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/ui/ui_resources/ui_resources_150_percent.pak\"" &amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"../tools/grit/grit/format/repack.py\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/repack/bililive_200_percent.pak\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/bililive/theme_resources_200_percent.pak\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/ui/ui_resources/ui_resources_200_percent.pak\""
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)obj\global_intermediate\repack\bililive_100_percent.pak;$(OutDir)obj\global_intermediate\repack\bililive_150_percent.pak;$(OutDir)obj\global_intermediate\repack\bililive_200_percent.pak;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">repack bililive_resources_100_percent, bililive_resources_150_percent, and also repack bililive_resources_200_percent.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">set PATH=..\..\third_party\python_26;%PATH% &amp;&amp; call "$(ProjectDir)..\third_party\cygwin\setup_env.bat" &amp;&amp; set CYGWIN=nontsec&amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"../tools/grit/grit/format/repack.py\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/repack/bililive_100_percent.pak\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/bililive/theme_resources_100_percent.pak\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/ui/ui_resources/ui_resources_100_percent.pak\"" set CYGWIN=nontsec&amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"../tools/grit/grit/format/repack.py\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/repack/bililive_150_percent.pak\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/bililive/theme_resources_150_percent.pak\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/ui/ui_resources/ui_resources_150_percent.pak\"" &amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; bash -c "\"python\" \"../tools/grit/grit/format/repack.py\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/repack/bililive_200_percent.pak\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/bililive/theme_resources_200_percent.pak\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/ui/ui_resources/ui_resources_200_percent.pak\""</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)obj\global_intermediate\repack\bililive_100_percent.pak;$(OutDir)obj\global_intermediate\repack\bililive_150_percent.pak;$(OutDir)obj\global_intermediate\repack\bililive_200_percent.pak;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

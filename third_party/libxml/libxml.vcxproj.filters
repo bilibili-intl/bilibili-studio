@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{3c080417-90aa-4dcb-85cb-6ae6ba3d8e65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32\include">
+      <UniqueIdentifier>{a31913fc-ebd0-499f-b089-6eedb0645103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32\include\libxml">
+      <UniqueIdentifier>{75ef9c9e-45bc-4708-976d-a473e46a5e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{a9aa2cad-9c6c-4af6-aacb-a1f55c206a4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\include">
+      <UniqueIdentifier>{4c829b4e-74e7-4317-a030-d1358eea4354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\include\libxml">
+      <UniqueIdentifier>{a35d8c4e-ef5e-4fbb-aa5d-86e3a84f09d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mac">
+      <UniqueIdentifier>{c8efc314-c005-474f-bfad-3ddbd0d2587b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mac\include">
+      <UniqueIdentifier>{e365d47e-db5e-4c97-8941-659d13b940a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mac\include\libxml">
+      <UniqueIdentifier>{9ed2d0a4-e3ff-431f-8c90-074021863ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chromium">
+      <UniqueIdentifier>{b9a38da0-52b2-4734-bd52-35bdf3893346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="linux">
+      <UniqueIdentifier>{479e6cc7-2bb9-47e9-b677-42da475d57f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="linux\include">
+      <UniqueIdentifier>{3d801464-5442-449e-9887-606836c288d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="linux\include\libxml">
+      <UniqueIdentifier>{24b8f25f-e1ea-48df-9efb-7b401e6fb351}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="win32\config.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\include\libxml\xmlversion.h">
+      <Filter>win32\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\acconfig.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\elfgcchack.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libxml.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\win32config.h">
+      <Filter>src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\wsockcompat.h">
+      <Filter>src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\c14n.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\catalog.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\chvalid.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\debugXML.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\dict.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\DOCBparser.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\encoding.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\entities.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\globals.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\hash.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\HTMLparser.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\HTMLtree.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\list.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\nanoftp.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\nanohttp.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\parser.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\parserInternals.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\pattern.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\relaxng.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\SAX.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\SAX2.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\schemasInternals.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\schematron.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\threads.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\tree.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\uri.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\valid.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\xinclude.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\xlink.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\xmlautomata.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\xmlerror.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\xmlexports.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\xmlIO.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\xmlmemory.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\xmlmodule.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\xmlreader.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\xmlregexp.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\xmlsave.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\xmlschemas.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\xmlschemastypes.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\xmlstring.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\xmlunicode.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\xmlwriter.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\xpath.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\xpathInternals.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\libxml\xpointer.h">
+      <Filter>src\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="mac\config.h">
+      <Filter>mac</Filter>
+    </ClInclude>
+    <ClInclude Include="mac\include\libxml\xmlversion.h">
+      <Filter>mac\include\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="chromium\libxml_utils.h">
+      <Filter>chromium</Filter>
+    </ClInclude>
+    <ClInclude Include="linux\config.h">
+      <Filter>linux</Filter>
+    </ClInclude>
+    <ClInclude Include="linux\include\libxml\xmlversion.h">
+      <Filter>linux\include\libxml</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\c14n.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\catalog.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\chvalid.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\debugXML.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dict.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DOCBparser.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\encoding.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\error.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\globals.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hash.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HTMLparser.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HTMLtree.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\legacy.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\list.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nanoftp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nanohttp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\parser.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\parserInternals.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pattern.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\relaxng.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SAX.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SAX2.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\schematron.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\threads.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\uri.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\valid.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xinclude.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xlink.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xmlIO.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xmlmemory.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xmlmodule.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xmlreader.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xmlregexp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xmlsave.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xmlschemas.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xmlschemastypes.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xmlstring.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xmlunicode.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xmlwriter.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xpath.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xpointer.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="chromium\libxml_utils.cc">
+      <Filter>chromium</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libxml.gyp" />
+  </ItemGroup>
+</Project>

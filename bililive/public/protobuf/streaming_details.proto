@@ -1,0 +1,160 @@
+syntax = "proto3";
+ 
+package streaming_performance;
+ 
+//option java_package = "com.bilibili.infoc.protobuf";
+//option java_outer_classname = "InfocProto";
+//option objc_class_prefix = "BFCNeuron";
+ 
+// ------------------------------------------------------
+//  功能描述：
+//      用于记录和上报用户推流过程中的各项系统参数的实时变化情况，
+//      用以向用户提供实时的推流质量信息反馈，也方便我们复现用户推流过程中的系统资源使用情况
+// ------------------------------------------------------
+// 参数说明：
+// ------------------------------------------------------
+
+ 
+
+// 运行时网络状态
+enum RuntimeNetWork {
+    UNKNOWN = 0;
+    WIFI = 1; //WIFI
+    CELLULAR = 2; //移动网络
+    OFFLINE = 3;  //未连接
+    OTHERNET = 4; //其他网络
+    ETHERNET = 5; //以太网
+}
+ 
+// 系统信息
+message SystemInfo {
+    string system_ver = 1; //系统版本，如 10.0 x86_64、10.0 Build 18362 (release: 1903; revision: 836; 64-bit)
+    string cpu = 2; //cpu信息，Intel(R) Xeon(R) CPU E3-1231 v3 @ 3.40GHz，Physical Cores: 4, Logical Cores: 8
+    repeated string graphic = 3; //显卡信息，NVIDIA GeForce GTX 750 Ti (驱动版本22.0.0.2.20)
+    string load_graphic = 4; // 程序当前加载的显卡信息，NVIDIA GeForce GTX 750 Ti
+    string memory = 5; // 内存信息，15.9GB
+    
+    RuntimeNetWork network = 6; // 网络连接方式
+    string co = 7; // 运营商，联通、移动、电信
+    string ip = 8;  // 外网IP地址
+    string region = 9;  // 外网IP地址区域，中国 上海
+}
+
+// 公共字段信息
+message AppInfo {
+    SystemInfo sys_info = 1; // 系统信息
+    int32  app_id = 2; //产品编号，直播姬=1
+    int32  platform = 3; //平台编号，window=1，mac=2，android=3，ios=4
+    string buvid = 4; //设备id
+    string version = 5; //客户端版本号
+    int32 build_no = 6; // 客户端build号
+    string account = 7; // 账号
+    int64 uid = 8; // uid
+    int64 roomid = 9;   // 房间ID
+}
+
+// 视频参数设置信息
+message EncodingSettings {
+    int64 ts = 1;   // 本次编码参数记录的时间戳（可用于区分一份开播记录里面的不同设置阶段的质量）
+    int32 bit_rate = 2; //码率，1500/8000
+    string rate_type = 3; //码率类型，VBR(动态码率)、CBR(固定码率)
+    string fps = 4; //帧率，30
+    string resolution = 5; // 分辨率，1920x1080
+    string encoder = 6; // 编码器，软件编码、图灵
+    string quality = 7; // 性能，平衡、高画质
+}
+
+// 开播信息
+message StartLiveInfo {
+    string live_key = 1; // 直播部侧的本场开播标识，l:one:live:record:285168:1596536803
+    string cdn_host = 2;    // 推流的CDN，rtmp://live-push.bilivideo.com/live-bvc/、rtmpsrt://live-push.bilivideo.com/live-bvc/
+    string addr = 3;    // 实际的推流地址，rtmpsrt://61.147.106.217/live-bvc/live_28007935_2042254?streamname=live_28007935_2042254\u0026key=e3a631fcc19f7ba1d86fe324c3d1face
+    string code = 4;    // 推流码，?streamname=live_28007935_2042254&key=e3a631fcc19f7ba1d86fe324c3d1face
+    int32 live_type = 5;    // 开播类型，常规开播=1
+    int32 live_status = 6;    // 开播状态，推流结束=0，推流中=1
+    int64 start_time = 7;  //统计开始的时间戳（开播时间）
+    int64 end_time = 8;  //统计结束的时间戳（关播时间）
+    repeated EncodingSettings video_settings = 9;  // 视频参数设置
+}
+
+// 场景源的信息
+message SourceItem {
+    int32 source_type = 1;    // 源类型
+    string source_name = 2;   // scene-item名称
+    map<string, string> props = 3;  // 源的属性，对哪些源的属性设置感兴趣就加进去，比如游戏，都抓的什么游戏来播
+    bool visible = 4;   // 源当时是否可见
+}
+
+// 采样数据元
+message SampleData {
+    int64 timestamp = 1;    // 采样时间戳
+    double data = 2;        // 采样的数据，根据具体的业务信息，代表不同的意义，如使用率/丢帧数等等
+}
+
+// 基础公共采样数据集
+message BaseStatisticInfo {
+    repeated SampleData samples = 1;    // 采样点数据数组
+}
+
+// 网络丢帧数
+message NetworkDropFrame {
+    BaseStatisticInfo data = 1;    // 时间戳 - 采样点距上一个采样点的丢帧数，浮点数，0.21
+}
+
+// 渲染丢帧数
+message RenderDropFrame {
+    BaseStatisticInfo data = 1;    // 时间戳 - 采样点距上一个采样点的丢帧数，浮点数，0.21
+}
+
+// 编码丢帧数
+message EncodeDropFrame {
+    BaseStatisticInfo data = 1;    // 时间戳 - 采样点距上一个采样点的丢帧数，浮点数，0.21
+}
+
+// GPU使用率
+message GpuUsage {
+    BaseStatisticInfo data = 1;    // 时间戳 - 采样点GPU占用率，比例整型值，21
+}
+
+// CPU使用率
+message CpuUsage {
+    BaseStatisticInfo data = 1;    // 时间戳 - 采样点CPU占用率，比例整型值，21
+}
+
+// 内存使用率
+message MemoryUsage {
+    BaseStatisticInfo data = 1;    // 时间戳 - 采样点内存使用率，比例整型值，21
+}
+
+// 程序CPU使用率
+message ProcessCpuUsage {
+    BaseStatisticInfo data = 1;    // 时间戳 - 采样点CPU占用率，比例整型值，21
+}
+
+// 程序内存使用
+message ProcessMemoryUsage {
+    BaseStatisticInfo data = 1;    // 时间戳 - 采样点内存使用量，MB单位，整型值，122
+}
+
+// 监控数据集
+message StatisticsSet {
+    NetworkDropFrame ndf = 1;    // 网络丢帧
+    RenderDropFrame rdf = 2; // 渲染丢帧
+    EncodeDropFrame edf = 3; // 编码丢帧
+    GpuUsage gpu = 4; // GPU采样统计数据
+    CpuUsage cpu = 5; // CPU采样统计数据
+    MemoryUsage mem = 6; // 内存采样统计数据
+    ProcessCpuUsage p_cpu = 7; // CPU采样统计数据
+    ProcessMemoryUsage p_mem = 8; // 内存采样统计数据
+}
+
+// 总体性能报告
+message PerformanceReport {
+    int32 logver = 1; // 日志SDK版本，根据该版本号来判断哪些字段有用、该怎么用，0/1/2
+    int32 sampling = 2;     // 整体采样率，次/秒，1
+    AppInfo app_info = 3; // 公共字段信息
+    StartLiveInfo runtime_info = 4; // 开播信息
+    StatisticsSet statistics = 5;   // 采样数据集
+
+    repeated SourceItem source_items = 16;  // 关播时当前场景中的源列表信息
+}

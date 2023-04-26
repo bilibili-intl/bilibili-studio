@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="basic_macros.h" />
+    <ClInclude Include="error_exception_util.h" />
+    <ClInclude Include="string_encoding_conversions.h" />
+    <ClInclude Include="scope_guard.h" />
+    <ClInclude Include="signals.h" />
+    <ClInclude Include="lambda_decay.h" />
+    <ClInclude Include="apply_tuple_to_function.h" />
+    <ClInclude Include="basic_types.h" />
+    <ClInclude Include="string_format.h" />
+    <ClInclude Include="rational.h" />
+    <ClInclude Include="math_util.h" />
+    <ClInclude Include="data_view.h" />
+    <ClInclude Include="win\win10_ver.h">
+      <Filter>win</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="error_exception_util.cpp" />
+    <ClCompile Include="string_encoding_conversions.cpp" />
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClCompile Include="string_format.cpp" />
+    <ClCompile Include="win\win10_ver.cpp">
+      <Filter>win</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{171a562c-cfc9-4dba-a876-163aa3e09e3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{74a64e4e-b910-4ef4-8de0-5c2f9376c3e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win">
+      <UniqueIdentifier>{f540153e-5599-448c-bcfa-28a3612ae363}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

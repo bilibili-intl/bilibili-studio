@@ -1,0 +1,23 @@
+diff a/bililive/bililive/bililive_process_impl.cc b/bililive/bililive/bililive_process_impl.cc	(rejected hunks)
+@@ -441,19 +441,19 @@
+             GetBililiveProcess());
+ 
+         scoped_refptr<BililiveUpdate> bililive(new BililiveUpdate());
+         GetBililiveProcess()->set_bililive_update(bililive);
+ 
+         // �ٽ���¼������֮ǰ
+-        /*CheckUpdateResultCode result = CheckUpdateResultCode::UN_UPDATE;
++        CheckUpdateResultCode result = CheckUpdateResultCode::UN_UPDATE;
+         GetBililiveProcess()->bililive_update()->updates_service()->RequestForReleaseUpdates();
+         CheckVersionrUpdatesView::ShowWidget(&result,false);
+         if (result == CheckUpdateResultCode::UN_UPDATE)
+         {
+             return false;
+-        }*/
++        }
+         return true;
+     }
+     else {
+         MessageBoxW(nullptr, L"Secret-free mode is currently not supported!", L"Critical Error",
+             MB_OK | MB_ICONERROR);
+         return false;

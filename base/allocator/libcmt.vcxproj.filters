@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{76e9c69d-790c-4961-9d24-30e8e8a2d517}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="allocator.gyp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="prep_libc.py">
+      <Filter>_excluded_files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{c73ec1bc-8cc3-410a-b70c-c1be87c915df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\nss">
+      <UniqueIdentifier>{896446dc-1058-4fba-857b-c1a27f2d174e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="hmac.cc" />
+    <ClCompile Include="symmetric_key_win.cc" />
+    <ClCompile Include="hmac_win.cc" />
+    <ClCompile Include="secure_util.cc" />
+    <ClCompile Include="third_party\nss\sha512.cc">
+      <Filter>third_party\nss</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hmac.h" />
+    <ClInclude Include="symmetric_key.h" />
+    <ClInclude Include="secure_util.h" />
+    <ClInclude Include="third_party\nss\chromium-sha256.h">
+      <Filter>third_party\nss</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="crypto.gyp" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build" ToolsVersion="15.0">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>bililive_main_dll</ProjectName>
+    <ProjectGuid>{382EE00F-4D6D-3F0A-2576-0EC967D33114}</ProjectGuid>
+    <RootNamespace>bililive_main_dll</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(SolutionDir)path-config.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>bililive</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>bililive</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>bililive</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>bililive</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <DllDataFileName>%(Filename).dlldata.c</DllDataFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/MP /we4389 /Oy- %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OmitFramePointers>false</OmitFramePointers>
+      <AdditionalIncludeDirectories>..;..\gpu;..\ipc;..\skia\config;..\skia\ext;..\testing\gtest\include;..\third_party;..\third_party\boost_lite;..\third_party\breakpad\src;..\third_party\breakpad\src\breakpad;..\third_party\icu\source\common;..\third_party\icu\source\i18n;..\third_party\jsoncpp\overrides\include;..\third_party\jsoncpp\source\include;..\third_party\libxml\src\include;..\third_party\libxml\win32\include;..\third_party\nss\nspr\lib\ds;..\third_party\nss\nspr\lib\libc\include;..\third_party\nss\nspr\pr\include;..\third_party\nss\nss\lib\base;..\third_party\nss\nss\lib\certdb;..\third_party\nss\nss\lib\certhigh;..\third_party\nss\nss\lib\cryptohi;..\third_party\nss\nss\lib\dev;..\third_party\nss\nss\lib\freebl;..\third_party\nss\nss\lib\freebl\ecl;..\third_party\nss\nss\lib\nss;..\third_party\nss\nss\lib\pk11wrap;..\third_party\nss\nss\lib\pkcs7;..\third_party\nss\nss\lib\pki;..\third_party\nss\nss\lib\smime;..\third_party\nss\nss\lib\softoken;..\third_party\nss\nss\lib\util;..\third_party\skia\include\config;..\third_party\skia\include\core;..\third_party\skia\include\effects;..\third_party\skia\include\gpu;..\third_party\skia\include\lazy;..\third_party\skia\include\pathops;..\third_party\skia\include\pdf;..\third_party\skia\include\pipe;..\third_party\skia\include\ports;..\third_party\skia\include\utils;..\third_party\skia\src\core;..\third_party\wtl\include;..\third_party\zlib;..\third_party\protobuf-3.13.0\src;..\third_party\libwebp;..\cef;..\cef\cef_core;..\cef\cef_core\include;..\cef\cef_core\include\internal;$(IntDir);$(OutDir)obj\global_intermediate;$(OutDir)obj\global_intermediate\bililive;$(OutDir)obj\global_intermediate\installer_util_strings;$(OutDir)obj\global_intermediate\policy;$(OutDir)obj\global_intermediate\protoc_out;$(OutDir)obj\global_intermediate\protoc_out\third_party\libphonenumber;$(OutDir)obj\global_intermediate\ui\app_locale_settings;$(OutDir)obj\global_intermediate\ui\gl;$(OutDir)obj\global_intermediate\ui\ui_resources;$(OutDir)obj\global_intermediate\ui\ui_strings;$(OutDir)obj\global_intermediate\webkit;$(OBSDir)libobs;$(OBSDir)UI\obs-frontend-api;$(OBSDepsDir)win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ANGLE_DX11;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;ENABLE_FULL_PRINTING=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;LIBPEERCONNECTION_LIB=1;GOOGLE_PROTOBUF_NO_RTTI;GOOGLE_PROTOBUF_NO_STATIC_INITIALIZER;NACL_WINDOWS=1;NACL_LINUX=0;NACL_OSX=0;NACL_TARGET_SUBARCH=32;NACL_TARGET_ARCH=x86;NACL_BUILD_SUBARCH=32;NACL_BUILD_ARCH=x86;FEATURE_ENABLE_SSL;FEATURE_ENABLE_VOICEMAIL;EXPAT_RELATIVE_PATH;GTEST_RELATIVE_PATH;JSONCPP_RELATIVE_PATH;NO_MAIN_THREAD_WRAPPING;NO_SOUND_SYSTEM;_CRT_SECURE_NO_WARNINGS;XML_STATIC;NO_NSPR_10_SUPPORT;NSPR_STATIC;NSS_ENABLE_ECC;NSS_STATIC;NSS_USE_STATIC_LIBS;USE_UTIL_DIRECTLY;CLD_WINDOWS;COMPILER_MSVC;PERFTOOLS_DLL_DECL=;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;NDEBUG;NVALGRIND;DYNAMIC_ANNOTATIONS_ENABLED=0;IPC_MESSAGE_IMPL;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;_TIMESPEC_DEFINED;HAVE_SNPRINTF;BUILD_INTSAFE_WORKAROUND_H_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling />
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precompile.h</PrecompiledHeaderFile>
+      <ProgramDataBaseFileName>$(IntDir)$(ProjectName)\vc80.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4355;4396;4503;4819;4100;4121;4125;4127;4130;4131;4189;4201;4238;4244;4245;4310;4428;4481;4505;4510;4512;4530;4610;4611;4701;4702;4706;4267;4049;4217;4996;4456;4457;4458;4459;4302;4838;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ForcedIncludeFiles>precompile.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>ANGLE_DX11;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;ENABLE_FULL_PRINTING=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;LIBPEERCONNECTION_LIB=1;GOOGLE_PROTOBUF_NO_RTTI;GOOGLE_PROTOBUF_NO_STATIC_INITIALIZER;NACL_WINDOWS=1;NACL_LINUX=0;NACL_OSX=0;NACL_TARGET_SUBARCH=32;NACL_TARGET_ARCH=x86;NACL_BUILD_SUBARCH=32;NACL_BUILD_ARCH=x86;FEATURE_ENABLE_SSL;FEATURE_ENABLE_VOICEMAIL;EXPAT_RELATIVE_PATH;GTEST_RELATIVE_PATH;JSONCPP_RELATIVE_PATH;NO_MAIN_THREAD_WRAPPING;NO_SOUND_SYSTEM;_CRT_SECURE_NO_WARNINGS;XML_STATIC;NO_NSPR_10_SUPPORT;NSPR_STATIC;NSS_ENABLE_ECC;NSS_STATIC;NSS_USE_STATIC_LIBS;USE_UTIL_DIRECTLY;CLD_WINDOWS;COMPILER_MSVC;PERFTOOLS_DLL_DECL=;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;NDEBUG;NVALGRIND;DYNAMIC_ANNOTATIONS_ENABLED=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>..;$(OutDir)obj\global_intermediate;..\third_party\wtl\include;..\third_party\khronos;..\gpu;..;$(OutDir)obj\global_intermediate\protoc_out;..\third_party\protobuf\vsprojects;..\third_party\protobuf\src;..\third_party\libjingle\overrides;..\third_party\libjingle\source;..\testing\gtest\include;..\third_party;..\third_party\webrtc;..\third_party\third_party\platformsdk_win7\files\Include;..\third_party\expat\files\lib;..\third_party\jsoncpp\overrides\include;..\third_party\jsoncpp\source\include;..\third_party\cacheinvalidation\overrides;..\third_party\cacheinvalidation\src;$(OutDir)obj\global_intermediate\policy;$(OutDir)obj\global_intermediate\bililive;$(OutDir)obj\global_intermediate\bililive_version;..\third_party\nss\nspr\pr\include;..\third_party\nss\nspr\lib\ds;..\third_party\nss\nspr\lib\libc\include;..\third_party\nss\nss\lib\base;..\third_party\nss\nss\lib\certdb;..\third_party\nss\nss\lib\certhigh;..\third_party\nss\nss\lib\cryptohi;..\third_party\nss\nss\lib\dev;..\third_party\nss\nss\lib\freebl;..\third_party\nss\nss\lib\freebl\ecl;..\third_party\nss\nss\lib\nss;..\third_party\nss\nss\lib\pk11wrap;..\third_party\nss\nss\lib\pkcs7;..\third_party\nss\nss\lib\pki;..\third_party\nss\nss\lib\smime;..\third_party\nss\nss\lib\softoken;..\third_party\nss\nss\lib\util;$(OutDir)obj\global_intermediate\net;..\third_party\cld;$(OutDir)obj\global_intermediate\webkit;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/safeseh /dynamicbase /ignore:4199 /ignore:4221 /nxcompat /largeaddressaware %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>advapi32.lib;comdlg32.lib;dbghelp.lib;delayimp.lib;gdi32.lib;DXGI.lib;kernel32.lib;msimg32.lib;ole32.lib;oleacc.lib;oleaut32.lib;psapi.lib;shell32.lib;shlwapi.lib;user32.lib;usp10.lib;uuid.lib;version.lib;wininet.lib;ws2_32.lib;$(OutDir)lib\base.lib;$(OutDir)lib\base_i18n.lib;$(OutDir)lib\base_static.lib;$(OutDir)lib\bilibase.lib;$(OutDir)lib\common.lib;$(OutDir)lib\compositor.lib;$(OutDir)lib\crash_generation_client.lib;$(OutDir)lib\crash_report_sender.lib;$(OutDir)lib\crcrypto.lib;$(OutDir)lib\crnspr.lib;$(OutDir)lib\crnss.lib;$(OutDir)lib\crssl.lib;$(OutDir)lib\dynamic_annotations.lib;$(OutDir)lib\exception_handler.lib;$(OutDir)lib\icui18n.lib;$(OutDir)lib\icuuc.lib;$(OutDir)lib\ipc.lib;$(OutDir)lib\libnsgif.lib;$(OutDir)lib\libpng.lib;$(OutDir)lib\modp_b64.lib;$(OutDir)lib\native_theme.lib;$(OutDir)lib\net.lib;$(OutDir)lib\nss_static.lib;$(OutDir)lib\obs_proxy.lib;$(OutDir)lib\sdch.lib;$(OutDir)lib\shell_dialogs.lib;$(OutDir)lib\skia_chrome_opts.lib;$(OutDir)lib\skia_chrome.lib;$(OutDir)lib\skia_library.lib;$(OutDir)lib\skia_opts_ssse3.lib;$(OutDir)lib\skia_opts.lib;$(OutDir)lib\sql.lib;$(OutDir)lib\sqlite3.lib;$(OutDir)lib\ui.lib;$(OutDir)lib\url_lib.lib;$(OutDir)lib\views.lib;$(OutDir)lib\zlib.lib;$(OutDir)lib\zip.lib;$(OutDir)lib\minizip.lib;$(OutDir)lib\webp.lib;$(OutDir)lib\webpdemux.lib;$(OutDir)lib\jsoncpp.lib;$(OBSCMakeDir)libobs\$(Configuration)\obs.lib;$(OBSCMakeDir)libobs-d3d11\$(Configuration)\libobs-d3d11.lib;$(OBSCMakeDir)UI\obs-frontend-api\$(Configuration)\obs-frontend-api.lib;$(SolutionDir)..\third_party\libqrencode\lib\$(platform)\$(Configuration)\qrencode.lib;$(OutDir)lib\streaming-processor.lib;$(OutDir)bililive_motion.lib;$(ThirdPartyDir)protobuf-3.13.0\binary\lib\$(platform)\$(Configuration)\libprotobuf.lib;$(ThirdPartyDir)libjpeg_turbo_x86\lib\$(Configuration)\libjpeg.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>..\build\win\importlibs\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DelayLoadDLLs>dbghelp.dll;dwmapi.dll;shell32.dll;uxtheme.dll;comdlg32.dll;crypt32.dll;cryptui.dll;dhcpcsvc.dll;imagehlp.dll;imm32.dll;iphlpapi.dll;setupapi.dll;urlmon.dll;winhttp.dll;wininet.dll;winspool.drv;ws2_32.dll;wsock32.dll;user32-delay.dll;mf.dll;mfplat.dll;mfreadwrite.dll;Bthprops.cpl;d3d9.dll;dxva2.dll;ffmpegsumo.dll;dinput8.dll;obs.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(TargetPath).pdb</ProgramDatabaseFile>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <BaseAddress>0x01c30000</BaseAddress>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <FixedBaseAddress>false</FixedBaseAddress>
+      <DataExecutionPrevention />
+      <ImportLibrary>$(OutDir)lib\bililive_dll.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+      <Profile>true</Profile>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>$(ProjectDir)\app\bililive.dll.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
+    </Manifest>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>$(ThirdPartyDir)protobuf-3.13.0\binary\bin\$(Platform)\protoc.exe --cpp_out=$(SolutionDir)public\protobuf -I=$(SolutionDir)public\protobuf streaming_details.proto</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <DllDataFileName>%(Filename).dlldata.c</DllDataFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/MP /we4389 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..;..\gpu;..\ipc;..\skia\config;..\skia\ext;..\testing\gtest\include;..\third_party;..\third_party\boost_lite;..\third_party\breakpad\src;..\third_party\breakpad\src\breakpad;..\third_party\icu\source\common;..\third_party\icu\source\i18n;..\third_party\jsoncpp\overrides\include;..\third_party\jsoncpp\source\include;..\third_party\libxml\src\include;..\third_party\libxml\win32\include;..\third_party\nss\nspr\lib\ds;..\third_party\nss\nspr\lib\libc\include;..\third_party\nss\nspr\pr\include;..\third_party\nss\nss\lib\base;..\third_party\nss\nss\lib\certdb;..\third_party\nss\nss\lib\certhigh;..\third_party\nss\nss\lib\cryptohi;..\third_party\nss\nss\lib\dev;..\third_party\nss\nss\lib\freebl;..\third_party\nss\nss\lib\freebl\ecl;..\third_party\nss\nss\lib\nss;..\third_party\nss\nss\lib\pk11wrap;..\third_party\nss\nss\lib\pkcs7;..\third_party\nss\nss\lib\pki;..\third_party\nss\nss\lib\smime;..\third_party\nss\nss\lib\softoken;..\third_party\nss\nss\lib\util;..\third_party\skia\include\config;..\third_party\skia\include\core;..\third_party\skia\include\effects;..\third_party\skia\include\gpu;..\third_party\skia\include\lazy;..\third_party\skia\include\pathops;..\third_party\skia\include\pdf;..\third_party\skia\include\pipe;..\third_party\skia\include\ports;..\third_party\skia\include\utils;..\third_party\skia\src\core;..\third_party\wtl\include;..\third_party\zlib;..\third_party\protobuf-3.13.0\src;..\third_party\libwebp;..\cef;..\cef\cef_core;..\cef\cef_core\include;..\cef\cef_core\include\internal;$(IntDir);$(OutDir)obj\global_intermediate;$(OutDir)obj\global_intermediate\bililive;$(OutDir)obj\global_intermediate\installer_util_strings;$(OutDir)obj\global_intermediate\policy;$(OutDir)obj\global_intermediate\protoc_out;$(OutDir)obj\global_intermediate\protoc_out\third_party\libphonenumber;$(OutDir)obj\global_intermediate\ui\app_locale_settings;$(OutDir)obj\global_intermediate\ui\gl;$(OutDir)obj\global_intermediate\ui\ui_resources;$(OutDir)obj\global_intermediate\ui\ui_strings;$(OutDir)obj\global_intermediate\webkit;$(OBSDir)libobs;$(OBSDir)UI\obs-frontend-api;$(OBSDepsDir)win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;ANGLE_DX11;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;ENABLE_FULL_PRINTING=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;VIEWS_EXAMPLES_IMPLEMENTATION;SK_ENABLE_INST_COUNT=0;SK_SUPPORT_GPU=1;GR_GL_CUSTOM_SETUP_HEADER="GrGLConfig_bililive.h";SK_DEFERRED_CANVAS_USES_FACTORIES=1;U_USING_ICU_NAMESPACE=0;U_STATIC_IMPLEMENTATION;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;DYNAMIC_ANNOTATIONS_ENABLED=1;WTF_USE_DYNAMIC_ANNOTATIONS=1;IPC_MESSAGE_IMPL;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;BUILD_INTSAFE_WORKAROUND_H_;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;_TIMESPEC_DEFINED;HAVE_SNPRINTF;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling />
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precompile.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ProgramDataBaseFileName>$(IntDir)$(ProjectName)\vc80.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4355;4396;4503;4819;4100;4121;4125;4127;4130;4131;4189;4201;4238;4244;4245;4310;4428;4481;4505;4510;4512;4530;4610;4611;4701;4702;4706;4267;4996;4456;4457;4458;4459;4302;4838;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ForcedIncludeFiles>precompile.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;ANGLE_DX11;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;ENABLE_FULL_PRINTING=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;LIBPEERCONNECTION_LIB=1;GOOGLE_PROTOBUF_NO_RTTI;GOOGLE_PROTOBUF_NO_STATIC_INITIALIZER;NACL_WINDOWS=1;NACL_LINUX=0;NACL_OSX=0;NACL_TARGET_SUBARCH=32;NACL_TARGET_ARCH=x86;NACL_BUILD_SUBARCH=32;NACL_BUILD_ARCH=x86;FEATURE_ENABLE_SSL;FEATURE_ENABLE_VOICEMAIL;EXPAT_RELATIVE_PATH;GTEST_RELATIVE_PATH;JSONCPP_RELATIVE_PATH;NO_MAIN_THREAD_WRAPPING;NO_SOUND_SYSTEM;_CRT_SECURE_NO_WARNINGS;XML_STATIC;NO_NSPR_10_SUPPORT;NSPR_STATIC;NSS_ENABLE_ECC;NSS_STATIC;NSS_USE_STATIC_LIBS;USE_UTIL_DIRECTLY;CLD_WINDOWS;COMPILER_MSVC;PERFTOOLS_DLL_DECL=;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;DYNAMIC_ANNOTATIONS_ENABLED=1;WTF_USE_DYNAMIC_ANNOTATIONS=1;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>..;$(OutDir)obj\global_intermediate;..\third_party\wtl\include;..\third_party\khronos;..\gpu;..;$(OutDir)obj\global_intermediate\protoc_out;..\third_party\protobuf\vsprojects;..\third_party\protobuf\src;..\third_party\libjingle\overrides;..\third_party\libjingle\source;..\testing\gtest\include;..\third_party;..\third_party\webrtc;..\third_party\third_party\platformsdk_win7\files\Include;..\third_party\expat\files\lib;..\third_party\jsoncpp\overrides\include;..\third_party\jsoncpp\source\include;..\third_party\cacheinvalidation\overrides;..\third_party\cacheinvalidation\src;$(OutDir)obj\global_intermediate\policy;$(OutDir)obj\global_intermediate\bililive;$(OutDir)obj\global_intermediate\bililive_version;..\third_party\nss\nspr\pr\include;..\third_party\nss\nspr\lib\ds;..\third_party\nss\nspr\lib\libc\include;..\third_party\nss\nss\lib\base;..\third_party\nss\nss\lib\certdb;..\third_party\nss\nss\lib\certhigh;..\third_party\nss\nss\lib\cryptohi;..\third_party\nss\nss\lib\dev;..\third_party\nss\nss\lib\freebl;..\third_party\nss\nss\lib\freebl\ecl;..\third_party\nss\nss\lib\nss;..\third_party\nss\nss\lib\pk11wrap;..\third_party\nss\nss\lib\pkcs7;..\third_party\nss\nss\lib\pki;..\third_party\nss\nss\lib\smime;..\third_party\nss\nss\lib\softoken;..\third_party\nss\nss\lib\util;$(OutDir)obj\global_intermediate\net;..\third_party\cld;$(OutDir)obj\global_intermediate\webkit;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/safeseh /dynamicbase /ignore:4199 /ignore:4221 /nxcompat /largeaddressaware %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>advapi32.lib;comdlg32.lib;dbghelp.lib;delayimp.lib;gdi32.lib;DXGI.lib;kernel32.lib;msimg32.lib;ole32.lib;oleacc.lib;oleaut32.lib;psapi.lib;shell32.lib;shlwapi.lib;user32.lib;usp10.lib;uuid.lib;version.lib;wininet.lib;ws2_32.lib;$(OutDir)lib\base.lib;$(OutDir)lib\base_i18n.lib;$(OutDir)lib\base_static.lib;$(OutDir)lib\bilibase.lib;$(OutDir)lib\common.lib;$(OutDir)lib\compositor.lib;$(OutDir)lib\crash_generation_client.lib;$(OutDir)lib\crash_report_sender.lib;$(OutDir)lib\crcrypto.lib;$(OutDir)lib\crnspr.lib;$(OutDir)lib\crnss.lib;$(OutDir)lib\crssl.lib;$(OutDir)lib\dynamic_annotations.lib;$(OutDir)lib\exception_handler.lib;$(OutDir)lib\icui18n.lib;$(OutDir)lib\icuuc.lib;$(OutDir)lib\ipc.lib;$(OutDir)lib\libnsgif.lib;$(OutDir)lib\libpng.lib;$(OutDir)lib\modp_b64.lib;$(OutDir)lib\native_theme.lib;$(OutDir)lib\net.lib;$(OutDir)lib\nss_static.lib;$(OutDir)lib\obs_proxy.lib;$(OutDir)lib\sdch.lib;$(OutDir)lib\shell_dialogs.lib;$(OutDir)lib\skia_chrome_opts.lib;$(OutDir)lib\skia_chrome.lib;$(OutDir)lib\skia_library.lib;$(OutDir)lib\skia_opts_ssse3.lib;$(OutDir)lib\skia_opts.lib;$(OutDir)lib\sql.lib;$(OutDir)lib\sqlite3.lib;$(OutDir)lib\ui.lib;$(OutDir)lib\url_lib.lib;$(OutDir)lib\views.lib;$(OutDir)lib\zlib.lib;$(OutDir)lib\zip.lib;$(OutDir)lib\minizip.lib;$(OutDir)lib\webp.lib;$(OutDir)lib\webpdemux.lib;$(OutDir)lib\jsoncpp.lib;$(OBSCMakeDir)libobs\$(Configuration)\obs.lib;$(OBSCMakeDir)libobs-d3d11\$(Configuration)\libobs-d3d11.lib;$(OBSCMakeDir)UI\obs-frontend-api\$(Configuration)\obs-frontend-api.lib;$(SolutionDir)..\third_party\libqrencode\lib\$(platform)\$(Configuration)\qrencode.lib;$(OutDir)lib\streaming-processor.lib;$(OutDir)bililive_motion.lib;$(ThirdPartyDir)protobuf-3.13.0\binary\lib\$(platform)\$(Configuration)\libprotobufd.lib;$(ThirdPartyDir)libjpeg_turbo_x86\lib\$(Configuration)\libjpeg.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>..\build\win\importlibs\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DelayLoadDLLs>dbghelp.dll;dwmapi.dll;shell32.dll;uxtheme.dll;comdlg32.dll;crypt32.dll;cryptui.dll;dhcpcsvc.dll;imagehlp.dll;imm32.dll;iphlpapi.dll;setupapi.dll;urlmon.dll;winhttp.dll;wininet.dll;winspool.drv;ws2_32.dll;wsock32.dll;user32-delay.dll;mf.dll;mfplat.dll;mfreadwrite.dll;Bthprops.cpl;d3d9.dll;dxva2.dll;ffmpegsumo.dll;dinput8.dll;obs.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(TargetPath).pdb</ProgramDatabaseFile>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <BaseAddress>0x01c30000</BaseAddress>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <FixedBaseAddress>false</FixedBaseAddress>
+      <DataExecutionPrevention />
+      <ImportLibrary>$(OutDir)lib\bililive_dll.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>$(ProjectDir)\app\bililive.dll.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
+    </Manifest>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>$(ThirdPartyDir)protobuf-3.13.0\binary\bin\$(Platform)\protoc.exe --cpp_out=$(SolutionDir)public\protobuf -I=$(SolutionDir)public\protobuf streaming_details.proto</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <DllDataFileName>%(Filename).dlldata.c</DllDataFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/MP /we4389 /Oy- %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OmitFramePointers>false</OmitFramePointers>
+      <AdditionalIncludeDirectories>..;..\gpu;..\ipc;..\skia\config;..\skia\ext;..\testing\gtest\include;..\third_party;..\third_party\boost_lite;..\third_party\breakpad\src;..\third_party\breakpad\src\breakpad;..\third_party\icu\source\common;..\third_party\icu\source\i18n;..\third_party\jsoncpp\overrides\include;..\third_party\jsoncpp\source\include;..\third_party\libxml\src\include;..\third_party\libxml\win32\include;..\third_party\nss\nspr\lib\ds;..\third_party\nss\nspr\lib\libc\include;..\third_party\nss\nspr\pr\include;..\third_party\nss\nss\lib\base;..\third_party\nss\nss\lib\certdb;..\third_party\nss\nss\lib\certhigh;..\third_party\nss\nss\lib\cryptohi;..\third_party\nss\nss\lib\dev;..\third_party\nss\nss\lib\freebl;..\third_party\nss\nss\lib\freebl\ecl;..\third_party\nss\nss\lib\nss;..\third_party\nss\nss\lib\pk11wrap;..\third_party\nss\nss\lib\pkcs7;..\third_party\nss\nss\lib\pki;..\third_party\nss\nss\lib\smime;..\third_party\nss\nss\lib\softoken;..\third_party\nss\nss\lib\util;..\third_party\skia\include\config;..\third_party\skia\include\core;..\third_party\skia\include\effects;..\third_party\skia\include\gpu;..\third_party\skia\include\lazy;..\third_party\skia\include\pathops;..\third_party\skia\include\pdf;..\third_party\skia\include\pipe;..\third_party\skia\include\ports;..\third_party\skia\include\utils;..\third_party\skia\src\core;..\third_party\wtl\include;..\third_party\zlib;..\third_party\protobuf-3.17.3\src;..\third_party\libwebp;..\cef;..\cef\cef_core;..\cef\cef_core\include;..\cef\cef_core\include\internal;$(IntDir);$(OutDir)obj\global_intermediate;$(OutDir)obj\global_intermediate\bililive;$(OutDir)obj\global_intermediate\installer_util_strings;$(OutDir)obj\global_intermediate\policy;$(OutDir)obj\global_intermediate\protoc_out;$(OutDir)obj\global_intermediate\protoc_out\third_party\libphonenumber;$(OutDir)obj\global_intermediate\ui\app_locale_settings;$(OutDir)obj\global_intermediate\ui\gl;$(OutDir)obj\global_intermediate\ui\ui_resources;$(OutDir)obj\global_intermediate\ui\ui_strings;$(OutDir)obj\global_intermediate\webkit;$(OBSDir)libobs;$(OBSDir)UI\obs-frontend-api;$(OBSDepsDir)win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ANGLE_DX11;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;ENABLE_FULL_PRINTING=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;LIBPEERCONNECTION_LIB=1;GOOGLE_PROTOBUF_NO_RTTI;GOOGLE_PROTOBUF_NO_STATIC_INITIALIZER;NACL_WINDOWS=1;NACL_LINUX=0;NACL_OSX=0;NACL_TARGET_SUBARCH=32;NACL_TARGET_ARCH=x86;NACL_BUILD_SUBARCH=32;NACL_BUILD_ARCH=x86;FEATURE_ENABLE_SSL;FEATURE_ENABLE_VOICEMAIL;EXPAT_RELATIVE_PATH;GTEST_RELATIVE_PATH;JSONCPP_RELATIVE_PATH;NO_MAIN_THREAD_WRAPPING;NO_SOUND_SYSTEM;_CRT_SECURE_NO_WARNINGS;XML_STATIC;NO_NSPR_10_SUPPORT;NSPR_STATIC;NSS_ENABLE_ECC;NSS_STATIC;NSS_USE_STATIC_LIBS;USE_UTIL_DIRECTLY;CLD_WINDOWS;COMPILER_MSVC;PERFTOOLS_DLL_DECL=;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;NDEBUG;NVALGRIND;DYNAMIC_ANNOTATIONS_ENABLED=0;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;_TIMESPEC_DEFINED;HAVE_SNPRINTF;USE_VIDDUP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling />
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precompile.h</PrecompiledHeaderFile>
+      <ProgramDataBaseFileName>$(IntDir)$(ProjectName)\vc80.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4355;4396;4503;4819;4100;4121;4125;4127;4130;4131;4189;4201;4238;4244;4245;4310;4428;4481;4505;4510;4512;4530;4610;4611;4701;4702;4706;4267;4456;4457;4458;4459;4302;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ForcedIncludeFiles>precompile.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>ANGLE_DX11;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;ENABLE_FULL_PRINTING=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;LIBPEERCONNECTION_LIB=1;GOOGLE_PROTOBUF_NO_RTTI;GOOGLE_PROTOBUF_NO_STATIC_INITIALIZER;NACL_WINDOWS=1;NACL_LINUX=0;NACL_OSX=0;NACL_TARGET_SUBARCH=32;NACL_TARGET_ARCH=x86;NACL_BUILD_SUBARCH=32;NACL_BUILD_ARCH=x86;FEATURE_ENABLE_SSL;FEATURE_ENABLE_VOICEMAIL;EXPAT_RELATIVE_PATH;GTEST_RELATIVE_PATH;JSONCPP_RELATIVE_PATH;NO_MAIN_THREAD_WRAPPING;NO_SOUND_SYSTEM;_CRT_SECURE_NO_WARNINGS;XML_STATIC;NO_NSPR_10_SUPPORT;NSPR_STATIC;NSS_ENABLE_ECC;NSS_STATIC;NSS_USE_STATIC_LIBS;USE_UTIL_DIRECTLY;CLD_WINDOWS;COMPILER_MSVC;PERFTOOLS_DLL_DECL=;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;NDEBUG;NVALGRIND;DYNAMIC_ANNOTATIONS_ENABLED=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>..;$(OutDir)obj\global_intermediate;..\third_party\wtl\include;..\third_party\khronos;..\gpu;..;$(OutDir)obj\global_intermediate\protoc_out;..\third_party\protobuf\vsprojects;..\third_party\protobuf\src;..\third_party\libjingle\overrides;..\third_party\libjingle\source;..\testing\gtest\include;..\third_party;..\third_party\webrtc;..\third_party\third_party\platformsdk_win7\files\Include;..\third_party\expat\files\lib;..\third_party\jsoncpp\overrides\include;..\third_party\jsoncpp\source\include;..\third_party\cacheinvalidation\overrides;..\third_party\cacheinvalidation\src;$(OutDir)obj\global_intermediate\policy;$(OutDir)obj\global_intermediate\bililive;$(OutDir)obj\global_intermediate\bililive_version;..\third_party\nss\nspr\pr\include;..\third_party\nss\nspr\lib\ds;..\third_party\nss\nspr\lib\libc\include;..\third_party\nss\nss\lib\base;..\third_party\nss\nss\lib\certdb;..\third_party\nss\nss\lib\certhigh;..\third_party\nss\nss\lib\cryptohi;..\third_party\nss\nss\lib\dev;..\third_party\nss\nss\lib\freebl;..\third_party\nss\nss\lib\freebl\ecl;..\third_party\nss\nss\lib\nss;..\third_party\nss\nss\lib\pk11wrap;..\third_party\nss\nss\lib\pkcs7;..\third_party\nss\nss\lib\pki;..\third_party\nss\nss\lib\smime;..\third_party\nss\nss\lib\softoken;..\third_party\nss\nss\lib\util;$(OutDir)obj\global_intermediate\net;..\third_party\cld;$(OutDir)obj\global_intermediate\webkit;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/dynamicbase /ignore:4199 /ignore:4221 /nxcompat %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>advapi32.lib;comdlg32.lib;dbghelp.lib;delayimp.lib;gdi32.lib;DXGI.lib;kernel32.lib;msimg32.lib;ole32.lib;oleacc.lib;oleaut32.lib;psapi.lib;shell32.lib;shlwapi.lib;user32.lib;usp10.lib;uuid.lib;version.lib;wininet.lib;ws2_32.lib;$(OutDir)lib\base.lib;$(OutDir)lib\base_i18n.lib;$(OutDir)lib\base_static.lib;$(OutDir)lib\bilibase.lib;$(OutDir)lib\common.lib;$(OutDir)lib\compositor.lib;$(OutDir)lib\crash_generation_client.lib;$(OutDir)lib\crash_report_sender.lib;$(OutDir)lib\crcrypto.lib;$(OutDir)lib\crnspr.lib;$(OutDir)lib\crnss.lib;$(OutDir)lib\crssl.lib;$(OutDir)lib\dynamic_annotations.lib;$(OutDir)lib\exception_handler.lib;$(OutDir)lib\icui18n.lib;$(OutDir)lib\icuuc.lib;$(OutDir)lib\ipc.lib;$(OutDir)lib\libnsgif.lib;$(OutDir)lib\libpng.lib;$(OutDir)lib\modp_b64.lib;$(OutDir)lib\native_theme.lib;$(OutDir)lib\net.lib;$(OutDir)lib\nss_static.lib;$(OutDir)lib\obs_proxy.lib;$(OutDir)lib\sdch.lib;$(OutDir)lib\shell_dialogs.lib;$(OutDir)lib\skia_chrome_opts.lib;$(OutDir)lib\skia_chrome.lib;$(OutDir)lib\skia_library.lib;$(OutDir)lib\skia_opts_ssse3.lib;$(OutDir)lib\skia_opts.lib;$(OutDir)lib\sql.lib;$(OutDir)lib\sqlite3.lib;$(OutDir)lib\ui.lib;$(OutDir)lib\url_lib.lib;$(OutDir)lib\views.lib;$(OutDir)lib\zlib.lib;$(OutDir)lib\zip.lib;$(OutDir)lib\minizip.lib;$(OutDir)lib\webp.lib;$(OutDir)lib\webpdemux.lib;$(OutDir)lib\jsoncpp.lib;$(OBSCMakeDir64)libobs\$(Configuration)\obs.lib;$(OBSCMakeDir64)libobs-d3d11\$(Configuration)\libobs-d3d11.lib;$(OBSCMakeDir64)UI\obs-frontend-api\$(Configuration)\obs-frontend-api.lib;$(SolutionDir)..\third_party\libqrencode\lib\$(platform)\$(Configuration)\qrencode.lib;$(OutDir)lib\streaming-processor.lib;$(OutDir)bililive_motion.lib;$(ThirdPartyDir)protobuf-3.17.3\binary\lib\$(platform)\$(Configuration)\libprotobuf.lib;$(ThirdPartyDir)libjpeg_turbo\lib\$(Configuration)\libjpeg.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)bililive.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\build\win\importlibs\x86;$(OutDir)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <ForceSymbolReferences>
+      </ForceSymbolReferences>
+      <DelayLoadDLLs>dbghelp.dll;dwmapi.dll;shell32.dll;uxtheme.dll;comdlg32.dll;crypt32.dll;cryptui.dll;dhcpcsvc.dll;imagehlp.dll;imm32.dll;iphlpapi.dll;setupapi.dll;urlmon.dll;winhttp.dll;wininet.dll;winspool.drv;ws2_32.dll;wsock32.dll;user32-delay.dll;mf.dll;mfplat.dll;mfreadwrite.dll;Bthprops.cpl;d3d9.dll;dxva2.dll;ffmpegsumo.dll;dinput8.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(TargetPath).pdb</ProgramDatabaseFile>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <BaseAddress>0x01c30000</BaseAddress>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <FixedBaseAddress>false</FixedBaseAddress>
+      <DataExecutionPrevention />
+      <ImportLibrary>$(OutDir)lib\bililive_dll.lib</ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+      <Profile>true</Profile>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>$(ProjectDir)\app\bililive.dll.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <DllDataFileName>%(Filename).dlldata.c</DllDataFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/MP /we4389 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..;..\gpu;..\ipc;..\skia\config;..\skia\ext;..\testing\gtest\include;..\third_party;..\third_party\boost_lite;..\third_party\breakpad\src;..\third_party\breakpad\src\breakpad;..\third_party\icu\source\common;..\third_party\icu\source\i18n;..\third_party\jsoncpp\overrides\include;..\third_party\jsoncpp\source\include;..\third_party\libxml\src\include;..\third_party\libxml\win32\include;..\third_party\nss\nspr\lib\ds;..\third_party\nss\nspr\lib\libc\include;..\third_party\nss\nspr\pr\include;..\third_party\nss\nss\lib\base;..\third_party\nss\nss\lib\certdb;..\third_party\nss\nss\lib\certhigh;..\third_party\nss\nss\lib\cryptohi;..\third_party\nss\nss\lib\dev;..\third_party\nss\nss\lib\freebl;..\third_party\nss\nss\lib\freebl\ecl;..\third_party\nss\nss\lib\nss;..\third_party\nss\nss\lib\pk11wrap;..\third_party\nss\nss\lib\pkcs7;..\third_party\nss\nss\lib\pki;..\third_party\nss\nss\lib\smime;..\third_party\nss\nss\lib\softoken;..\third_party\nss\nss\lib\util;..\third_party\skia\include\config;..\third_party\skia\include\core;..\third_party\skia\include\effects;..\third_party\skia\include\gpu;..\third_party\skia\include\lazy;..\third_party\skia\include\pathops;..\third_party\skia\include\pdf;..\third_party\skia\include\pipe;..\third_party\skia\include\ports;..\third_party\skia\include\utils;..\third_party\skia\src\core;..\third_party\wtl\include;..\third_party\zlib;..\third_party\protobuf-3.17.3\src;..\third_party\libwebp;..\cef;..\cef\cef_core;..\cef\cef_core\include;..\cef\cef_core\include\internal;$(IntDir);$(OutDir)obj\global_intermediate;$(OutDir)obj\global_intermediate\bililive;$(OutDir)obj\global_intermediate\installer_util_strings;$(OutDir)obj\global_intermediate\policy;$(OutDir)obj\global_intermediate\protoc_out;$(OutDir)obj\global_intermediate\protoc_out\third_party\libphonenumber;$(OutDir)obj\global_intermediate\ui\app_locale_settings;$(OutDir)obj\global_intermediate\ui\gl;$(OutDir)obj\global_intermediate\ui\ui_resources;$(OutDir)obj\global_intermediate\ui\ui_strings;$(OutDir)obj\global_intermediate\webkit;$(OBSDir)libobs;$(OBSDir)UI\obs-frontend-api;$(OBSDepsDir)win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;ANGLE_DX11;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;ENABLE_FULL_PRINTING=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;LIBPEERCONNECTION_LIB=1;GOOGLE_PROTOBUF_NO_RTTI;GOOGLE_PROTOBUF_NO_STATIC_INITIALIZER;NACL_WINDOWS=1;NACL_LINUX=0;NACL_OSX=0;NACL_TARGET_SUBARCH=32;NACL_TARGET_ARCH=x86;NACL_BUILD_SUBARCH=32;NACL_BUILD_ARCH=x86;FEATURE_ENABLE_SSL;FEATURE_ENABLE_VOICEMAIL;EXPAT_RELATIVE_PATH;GTEST_RELATIVE_PATH;JSONCPP_RELATIVE_PATH;NO_MAIN_THREAD_WRAPPING;NO_SOUND_SYSTEM;_CRT_SECURE_NO_WARNINGS;XML_STATIC;NO_NSPR_10_SUPPORT;NSPR_STATIC;NSS_ENABLE_ECC;NSS_STATIC;NSS_USE_STATIC_LIBS;USE_UTIL_DIRECTLY;CLD_WINDOWS;COMPILER_MSVC;PERFTOOLS_DLL_DECL=;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;DYNAMIC_ANNOTATIONS_ENABLED=1;WTF_USE_DYNAMIC_ANNOTATIONS=1;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;HAVE_SNPRINTF;USE_VIDDUP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling />
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precompile.h</PrecompiledHeaderFile>
+      <ProgramDataBaseFileName>$(IntDir)$(ProjectName)\vc80.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4355;4396;4503;4819;4100;4121;4125;4127;4130;4131;4189;4201;4238;4244;4245;4310;4428;4481;4505;4510;4512;4530;4610;4611;4701;4702;4706;4267;4456;4457;4458;4459;4302;4311;4312;4838;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ForcedIncludeFiles>precompile.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;ANGLE_DX11;_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_PEPPER_CDMS;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;NTDDI_VERSION=0x06020000;ENABLE_TASK_MANAGER=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PLUGINS=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_AUTOFILL_DIALOG=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_GOOGLE_NOW=1;ENABLE_FULL_PRINTING=1;ENABLE_PRINTING=1;ENABLE_SPELLCHECK=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;ENABLE_APP_LIST=1;ENABLE_SETTINGS_APP=1;ENABLE_MANAGED_USERS=1;ENABLE_MDNS=1;LIBPEERCONNECTION_LIB=1;GOOGLE_PROTOBUF_NO_RTTI;GOOGLE_PROTOBUF_NO_STATIC_INITIALIZER;NACL_WINDOWS=1;NACL_LINUX=0;NACL_OSX=0;NACL_TARGET_SUBARCH=32;NACL_TARGET_ARCH=x86;NACL_BUILD_SUBARCH=32;NACL_BUILD_ARCH=x86;FEATURE_ENABLE_SSL;FEATURE_ENABLE_VOICEMAIL;EXPAT_RELATIVE_PATH;GTEST_RELATIVE_PATH;JSONCPP_RELATIVE_PATH;NO_MAIN_THREAD_WRAPPING;NO_SOUND_SYSTEM;_CRT_SECURE_NO_WARNINGS;XML_STATIC;NO_NSPR_10_SUPPORT;NSPR_STATIC;NSS_ENABLE_ECC;NSS_STATIC;NSS_USE_STATIC_LIBS;USE_UTIL_DIRECTLY;CLD_WINDOWS;COMPILER_MSVC;PERFTOOLS_DLL_DECL=;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;DYNAMIC_ANNOTATIONS_ENABLED=1;WTF_USE_DYNAMIC_ANNOTATIONS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>..;$(OutDir)obj\global_intermediate;..\third_party\wtl\include;..\third_party\khronos;..\gpu;..;$(OutDir)obj\global_intermediate\protoc_out;..\third_party\protobuf\vsprojects;..\third_party\protobuf\src;..\third_party\libjingle\overrides;..\third_party\libjingle\source;..\testing\gtest\include;..\third_party;..\third_party\webrtc;..\third_party\third_party\platformsdk_win7\files\Include;..\third_party\expat\files\lib;..\third_party\jsoncpp\overrides\include;..\third_party\jsoncpp\source\include;..\third_party\cacheinvalidation\overrides;..\third_party\cacheinvalidation\src;$(OutDir)obj\global_intermediate\policy;$(OutDir)obj\global_intermediate\bililive;$(OutDir)obj\global_intermediate\bililive_version;..\third_party\nss\nspr\pr\include;..\third_party\nss\nspr\lib\ds;..\third_party\nss\nspr\lib\libc\include;..\third_party\nss\nss\lib\base;..\third_party\nss\nss\lib\certdb;..\third_party\nss\nss\lib\certhigh;..\third_party\nss\nss\lib\cryptohi;..\third_party\nss\nss\lib\dev;..\third_party\nss\nss\lib\freebl;..\third_party\nss\nss\lib\freebl\ecl;..\third_party\nss\nss\lib\nss;..\third_party\nss\nss\lib\pk11wrap;..\third_party\nss\nss\lib\pkcs7;..\third_party\nss\nss\lib\pki;..\third_party\nss\nss\lib\smime;..\third_party\nss\nss\lib\softoken;..\third_party\nss\nss\lib\util;$(OutDir)obj\global_intermediate\net;..\third_party\cld;$(OutDir)obj\global_intermediate\webkit;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/dynamicbase /ignore:4199 /ignore:4221 /nxcompat %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>advapi32.lib;comdlg32.lib;dbghelp.lib;delayimp.lib;gdi32.lib;DXGI.lib;kernel32.lib;msimg32.lib;ole32.lib;oleacc.lib;oleaut32.lib;psapi.lib;shell32.lib;shlwapi.lib;user32.lib;usp10.lib;uuid.lib;version.lib;wininet.lib;ws2_32.lib;$(OutDir)lib\base.lib;$(OutDir)lib\base_i18n.lib;$(OutDir)lib\base_static.lib;$(OutDir)lib\bilibase.lib;$(OutDir)lib\common.lib;$(OutDir)lib\compositor.lib;$(OutDir)lib\crash_generation_client.lib;$(OutDir)lib\crash_report_sender.lib;$(OutDir)lib\crcrypto.lib;$(OutDir)lib\crnspr.lib;$(OutDir)lib\crnss.lib;$(OutDir)lib\crssl.lib;$(OutDir)lib\dynamic_annotations.lib;$(OutDir)lib\exception_handler.lib;$(OutDir)lib\icui18n.lib;$(OutDir)lib\icuuc.lib;$(OutDir)lib\ipc.lib;$(OutDir)lib\libnsgif.lib;$(OutDir)lib\libpng.lib;$(OutDir)lib\modp_b64.lib;$(OutDir)lib\native_theme.lib;$(OutDir)lib\net.lib;$(OutDir)lib\nss_static.lib;$(OutDir)lib\obs_proxy.lib;$(OutDir)lib\sdch.lib;$(OutDir)lib\shell_dialogs.lib;$(OutDir)lib\skia_chrome_opts.lib;$(OutDir)lib\skia_chrome.lib;$(OutDir)lib\skia_library.lib;$(OutDir)lib\skia_opts_ssse3.lib;$(OutDir)lib\skia_opts.lib;$(OutDir)lib\sql.lib;$(OutDir)lib\sqlite3.lib;$(OutDir)lib\ui.lib;$(OutDir)lib\url_lib.lib;$(OutDir)lib\views.lib;$(OutDir)lib\zlib.lib;$(OutDir)lib\zip.lib;$(OutDir)lib\minizip.lib;$(OutDir)lib\webp.lib;$(OutDir)lib\webpdemux.lib;$(OutDir)lib\jsoncpp.lib;$(OBSCMakeDir64)libobs\$(Configuration)\obs.lib;$(OBSCMakeDir64)libobs-d3d11\$(Configuration)\libobs-d3d11.lib;$(OBSCMakeDir64)UI\obs-frontend-api\$(Configuration)\obs-frontend-api.lib;$(SolutionDir)..\third_party\libqrencode\lib\$(platform)\$(Configuration)\qrencoded.lib;$(OutDir)lib\streaming-processor.lib;$(OutDir)bililive_motion.lib;$(ThirdPartyDir)protobuf-3.17.3\binary\lib\$(platform)\$(Configuration)\libprotobufd.lib;$(ThirdPartyDir)libjpeg_turbo\lib\$(Configuration)\libjpeg.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)bililive.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\build\win\importlibs\x86;$(OutDir)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ForceSymbolReferences>%(ForceSymbolReferences)</ForceSymbolReferences>
+      <DelayLoadDLLs>dbghelp.dll;dwmapi.dll;shell32.dll;uxtheme.dll;comdlg32.dll;crypt32.dll;cryptui.dll;dhcpcsvc.dll;imagehlp.dll;imm32.dll;iphlpapi.dll;setupapi.dll;urlmon.dll;winhttp.dll;wininet.dll;winspool.drv;ws2_32.dll;wsock32.dll;user32-delay.dll;mf.dll;mfplat.dll;mfreadwrite.dll;Bthprops.cpl;d3d9.dll;dxva2.dll;ffmpegsumo.dll;dinput8.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(TargetPath).pdb</ProgramDatabaseFile>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <BaseAddress>0x01c30000</BaseAddress>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <FixedBaseAddress>false</FixedBaseAddress>
+      <DataExecutionPrevention />
+      <ImportLibrary>$(OutDir)lib\bililive_dll.lib</ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>$(ProjectDir)\app\bililive.dll.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
+    </Manifest>
+    <PreBuildEvent>
+      <Command>$(ThirdPartyDir)protobuf-3.17.3\binary\bin\$(Platform)\protoc.exe --cpp_out=$(SolutionDir)public\protobuf -I=$(SolutionDir)public\protobuf streaming_details.proto</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\bililive_version\bililive_dll_version.rc" />
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\ui\ui_resources\ui_unscaled_resources.rc" />
+    <ResourceCompile Include="app\bililive_dll.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bililive\bililive_installation_rejecter.h" />
+    <ClInclude Include="bililive\bililive_main_extra_parts_livehime_intl.h" />
+    <ClInclude Include="bililive\ipc\bililive_ipc_channel.h" />
+    <ClInclude Include="bililive\livehime\cef\cef_callback_data_presenter.h" />
+    <ClInclude Include="bililive\livehime\cef\cef_hybrid_browser_delegate.h" />
+    <ClInclude Include="bililive\livehime\cef\cef_hybrid_cache.h" />
+    <ClInclude Include="bililive\livehime\cef\cef_proxy_ipc_handler.h" />
+    <ClInclude Include="bililive\livehime\audio_player\audio_player_presenter.h" />
+    <ClInclude Include="bililive\livehime\audio_player\audio_player_presenter_imp.h" />
+    <ClInclude Include="bililive\livehime\audio_player\ffmpeg_source_audio_player.h" />
+    <ClInclude Include="bililive\livehime\cef\cef_proxy_wrapper.h" />
+    <ClInclude Include="bililive\livehime\cef\obs_frontend_callbacks_impl.h" />
+    <ClInclude Include="bililive\livehime\check_processor\encoder_check_processor.h" />
+    <ClInclude Include="bililive\livehime\common_pref\common_pref_names.h" />
+    <ClInclude Include="bililive\livehime\common_pref\common_pref_service.h" />
+    <ClInclude Include="bililive\livehime\danmaku_hime\danmakuhime_data_handler.h" />
+    <ClInclude Include="bililive\livehime\danmaku_hime\danmaku_hime_contract.h" />
+    <ClInclude Include="bililive\livehime\danmaku_hime\danmaku_hime_presenter_impl.h" />
+    <ClInclude Include="bililive\livehime\danmaku_hime\danmaku_hime_pref_service.h" />
+    <ClInclude Include="bililive\livehime\danmaku_hime\dmkhime_source_contract.h" />
+    <ClInclude Include="bililive\livehime\danmaku_hime\dmkhime_source_presenter_impl.h" />
+    <ClInclude Include="bililive\livehime\danmaku_hime\MessageLoopView.h" />
+    <ClInclude Include="bililive\livehime\event_report\event_report_center.h" />
+    <ClInclude Include="bililive\livehime\event_report\log_file_collection.h" />
+    <ClInclude Include="bililive\livehime\feedback\feedback_presenter.h" />
+    <ClInclude Include="bililive\livehime\function_control\app_function_controller.h" />
+    <ClInclude Include="bililive\livehime\gift_image\gift_icon_recorder.h" />
+    <ClInclude Include="bililive\livehime\gift_image\image_fetcher.h" />
+    <ClInclude Include="bililive\livehime\gift_image\image_fetcher_async.h" />
+    <ClInclude Include="bililive\livehime\gift_image\image_recorder.h" />
+    <ClInclude Include="bililive\livehime\help_center\help_center.h" />
+    <ClInclude Include="bililive\livehime\hybrid_ui\hybrid_ui.h" />
+    <ClInclude Include="bililive\livehime\kv\kv_colive_settings.h" />
+    <ClInclude Include="bililive\livehime\kv\vanish_ul_controller.h" />
+    <ClInclude Include="bililive\livehime\live_model\live_model_controller.h" />
+    <ClInclude Include="bililive\livehime\live_room\live_controller.h" />
+    <ClInclude Include="bililive\livehime\live_room\live_room_contract.h" />
+    <ClInclude Include="bililive\livehime\main_view\livehime_main_close_contract.h" />
+    <ClInclude Include="bililive\livehime\main_view\livehime_main_close_pref_constants.h" />
+    <ClInclude Include="bililive\livehime\main_view\livehime_main_close_presenter_impl.h" />
+    <ClInclude Include="bililive\livehime\notify_ui_control\notify_ui_controller.h" />
+    <ClInclude Include="bililive\livehime\notify_ui_control\notify_ui_control_type.h" />
+    <ClInclude Include="bililive\livehime\notify_ui_control\notify_ui_prop.h" />
+    <ClInclude Include="bililive\livehime\obs\obs_inject_util.h" />
+    <ClInclude Include="bililive\livehime\obs\obs_scene_util.h" />
+    <ClInclude Include="bililive\livehime\obs\output_controller.h" />
+    <ClInclude Include="bililive\livehime\obs\obs_proxy_main_extra_parts.h" />
+    <ClInclude Include="bililive\livehime\obs\obs_status.h" />
+    <ClInclude Include="bililive\livehime\obs\obs_status_details.h" />
+    <ClInclude Include="bililive\livehime\obs\source_creator.h" />
+    <ClInclude Include="bililive\livehime\pluggable\pluggable_controller.h" />
+    <ClInclude Include="bililive\livehime\preset_material\preset_material_ui_presenter.h" />
+    <ClInclude Include="bililive\livehime\qrcode\qrcode_generator.h" />
+    <ClInclude Include="bililive\livehime\server_broadcast\broadcast_service.h" />
+    <ClInclude Include="bililive\livehime\server_broadcast\danmaku_statistics.h" />
+    <ClInclude Include="bililive\livehime\settings\settings_contract.h" />
+    <ClInclude Include="bililive\livehime\settings\settings_presenter_impl.h" />
+    <ClInclude Include="bililive\livehime\sources_properties\source_album_property_contract.h" />
+    <ClInclude Include="bililive\livehime\sources_properties\source_album_property_presenter_impl.h" />
+    <ClInclude Include="bililive\livehime\sources_properties\source_audio_device_property_contract.h" />
+    <ClInclude Include="bililive\livehime\sources_properties\source_audio_device_property_presenter_impl.h" />
+    <ClInclude Include="bililive\livehime\sources_properties\source_browser_property_contract.h" />
+    <ClInclude Include="bililive\livehime\sources_properties\source_browser_property_presenter_impl.h" />
+    <ClInclude Include="bililive\livehime\sources_properties\source_camera_property_contract.h" />
+    <ClInclude Include="bililive\livehime\sources_properties\source_camera_property_presenter_impl.h" />
+    <ClInclude Include="bililive\livehime\sources_properties\source_color_property_contract.h" />
+    <ClInclude Include="bililive\livehime\sources_properties\source_color_property_presenter_impl.h" />
+    <ClInclude Include="bililive\livehime\sources_properties\source_filter_property_presenter.h" />
+    <ClInclude Include="bililive\livehime\sources_properties\source_image_property_contract.h" />
+    <ClInclude Include="bililive\livehime\sources_properties\source_image_property_presenter_impl.h" />
+    <ClInclude Include="bililive\livehime\sources_properties\source_media_property_contract.h" />
+    <ClInclude Include="bililive\livehime\sources_properties\source_media_property_presenter_impl.h" />
+    <ClInclude Include="bililive\livehime\sources_properties\source_property_snapshot.h" />
+    <ClInclude Include="bililive\livehime\sources_properties\source_public_property_presenter.h" />
+    <ClInclude Include="bililive\livehime\sources_properties\source_receiver_property_contract.h" />
+    <ClInclude Include="bililive\livehime\sources_properties\source_receiver_property_presenter_impl.h" />
+    <ClInclude Include="bililive\livehime\sources_properties\source_text_property_contract.h" />
+    <ClInclude Include="bililive\livehime\sources_properties\source_text_property_presenter_impl.h" />
+    <ClInclude Include="bililive\livehime\sources_properties\source_window_property_presenter.h" />
+    <ClInclude Include="bililive\livehime\streaming_report\apm_statistic_analysis.h" />
+    <ClInclude Include="bililive\livehime\streaming_report\streaming_qmcs_types.h" />
+    <ClInclude Include="bililive\livehime\streaming_report\streaming_report_service.h" />
+    <ClInclude Include="bililive\livehime\sub_broadcast\sub_fifter_broadcast.h" />
+    <ClInclude Include="bililive\livehime\svga_player\drawer\svga_canvas_drawer.h" />
+    <ClInclude Include="bililive\livehime\svga_player\drawer\svga_drawer.h" />
+    <ClInclude Include="bililive\livehime\svga_player\entities\svga_audio_entity.h" />
+    <ClInclude Include="bililive\livehime\svga_player\entities\svga_dynamic_entity.h" />
+    <ClInclude Include="bililive\livehime\svga_player\entities\svga_path_entity.h" />
+    <ClInclude Include="bililive\livehime\svga_player\entities\svga_video_entity.h" />
+    <ClInclude Include="bililive\livehime\svga_player\entities\svga_video_shape_entity.h" />
+    <ClInclude Include="bililive\livehime\svga_player\entities\svga_video_sprite_entity.h" />
+    <ClInclude Include="bililive\livehime\svga_player\entities\svga_video_sprite_frame_entity.h" />
+    <ClInclude Include="bililive\livehime\svga_player\protobuf\proto_reader.h" />
+    <ClInclude Include="bililive\livehime\svga_player\proto\audio_entity.h" />
+    <ClInclude Include="bililive\livehime\svga_player\proto\frame_entity.h" />
+    <ClInclude Include="bililive\livehime\svga_player\proto\layout.h" />
+    <ClInclude Include="bililive\livehime\svga_player\proto\movie_entity.h" />
+    <ClInclude Include="bililive\livehime\svga_player\proto\movie_params.h" />
+    <ClInclude Include="bililive\livehime\svga_player\proto\shape_entity.h" />
+    <ClInclude Include="bililive\livehime\svga_player\proto\sprite_entity.h" />
+    <ClInclude Include="bililive\livehime\svga_player\proto\transform.h" />
+    <ClInclude Include="bililive\livehime\svga_player\svga_drawable.h" />
+    <ClInclude Include="bililive\livehime\svga_player\svga_parser.h" />
+    <ClInclude Include="bililive\livehime\svga_player\utils\svga_scale_info.h" />
+    <ClInclude Include="bililive\livehime\tabarea\global_banned_contract.h" />
+    <ClInclude Include="bililive\livehime\tabarea\global_banned_presenter_impl.h" />
+    <ClInclude Include="bililive\livehime\tabarea\tab_pane_danmaku_contract.h" />
+    <ClInclude Include="bililive\livehime\tabarea\tab_pane_danmaku_presenter_impl.h" />
+    <ClInclude Include="bililive\livehime\third_party_streaming\obs_livehime_plugin\livehime_obs_plugin_ipc.h" />
+    <ClInclude Include="bililive\livehime\third_party_streaming\third_party_streaming_datatypes.h" />
+    <ClInclude Include="bililive\livehime\third_party_streaming\third_party_output_controller.h" />
+    <ClInclude Include="bililive\livehime\user_info\user_info_service.h" />
+    <ClInclude Include="bililive\livehime\volume\bililive_mic_record_contract.h" />
+    <ClInclude Include="bililive\livehime\volume\bililive_mic_record_presenter_impl.h" />
+    <ClInclude Include="bililive\livehime\volume\bililive_volume_controller_contract.h" />
+    <ClInclude Include="bililive\livehime\volume\bililive_volume_controllers_devices_contract.h" />
+    <ClInclude Include="bililive\livehime\volume\bililive_volume_controllers_devices_present_impl.h" />
+    <ClInclude Include="bililive\livehime\volume\bililive_volume_controller_presenter_impl.h" />
+    <ClInclude Include="bililive\livehime\volume\bililive_audio_device_contract.h" />
+    <ClInclude Include="bililive\livehime\volume\bililive_audio_device_presenter_impl.h" />
+    <ClInclude Include="bililive\livehime\volume\sing_identify_property_presenter.h" />
+    <ClInclude Include="bililive\livehime\volume\sound_effect_property_contract.h" />
+    <ClInclude Include="bililive\livehime\volume\sound_effect_property_presenter_impl.h" />
+    <ClInclude Include="bililive\livehime\volume\sound_effect_property_snapshot.h" />
+    <ClInclude Include="bililive\login\bililive_login_contract.h" />
+    <ClInclude Include="bililive\login\bililive_login_presenter_impl.h" />
+    <ClInclude Include="bililive\log_report\app_integrity_checking.h" />
+    <ClInclude Include="bililive\log_report\log_reporter.h" />
+    <ClInclude Include="bililive\text_to_speech\tts_helper.h" />
+    <ClInclude Include="bililive\text_to_speech\tts_service.h" />
+    <ClInclude Include="bililive\ui\examples\button_tab_view.h" />
+    <ClInclude Include="bililive\ui\examples\examples_frame_view.h" />
+    <ClInclude Include="bililive\ui\examples\examples_runner.h" />
+    <ClInclude Include="bililive\ui\examples\label_tab_view.h" />
+    <ClInclude Include="bililive\ui\examples\misc_tab_view.h" />
+    <ClInclude Include="bililive\ui\examples\mp4_player_view.h" />
+    <ClInclude Include="bililive\ui\resource_helper.h" />
+    <ClInclude Include="bililive\ui\url_image_view\bililive_url_image_view.h" />
+    <ClInclude Include="bililive\ui\bililive_command_macros.h" />
+    <ClInclude Include="bililive\ui\views\controls\average_layout.h" />
+    <ClInclude Include="bililive\ui\views\controls\bilibili_native_edit_view.h" />
+    <ClInclude Include="bililive\ui\views\controls\bililive_checkbox.h" />
+    <ClInclude Include="bililive\ui\views\controls\bililive_floating_scroll_view.h" />
+    <ClInclude Include="bililive\ui\views\controls\bililive_frame_view\bililive_frame_titlebar.h" />
+    <ClInclude Include="bililive\ui\views\controls\bililive_radio_button.h" />
+    <ClInclude Include="bililive\ui\views\controls\bililive_round_bubble.h" />
+    <ClInclude Include="bililive\ui\views\controls\bililive_sequence_image_button.h" />
+    <ClInclude Include="bililive\ui\views\controls\bililive_widget_delegate\bililive_widget_delegate_types.h" />
+    <ClInclude Include="bililive\ui\views\controls\blank_view.h" />
+    <ClInclude Include="bililive\ui\views\controls\browser\livehime_web_browser_delegate.h" />
+    <ClInclude Include="bililive\ui\views\controls\browser\livehime_web_browser_osr_view.h" />
+    <ClInclude Include="bililive\ui\views\controls\browser\livehime_web_browser_view.h" />
+    <ClInclude Include="bililive\ui\views\controls\browser\livehime_web_browser_view_osr.h" />
+    <ClInclude Include="bililive\ui\views\controls\gridview.h" />
+    <ClInclude Include="bililive\ui\views\controls\image_render\bililive_sequence_images_util.h" />
+    <ClInclude Include="bililive\ui\views\controls\linear_layout.h" />
+    <ClInclude Include="bililive\ui\views\controls\listview.h" />
+    <ClInclude Include="bililive\ui\views\controls\mesh_layout.h" />
+    <ClInclude Include="bililive\ui\views\controls\round_rect_background.h" />
+    <ClInclude Include="bililive\ui\views\controls\tab_bar_view.h" />
+    <ClInclude Include="bililive\ui\views\controls\tab_select_view.h" />
+    <ClInclude Include="bililive\ui\views\controls\util\bililive_util_views.h" />
+    <ClInclude Include="bililive\ui\views\hotkey_notify\bililive_toast_notify_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\anchor_notice\anchor_notice_box_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\colive\colive_crop_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\colive\colive_preview_control.h" />
+    <ClInclude Include="bililive\ui\views\livehime\colive\colive_splitter_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\colive\colive_theme_common.h" />
+    <ClInclude Include="bililive\ui\views\livehime\colive\colive_popup_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\custom_style_checkbox.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\custom_style_radio_button.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_bubble.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_combobox.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_hover_tip_button.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_button.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_image_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_label.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_list_state_banner.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_media_player_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_menu.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_message_box.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_mic_volume_beat_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_mp4_player_viewer.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_native_edit.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_pk_common_ctrls.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_search_list_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_slider.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_sub_edit.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_svga_delegate.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_svga_image_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_tabbed.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_inside_frame_titlebar.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_textfield.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_theme_common.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_user_related_ctrls.h" />
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_webview_state_banner.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\custom_style_button.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\controls\dmkhime_controls.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\controls\dmkhime_toast_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\d2d_manager.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\danmakuhime_theme_common.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\danmaku_base_render_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\danmaku_renderer.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\danmaku_structs.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\danmaku_view.hpp" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\danmaku_view_theme.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\danmaku_web_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\custom_inline_object.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\flags_inline_object.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\gift_inline_object.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\image_inline_object.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\medal_inline_object.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\spread_inline_object.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\button_inline_object.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\paint.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\renderer\danmaku_renderer_utils.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\scrolling_interpolator.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\sculptor.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\super_chat\markedness_message_theme_common.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\super_chat\markedness_message_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\text_drawing_effect.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\text_layout.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\text_renderer.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\visions\nav_down_button.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\wic_bitmaps_render.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\wic_bitmaps_read.h" />
+    <ClInclude Include="bililive\ui\views\livehime\feedback\livehime_feedback_web_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\visions\danmaku_list.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\visions\danmaku_list_adapter.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\visions\overlay_scroll_bar.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\visions\danmaku_vision.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\visions\vision.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\visions\vision_group.h" />
+    <ClInclude Include="bililive\ui\views\livehime\game_connection\game_conn_types.h" />
+    <ClInclude Include="bililive\ui\views\livehime\layout\user_info_layout.h" />
+    <ClInclude Include="bililive\ui\views\livehime\live_notice\live_notice_dialog.h" />
+    <ClInclude Include="bililive\ui\views\livehime\main_view\faux_audient_effect_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\main_view\livehime_main_close_widget.h" />
+    <ClInclude Include="bililive\ui\views\livehime\main_view\livehime_main_native_widget_win.h" />
+    <ClInclude Include="bililive\ui\views\livehime\main_view\livehime_main_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\main_view\stretch_control_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\new_live_room\new_live_room_guide_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\notice\notice_tips_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\notify_window\live_handon_notify_window.h" />
+    <ClInclude Include="bililive\ui\views\livehime\preset_material\preset_material_background_preview_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\pre_start_live\pre_start_live_source_preview_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\preset_material\preset_material_common.h" />
+    <ClInclude Include="bililive\ui\views\livehime\settings\denoise_slider.h" />
+    <ClInclude Include="bililive\ui\views\livehime\settings\fixed_slider.h" />
+    <ClInclude Include="bililive\ui\views\livehime\settings\accelerator_settings_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\settings\audio_settings_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\settings\base_settings_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\settings\join_slide_tips_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\settings\language_settings_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\settings\record_settings_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\settings\settings_frame_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\settings\global_settings_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\settings\settings_widget.h" />
+    <ClInclude Include="bililive\ui\views\livehime\settings\settings_widget_common_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\settings\streaming_settings_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\settings\video_settings_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\base_setup_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\beauty_base_item_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\beauty_camera_control_preview_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\beauty_base_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sing_identify_notice\sing_identify_notice_dialog.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\beauty_tab_item_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\browser_source\browser_source_interaction_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_audio_base_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_browser_property_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_camera_base_settings_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_camera_property_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_color_property_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_filter_base_property_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_fliter_select_color_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_image_property_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_media_property_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_monitor_capture_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_monitor_property_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_album_property_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_property_base_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_text_property_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_volume_control_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_window_property_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\status_bar\livehime_status_bar_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\status_bar\livehime_streaming_quality_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\streaming_diagrams\streaming_diagrams_main_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\streaming_diagrams\streaming_warning_notify_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\theme\livehime_theme_constants.h" />
+    <ClInclude Include="bililive\ui\views\livehime\theme\livehime_theme_pref_names.h" />
+    <ClInclude Include="bililive\ui\views\livehime\theme\livehime_theme_service.h" />
+    <ClInclude Include="bililive\ui\views\livehime\theme\livehime_theme_v3_special_constants.h" />
+    <ClInclude Include="bililive\ui\views\livehime\third_party_streaming\tps_break_waitting_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\third_party_streaming\tps_mode_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\third_party_streaming\tps_obs_guide_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\tips_dialog\fleet_achievement_dialog.h" />
+    <ClInclude Include="bililive\ui\views\livehime\tips_dialog\tips_dialog.h" />
+    <ClInclude Include="bililive\ui\views\livehime\volume\bililive_sound_effect_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\volume\bililive_sound_effect_widget.h" />
+    <ClInclude Include="bililive\ui\views\livehime\volume\bililive_volume_bar.h" />
+    <ClInclude Include="bililive\ui\views\livehime\volume\sound_reverb_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\web_browser\bililive_browser_frame_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\web_browser\common\module_common_title.h" />
+    <ClInclude Include="bililive\ui\views\livehime\web_browser\common\module_common_view.hpp" />
+    <ClInclude Include="bililive\ui\views\livehime\web_browser\gift_panel\gift_panel_title.h" />
+    <ClInclude Include="bililive\ui\views\livehime\web_browser\gift_panel\livehime_gift_panel_widget.h" />
+    <ClInclude Include="bililive\ui\views\livehime\web_browser\livehime_unite_browser_widget.h" />
+    <ClInclude Include="bililive\ui\views\livehime\web_browser\livehime_web_browser_datatype.h" />
+    <ClInclude Include="bililive\ui\views\livehime\web_browser\livehime_web_browser_widget.h" />
+    <ClInclude Include="bililive\ui\views\login\bilibili_login_control.h" />
+    <ClInclude Include="bililive\ui\views\login\bililive_login_frame_view.h" />
+    <ClInclude Include="bililive\ui\views\login\bililive_login_info_collection_view.h" />
+    <ClInclude Include="bililive\ui\views\login\bililive_login_logining_status_view.h" />
+    <ClInclude Include="bililive\ui\views\login\bililive_login_main_view.h" />
+    <ClInclude Include="bililive\ui\views\login\bililive_mini_login_viddup_widget.h" />
+    <ClInclude Include="bililive\ui\views\login\livehime_captcha_frame_view.h" />
+    <ClInclude Include="bililive\ui\views\login\livehime_login_message_box.h" />
+    <ClInclude Include="bililive\ui\views\login\livehime_login_util.h" />
+    <ClInclude Include="bililive\ui\views\menu\colive_scene_item_menu.h" />
+    <ClInclude Include="bililive\ui\views\preview\livehime_obs_preview_control.h" />
+    <ClInclude Include="bililive\ui\views\preview\livehime_preview_area_utils.h" />
+    <ClInclude Include="bililive\ui\views\tabarea\bottom_bar\banned_begin_view.h" />
+    <ClInclude Include="bililive\ui\views\tabarea\bottom_bar\banned_end_view.h" />
+    <ClInclude Include="bililive\ui\views\tabarea\bottom_bar\bottom_area_popup_view.h" />
+    <ClInclude Include="bililive\ui\views\tabarea\bottom_bar\bottom_area_view.h" />
+    <ClInclude Include="bililive\ui\views\tabarea\bottom_bar\danmaku_search_notification_details.h" />
+    <ClInclude Include="bililive\ui\views\tabarea\bottom_bar\danmaku_search_view.h" />
+    <ClInclude Include="bililive\ui\views\tabarea\bottom_bar\global_banned_view.h" />
+    <ClInclude Include="bililive\ui\views\tabarea\bottom_bar\loading_view.h" />
+    <ClInclude Include="bililive\ui\views\tabarea\livehime_module_view.h" />
+    <ClInclude Include="bililive\ui\views\tabarea\tabarea_materials_view.h" />
+    <ClInclude Include="bililive\ui\views\tabarea\tabarea_materials_widget.h" />
+    <ClInclude Include="bililive\ui\views\tabarea\tabarea_tab_strip_view.h" />
+    <ClInclude Include="bililive\ui\views\tabarea\tabarea_toast_view.h" />
+    <ClInclude Include="bililive\ui\views\tabarea\tabarea_view.h" />
+    <ClInclude Include="bililive\ui\views\toolbar\live_auto_replay_dialog.h" />
+    <ClInclude Include="bililive\ui\views\toolbar\record_live_button.h" />
+    <ClInclude Include="bililive\ui\views\toolbar\toolbar_volume_ctrl.h" />
+    <ClInclude Include="bililive\ui\views\viddup\danmaku_hime\danmaku_interaction_title_viddup_view.h" />
+    <ClInclude Include="bililive\ui\views\viddup\danmaku_hime\danmaku_interaction_viddup_view.h" />
+    <ClInclude Include="bililive\ui\views\viddup\danmaku_hime\danmaku_merged_main_viddup_view.h" />
+    <ClInclude Include="bililive\ui\views\viddup\danmaku_hime\danmaku_render_viddup_view.h" />
+    <ClInclude Include="bililive\ui\views\viddup\main_view\livehime_main_viddup_view.h" />
+    <ClInclude Include="bililive\ui\views\viddup\main_view\stretch_control_viddup_view.h" />
+    <ClInclude Include="bililive\ui\views\viddup\tabarea\canvas_materials_viddup_view.h" />
+    <ClInclude Include="bililive\ui\views\viddup\tabarea\tabarea_scenes_viddup_view.h" />
+    <ClInclude Include="bililive\ui\views\viddup\tabarea\tabarea_scene_content_viddup_view.h" />
+    <ClInclude Include="bililive\ui\views\viddup\tabarea\tabarea_tab_strip_viddup_view.h" />
+    <ClInclude Include="bililive\ui\views\viddup\tabarea\tabarea_viddup_view.h" />
+    <ClInclude Include="bililive\ui\views\viddup\titlebar\bililive_user_info_viddup_frame.h" />
+    <ClInclude Include="bililive\ui\views\viddup\titlebar\titlebar_viddup_view.h" />
+    <ClInclude Include="bililive\ui\views\viddup\toolbar\livehime_top_toolbar_viddup_view.h" />
+    <ClInclude Include="bililive\ui\views\viddup\toolbar\open_live_viddup_view.h" />
+    <ClInclude Include="bililive\ui\views\viddup\toolbar\toolbar_viddup_view.h" />
+    <ClInclude Include="bililive\utils\bililive_image_util.h" />
+    <ClInclude Include="bililive\utils\convert_util.h" />
+    <ClInclude Include="bililive\utils\fast_forward_url_convert.h" />
+    <ClInclude Include="bililive\utils\file_util.h" />
+    <ClInclude Include="bililive\utils\game_launcher.h" />
+    <ClInclude Include="bililive\utils\image_util.h" />
+    <ClInclude Include="bililive\utils\is_administrator_required.h" />
+    <ClInclude Include="bililive\utils\KGpuMon.h" />
+    <ClInclude Include="bililive\utils\net_util.h" />
+    <ClInclude Include="bililive\utils\sequenced_image_package.h" />
+    <ClInclude Include="bililive\utils\setting_util.h" />
+    <ClInclude Include="bililive\utils\time_span.h" />
+    <ClInclude Include="bililive\viddup\danmaku_hime\danmakuhime_data_viddup_handler.h" />
+    <ClInclude Include="bililive\viddup\danmaku_hime\danmaku_viddup_renderer.h" />
+    <ClInclude Include="bililive\viddup\danmaku_hime\send_danmaku_viddup_presenter.h" />
+    <ClInclude Include="bililive\viddup\live_model\viddup_live_model_controller.h" />
+    <ClInclude Include="bililive\viddup\live_room\viddup_live_controller.h" />
+    <ClInclude Include="bililive\viddup\obs\viddup_output_controller.h" />
+    <ClInclude Include="bililive\viddup\server_broadcast\broadcast_viddup_service.h" />
+    <ClInclude Include="bililive\viddup\server_broadcast\danmaku_broadcast_viddup_presenter.h" />
+    <ClInclude Include="common\bililive_features.h" />
+    <ClInclude Include="common\bililive_result_codes.h" />
+    <ClInclude Include="public\bililive\bililive_command_ids.h" />
+    <ClInclude Include="app\bililive_dll_resource.h" />
+    <ClInclude Include="bililive\bililive_main_parts_impl.h" />
+    <ClInclude Include="bililive\bililive_main_loop.h" />
+    <ClInclude Include="bililive\bililive_main_runner.h" />
+    <ClInclude Include="bililive\bililive_process_impl.h" />
+    <ClInclude Include="bililive\bililive_process_sub_thread.h" />
+    <ClInclude Include="bililive\bililive_single_instance_guarantor.h" />
+    <ClInclude Include="bililive\bililive_thread_impl.h" />
+    <ClInclude Include="bililive\command_observer.h" />
+    <ClInclude Include="bililive\command_updater.h" />
+    <ClInclude Include="bililive\command_updater_delegate.h" />
+    <ClInclude Include="bililive\first_run\first_run_tasks.h" />
+    <ClInclude Include="bililive\first_run\first_run.h" />
+    <ClInclude Include="bililive\livehime\obs\obs_proxy_service.h" />
+    <ClInclude Include="bililive\bililive_database.h" />
+    <ClInclude Include="bililive\startup_task_runner.h" />
+    <ClInclude Include="bililive\ui\bililive_command_receiver.h" />
+    <ClInclude Include="bililive\ui\bililive_command_handler_livehime.h" />
+    <ClInclude Include="bililive\ui\bililive_dragdrop_data_types.h" />
+    <ClInclude Include="bililive\ui\control_util\bind_placeholder_macros.h" />
+    <ClInclude Include="bililive\ui\control_util\button_helper.h" />
+    <ClInclude Include="bililive\ui\control_util\checkbox_helper.h" />
+    <ClInclude Include="bililive\ui\control_util\combobox_helper.h" />
+    <ClInclude Include="bililive\ui\control_util\slider_helper.h" />
+    <ClInclude Include="bililive\ui\control_util\textfield_helper.h" />
+    <ClInclude Include="bililive\ui\dialog\shell_dialogs.h" />
+    <ClInclude Include="bililive\ui\views\controls\bililive_bubble.h" />
+    <ClInclude Include="bililive\ui\views\controls\bililive_cascade_view.h" />
+    <ClInclude Include="bililive\ui\views\controls\bililive_floating_view.h" />
+    <ClInclude Include="bililive\ui\views\controls\bililive_frame_view\bililive_frame_titlebar_view.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_frame_view\bililive_frame_view.h" />
+    <ClInclude Include="bililive\ui\views\controls\bililive_frame_view\bililive_shadow_frame_view.h" />
+    <ClInclude Include="bililive\ui\views\controls\bililive_link.h" />
+    <ClInclude Include="bililive\ui\views\controls\bililive_menuitemview.h" />
+    <ClInclude Include="bililive\ui\views\controls\bililive_native_widget.h" />
+    <ClInclude Include="bililive\ui\views\controls\bililive_progressbar.h" />
+    <ClInclude Include="bililive\ui\views\controls\bililive_roundrect_view.h" />
+    <ClInclude Include="bililive\ui\views\controls\bililive_imagebutton.h" />
+    <ClInclude Include="bililive\ui\views\controls\bililive_label.h" />
+    <ClInclude Include="bililive\ui\views\controls\bililive_labelbutton.h" />
+    <ClInclude Include="bililive\ui\views\controls\bililive_slider.h" />
+    <ClInclude Include="bililive\ui\views\controls\bililive_textfield.h" />
+    <ClInclude Include="bililive\ui\views\controls\bililive_theme_common.h" />
+    <ClInclude Include="bililive\ui\views\controls\bililive_widget_delegate\bililive_mask_widget.h" />
+    <ClInclude Include="bililive\ui\views\controls\bililive_widget_delegate\bililive_widget_delegate.h" />
+    <ClInclude Include="bililive\ui\views\controls\bilibili_search_list_view.h" />
+    <ClInclude Include="bililive\ui\views\controls\combox\bililive_combobox.h" />
+    <ClInclude Include="bililive\ui\views\controls\combox\bililive_combobox_ex.h" />
+    <ClInclude Include="bililive\ui\views\controls\combox\bililive_editable_combobox.h" />
+    <ClInclude Include="bililive\ui\views\controls\image_render\bililive_image_render.h" />
+    <ClInclude Include="bililive\ui\views\controls\navigation_bar.h" />
+    <ClInclude Include="bililive\ui\views\controls\tabbed_pane\tabbed_pane.h" />
+    <ClInclude Include="bililive\ui\views\controls\tabbed_pane\tabbed_pane_listener.h" />
+    <ClInclude Include="bililive\ui\views\controls\win32_datetimepicker_view.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\win32_richedit_view.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\hotkey_notify\bililive_hotkey_notify_view.h" />
+    <ClInclude Include="bililive\ui\views\menu\sceneitem_menu.h" />
+    <ClInclude Include="bililive\ui\views\menu\sceneitem_menu_cmd.h" />
+    <ClInclude Include="bililive\ui\views\preview\livehime_preview_view.h" />
+    <ClInclude Include="bililive\livehime\obs\srcprop_ui_util.h" />
+    <ClInclude Include="bililive\ui\views\tabarea\tabarea_danmaku_view.h" />
+    <ClInclude Include="bililive\ui\views\uploader\bililive_uploader_type.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="bililive\utils\bililive_canvas_drawer.h" />
+    <ClInclude Include="bililive\utils\bililive_filetype_exts.h" />
+    <ClInclude Include="bililive\utils\gdiplus\bililive_gdiplus_image.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="bililive\utils\gdiplus\bililive_gdiplus_utils.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="bililive\utils\pinyin-search.h" />
+    <ClInclude Include="common\bililive_context.h" />
+    <ClInclude Include="common\bililive_ipc_pipe.h" />
+    <ClInclude Include="common\bililive_logging.h" />
+    <ClInclude Include="common\bililive_path.h" />
+    <ClInclude Include="public\bililive\bililive_main_extra_parts.h" />
+    <ClInclude Include="public\bililive\bililive_main_parts.h" />
+    <ClInclude Include="public\bililive\bililive_notification_types.h" />
+    <ClInclude Include="public\bililive\bililive_process.h" />
+    <ClInclude Include="public\bililive\bililive_thread.h" />
+    <ClInclude Include="public\bililive\bililive_thread_delegate.h" />
+    <ClInclude Include="public\bililive\livehime_obs_frame_extra.h" />
+    <ClInclude Include="public\bililive\livehime_obs_ipc_message.h" />
+    <ClInclude Include="public\common\bililive_constants.h" />
+    <ClInclude Include="public\common\bililive_paths.h" />
+    <ClInclude Include="public\common\bililive_paths_internal.h" />
+    <ClInclude Include="public\common\except_common.h" />
+    <ClInclude Include="public\common\pref_constants.h" />
+    <ClInclude Include="public\common\pref_names.h" />
+    <ClInclude Include="public\common\refcounted_canvas.h" />
+    <ClInclude Include="public\common\refcounted_dictionary.h" />
+    <ClInclude Include="public\log_ext\log_constants.h" />
+    <ClInclude Include="public\protobuf\broadcast.pb.h" />
+    <ClInclude Include="public\protobuf\streaming_details.pb.h" />
+    <ClInclude Include="public\secret\bililive_secret.h" />
+    <CustomBuild Include="bililive\ui\bililive_obs.h" />
+    <ClInclude Include="bililive\status_icons\status_icon.h" />
+    <ClInclude Include="bililive\status_icons\status_icon_observer.h" />
+    <ClInclude Include="bililive\status_icons\status_tray.h" />
+    <ClInclude Include="bililive\themes\extension.h" />
+    <ClInclude Include="bililive\ui\bililive_command_controller.h" />
+    <ClInclude Include="bililive\ui\bililive_commands.h" />
+    <ClInclude Include="bililive\ui\views\bililive_main_extra_parts_views.h" />
+    <ClInclude Include="bililive\ui\views\bililive_views_delegate.h" />
+    <ClInclude Include="bililive\ui\startup\startup_bililive_creator.h" />
+    <ClInclude Include="bililive\profiles\profile.h" />
+    <ClInclude Include="bililive\profiles\profile_impl.h" />
+    <ClInclude Include="bililive\prefs\bililive_prefs.h" />
+    <ClInclude Include="bililive\prefs\scoped_user_pref_update.h" />
+    <CustomBuild Include="bililive\themes\bililive_theme_pack.h" />
+    <CustomBuild Include="bililive\themes\custom_theme_supplier.h" />
+    <CustomBuild Include="bililive\themes\theme_properties.h" />
+    <CustomBuild Include="bililive\themes\theme_service.h" />
+    <ClInclude Include="bililive\ui\views\status_icons\status_icon_win.h" />
+    <ClInclude Include="bililive\ui\views\status_icons\status_tray_win.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="app\bililive_main.cc" />
+    <ClCompile Include="..\base\win\dllmain.cc" />
+    <ClCompile Include="..\build\precompile.cc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="bililive\bililive_installation_rejecter.cpp" />
+    <ClCompile Include="bililive\bililive_main_extra_parts_livehime_intl.cpp" />
+    <ClCompile Include="bililive\bililive_main_parts_impl.cc" />
+    <ClCompile Include="bililive\bililive_main_loop.cc" />
+    <ClCompile Include="bililive\bililive_main_runner.cc" />
+    <ClCompile Include="bililive\bililive_process_impl.cc" />
+    <ClCompile Include="bililive\bililive_process_sub_thread.cc" />
+    <ClCompile Include="bililive\bililive_single_instance_guarantor.cpp" />
+    <ClCompile Include="bililive\bililive_thread_impl.cc" />
+    <ClCompile Include="bililive\command_updater.cc" />
+    <ClCompile Include="bililive\first_run\d3d_components_validation.cpp" />
+    <ClCompile Include="bililive\first_run\first_run.cpp" />
+    <ClCompile Include="bililive\ipc\bililive_ipc_channel.cc" />
+    <ClCompile Include="bililive\livehime\cef\cef_callback_data_presenter.cpp" />
+    <ClCompile Include="bililive\livehime\cef\cef_hybrid_browser_delegate.cpp" />
+    <ClCompile Include="bililive\livehime\cef\cef_hybrid_cache.cpp" />
+    <ClCompile Include="bililive\livehime\cef\cef_proxy_ipc_handler.cc" />
+    <ClCompile Include="bililive\livehime\audio_player\audio_player_presenter.cpp" />
+    <ClCompile Include="bililive\livehime\audio_player\audio_player_presenter_imp.cpp" />
+    <ClCompile Include="bililive\livehime\audio_player\ffmpeg_source_audio_player.cpp" />
+    <ClCompile Include="bililive\livehime\cef\cef_proxy_wrapper.cpp" />
+    <ClCompile Include="bililive\livehime\cef\obs_frontend_callbacks_impl.cpp" />
+    <ClCompile Include="bililive\livehime\check_processor\encoder_check_processor.cpp" />
+    <ClCompile Include="bililive\livehime\common_pref\common_pref_names.cpp" />
+    <ClCompile Include="bililive\livehime\common_pref\common_pref_service.cpp" />
+    <ClCompile Include="bililive\livehime\danmaku_hime\danmakuhime_data_handler.cpp" />
+    <ClCompile Include="bililive\livehime\danmaku_hime\danmaku_hime_presenter_impl.cpp" />
+    <ClCompile Include="bililive\livehime\danmaku_hime\danmaku_hime_pref_service.cpp" />
+    <ClCompile Include="bililive\livehime\danmaku_hime\dmkhime_source_presenter_impl.cpp" />
+    <ClCompile Include="bililive\livehime\danmaku_hime\MessageLoopView.cpp" />
+    <ClCompile Include="bililive\livehime\event_report\event_report_center.cpp" />
+    <ClCompile Include="bililive\livehime\event_report\log_file_collection.cpp" />
+    <ClCompile Include="bililive\livehime\function_control\app_function_controller.cpp" />
+    <ClCompile Include="bililive\livehime\gift_image\gift_icon_recorder.cpp" />
+    <ClCompile Include="bililive\livehime\gift_image\image_fetcher.cpp" />
+    <ClCompile Include="bililive\livehime\gift_image\image_fetcher_async.cpp" />
+    <ClCompile Include="bililive\livehime\gift_image\image_recorder.cpp" />
+    <ClCompile Include="bililive\livehime\help_center\help_center.cpp" />
+    <ClCompile Include="bililive\livehime\hybrid_ui\hybrid_ui.cpp" />
+    <ClCompile Include="bililive\livehime\kv\kv_colive_settings.cpp" />
+    <ClCompile Include="bililive\livehime\kv\vanish_ul_controller.cpp" />
+    <ClCompile Include="bililive\livehime\live_model\live_model_controller.cpp" />
+    <ClCompile Include="bililive\livehime\live_room\live_controller.cpp" />
+    <ClCompile Include="bililive\livehime\live_room\live_controller_third_party.cpp" />
+    <ClCompile Include="bililive\livehime\live_room\live_room_contract.cpp" />
+    <ClCompile Include="bililive\livehime\main_view\livehime_main_close_pref_constants.cpp" />
+    <ClCompile Include="bililive\livehime\main_view\livehime_main_close_presenter_impl.cpp" />
+    <ClCompile Include="bililive\livehime\notify_ui_control\notify_ui_controller.cpp" />
+    <ClCompile Include="bililive\livehime\notify_ui_control\notify_ui_prop.cpp" />
+    <ClCompile Include="bililive\livehime\obs\obs_inject_util.cpp" />
+    <ClCompile Include="bililive\livehime\obs\obs_scene_util.cc" />
+    <ClCompile Include="bililive\livehime\obs\output_controller.cpp" />
+    <ClCompile Include="bililive\livehime\obs\obs_proxy_main_extra_parts.cpp" />
+    <ClCompile Include="bililive\livehime\obs\obs_proxy_service.cc" />
+    <ClCompile Include="bililive\livehime\obs\obs_status.cpp" />
+    <ClCompile Include="bililive\livehime\obs\obs_status_details.cpp" />
+    <ClCompile Include="bililive\bililive_database.cpp" />
+    <ClCompile Include="bililive\livehime\obs\source_creator.cpp" />
+    <ClCompile Include="bililive\livehime\obs\srcprop_ui_util.cc" />
+    <ClCompile Include="bililive\livehime\pluggable\pluggable_controller.cpp" />
+    <ClCompile Include="bililive\livehime\preset_material\preset_material_ui_presenter.cpp" />
+    <ClCompile Include="bililive\livehime\qrcode\qrcode_generator.cpp" />
+    <ClCompile Include="bililive\livehime\server_broadcast\broadcast_service.cpp" />
+    <ClCompile Include="bililive\livehime\server_broadcast\danmaku_statistics.cpp" />
+    <ClCompile Include="bililive\livehime\settings\settings_presenter_impl.cpp" />
+    <ClCompile Include="bililive\livehime\sources_properties\source_album_property_presenter_impl.cpp" />
+    <ClCompile Include="bililive\livehime\sources_properties\source_audio_device_property_presenter_impl.cpp" />
+    <ClCompile Include="bililive\livehime\sources_properties\source_browser_property_presenter_impl.cpp" />
+    <ClCompile Include="bililive\livehime\sources_properties\source_camera_property_presenter_impl.cpp" />
+    <ClCompile Include="bililive\livehime\sources_properties\source_color_property_presenter_impl.cpp" />
+    <ClCompile Include="bililive\livehime\sources_properties\source_filter_property_presenter.cpp" />
+    <ClCompile Include="bililive\livehime\sources_properties\source_image_property_presenter_impl.cpp" />
+    <ClCompile Include="bililive\livehime\sources_properties\source_media_property_presenter_impl.cpp" />
+    <ClCompile Include="bililive\livehime\sources_properties\source_public_property_presenter.cpp" />
+    <ClCompile Include="bililive\livehime\sources_properties\source_receiver_property_presenter_impl.cpp" />
+    <ClCompile Include="bililive\livehime\sources_properties\source_text_property_presenter_impl.cpp" />
+    <ClCompile Include="bililive\livehime\sources_properties\source_window_property_presenter.cpp" />
+    <ClCompile Include="bililive\livehime\streaming_report\apm_statistic_analysis.cpp" />
+    <ClCompile Include="bililive\livehime\streaming_report\streaming_report_service.cpp" />
+    <ClCompile Include="bililive\livehime\sub_broadcast\sub_fifter_broadcast.cpp" />
+    <ClCompile Include="bililive\livehime\svga_player\drawer\svga_canvas_drawer.cpp" />
+    <ClCompile Include="bililive\livehime\svga_player\drawer\svga_drawer.cpp" />
+    <ClCompile Include="bililive\livehime\svga_player\entities\svga_audio_entity.cpp" />
+    <ClCompile Include="bililive\livehime\svga_player\entities\svga_dynamic_entity.cpp" />
+    <ClCompile Include="bililive\livehime\svga_player\entities\svga_path_entity.cpp" />
+    <ClCompile Include="bililive\livehime\svga_player\entities\svga_video_entity.cpp" />
+    <ClCompile Include="bililive\livehime\svga_player\entities\svga_video_shape_entity.cpp" />
+    <ClCompile Include="bililive\livehime\svga_player\entities\svga_video_sprite_entity.cpp" />
+    <ClCompile Include="bililive\livehime\svga_player\entities\svga_video_sprite_frame_entity.cpp" />
+    <ClCompile Include="bililive\livehime\svga_player\protobuf\proto_reader.cpp" />
+    <ClCompile Include="bililive\livehime\svga_player\proto\audio_entity.cpp" />
+    <ClCompile Include="bililive\livehime\svga_player\proto\frame_entity.cpp" />
+    <ClCompile Include="bililive\livehime\svga_player\proto\layout.cpp" />
+    <ClCompile Include="bililive\livehime\svga_player\proto\movie_entity.cpp" />
+    <ClCompile Include="bililive\livehime\svga_player\proto\movie_params.cpp" />
+    <ClCompile Include="bililive\livehime\svga_player\proto\shape_entity.cpp" />
+    <ClCompile Include="bililive\livehime\svga_player\proto\sprite_entity.cpp" />
+    <ClCompile Include="bililive\livehime\svga_player\proto\transform.cpp" />
+    <ClCompile Include="bililive\livehime\svga_player\svga_drawable.cpp" />
+    <ClCompile Include="bililive\livehime\svga_player\svga_parser.cpp" />
+    <ClCompile Include="bililive\livehime\svga_player\utils\svga_scale_info.cpp" />
+    <ClCompile Include="bililive\livehime\tabarea\global_banned_presenter_impl.cpp" />
+    <ClCompile Include="bililive\livehime\tabarea\tab_pane_danmaku_presenter_impl.cpp" />
+    <ClCompile Include="bililive\livehime\third_party_streaming\obs_livehime_plugin\livehime_obs_plugin_ipc.cc" />
+    <ClCompile Include="bililive\livehime\third_party_streaming\third_party_output_controller.cpp" />
+    <ClCompile Include="bililive\livehime\third_party_streaming\third_party_output_live_answer_controller.cpp" />
+    <ClCompile Include="bililive\livehime\user_info\user_info_service.cpp" />
+    <ClCompile Include="bililive\livehime\volume\bililive_mic_record_presenter_impl.cpp" />
+    <ClCompile Include="bililive\livehime\volume\bililive_volume_controllers_devices_present_impl.cpp" />
+    <ClCompile Include="bililive\livehime\volume\bililive_volume_controller_presenter_impl.cpp" />
+    <ClCompile Include="bililive\livehime\volume\bililive_audio_device_presenter_impl.cpp" />
+    <ClCompile Include="bililive\livehime\volume\sing_identify_property_presenter.cpp" />
+    <ClCompile Include="bililive\livehime\volume\sound_effect_property_presenter_impl.cpp" />
+    <ClCompile Include="bililive\login\bililive_login_presenter_impl.cpp" />
+    <ClCompile Include="bililive\log_report\app_integrity_checking.cpp" />
+    <ClCompile Include="bililive\log_report\log_reporter.cpp" />
+    <ClCompile Include="bililive\startup_task_runner.cc" />
+    <ClCompile Include="bililive\status_icons\status_icon.cc" />
+    <ClCompile Include="bililive\status_icons\status_tray.cc" />
+    <ClCompile Include="bililive\text_to_speech\tts_helper.cpp" />
+    <ClCompile Include="bililive\text_to_speech\tts_service.cpp" />
+    <ClCompile Include="bililive\themes\extension.cc" />
+    <ClCompile Include="bililive\ui\bililive_command_handler_livehime.cpp" />
+    <ClCompile Include="bililive\ui\bililive_obs.cc" />
+    <ClCompile Include="bililive\ui\bililive_command_controller.cc" />
+    <ClCompile Include="bililive\ui\bililive_commands.cc" />
+    <ClCompile Include="bililive\ui\bililive_command_receiver.cpp" />
+    <ClCompile Include="bililive\ui\control_util\button_helper.cpp" />
+    <ClCompile Include="bililive\ui\control_util\checkbox_helper.cpp" />
+    <ClCompile Include="bililive\ui\control_util\combobox_helper.cpp" />
+    <ClCompile Include="bililive\ui\control_util\slider_helper.cpp" />
+    <ClCompile Include="bililive\ui\control_util\textfield_helper.cpp" />
+    <ClCompile Include="bililive\ui\dialog\select_color_dialog.cc" />
+    <ClCompile Include="bililive\ui\dialog\select_file_dialog.cc" />
+    <ClCompile Include="bililive\ui\dialog\select_file_dialog_ex.cc" />
+    <ClCompile Include="bililive\ui\dialog\select_font_dialog.cc" />
+    <ClCompile Include="bililive\ui\examples\button_tab_view.cpp" />
+    <ClCompile Include="bililive\ui\examples\examples_frame_view.cpp" />
+    <ClCompile Include="bililive\ui\examples\examples_runner.cpp" />
+    <ClCompile Include="bililive\ui\examples\label_tab_view.cpp" />
+    <ClCompile Include="bililive\ui\examples\misc_tab_view.cpp" />
+    <ClCompile Include="bililive\ui\examples\mp4_player_view.cpp" />
+    <ClCompile Include="bililive\ui\url_image_view\bililive_url_fetcher_context_getter.cpp" />
+    <ClCompile Include="bililive\ui\url_image_view\bililive_url_fetcher_delegate.cpp" />
+    <ClCompile Include="bililive\ui\url_image_view\bililive_url_image_view.cpp" />
+    <ClCompile Include="bililive\ui\url_image_view\bililive_url_img_fetch_globals.cpp" />
+    <ClCompile Include="bililive\ui\url_image_view\bililive_url_img_fetch_transaction.cpp" />
+    <ClCompile Include="bililive\ui\views\bililive_main_extra_parts_views.cc" />
+    <ClCompile Include="bililive\ui\views\bililive_views_delegate.cc" />
+    <ClCompile Include="bililive\ui\views\controls\average_layout.cpp" />
+    <ClCompile Include="bililive\ui\views\controls\bilibili_native_edit_view.cpp" />
+    <ClCompile Include="bililive\ui\views\controls\bilibili_search_list_view.cc" />
+    <ClCompile Include="bililive\ui\views\controls\bililive_bubble.cc" />
+    <ClCompile Include="bililive\ui\views\controls\bililive_cascade_view.cc" />
+    <ClCompile Include="bililive\ui\views\controls\bililive_checkbox.cpp" />
+    <ClCompile Include="bililive\ui\views\controls\bililive_floating_scroll_view.cc" />
+    <ClCompile Include="bililive\ui\views\controls\bililive_floating_view.cc" />
+    <ClCompile Include="bililive\ui\views\controls\bililive_frame_view\bililive_frame_titlebar.cc" />
+    <ClCompile Include="bililive\ui\views\controls\bililive_frame_view\bililive_frame_titlebar_view.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_frame_view\bililive_frame_view.cc" />
+    <ClCompile Include="bililive\ui\views\controls\bililive_frame_view\bililive_shadow_frame_view.cc" />
+    <ClCompile Include="bililive\ui\views\controls\bililive_link.cc" />
+    <ClCompile Include="bililive\ui\views\controls\bililive_menuitemview.cpp" />
+    <ClCompile Include="bililive\ui\views\controls\bililive_native_widget.cpp" />
+    <ClCompile Include="bililive\ui\views\controls\bililive_progressbar.cc" />
+    <ClCompile Include="bililive\ui\views\controls\bililive_radio_button.cpp" />
+    <ClCompile Include="bililive\ui\views\controls\bililive_roundrect_view.cc" />
+    <ClCompile Include="bililive\ui\views\controls\bililive_imagebutton.cc" />
+    <ClCompile Include="bililive\ui\views\controls\bililive_label.cc" />
+    <ClCompile Include="bililive\ui\views\controls\bililive_labelbutton.cc" />
+    <ClCompile Include="bililive\ui\views\controls\bililive_round_bubble.cc" />
+    <ClCompile Include="bililive\ui\views\controls\bililive_sequence_image_button.cc" />
+    <ClCompile Include="bililive\ui\views\controls\bililive_slider.cc" />
+    <ClCompile Include="bililive\ui\views\controls\bililive_textfield.cc" />
+    <ClCompile Include="bililive\ui\views\controls\bililive_theme_common.cc" />
+    <ClCompile Include="bililive\ui\views\controls\bililive_widget_delegate\bililive_mask_widget.cpp" />
+    <ClCompile Include="bililive\ui\views\controls\bililive_widget_delegate\bililive_widget_delegate.cpp" />
+    <ClCompile Include="bililive\ui\views\controls\blank_view.cpp" />
+    <ClCompile Include="bililive\ui\views\controls\browser\livehime_web_browser_osr_view.cc" />
+    <ClCompile Include="bililive\ui\views\controls\browser\livehime_web_browser_view.cc" />
+    <ClCompile Include="bililive\ui\views\controls\browser\livehime_web_browser_view_osr.cpp" />
+    <ClCompile Include="bililive\ui\views\controls\combox\bililive_combobox.cc" />
+    <ClCompile Include="bililive\ui\views\controls\combox\bililive_combobox_ex.cc" />
+    <ClCompile Include="bililive\ui\views\controls\combox\bililive_editable_combobox.cc" />
+    <ClCompile Include="bililive\ui\views\controls\gridview.cc" />
+    <ClCompile Include="bililive\ui\views\controls\image_render\bililive_image_render.cc" />
+    <ClCompile Include="bililive\ui\views\controls\image_render\bililive_sequence_images_util.cc" />
+    <ClCompile Include="bililive\ui\views\controls\linear_layout.cpp" />
+    <ClCompile Include="bililive\ui\views\controls\listview.cc" />
+    <ClCompile Include="bililive\ui\views\controls\mesh_layout.cpp" />
+    <ClCompile Include="bililive\ui\views\controls\navigation_bar.cc" />
+    <ClCompile Include="bililive\ui\views\controls\round_rect_background.cpp" />
+    <ClCompile Include="bililive\ui\views\controls\tabbed_pane\tabbed_pane.cc" />
+    <ClCompile Include="bililive\ui\views\controls\tab_bar_view.cc" />
+    <ClCompile Include="bililive\ui\views\controls\tab_select_view.cpp" />
+    <ClCompile Include="bililive\ui\views\controls\util\bililive_util_views.cc" />
+    <ClCompile Include="bililive\ui\views\controls\win32_datetimepicker_view.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\win32_richedit_view.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\startup\startup_bililive_creator.cc" />
+    <ClCompile Include="bililive\profiles\profile.cc" />
+    <ClCompile Include="bililive\profiles\profile_impl.cc" />
+    <ClCompile Include="bililive\prefs\bililive_prefs.cc" />
+    <ClCompile Include="bililive\prefs\scoped_user_pref_update.cc" />
+    <ClCompile Include="bililive\themes\bililive_theme_pack.cc" />
+    <ClCompile Include="bililive\themes\custom_theme_supplier.cc" />
+    <ClCompile Include="bililive\themes\theme_properties.cc" />
+    <ClCompile Include="bililive\themes\theme_service.cc" />
+    <ClCompile Include="bililive\ui\views\hotkey_notify\bililive_hotkey_notify_view.cc" />
+    <ClCompile Include="bililive\ui\views\hotkey_notify\bililive_toast_notify_view.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\anchor_notice\anchor_notice_box_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\colive\colive_crop_view.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\colive\colive_preview_control.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\colive\colive_splitter_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\colive\colive_theme_common.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\colive\colive_popup_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\custom_style_checkbox.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\custom_style_radio_button.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_bubble.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_combobox.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_hover_tip_button.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_button.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_image_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_label.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_list_state_banner.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_media_player_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_menu.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_message_box.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_mic_volume_beat_view.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_mp4_player_viewer.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_native_edit.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_pk_common_ctrls.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_search_list_view.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_slider.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_sub_edit.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_svga_image_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_tabbed.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_inside_frame_titlebar.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_textfield.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_theme_common.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_user_related_ctrls.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_webview_state_banner.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\custom_style_button.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\controls\dmkhime_controls.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\controls\dmkhime_toast_view.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\d2d_manager.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\danmakuhime_theme_common.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\danmaku_base_render_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\danmaku_renderer.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\danmaku_structs.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\danmaku_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\danmaku_view_theme.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\danmaku_web_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\custom_inline_object.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\flags_inline_object.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\gift_inline_object.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\image_inline_object.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\medal_inline_object.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\spread_inline_object.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\button_inline_object.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\paint.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\renderer\danmaku_renderer_utils.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\scrolling_interpolator.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\sculptor.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\super_chat\markedness_message_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\text_drawing_effect.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\text_layout.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\text_renderer.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\visions\nav_down_button.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\wic_bitmaps_render.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\wic_bitmaps_read.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\feedback\livehime_feedback_web_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\visions\danmaku_list.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\visions\danmaku_list_adapter.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\visions\overlay_scroll_bar.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\visions\danmaku_vision.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\visions\vision.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\visions\vision_group.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\layout\user_info_layout.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\live_notice\live_notice_dialog.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\main_view\faux_audient_effect_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\main_view\livehime_main_close_widget.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\main_view\livehime_main_native_widget_win.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\main_view\livehime_main_view.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\main_view\stretch_control_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\new_live_room\new_live_room_guide_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\notice\notice_tips_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\notify_window\live_handon_notify_window.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\preset_material\preset_material_background_preview_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\pre_start_live\pre_start_live_source_preview_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\preset_material\preset_material_common.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\settings\denoise_slider.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\settings\fixed_slider.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\settings\accelerator_settings_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\settings\audio_settings_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\settings\base_settings_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\settings\join_slide_tips_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\settings\language_settings_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\settings\record_settings_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\settings\settings_frame_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\settings\global_settings_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\settings\settings_widget.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\settings\settings_widget_common_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\settings\streaming_settings_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\settings\video_settings_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\sing_identify_notice\sing_identify_notice_dialog.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\base_setup_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\beauty_base_item_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\beauty_camera_control_preview_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\beauty_base_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\beauty_tab_item_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\browser_source\browser_source_interaction_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_audio_base_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_browser_property_view.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_camera_base_settings_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_color_property_view.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_filter_base_property_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_fliter_select_color_view.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_image_property_view.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_media_property_view.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_monitor_capture_view.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_monitor_property_view.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_album_property_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_text_property_view.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_volume_control_view.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_window_property_view.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\status_bar\livehime_status_bar_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\status_bar\livehime_streaming_quality_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\streaming_diagrams\streaming_diagrams_main_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\streaming_diagrams\streaming_warning_notify_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\theme\livehime_theme_black.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\theme\livehime_theme_blue.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\theme\livehime_theme_constants.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\theme\livehime_theme_pref_names.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\theme\livehime_theme_service.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\theme\livehime_theme_v3_special_constants.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\third_party_streaming\tps_break_waitting_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\third_party_streaming\tps_mode_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\third_party_streaming\tps_obs_guide_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\tips_dialog\fleet_achievement_dialog.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\tips_dialog\tips_dialog.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\volume\bililive_sound_effect_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\volume\bililive_sound_effect_widget.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\volume\bililive_volume_bar.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\volume\sound_reverb_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\web_browser\bililive_browser_frame_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\web_browser\common\module_common_title.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\web_browser\gift_panel\gift_panel_title.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\web_browser\gift_panel\livehime_gift_panel_widget.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\web_browser\livehime_unite_browser_widget.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\web_browser\livehime_web_browser_widget.cpp" />
+    <ClCompile Include="bililive\ui\views\login\bilibili_login_control.cpp" />
+    <ClCompile Include="bililive\ui\views\login\bililive_login_frame_view.cpp" />
+    <ClCompile Include="bililive\ui\views\login\bililive_login_info_collection_view.cpp" />
+    <ClCompile Include="bililive\ui\views\login\bililive_login_logining_status_view.cpp" />
+    <ClCompile Include="bililive\ui\views\login\bililive_login_main_view.cpp" />
+    <ClCompile Include="bililive\ui\views\login\bililive_mini_login_viddup_widget.cpp" />
+    <ClCompile Include="bililive\ui\views\login\livehime_captcha_frame_view.cpp" />
+    <ClCompile Include="bililive\ui\views\login\livehime_login_message_box.cpp" />
+    <ClCompile Include="bililive\ui\views\login\livehime_login_util.cpp" />
+    <ClCompile Include="bililive\ui\views\menu\colive_scene_item_menu.cc" />
+    <ClCompile Include="bililive\ui\views\menu\sceneitem_menu.cc" />
+    <ClCompile Include="bililive\ui\views\preview\livehime_obs_preview_control.cc" />
+    <ClCompile Include="bililive\ui\views\preview\livehime_preview_area_utils.cc" />
+    <ClCompile Include="bililive\ui\views\preview\livehime_preview_view.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_camera_property_view.cc" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_property_base_view.cc" />
+    <ClCompile Include="bililive\ui\views\status_icons\status_icon_win.cc" />
+    <ClCompile Include="bililive\ui\views\status_icons\status_tray_win.cc" />
+    <ClCompile Include="bililive\ui\views\tabarea\bottom_bar\banned_begin_view.cpp" />
+    <ClCompile Include="bililive\ui\views\tabarea\bottom_bar\banned_end_view.cpp" />
+    <ClCompile Include="bililive\ui\views\tabarea\bottom_bar\bottom_area_popup_view.cc" />
+    <ClCompile Include="bililive\ui\views\tabarea\bottom_bar\bottom_area_view.cc" />
+    <ClCompile Include="bililive\ui\views\tabarea\bottom_bar\danmaku_search_view.cpp" />
+    <ClCompile Include="bililive\ui\views\tabarea\bottom_bar\global_banned_view.cpp" />
+    <ClCompile Include="bililive\ui\views\tabarea\bottom_bar\loading_view.cpp" />
+    <ClCompile Include="bililive\ui\views\tabarea\livehime_module_view.cpp" />
+    <ClCompile Include="bililive\ui\views\tabarea\tabarea_materials_view.cpp" />
+    <ClCompile Include="bililive\ui\views\tabarea\tabarea_materials_widget.cpp" />
+    <ClCompile Include="bililive\ui\views\tabarea\tabarea_tab_strip_view.cc" />
+    <ClCompile Include="bililive\ui\views\tabarea\tabarea_toast_view.cc" />
+    <ClCompile Include="bililive\ui\views\tabarea\tabarea_danmaku_view.cpp" />
+    <ClCompile Include="bililive\ui\views\tabarea\tabarea_view.cc" />
+    <ClCompile Include="bililive\ui\views\toolbar\live_auto_replay_dialog.cpp" />
+    <ClCompile Include="bililive\ui\views\toolbar\record_live_button.cpp" />
+    <ClCompile Include="bililive\ui\views\toolbar\toolbar_volume_ctrl.cc" />
+    <ClCompile Include="bililive\ui\views\uploader\bililive_uploader_type.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\viddup\danmaku_hime\danmaku_interaction_title_viddup_view.cpp" />
+    <ClCompile Include="bililive\ui\views\viddup\danmaku_hime\danmaku_interaction_viddup_view.cpp" />
+    <ClCompile Include="bililive\ui\views\viddup\danmaku_hime\danmaku_merged_main_viddup_view.cpp" />
+    <ClCompile Include="bililive\ui\views\viddup\danmaku_hime\danmaku_render_viddup_view.cpp" />
+    <ClCompile Include="bililive\ui\views\viddup\main_view\livehime_main_viddup_view.cc" />
+    <ClCompile Include="bililive\ui\views\viddup\main_view\stretch_control_viddup_view.cpp" />
+    <ClCompile Include="bililive\ui\views\viddup\tabarea\canvas_materials_viddup_view.cpp" />
+    <ClCompile Include="bililive\ui\views\viddup\tabarea\tabarea_scenes_viddup_view.cc" />
+    <ClCompile Include="bililive\ui\views\viddup\tabarea\tabarea_scene_content_viddup_view.cc" />
+    <ClCompile Include="bililive\ui\views\viddup\tabarea\tabarea_tab_strip_viddup_view.cc" />
+    <ClCompile Include="bililive\ui\views\viddup\tabarea\tabarea_viddup_view.cc" />
+    <ClCompile Include="bililive\ui\views\viddup\theme\livehime_theme_viddup.cpp" />
+    <ClCompile Include="bililive\ui\views\viddup\titlebar\bililive_user_info_viddup_frame.cpp" />
+    <ClCompile Include="bililive\ui\views\viddup\titlebar\titlebar_viddup_view.cc" />
+    <ClCompile Include="bililive\ui\views\viddup\toolbar\livehime_top_toolbar_viddup_view.cpp" />
+    <ClCompile Include="bililive\ui\views\viddup\toolbar\open_live_viddup_view.cpp" />
+    <ClCompile Include="bililive\ui\views\viddup\toolbar\toolbar_viddup_view.cc" />
+    <ClCompile Include="bililive\utils\bililive_canvas_drawer.cpp" />
+    <ClCompile Include="bililive\utils\bililive_filetype_exts.cpp" />
+    <ClCompile Include="bililive\utils\bililive_image_util.cpp" />
+    <ClCompile Include="bililive\utils\convert_util.cc" />
+    <ClCompile Include="bililive\utils\fast_forward_url_convert.cc" />
+    <ClCompile Include="bililive\utils\file_util.cpp" />
+    <ClCompile Include="bililive\utils\game_launcher.cpp" />
+    <ClCompile Include="bililive\utils\gdiplus\bililive_gdiplus_image.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="bililive\utils\gdiplus\bililive_gdiplus_utils.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="bililive\utils\image_util.cc" />
+    <ClCompile Include="bililive\utils\is_administrator_required.cpp" />
+    <ClCompile Include="bililive\utils\KGpuMon.cc" />
+    <ClCompile Include="bililive\utils\net_util.cc" />
+    <ClCompile Include="bililive\utils\pinyin-search.cpp" />
+    <ClCompile Include="bililive\utils\pinyin-table.cpp" />
+    <ClCompile Include="bililive\utils\sequenced_image_package.cpp" />
+    <ClCompile Include="bililive\utils\setting_util.cc" />
+    <ClCompile Include="bililive\utils\time_span.cpp" />
+    <ClCompile Include="bililive\viddup\danmaku_hime\danmakuhime_data_viddup_handler.cpp" />
+    <ClCompile Include="bililive\viddup\danmaku_hime\danmaku_viddup_renderer.cpp" />
+    <ClCompile Include="bililive\viddup\danmaku_hime\send_danmaku_viddup_presenter.cpp" />
+    <ClCompile Include="bililive\viddup\live_model\viddup_live_model_controller.cpp" />
+    <ClCompile Include="bililive\viddup\live_room\viddup_live_controller.cpp" />
+    <ClCompile Include="bililive\viddup\obs\viddup_output_controller.cpp" />
+    <ClCompile Include="bililive\viddup\server_broadcast\broadcast_viddup_service.cpp" />
+    <ClCompile Include="bililive\viddup\server_broadcast\danmaku_broadcast_viddup_presenter.cpp" />
+    <ClCompile Include="common\bililive_context.cpp" />
+    <ClCompile Include="common\bililive_features.cpp" />
+    <ClCompile Include="common\bililive_ipc_pipe.cpp" />
+    <ClCompile Include="common\bililive_logging.cpp" />
+    <ClCompile Include="common\bililive_path.cpp" />
+    <ClCompile Include="public\common\bililive_constants.cc" />
+    <ClCompile Include="public\common\bililive_paths.cc" />
+    <ClCompile Include="public\common\bililive_paths_win.cc" />
+    <ClCompile Include="public\common\pref_constants.cpp" />
+    <ClCompile Include="public\common\pref_names.cc" />
+    <ClCompile Include="public\common\refcounted_canvas.cc" />
+    <ClCompile Include="public\common\refcounted_dictionary.cc" />
+    <ClCompile Include="public\log_ext\log_constants.cpp" />
+    <ClCompile Include="public\protobuf\broadcast.pb.cc" />
+    <ClCompile Include="public\protobuf\streaming_details.pb.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\ui\resources\cursors\aliasb.cur" />
+    <None Include="..\ui\resources\cursors\cell.cur" />
+    <None Include="..\ui\resources\cursors\col_resize.cur" />
+    <None Include="..\ui\resources\cursors\copy.cur" />
+    <None Include="..\ui\resources\cursors\none.cur" />
+    <None Include="..\ui\resources\cursors\row_resize.cur" />
+    <None Include="..\ui\resources\cursors\vertical_text.cur" />
+    <None Include="..\ui\resources\cursors\zoom_in.cur" />
+    <None Include="..\ui\resources\cursors\zoom_out.cur" />
+    <None Include="app\theme\bililive\bililive_obs_layout.json" />
+    <None Include="app\theme\bililive\bililive_obs_layout_test.json" />
+    <None Include="app\theme\bililive\bililive_obs_titlebar_layout.json" />
+    <None Include="app\theme\bililive\bililive_obs_toolbar_layout.json" />
+    <None Include="app\theme\bililive\bililive_toolbar_config_accelerators_layout.json" />
+    <None Include="app\theme\bililive\bililive_toolbar_config_audio_layout.json" />
+    <None Include="app\theme\bililive\bililive_toolbar_config_danmaku_layout.json" />
+    <None Include="app\theme\bililive\bililive_toolbar_config_general_layout.json" />
+    <None Include="app\theme\bililive\bililive_toolbar_config_layout.json" />
+    <None Include="app\theme\bililive\bililive_toolbar_config_plugflow_layout.json" />
+    <None Include="app\theme\bililive\bililive_toolbar_config_video_layout.json" />
+    <None Include="app\theme\bililive\uploader_partitions.json" />
+    <None Include="public\protobuf\broadcast.proto" />
+    <None Include="public\protobuf\streaming_details.proto" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app\theme\bililive\bililive.ico" />
+    <Image Include="app\theme\bililive\danmaku.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

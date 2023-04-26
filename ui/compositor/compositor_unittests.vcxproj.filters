@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{284609e2-8e39-45c9-ac21-bb8320afcac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%24%28OutDir%29">
+      <UniqueIdentifier>{78c7b90f-6a0b-4beb-97d0-a7999a84cfdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%24%28OutDir%29\obj">
+      <UniqueIdentifier>{f2dc2c5f-cc37-44c3-9d80-dfae8ed88d74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%24%28OutDir%29\obj\global_intermediate">
+      <UniqueIdentifier>{617e17a6-5e0c-42f6-b048-f542b4cba6cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%24%28OutDir%29\obj\global_intermediate\ui">
+      <UniqueIdentifier>{ca1fddd0-fb62-4fb1-868d-49084109a3e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%24%28OutDir%29\obj\global_intermediate\ui\gfx">
+      <UniqueIdentifier>{2db637ed-8c6a-439d-8f50-6286be54e701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%24%28OutDir%29\obj\global_intermediate\ui\ui_resources">
+      <UniqueIdentifier>{15592358-9dc9-444d-92e3-4969468fd390}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test_compositor_host_linux.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="layer_unittest.cc" />
+    <ClCompile Include="run_all_unittests.cc" />
+    <ClCompile Include="test_compositor.cc" />
+    <ClCompile Include="test_compositor_host_win.cc" />
+    <ClCompile Include="test_suite.cc" />
+    <ClCompile Include="test_texture.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="compositor.gyp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="test_compositor.h" />
+    <ClInclude Include="test_compositor_host.h" />
+    <ClInclude Include="test_suite.h" />
+    <ClInclude Include="test_texture.h" />
+  </ItemGroup>
+</Project>

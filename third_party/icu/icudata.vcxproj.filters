@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="windows">
+      <UniqueIdentifier>{63f55fbb-6fcd-47b5-824a-d034d5cd85ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mac">
+      <UniqueIdentifier>{ecadf90f-b2c0-4336-a7fa-4169f528cb7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mac\_excluded_files">
+      <UniqueIdentifier>{1c45266c-95fe-4ebf-b4e8-8ffe646b5ebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="android">
+      <UniqueIdentifier>{b1a70896-9470-4c06-9f9e-36314c991ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="android\_excluded_files">
+      <UniqueIdentifier>{a31cce49-ce8d-4005-b8d3-bcb5cf761208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="linux">
+      <UniqueIdentifier>{d2cc07dc-5993-4703-bd49-c570370c9786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="linux\_excluded_files">
+      <UniqueIdentifier>{fc3d1612-d0ff-41d5-8a5f-7058a52257b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mac\icudt46l_dat.S">
+      <Filter>mac\_excluded_files</Filter>
+    </None>
+    <None Include="android\icudt46l_dat.S">
+      <Filter>android\_excluded_files</Filter>
+    </None>
+    <None Include="linux\icudt46l_dat.S">
+      <Filter>linux\_excluded_files</Filter>
+    </None>
+    <None Include="icu.gyp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="windows\icudt.dll">
+      <Filter>windows</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

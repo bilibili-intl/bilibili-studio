@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{30b8b770-9f3a-4a96-b640-d202bad22c13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocoa">
+      <UniqueIdentifier>{1f731fab-e170-4c81-9e29-1dd3cf3d3745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocoa\_excluded_files">
+      <UniqueIdentifier>{a52fb4d4-d52a-4591-a7a1-6c3f009f5f53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="views">
+      <UniqueIdentifier>{228d48e6-9c5b-4905-8ab8-378e36fe56e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="views\_excluded_files">
+      <UniqueIdentifier>{71454517-20b1-4264-b6c9-0deeeb14d1c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dummy_message_center.cc">
+      <Filter>_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="views\bounded_label.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClCompile Include="views\message_center_button_bar.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClCompile Include="views\message_center_view.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClCompile Include="views\message_popup_collection.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClCompile Include="views\message_view.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClCompile Include="views\notification_view.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClCompile Include="views\notifier_settings_view.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClCompile Include="views\toast_contents_view.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClCompile Include="views\message_bubble_base.cc">
+      <Filter>views\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="views\message_center_bubble.cc">
+      <Filter>views\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="message_center.cc" />
+    <ClCompile Include="message_center_impl.cc" />
+    <ClCompile Include="message_center_style.cc" />
+    <ClCompile Include="message_center_switches.cc" />
+    <ClCompile Include="message_center_tray.cc" />
+    <ClCompile Include="message_center_util.cc" />
+    <ClCompile Include="notification.cc" />
+    <ClCompile Include="notification_delegate.cc" />
+    <ClCompile Include="notification_list.cc" />
+    <ClCompile Include="notification_types.cc" />
+    <ClCompile Include="notifier_settings.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="views\bounded_label.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClInclude Include="views\message_center_button_bar.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClInclude Include="views\message_center_view.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClInclude Include="views\message_popup_collection.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClInclude Include="views\message_view.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClInclude Include="views\notification_view.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClInclude Include="views\notifier_settings_view.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClInclude Include="views\toast_contents_view.h">
+      <Filter>views</Filter>
+    </ClInclude>
+    <ClInclude Include="message_center.h" />
+    <ClInclude Include="message_center_export.h" />
+    <ClInclude Include="message_center_impl.h" />
+    <ClInclude Include="message_center_observer.h" />
+    <ClInclude Include="message_center_style.h" />
+    <ClInclude Include="message_center_switches.h" />
+    <ClInclude Include="message_center_tray.h" />
+    <ClInclude Include="message_center_tray_delegate.h" />
+    <ClInclude Include="message_center_util.h" />
+    <ClInclude Include="notification.h" />
+    <ClInclude Include="notification_delegate.h" />
+    <ClInclude Include="notification_list.h" />
+    <ClInclude Include="notification_types.h" />
+    <ClInclude Include="notifier_settings.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="message_center.gyp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="cocoa\notification_controller.h">
+      <Filter>cocoa\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cocoa\notification_controller.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cocoa\popup_collection.h">
+      <Filter>cocoa\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cocoa\popup_collection.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cocoa\popup_controller.h">
+      <Filter>cocoa\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cocoa\popup_controller.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cocoa\settings_controller.h">
+      <Filter>cocoa\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cocoa\settings_controller.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cocoa\status_item_view.h">
+      <Filter>cocoa\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cocoa\status_item_view.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cocoa\tray_controller.h">
+      <Filter>cocoa\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cocoa\tray_controller.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cocoa\tray_view_controller.h">
+      <Filter>cocoa\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cocoa\tray_view_controller.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="views\message_bubble_base.h">
+      <Filter>views\_excluded_files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="views\message_center_bubble.h">
+      <Filter>views\_excluded_files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

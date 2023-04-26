@@ -1,0 +1,862 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_excluded_files">
+      <UniqueIdentifier>{ebc9f796-cd0f-4ed4-83a5-60bb627b16bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{d254f597-dc88-4b95-b532-eacfa3cd57ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{2462a7c3-7e02-4c03-8724-520180e40b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..">
+      <UniqueIdentifier>{e397b529-d35b-485b-88af-8dea4c07ca12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools">
+      <UniqueIdentifier>{f1a2dda5-d6aa-437d-ab22-2643ef132b1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\gritsettings">
+      <UniqueIdentifier>{18796b51-78a3-47c7-9150-69a9ee40c30f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\gritsettings\_excluded_files">
+      <UniqueIdentifier>{3288d58d-4573-482b-a388-4c5be1d00610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\grit">
+      <UniqueIdentifier>{65db1bfb-e412-472a-a0e6-4a54f16c8f22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\grit\_excluded_files">
+      <UniqueIdentifier>{3c6bcba5-6a9d-493a-9a1d-9d53aed68b52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\grit\grit">
+      <UniqueIdentifier>{fbff1b4c-e690-45b0-92ba-8563776a680e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\grit\grit\_excluded_files">
+      <UniqueIdentifier>{7a7709a2-a8b5-4faa-a993-860afb15937d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\grit\grit\node">
+      <UniqueIdentifier>{b15f8f88-7004-4d26-87a4-e745eacf4988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\grit\grit\node\_excluded_files">
+      <UniqueIdentifier>{33d399d6-7b95-4142-936e-dfc639c1463f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\grit\grit\node\custom">
+      <UniqueIdentifier>{0f949269-fe77-4aad-bd6d-c967c621d7a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\grit\grit\node\custom\_excluded_files">
+      <UniqueIdentifier>{3aad63a1-4767-4fda-9000-f7400a2dcdba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\grit\grit\extern">
+      <UniqueIdentifier>{283d3db7-1822-4522-ac0e-fce1ff8ffa9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\grit\grit\extern\_excluded_files">
+      <UniqueIdentifier>{3b95936a-b38a-4ce7-a6d6-1c56bc3ea7cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\grit\grit\tool">
+      <UniqueIdentifier>{123681da-fe74-4c9d-85d2-62008f16e543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\grit\grit\tool\_excluded_files">
+      <UniqueIdentifier>{3c3dbe2e-5445-4d8c-8260-aaa08f23638c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\grit\grit\gather">
+      <UniqueIdentifier>{e15b9f01-784b-47d2-9f39-4a23de4099c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\grit\grit\gather\_excluded_files">
+      <UniqueIdentifier>{9c79e2ca-a576-4f52-a39d-d461c5b4d040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\grit\grit\format">
+      <UniqueIdentifier>{e9a9c737-26a9-424f-9c4e-0574398676f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\grit\grit\format\_excluded_files">
+      <UniqueIdentifier>{242605f9-35ab-44bd-b1a5-ca5d8e02a4a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\grit\grit\format\policy_templates">
+      <UniqueIdentifier>{5d01c5f8-5438-408b-ac4f-9035a177ccb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\grit\grit\format\policy_templates\_excluded_files">
+      <UniqueIdentifier>{ffb8a2d6-787e-42e0-bfc3-45ec5a0d2405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\grit\grit\format\policy_templates\writers">
+      <UniqueIdentifier>{1463ad68-bffc-4481-94b1-18806bc01007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\..\tools\grit\grit\format\policy_templates\writers\_excluded_files">
+      <UniqueIdentifier>{b9d83d74-5e90-4513-a879-240d6897bd5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app_locale_settings.grd">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_am.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_ar.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_bg.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_bn.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_ca.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_cs.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_da.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_de.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_el.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_en-GB.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_es-419.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_es.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_et.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_fa.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_fi.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_fil.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_fr.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_gu.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_he.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_hi.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_hr.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_hu.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_id.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_it.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_ja.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_kn.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_ko.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_lt.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_lv.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_ml.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_mr.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_ms.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_nb.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_nl.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_pl.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_pt-BR.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_pt-PT.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_ro.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_ru.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_sk.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_sl.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_sr.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_sv.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_sw.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_ta.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_te.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_th.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_tr.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_uk.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_vi.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_zh-CN.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="app_locale_settings_zh-TW.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings.grd">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_am.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_ar.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_bg.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_bn.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_ca.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_cs.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_da.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_de.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_el.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_en-GB.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_es-419.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_es.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_et.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_fa.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_fi.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_fil.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_fr.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_gu.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_hi.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_hr.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_hu.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_id.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_it.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_iw.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_ja.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_kn.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_ko.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_lt.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_lv.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_ml.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_mr.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_ms.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_nl.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_no.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_pl.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_pt-BR.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_pt-PT.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_ro.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_ru.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_sk.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_sl.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_sr.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_sv.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_sw.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_ta.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_te.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_th.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_tr.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_uk.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_vi.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_zh-CN.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings_zh-TW.xtb">
+      <Filter>_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit.py">
+      <Filter>..\..\..\tools\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit_info.py">
+      <Filter>..\..\..\tools\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\PRESUBMIT.py">
+      <Filter>..\..\..\tools\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\__init__.py">
+      <Filter>..\..\..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\clique.py">
+      <Filter>..\..\..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\clique_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\constants.py">
+      <Filter>..\..\..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\exception.py">
+      <Filter>..\..\..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\grd_reader.py">
+      <Filter>..\..\..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\grd_reader_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\grit_runner.py">
+      <Filter>..\..\..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\grit_runner_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\lazy_re.py">
+      <Filter>..\..\..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\lazy_re_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\pseudo.py">
+      <Filter>..\..\..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\pseudo_rtl.py">
+      <Filter>..\..\..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\pseudo_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\scons.py">
+      <Filter>..\..\..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\shortcuts.py">
+      <Filter>..\..\..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\shortcuts_unittests.py">
+      <Filter>..\..\..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tclib.py">
+      <Filter>..\..\..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tclib_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\test_suite_all.py">
+      <Filter>..\..\..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\util.py">
+      <Filter>..\..\..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\util_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\xtb_reader.py">
+      <Filter>..\..\..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\xtb_reader_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\node\__init__.py">
+      <Filter>..\..\..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\node\base.py">
+      <Filter>..\..\..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\node\base_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\node\empty.py">
+      <Filter>..\..\..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\node\include.py">
+      <Filter>..\..\..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\node\include_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\node\io.py">
+      <Filter>..\..\..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\node\io_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\node\mapping.py">
+      <Filter>..\..\..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\node\message.py">
+      <Filter>..\..\..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\node\message_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\node\misc.py">
+      <Filter>..\..\..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\node\misc_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\node\structure.py">
+      <Filter>..\..\..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\node\structure_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\node\variant.py">
+      <Filter>..\..\..\tools\grit\grit\node\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\node\custom\__init__.py">
+      <Filter>..\..\..\tools\grit\grit\node\custom\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\node\custom\filename.py">
+      <Filter>..\..\..\tools\grit\grit\node\custom\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\node\custom\filename_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\node\custom\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\extern\__init__.py">
+      <Filter>..\..\..\tools\grit\grit\extern\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\extern\BogoFP.py">
+      <Filter>..\..\..\tools\grit\grit\extern\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\extern\FP.py">
+      <Filter>..\..\..\tools\grit\grit\extern\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\extern\tclib.py">
+      <Filter>..\..\..\tools\grit\grit\extern\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\__init__.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\android2grd.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\android2grd_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\build.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\build_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\buildinfo.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\buildinfo_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\count.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\diff_structures.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\interface.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\menu_from_parts.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\newgrd.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\postprocess_interface.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\postprocess_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\preprocess_interface.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\preprocess_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\rc2grd.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\rc2grd_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\resize.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\test.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\toolbar_postprocess.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\toolbar_preprocess.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\transl2tc.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\transl2tc_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\unit.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\xmb.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\tool\xmb_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\tool\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\gather\__init__.py">
+      <Filter>..\..\..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\gather\admin_template.py">
+      <Filter>..\..\..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\gather\admin_template_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\gather\chrome_html.py">
+      <Filter>..\..\..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\gather\chrome_html_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\gather\chrome_scaled_image.py">
+      <Filter>..\..\..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\gather\chrome_scaled_image_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\gather\igoogle_strings.py">
+      <Filter>..\..\..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\gather\igoogle_strings_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\gather\interface.py">
+      <Filter>..\..\..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\gather\json_loader.py">
+      <Filter>..\..\..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\gather\muppet_strings.py">
+      <Filter>..\..\..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\gather\muppet_strings_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\gather\policy_json.py">
+      <Filter>..\..\..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\gather\policy_json_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\gather\rc.py">
+      <Filter>..\..\..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\gather\rc_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\gather\regexp.py">
+      <Filter>..\..\..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\gather\skeleton_gatherer.py">
+      <Filter>..\..\..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\gather\tr_html.py">
+      <Filter>..\..\..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\gather\tr_html_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\gather\txt.py">
+      <Filter>..\..\..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\gather\txt_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\gather\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\__init__.py">
+      <Filter>..\..\..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\android_xml.py">
+      <Filter>..\..\..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\android_xml_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\c_format.py">
+      <Filter>..\..\..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\c_format_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\chrome_messages_json.py">
+      <Filter>..\..\..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\chrome_messages_json_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\data_pack.py">
+      <Filter>..\..\..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\data_pack_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\html_inline.py">
+      <Filter>..\..\..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\html_inline_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\js_map_format.py">
+      <Filter>..\..\..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\js_map_format_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\rc.py">
+      <Filter>..\..\..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\rc_header.py">
+      <Filter>..\..\..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\rc_header_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\rc_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\repack.py">
+      <Filter>..\..\..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\resource_map.py">
+      <Filter>..\..\..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\resource_map_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\format\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\__init__.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\policy_template_generator.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\policy_template_generator_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\PRESUBMIT.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\template_formatter.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\writer_configuration.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\writers\__init__.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\writers\adm_writer.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\writers\adm_writer_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\writers\adml_writer.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\writers\adml_writer_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\writers\admx_writer.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\writers\admx_writer_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\writers\doc_writer.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\writers\doc_writer_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\writers\json_writer.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\writers\json_writer_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\writers\mock_writer.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\writers\plist_helper.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\writers\plist_strings_writer.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\writers\plist_strings_writer_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\writers\plist_writer.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\writers\plist_writer_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\writers\reg_writer.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\writers\reg_writer_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\writers\template_writer.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\writers\template_writer_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\writers\writer_unittest_common.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\writers\xml_formatted_writer.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="..\..\..\tools\grit\grit\format\policy_templates\writers\xml_writer_base_unittest.py">
+      <Filter>..\..\..\tools\grit\grit\format\policy_templates\writers\_excluded_files</Filter>
+    </None>
+    <None Include="ui_strings.gyp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\tools\gritsettings\resource_ids">
+      <Filter>..\..\..\tools\gritsettings\_excluded_files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="beauty-filter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="force-mono-filter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="reverb\reverb.cpp">
+      <Filter>Source Files\reverb</Filter>
+    </ClCompile>
+    <ClCompile Include="reverb-filter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="obs-bili-plugins.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mp4-motion-filter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mic-record-filter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sing_identify\help_function.cpp">
+      <Filter>Source Files\sing_identify</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config\obs-filters-config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="reverb\juce_HeapBlock.h">
+      <Filter>Source Files\reverb</Filter>
+    </ClInclude>
+    <ClInclude Include="reverb\juce_Reverb.h">
+      <Filter>Source Files\reverb</Filter>
+    </ClInclude>
+    <ClInclude Include="reverb\reverb.h">
+      <Filter>Source Files\reverb</Filter>
+    </ClInclude>
+    <ClInclude Include="sing_identify\help_function.h">
+      <Filter>Source Files\sing_identify</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{50c7f832-5e4e-4e21-a050-423dc9b2c82c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{486957B2-F518-3C53-BEA3-644023F64651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\reverb">
+      <UniqueIdentifier>{287e7877-b174-4f69-b8ca-85644fb721b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sing_identify">
+      <UniqueIdentifier>{f3caba73-ac12-44c9-bd25-843236d07a63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

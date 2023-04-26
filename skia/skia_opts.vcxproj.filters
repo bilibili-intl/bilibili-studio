@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{3c512441-d343-47bb-b57a-4c3c5ad3b432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\third_party">
+      <UniqueIdentifier>{96437ec1-535b-4506-9415-944ab4574274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\third_party\skia">
+      <UniqueIdentifier>{aae0a937-7fcd-46f8-8ca8-f717bc10eb38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\third_party\skia\src">
+      <UniqueIdentifier>{3c8ddeee-f440-4c88-ac95-d426a2219455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\third_party\skia\src\opts">
+      <UniqueIdentifier>{dab293c0-08e0-4744-8901-d0fd56e036f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\third_party\skia\src\opts\SkBitmapFilter_opts_SSE2.cpp">
+      <Filter>..\third_party\skia\src\opts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\skia\src\opts\SkBitmapProcState_opts_SSE2.cpp">
+      <Filter>..\third_party\skia\src\opts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\skia\src\opts\SkBlitRect_opts_SSE2.cpp">
+      <Filter>..\third_party\skia\src\opts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\skia\src\opts\SkBlitRow_opts_SSE2.cpp">
+      <Filter>..\third_party\skia\src\opts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\skia\src\opts\SkUtils_opts_SSE2.cpp">
+      <Filter>..\third_party\skia\src\opts</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="skia_library_opts.gyp" />
+  </ItemGroup>
+</Project>

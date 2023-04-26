@@ -1,0 +1,3608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="libobs">
+      <UniqueIdentifier>{9317356f-cd52-4fbf-a8be-497eb449e7f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins">
+      <UniqueIdentifier>{8c206116-fafe-4415-b01c-e24f23600128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\win-dshow">
+      <UniqueIdentifier>{c6bb77f4-89c1-4778-a80a-6e52a9ea98c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\win-capture">
+      <UniqueIdentifier>{7a90ce22-01b9-4300-9427-db8f5751d716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\rtmp-services">
+      <UniqueIdentifier>{40bfc72e-39fb-4877-9725-f4884f03c581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\obs-browser">
+      <UniqueIdentifier>{15ed2bca-5e8f-4984-871c-75ce47789bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\obs-ffmpeg">
+      <UniqueIdentifier>{d5bcbbe6-8c5d-4bb9-b9bc-63835bb85343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\obs-outputs">
+      <UniqueIdentifier>{62f9d56e-3ccb-4e00-b091-92e6cf85b4be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\obs-x264">
+      <UniqueIdentifier>{c01e89df-1b25-449e-9bcb-e13dd41db6e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\obs-filters">
+      <UniqueIdentifier>{eea15edd-799a-44c7-ba83-52da60e20281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{74237541-5c6c-45c6-a768-71663a4b92b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\obs-frontend-api">
+      <UniqueIdentifier>{275d6ba5-c855-407d-81df-4904645894b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libobs-winrt">
+      <UniqueIdentifier>{a6a18454-4275-48dd-af46-b343b1c14002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libobs-d3d11">
+      <UniqueIdentifier>{0f5f81f1-585b-4cbc-bdf8-e85871a29890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive">
+      <UniqueIdentifier>{eeaf926f-3a33-4c27-950a-daa39649c5b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\bililive_face_detect">
+      <UniqueIdentifier>{9e300f58-531d-41f9-b6f0-f0c02957a862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\bililive_vtuber">
+      <UniqueIdentifier>{49dab5b7-87c6-4579-a5a2-3b4145c9510a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\bililive_vtuber\livehime">
+      <UniqueIdentifier>{1792233d-e901-4477-991c-d88a0c57cc15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\bililive_vtuber\math">
+      <UniqueIdentifier>{a14ce53b-2612-4ae7-a7f7-ed973f59221d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\bililive_vtuber\obs">
+      <UniqueIdentifier>{c128d9ef-9f83-40d0-b522-c70c3f9ea0e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\bililive_vtuber\protobuf">
+      <UniqueIdentifier>{eaee41a7-dddf-4300-a4db-1cc483e775b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\bililive_vtuber\unity">
+      <UniqueIdentifier>{ba72e7b4-dcea-4471-b43b-025d263625a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\bililive_vtuber\vtuber">
+      <UniqueIdentifier>{36d1f4c3-3f03-4ba2-af3e-dfeb3d188d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\bililive_vtuber\utils">
+      <UniqueIdentifier>{7ff7bde2-f506-4cb3-b67d-66ea8c8a20d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\bililive_vtuber\bifrost">
+      <UniqueIdentifier>{ce076028-df5a-496d-a8a8-9906699548df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\bililive_face_detect\sensetime">
+      <UniqueIdentifier>{c7274ca3-fcc7-4113-bb47-449b387409a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\bililive_face_detect\utils">
+      <UniqueIdentifier>{0212373d-2ab2-429e-ac6e-62122f81ec82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\obs-studio\libobs\audio-monitoring\null\null-audio-monitoring.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\audio-monitoring\osx\coreaudio-enum-devices.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\audio-monitoring\osx\coreaudio-output.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\audio-monitoring\pulse\pulseaudio-enum-devices.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\audio-monitoring\pulse\pulseaudio-output.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\audio-monitoring\pulse\pulseaudio-wrapper.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\audio-monitoring\win32\wasapi-enum-devices.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\audio-monitoring\win32\wasapi-output.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\callback\calldata.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\callback\decl.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\callback\proc.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\callback\signal.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\graphics\axisang.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\graphics\bounds.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\graphics\effect-parser.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\graphics\effect.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\graphics\graphics-ffmpeg.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\graphics\graphics-imports.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\graphics\graphics-magick.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\graphics\graphics.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\graphics\image-file.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\graphics\libnsgif\libnsgif.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\graphics\math-extra.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\graphics\matrix3.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\graphics\matrix4.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\graphics\plane.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\graphics\quat.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\graphics\shader-parser.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\graphics\texture-render.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\graphics\vec2.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\graphics\vec3.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\graphics\vec4.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\media-io\audio-io.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\media-io\audio-resampler-ffmpeg.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\media-io\format-conversion.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\media-io\media-remux.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\media-io\video-fourcc.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\media-io\video-frame.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\media-io\video-io.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\media-io\video-matrices.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\media-io\video-scaler-ffmpeg.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\obs-audio-controls.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\obs-audio.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\obs-avc.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\obs-data.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\obs-display.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\obs-encoder.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\obs-hotkey-name-map.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\obs-hotkey.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\obs-module.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\obs-nix.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\obs-output-delay.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\obs-output.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\obs-properties.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\obs-scene.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\obs-service.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\obs-source-deinterlace.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\obs-source-transition.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\obs-source.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\obs-video-gpu-encode.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\obs-video.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\obs-view.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\obs-win-crash-handler.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\obs-windows.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\obs.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\util\array-serializer.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\util\base.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\util\bmem.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\util\cf-lexer.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\util\cf-parser.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\util\config-file.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\util\crc32.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\util\dstr.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\util\file-serializer.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\util\lexer.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\util\pipe-posix.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\util\pipe-windows.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\util\platform-nix-dbus.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\util\platform-nix.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\util\platform-windows.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\util\platform.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\util\profiler.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\util\text-lookup.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\util\threading-posix.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\util\threading-windows.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs\util\utf8.c">
+      <Filter>libobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\app-helpers.c">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\cursor-capture.c">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\dc-capture.c">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\duplicator-monitor-capture.c">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\funchook.c">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\game-capture-file-init.c">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\game-capture.c">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\get-graphics-offsets\d3d8-offsets.cpp">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\get-graphics-offsets\d3d9-offsets.cpp">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\get-graphics-offsets\ddraw-offsets.cpp">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\get-graphics-offsets\dxgi-offsets.cpp">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\get-graphics-offsets\get-graphics-offsets.c">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\graphics-hook\d3d10-capture.cpp">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\graphics-hook\d3d11-capture.cpp">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\graphics-hook\d3d12-capture.cpp">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\graphics-hook\d3d8-capture.cpp">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\graphics-hook\d3d9-capture.cpp">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\graphics-hook\dxgi-capture.cpp">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\graphics-hook\gl-capture.c">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\graphics-hook\graphics-hook.c">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\graphics-hook\vulkan-capture.c">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\inject-helper\inject-helper.c">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\inject-library.c">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\load-graphics-offsets.c">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\monitor-capture.c">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\obfuscate.c">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\plugin-main.c">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\window-capture.c">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-capture\window-helpers.c">
+      <Filter>plugins\win-capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-dshow\dshow-plugin.cpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-dshow\ffmpeg-decode.c">
+      <Filter>plugins\win-dshow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\capture-filter.cpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\device.cpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\dshow-base.cpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\dshow-demux.cpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\dshow-encoded-device.cpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\dshow-enum.cpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\dshow-formats.cpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\dshow-media-type.cpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\dshowcapture.cpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\dshowencode.cpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\encoder.cpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\log.cpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\output-filter.cpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-dshow\shared-memory-queue.c">
+      <Filter>plugins\win-dshow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-dshow\tiny-nv12-scale.c">
+      <Filter>plugins\win-dshow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-dshow\virtualcam-module\placeholder.cpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-dshow\virtualcam-module\sleepto.c">
+      <Filter>plugins\win-dshow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-dshow\virtualcam-module\virtualcam-filter.cpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-dshow\virtualcam-module\virtualcam-module.cpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-dshow\virtualcam.c">
+      <Filter>plugins\win-dshow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-dshow\win-dshow-encoder.cpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\win-dshow\win-dshow.cpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\rtmp-services\nimotv.c">
+      <Filter>plugins\rtmp-services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\rtmp-services\rtmp-common.c">
+      <Filter>plugins\rtmp-services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\rtmp-services\rtmp-custom.c">
+      <Filter>plugins\rtmp-services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\rtmp-services\rtmp-services-main.c">
+      <Filter>plugins\rtmp-services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\rtmp-services\showroom.c">
+      <Filter>plugins\rtmp-services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\rtmp-services\twitch.c">
+      <Filter>plugins\rtmp-services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\rtmp-services\younow.c">
+      <Filter>plugins\rtmp-services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-browser\browser-app.cpp">
+      <Filter>plugins\obs-browser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-browser\browser-client.cpp">
+      <Filter>plugins\obs-browser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-browser\browser-scheme.cpp">
+      <Filter>plugins\obs-browser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-browser\deps\base64\base64.cpp">
+      <Filter>plugins\obs-browser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-browser\deps\json11\json11.cpp">
+      <Filter>plugins\obs-browser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-browser\deps\wide-string.cpp">
+      <Filter>plugins\obs-browser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-browser\obs-browser-page\obs-browser-page-main.cpp">
+      <Filter>plugins\obs-browser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-browser\obs-browser-plugin.cpp">
+      <Filter>plugins\obs-browser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-browser\obs-browser-source-audio.cpp">
+      <Filter>plugins\obs-browser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-browser\obs-browser-source.cpp">
+      <Filter>plugins\obs-browser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-browser\panel\browser-panel-client.cpp">
+      <Filter>plugins\obs-browser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-browser\panel\browser-panel.cpp">
+      <Filter>plugins\obs-browser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-ffmpeg\ffmpeg-mux\ffmpeg-mux.c">
+      <Filter>plugins\obs-ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-ffmpeg\jim-nvenc-helpers.c">
+      <Filter>plugins\obs-ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-ffmpeg\jim-nvenc.c">
+      <Filter>plugins\obs-ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-ffmpeg\obs-ffmpeg-audio-encoders.c">
+      <Filter>plugins\obs-ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-ffmpeg\obs-ffmpeg-logging.c">
+      <Filter>plugins\obs-ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-ffmpeg\obs-ffmpeg-mux.c">
+      <Filter>plugins\obs-ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-ffmpeg\obs-ffmpeg-nvenc.c">
+      <Filter>plugins\obs-ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-ffmpeg\obs-ffmpeg-output.c">
+      <Filter>plugins\obs-ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-ffmpeg\obs-ffmpeg-source.c">
+      <Filter>plugins\obs-ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-ffmpeg\obs-ffmpeg-vaapi.c">
+      <Filter>plugins\obs-ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-ffmpeg\obs-ffmpeg.c">
+      <Filter>plugins\obs-ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\flv-mux.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\flv-output.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\ftl_app\bitstream.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\ftl_app\cavlc.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\ftl_app\decode.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\ftl_app\file_parser.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\ftl_app\main.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\ftl_app\nalu.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\ftl_app\posix\ctrlc_handler.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\ftl_app\utils.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\ftl_app\win32\xgetopt.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\CMake\CurlTests.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\10-at-a-time.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\anyauthput.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\asiohiper.cpp">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\cacertinmem.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\certinfo.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\chkspeed.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\cookie_interface.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\curlgtk.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\curlx.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\debug.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\evhiperfifo.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\externalsocket.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\fileupload.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\fopen.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\ftp-wildcard.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\ftpget.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\ftpgetinfo.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\ftpgetresp.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\ftpsget.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\ftpupload.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\ftpuploadresume.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\getinmemory.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\getredirect.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\ghiper.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\hiperfifo.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\href_extractor.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\htmltidy.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\htmltitle.cpp">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\http-post.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\http2-download.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\http2-serverpush.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\http2-upload.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\httpcustomheader.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\httpput.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\https.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\imap-append.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\imap-copy.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\imap-create.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\imap-delete.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\imap-examine.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\imap-fetch.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\imap-list.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\imap-lsub.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\imap-multi.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\imap-noop.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\imap-search.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\imap-ssl.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\imap-store.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\imap-tls.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\multi-app.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\multi-debugcallback.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\multi-double.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\multi-post.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\multi-single.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\multi-uv.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\multithread.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\opensslthreadlock.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\persistant.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\pop3-dele.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\pop3-list.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\pop3-multi.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\pop3-noop.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\pop3-retr.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\pop3-ssl.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\pop3-stat.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\pop3-tls.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\pop3-top.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\pop3-uidl.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\post-callback.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\postinmemory.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\postit2.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\progressfunc.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\sampleconv.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\sendrecv.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\sepheaders.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\sessioninfo.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\sftpget.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\simple.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\simplepost.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\simplessl.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\smooth-gtk-thread.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\smtp-expn.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\smtp-mail.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\smtp-multi.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\smtp-ssl.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\smtp-tls.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\smtp-vrfy.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\synctime.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\threaded-ssl.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\url2file.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\usercertinmem.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\xmlstream.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\amigaos.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\asyn-ares.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\asyn-thread.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\base64.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\conncache.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\connect.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\content_encoding.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\cookie.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_addrinfo.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_des.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_endian.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_fnmatch.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_gethostname.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_gssapi.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_memrchr.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_multibyte.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_ntlm_core.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_ntlm_wb.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_rtmp.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_sasl.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_sspi.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_threads.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\dict.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\dotdot.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\easy.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\escape.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\file.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\fileinfo.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\formdata.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\ftp.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\ftplistparser.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\getenv.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\gopher.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\hash.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\hostasyn.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\hostcheck.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\hostip.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\hostip4.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\hostip6.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\hostsyn.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\http.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\http2.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\http_chunks.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\http_digest.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\http_negotiate.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\http_ntlm.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\http_proxy.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\idn_win32.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\if2ip.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\imap.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\inet_ntop.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\inet_pton.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\krb5.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\ldap.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\llist.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\md4.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\memdebug.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\mprintf.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\multi.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\netrc.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\non-ascii.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\nonblock.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\nwlib.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\nwos.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\openldap.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\parsedate.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\pingpong.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\pipeline.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\pop3.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\progress.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\rand.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\security.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\select.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\sendf.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\share.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\slist.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\smb.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\smtp.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\socks.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\socks_gssapi.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\socks_sspi.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\speedcheck.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\splay.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\ssh.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\strcase.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\strdup.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\strerror.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\strtok.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\strtoofft.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\system_win32.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\telnet.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\tftp.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\timeval.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\transfer.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\url.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vauth\cleartext.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vauth\cram.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vauth\digest.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vauth\digest_sspi.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vauth\krb5_gssapi.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vauth\krb5_sspi.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vauth\ntlm.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vauth\ntlm_sspi.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vauth\oauth2.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vauth\spnego_gssapi.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vauth\spnego_sspi.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vauth\vauth.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\version.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vtls\axtls.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vtls\cyassl.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vtls\darwinssl.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vtls\gskit.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vtls\gtls.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vtls\mbedtls.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vtls\nss.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vtls\openssl.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vtls\polarssl.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vtls\polarssl_threadlock.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vtls\schannel.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vtls\vtls.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\warnless.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\wildcard.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\x509asn1.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\packages\OS400\ccsidcurl.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\packages\OS400\os400sys.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\packages\vms\curl_crtl_init.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\packages\vms\report_openssl_version.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\macos\src\curl_GUSIConfig.cpp">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\macos\src\macos_main.cpp">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\slist_wc.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_binmode.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_bname.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_cb_dbg.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_cb_hdr.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_cb_prg.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_cb_rea.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_cb_see.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_cb_wrt.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_cfgable.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_convert.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_dirhie.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_doswin.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_easysrc.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_formparse.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_getparam.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_getpass.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_help.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_helpers.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_homedir.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_libinfo.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_main.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_metalink.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_mfiles.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_msgs.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_operate.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_operhlp.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_panykey.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_paramhlp.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_parsecfg.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_setopt.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_sleep.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_strdup.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_urlglob.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_util.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_vms.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_writeenv.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_writeout.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_xattr.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\chkhostname.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\first.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1500.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1501.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1502.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1506.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1507.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1508.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1509.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1510.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1511.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1512.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1513.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1514.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1515.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1517.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1520.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1525.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1526.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1527.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1528.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1529.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1530.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1531.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1532.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1533.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1534.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1535.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1536.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib1900.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib500.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib501.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib502.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib503.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib504.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib505.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib506.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib507.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib508.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib509.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib510.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib511.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib512.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib513.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib514.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib515.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib516.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib517.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib518.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib519.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib520.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib521.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib523.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib524.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib525.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib526.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib530.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib533.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib536.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib537.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib539.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib540.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib541.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib542.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib543.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib544.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib547.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib549.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib552.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib553.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib554.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib555.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib556.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib557.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib558.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib560.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib562.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib564.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib566.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib567.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib568.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib569.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib570.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib571.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib572.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib573.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib574.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib575.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib576.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib578.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib579.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib582.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib583.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib586.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib590.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib591.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib597.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib598.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\lib599.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\libauthretry.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\libntlmconnect.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\sethostname.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\testtrace.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\testutil.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\server\fake_ntlm.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\server\getpart.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\server\rtspd.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\server\sockfilt.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\server\sws.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\server\testpart.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\server\tftpd.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\server\util.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\unit\unit1300.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\unit\unit1301.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\unit\unit1302.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\unit\unit1303.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\unit\unit1304.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\unit\unit1305.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\unit\unit1307.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\unit\unit1308.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\unit\unit1309.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\unit\unit1330.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\unit\unit1394.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\unit\unit1395.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\unit\unit1396.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\unit\unit1397.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\unit\unit1398.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\unit\unit1600.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\unit\unit1601.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\unit\unit1602.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\unit\unit1603.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\unit\unit1604.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\unit\unit1605.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\ftl-sdk.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\ftl_helpers.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\gettimeofday\gettimeofday.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\handshake.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\hmac\hmac.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\hmac\sha2.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\ingest.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\init.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\logging.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\media.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\win32\socket.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\win32\threads.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\doc\github_commits.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\examples\simple_parse.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\src\dump.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\src\error.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\src\hashtable.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\src\hashtable_seed.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\src\load.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\src\memory.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\src\pack_unpack.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\src\strbuffer.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\src\strconv.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\src\utf.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\src\value.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\test\bin\json_process.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\test\suites\api\test_array.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\test\suites\api\test_copy.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\test\suites\api\test_dump.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\test\suites\api\test_dump_callback.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\test\suites\api\test_equal.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\test\suites\api\test_load.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\test\suites\api\test_loadb.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\test\suites\api\test_load_callback.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\test\suites\api\test_memory_funcs.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\test\suites\api\test_number.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\test\suites\api\test_object.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\test\suites\api\test_pack.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\test\suites\api\test_simple.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\test\suites\api\test_unpack.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\ftl-stream.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\librtmp\amf.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\librtmp\cencode.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\librtmp\hashswf.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\librtmp\log.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\librtmp\md5.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\librtmp\parseurl.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\librtmp\rtmp.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\net-if.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\null-output.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\obs-outputs.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\rtmp-stream.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\rtmp-windows.c">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\tunnel-interface_mac.cpp">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-outputs\tunnel-interface_win.cpp">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-x264\obs-x264-options.c">
+      <Filter>plugins\obs-x264</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-x264\obs-x264-plugin-main.c">
+      <Filter>plugins\obs-x264</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-x264\obs-x264-test.c">
+      <Filter>plugins\obs-x264</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-x264\obs-x264.c">
+      <Filter>plugins\obs-x264</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\async-delay-filter.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\chroma-key-filter.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\color-correction-filter.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\color-grade-filter.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\color-key-filter.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\compressor-filter.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\crop-filter.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\expander-filter.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\gain-filter.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\gpu-delay.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\invert-audio-polarity.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\limiter-filter.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\luma-key-filter.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\mask-filter.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\noise-gate-filter.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\noise-suppress-filter.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\obs-filters.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\rnnoise\src\celt_lpc.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\rnnoise\src\denoise.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\rnnoise\src\kiss_fft.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\rnnoise\src\pitch.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\rnnoise\src\rnn.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\rnnoise\src\rnn_data.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\rnnoise\src\rnn_reader.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\scale-filter.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\scroll-filter.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\sharpness-filter.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\plugins\obs-filters\unpremultiply-filter.c">
+      <Filter>plugins\obs-filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\UI\obs-frontend-api\obs-frontend-api.cpp">
+      <Filter>UI\obs-frontend-api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs-winrt\winrt-capture.cpp">
+      <Filter>libobs-winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs-winrt\winrt-dispatch.cpp">
+      <Filter>libobs-winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs-d3d11\d3d11-duplicator.cpp">
+      <Filter>libobs-d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs-d3d11\d3d11-indexbuffer.cpp">
+      <Filter>libobs-d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs-d3d11\d3d11-rebuild.cpp">
+      <Filter>libobs-d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs-d3d11\d3d11-samplerstate.cpp">
+      <Filter>libobs-d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs-d3d11\d3d11-shader.cpp">
+      <Filter>libobs-d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs-d3d11\d3d11-shaderprocessor.cpp">
+      <Filter>libobs-d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs-d3d11\d3d11-stagesurf.cpp">
+      <Filter>libobs-d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs-d3d11\d3d11-subsystem.cpp">
+      <Filter>libobs-d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs-d3d11\d3d11-texture2d.cpp">
+      <Filter>libobs-d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs-d3d11\d3d11-texture3d.cpp">
+      <Filter>libobs-d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs-d3d11\d3d11-vertexbuffer.cpp">
+      <Filter>libobs-d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\obs-studio\libobs-d3d11\d3d11-zstencilbuffer.cpp">
+      <Filter>libobs-d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\face_detect\face_detect.cpp">
+      <Filter>bililive\bililive_face_detect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\bililive\bililive_vtuber\livehime\vtuber_service_impl.cpp">
+      <Filter>bililive\bililive_vtuber\livehime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\bililive\bililive_vtuber\math\hash.cpp">
+      <Filter>bililive\bililive_vtuber\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\bililive\bililive_vtuber\protobuf\vtuber.pb.cc">
+      <Filter>bililive\bililive_vtuber\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\bililive\bililive_vtuber\obs\figma_obs_wrapper.cpp">
+      <Filter>bililive\bililive_vtuber\obs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\bililive\bililive_vtuber\obs\figma_obs_wrapper_impl.cpp">
+      <Filter>bililive\bililive_vtuber\obs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\bililive\bililive_vtuber\utils\file_utils.cpp">
+      <Filter>bililive\bililive_vtuber\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\bililive\bililive_vtuber\utils\winapi_utils.cpp">
+      <Filter>bililive\bililive_vtuber\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\bililive\bililive_vtuber\bifrost\bifrost.cpp">
+      <Filter>bililive\bililive_vtuber\bifrost</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\bililive\bililive_vtuber\unity\unity_launcher.cpp">
+      <Filter>bililive\bililive_vtuber\unity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\face_detect\sensetime\sensetime_face_resolver.cpp">
+      <Filter>bililive\bililive_face_detect\sensetime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\face_detect\sensetime\sensetime_processor.cpp">
+      <Filter>bililive\bililive_face_detect\sensetime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\face_detect\utils\number_dot_font.cpp">
+      <Filter>bililive\bililive_face_detect\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\bililive\bililive_vtuber\livehime\vtuber_storage_impl.cpp">
+      <Filter>bililive\bililive_vtuber\livehime</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\obs-studio\libobs\audio-monitoring\osx\mac-helpers.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\audio-monitoring\pulse\pulseaudio-wrapper.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\audio-monitoring\win32\wasapi-output.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\callback\calldata.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\callback\decl.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\callback\proc.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\callback\signal.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\graphics\axisang.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\graphics\basemath.hpp">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\graphics\bounds.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\graphics\device-exports.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\graphics\effect-parser.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\graphics\effect.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\graphics\graphics-internal.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\graphics\graphics.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\graphics\half.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\graphics\image-file.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\graphics\input.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\graphics\libnsgif\libnsgif.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\graphics\math-defs.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\graphics\math-extra.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\graphics\matrix3.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\graphics\matrix4.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\graphics\plane.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\graphics\quat.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\graphics\shader-parser.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\graphics\vec2.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\graphics\vec3.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\graphics\vec4.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\media-io\audio-io.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\media-io\audio-math.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\media-io\audio-resampler.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\media-io\format-conversion.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\media-io\frame-rate.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\media-io\media-io-defs.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\media-io\media-remux.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\media-io\video-frame.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\media-io\video-io.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\media-io\video-scaler.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\obs-audio-controls.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\obs-avc.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\obs-config.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\obs-data.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\obs-defs.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\obs-encoder.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\obs-ffmpeg-compat.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\obs-hotkey.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\obs-hotkeys.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\obs-interaction.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\obs-internal.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\obs-module.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\obs-output.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\obs-properties.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\obs-scene.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\obs-service.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\obs-source.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\obs-ui.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\obs.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\obs.hpp">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\AlignedNew.hpp">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\apple\cfstring-utils.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\array-serializer.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\base.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\bmem.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\c99defs.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\cf-lexer.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\cf-parser.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\circlebuf.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\config-file.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\crc32.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\curl\curl-helper.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\darray.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\dstr.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\dstr.hpp">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\file-serializer.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\lexer.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\pipe.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\platform.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\profiler.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\profiler.hpp">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\serializer.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\simde\check.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\simde\debug-trap.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\simde\hedley.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\simde\mmx.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\simde\simde-arch.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\simde\simde-common.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\simde\simde-diagnostic.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\simde\simde-features.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\simde\simde-math.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\simde\sse.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\simde\sse2.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\sse-intrin.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\sse2neon.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\text-lookup.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\threading-posix.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\threading-windows.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\threading.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\utf8.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\util.hpp">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\util_uint128.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\util_uint64.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\windows\ComPtr.hpp">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\windows\CoTaskMemPtr.hpp">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\windows\HRError.hpp">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\windows\win-registry.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\windows\win-version.h">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs\util\windows\WinHandle.hpp">
+      <Filter>libobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-capture\app-helpers.h">
+      <Filter>plugins\win-capture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-capture\cursor-capture.h">
+      <Filter>plugins\win-capture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-capture\d3d8-api\d3d8.h">
+      <Filter>plugins\win-capture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-capture\d3d8-api\d3d8caps.h">
+      <Filter>plugins\win-capture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-capture\d3d8-api\d3d8types.h">
+      <Filter>plugins\win-capture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-capture\dc-capture.h">
+      <Filter>plugins\win-capture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-capture\funchook.h">
+      <Filter>plugins\win-capture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-capture\get-graphics-offsets\get-graphics-offsets.h">
+      <Filter>plugins\win-capture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-capture\graphics-hook\d3d9-patches.hpp">
+      <Filter>plugins\win-capture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-capture\graphics-hook\dxgi-helpers.hpp">
+      <Filter>plugins\win-capture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-capture\graphics-hook\gl-decs.h">
+      <Filter>plugins\win-capture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-capture\graphics-hook\graphics-hook.h">
+      <Filter>plugins\win-capture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-capture\graphics-hook\vulkan-capture.h">
+      <Filter>plugins\win-capture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-capture\graphics-hook-info.h">
+      <Filter>plugins\win-capture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-capture\graphics-hook-ver.h">
+      <Filter>plugins\win-capture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-capture\hook-helpers.h">
+      <Filter>plugins\win-capture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-capture\inject-library.h">
+      <Filter>plugins\win-capture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-capture\nt-stuff.h">
+      <Filter>plugins\win-capture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-capture\obfuscate.h">
+      <Filter>plugins\win-capture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-capture\window-helpers.h">
+      <Filter>plugins\win-capture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-dshow\encode-dstr.hpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-dshow\ffmpeg-decode.h">
+      <Filter>plugins\win-dshow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-dshow\libdshowcapture\dshowcapture.hpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\avermedia-encode.h">
+      <Filter>plugins\win-dshow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\capture-filter.hpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\ComPtr.hpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\CoTaskMemPtr.hpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\device.hpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\dshow-base.hpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\dshow-demux.hpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\dshow-device-defs.hpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\dshow-enum.hpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\dshow-formats.hpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\dshow-media-type.hpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\encoder.hpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\external\IVideoCaptureFilter.h">
+      <Filter>plugins\win-dshow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\log.hpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-dshow\libdshowcapture\source\output-filter.hpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-dshow\shared-memory-queue.h">
+      <Filter>plugins\win-dshow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-dshow\tiny-nv12-scale.h">
+      <Filter>plugins\win-dshow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-dshow\virtualcam-module\sleepto.h">
+      <Filter>plugins\win-dshow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\win-dshow\virtualcam-module\virtualcam-filter.hpp">
+      <Filter>plugins\win-dshow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\rtmp-services\nimotv.h">
+      <Filter>plugins\rtmp-services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\rtmp-services\rtmp-format-ver.h">
+      <Filter>plugins\rtmp-services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\rtmp-services\showroom.h">
+      <Filter>plugins\rtmp-services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\rtmp-services\twitch.h">
+      <Filter>plugins\rtmp-services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\rtmp-services\younow.h">
+      <Filter>plugins\rtmp-services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-browser\browser-app.hpp">
+      <Filter>plugins\obs-browser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-browser\browser-client.hpp">
+      <Filter>plugins\obs-browser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-browser\browser-scheme.hpp">
+      <Filter>plugins\obs-browser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-browser\browser-version.h">
+      <Filter>plugins\obs-browser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-browser\cef-headers.hpp">
+      <Filter>plugins\obs-browser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-browser\deps\base64\base64.hpp">
+      <Filter>plugins\obs-browser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-browser\deps\json11\json11.hpp">
+      <Filter>plugins\obs-browser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-browser\deps\wide-string.hpp">
+      <Filter>plugins\obs-browser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-browser\linux-keyboard-helpers.hpp">
+      <Filter>plugins\obs-browser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-browser\obs-browser-source.hpp">
+      <Filter>plugins\obs-browser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-browser\panel\browser-panel-client.hpp">
+      <Filter>plugins\obs-browser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-browser\panel\browser-panel-internal.hpp">
+      <Filter>plugins\obs-browser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-browser\panel\browser-panel.hpp">
+      <Filter>plugins\obs-browser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-ffmpeg\external\dynlink_cuda.h">
+      <Filter>plugins\obs-ffmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-ffmpeg\external\nvEncodeAPI.h">
+      <Filter>plugins\obs-ffmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-ffmpeg\ffmpeg-mux\ffmpeg-mux.h">
+      <Filter>plugins\obs-ffmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-ffmpeg\jim-nvenc.h">
+      <Filter>plugins\obs-ffmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-ffmpeg\obs-ffmpeg-compat.h">
+      <Filter>plugins\obs-ffmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-ffmpeg\obs-ffmpeg-formats.h">
+      <Filter>plugins\obs-ffmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-ffmpeg\obs-ffmpeg-output.h">
+      <Filter>plugins\obs-ffmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\flv-mux.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\ftl_app\bitstream.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\ftl_app\cavlc.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\ftl_app\decode.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\ftl_app\dec_obj.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\ftl_app\file_parser.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\ftl_app\gettimeofday.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\ftl_app\main.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\ftl_app\nalu.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\ftl_app\utils.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\ftl_app\win32\xgetopt.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\include\curl\curl.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\include\curl\curlrules.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\include\curl\curlver.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\include\curl\easy.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\include\curl\mprintf.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\include\curl\multi.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\include\curl\stdcheaders.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\include\curl\typecheck-gcc.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\amigaos.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\arpa_telnet.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\asyn.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\config-amigaos.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\config-dos.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\config-mac.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\config-os400.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\config-riscos.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\config-symbian.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\config-tpf.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\config-vxworks.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\config-win32.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\config-win32ce.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\conncache.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\connect.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\content_encoding.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\cookie.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curlx.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_addrinfo.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_base64.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_des.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_endian.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_fnmatch.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_gethostname.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_gssapi.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_hmac.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_ldap.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_md4.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_md5.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_memory.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_memrchr.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_multibyte.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_ntlm_core.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_ntlm_wb.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_printf.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_rtmp.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_sasl.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_sec.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_setup.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_setup_once.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_sspi.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\curl_threads.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\dict.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\dotdot.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\easyif.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\escape.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\file.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\fileinfo.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\formdata.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\ftp.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\ftplistparser.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\getinfo.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\gopher.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\hash.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\hostcheck.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\hostip.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\http.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\http2.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\http_chunks.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\http_digest.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\http_negotiate.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\http_ntlm.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\http_proxy.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\if2ip.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\imap.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\inet_ntop.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\inet_pton.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\llist.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\memdebug.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\multihandle.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\multiif.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\netrc.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\non-ascii.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\nonblock.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\parsedate.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\pingpong.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\pipeline.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\pop3.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\progress.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\rand.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\rtsp.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\select.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\sendf.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\setup-os400.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\setup-vms.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\share.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\sigpipe.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\slist.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\smb.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\smtp.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\sockaddr.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\socks.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\speedcheck.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\splay.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\ssh.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\strcase.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\strdup.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\strerror.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\strtok.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\strtoofft.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\system_win32.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\telnet.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\tftp.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\timeval.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\transfer.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\url.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\urldata.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vauth\digest.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vauth\ntlm.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vauth\vauth.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vtls\axtls.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vtls\cyassl.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vtls\darwinssl.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vtls\gskit.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vtls\gtls.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vtls\mbedtls.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vtls\nssg.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vtls\openssl.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vtls\polarssl.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vtls\polarssl_threadlock.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vtls\schannel.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\vtls\vtls.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\warnless.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\wildcard.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\x509asn1.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\packages\OS400\ccsidcurl.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\packages\OS400\os400sys.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\packages\vms\curlmsg.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\packages\vms\curlmsg_vms.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\packages\vms\vms_eco_level.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\projects\wolfssl_options.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\slist_wc.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_binmode.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_bname.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_cb_dbg.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_cb_hdr.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_cb_prg.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_cb_rea.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_cb_see.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_cb_wrt.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_cfgable.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_convert.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_dirhie.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_doswin.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_easysrc.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_formparse.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_getparam.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_getpass.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_help.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_helpers.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_homedir.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_hugehelp.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_libinfo.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_main.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_metalink.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_mfiles.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_msgs.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_operate.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_operhlp.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_panykey.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_paramhlp.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_parsecfg.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_sdecls.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_setopt.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_setup.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_sleep.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_strdup.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_urlglob.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_util.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_version.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_vms.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_writeenv.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_writeout.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\tool_xattr.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\sethostname.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\test.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\testtrace.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\testutil.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\server\getpart.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\server\server_setup.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\server\server_sockaddr.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\server\tftp.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\server\util.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\unit\curlcheck.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\ftl.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\ftl_private.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\gettimeofday\gettimeofday.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\hmac\hmac.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\hmac\sha2.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\posix\socket.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\posix\threads.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\win32\socket.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\win32\threads.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\android\jansson_config.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\src\hashtable.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\src\jansson.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\src\jansson_private.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\src\lookup3.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\src\strbuffer.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\src\utf.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\test\suites\api\util.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\librtmp\amf.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\librtmp\bytes.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\librtmp\cencode.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\librtmp\dh.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\librtmp\dhgroups.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\librtmp\handshake.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\librtmp\http.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\librtmp\log.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\librtmp\md5.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\librtmp\rtmp.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\librtmp\rtmp_sys.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\net-if.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\obs-output-ver.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\rtmp-helpers.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\rtmp-stream.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-outputs\tunnel-interface.h">
+      <Filter>plugins\obs-outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-x264\obs-x264-options.h">
+      <Filter>plugins\obs-x264</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-filters\rnnoise\include\rnnoise.h">
+      <Filter>plugins\obs-filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-filters\rnnoise\src\arch.h">
+      <Filter>plugins\obs-filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-filters\rnnoise\src\celt_lpc.h">
+      <Filter>plugins\obs-filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-filters\rnnoise\src\common.h">
+      <Filter>plugins\obs-filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-filters\rnnoise\src\kiss_fft.h">
+      <Filter>plugins\obs-filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-filters\rnnoise\src\opus_types.h">
+      <Filter>plugins\obs-filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-filters\rnnoise\src\pitch.h">
+      <Filter>plugins\obs-filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-filters\rnnoise\src\rnn.h">
+      <Filter>plugins\obs-filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-filters\rnnoise\src\rnn_data.h">
+      <Filter>plugins\obs-filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-filters\rnnoise\src\tansig_table.h">
+      <Filter>plugins\obs-filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\plugins\obs-filters\rnnoise\src\_kiss_fft_guts.h">
+      <Filter>plugins\obs-filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\UI\obs-frontend-api\obs-frontend-api.h">
+      <Filter>UI\obs-frontend-api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\UI\obs-frontend-api\obs-frontend-internal.hpp">
+      <Filter>UI\obs-frontend-api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs-winrt\winrt-capture.h">
+      <Filter>libobs-winrt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs-winrt\winrt-dispatch.h">
+      <Filter>libobs-winrt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs-d3d11\d3d11-shaderprocessor.hpp">
+      <Filter>libobs-d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs-d3d11\d3d11-subsystem.hpp">
+      <Filter>libobs-d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\obs-studio\libobs-d3d11\intel-nv12-support.hpp">
+      <Filter>libobs-d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\face_detect\face_detect.h">
+      <Filter>bililive\bililive_face_detect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\face_detect\face_detect_interface.h">
+      <Filter>bililive\bililive_face_detect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\face_detect\glfw_context.h">
+      <Filter>bililive\bililive_face_detect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\face_detect\PBOReader.h">
+      <Filter>bililive\bililive_face_detect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\face_detect\resource.h">
+      <Filter>bililive\bililive_face_detect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bililive\bililive_vtuber\livehime\vtuber_service.h">
+      <Filter>bililive\bililive_vtuber\livehime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bililive\bililive_vtuber\livehime\vtuber_service_impl.h">
+      <Filter>bililive\bililive_vtuber\livehime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bililive\bililive_vtuber\math\hash.h">
+      <Filter>bililive\bililive_vtuber\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bililive\bililive_vtuber\math\matrix.hpp">
+      <Filter>bililive\bililive_vtuber\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bililive\bililive_vtuber\math\point.hpp">
+      <Filter>bililive\bililive_vtuber\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bililive\bililive_vtuber\math\vector.hpp">
+      <Filter>bililive\bililive_vtuber\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bililive\bililive_vtuber\vtuber\live2d_types.h">
+      <Filter>bililive\bililive_vtuber\vtuber</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bililive\bililive_vtuber\protobuf\vtuber.pb.h">
+      <Filter>bililive\bililive_vtuber\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bililive\bililive_vtuber\obs\figma_obs_wrapper.h">
+      <Filter>bililive\bililive_vtuber\obs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bililive\bililive_vtuber\obs\figma_obs_wrapper_impl.h">
+      <Filter>bililive\bililive_vtuber\obs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bililive\bililive_vtuber\utils\file_utils.h">
+      <Filter>bililive\bililive_vtuber\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bililive\bililive_vtuber\utils\winapi_utils.h">
+      <Filter>bililive\bililive_vtuber\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bililive\bililive_vtuber\bifrost\bifrost.h">
+      <Filter>bililive\bililive_vtuber\bifrost</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bililive\bililive_vtuber\unity\unity_launcher.h">
+      <Filter>bililive\bililive_vtuber\unity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\face_detect\sensetime\helper_human_action.h">
+      <Filter>bililive\bililive_face_detect\sensetime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\face_detect\sensetime\sensetime_face_parameters.h">
+      <Filter>bililive\bililive_face_detect\sensetime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\face_detect\sensetime\sensetime_face_resolver.h">
+      <Filter>bililive\bililive_face_detect\sensetime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\face_detect\sensetime\sensetime_processor.h">
+      <Filter>bililive\bililive_face_detect\sensetime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bililive\bililive_vtuber\math\linear.hpp">
+      <Filter>bililive\bililive_vtuber\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\face_detect\utils\number_dot_font.h">
+      <Filter>bililive\bililive_face_detect\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bililive\bililive_vtuber\livehime\vtuber_storage.h">
+      <Filter>bililive\bililive_vtuber\livehime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bililive\bililive_vtuber\livehime\vtuber_storage_impl.h">
+      <Filter>bililive\bililive_vtuber\livehime</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\obs-studio\plugins\win-capture\graphics-hook\graphics-hook.rc">
+      <Filter>plugins\win-capture</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\libcurl.rc">
+      <Filter>plugins\obs-outputs</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\curl.rc">
+      <Filter>plugins\obs-outputs</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="..\..\third_party\face_detect\face_detect.rc">
+      <Filter>bililive\bililive_face_detect</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\obs-studio\plugins\win-dshow\win-dshow.def">
+      <Filter>plugins\win-dshow</Filter>
+    </None>
+    <None Include="..\obs-studio\plugins\obs-browser\data\error.html">
+      <Filter>plugins\obs-browser</Filter>
+    </None>
+    <None Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\examples\Makefile.inc">
+      <Filter>plugins\obs-outputs</Filter>
+    </None>
+    <None Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\index.html">
+      <Filter>plugins\obs-outputs</Filter>
+    </None>
+    <None Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\docs\libcurl\index.html">
+      <Filter>plugins\obs-outputs</Filter>
+    </None>
+    <None Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\libcurl.def">
+      <Filter>plugins\obs-outputs</Filter>
+    </None>
+    <None Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\Makefile.inc">
+      <Filter>plugins\obs-outputs</Filter>
+    </None>
+    <None Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\lib\objnames.inc">
+      <Filter>plugins\obs-outputs</Filter>
+    </None>
+    <None Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\packages\Symbian\bwins\libcurlu.def">
+      <Filter>plugins\obs-outputs</Filter>
+    </None>
+    <None Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\packages\Symbian\eabi\libcurlu.def">
+      <Filter>plugins\obs-outputs</Filter>
+    </None>
+    <None Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\src\Makefile.inc">
+      <Filter>plugins\obs-outputs</Filter>
+    </None>
+    <None Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\data\Makefile.inc">
+      <Filter>plugins\obs-outputs</Filter>
+    </None>
+    <None Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\libtest\Makefile.inc">
+      <Filter>plugins\obs-outputs</Filter>
+    </None>
+    <None Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\server\Makefile.inc">
+      <Filter>plugins\obs-outputs</Filter>
+    </None>
+    <None Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libcurl\tests\unit\Makefile.inc">
+      <Filter>plugins\obs-outputs</Filter>
+    </None>
+    <None Include="..\obs-studio\plugins\obs-outputs\ftl-sdk\libjansson\src\jansson.def">
+      <Filter>plugins\obs-outputs</Filter>
+    </None>
+    <None Include="..\..\bililive\bililive_vtuber\protobuf\vtuber.proto">
+      <Filter>bililive\bililive_vtuber\protobuf</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="..\obs-studio\plugins\obs-browser\obs-browser-page.manifest">
+      <Filter>plugins\obs-browser</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\third_party\face_detect\CMakeLists.txt">
+      <Filter>bililive\bililive_face_detect</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

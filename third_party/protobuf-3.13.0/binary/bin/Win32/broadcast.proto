@@ -1,0 +1,165 @@
+syntax = "proto3";
+
+package bilibili.live.gift.v1;
+
+//option go_package = "git.bilibili.co/bapis/bapis-go/bilibili/live/gift/v1;v1";
+//option java_multiple_files = true;
+//option java_package = "com.bapis.bilibili.live.gift.v1";
+//option objc_class_prefix = "BBLiveBase";
+
+//import "github.com/gogo/protobuf/gogoproto/gogo.proto";
+
+
+message SendGiftBroadcast {
+    // 送礼用户
+    int64 uid = 1;
+    // 送礼用户名
+    string uname = 2;
+    // 送礼用户头像
+    string face = 3;
+    // 昵称颜色
+    string name_color = 4;
+    // 当前房间大航海等级
+    int64 guard_level = 5;
+    // 全屏动画屏蔽
+    int64 svga_block = 6;
+
+    // /演播厅主播数据
+    SendMaster send_master = 7;
+    // 粉丝勋章数据
+    MedalInfo medal_info = 8;
+    // 盲盒道具信息
+    BlindGift blind_gift = 9;
+
+    // 具体礼物列表
+    repeated GiftItem gift_list = 10;
+
+    //灰度开关，false关闭 true打开，false时丢弃广播
+    bool switch = 11;
+
+    message GiftItem {
+        // 礼物id
+        int64 gift_id = 1;
+        // 道具名称
+        string gift_name = 2;
+        // 送礼数量
+        int64 num = 3;
+        // 大中小礼物界定标准 1 小 2 中 3 大
+        int64 demarcation = 4;
+
+        // 礼物单价
+        int64 price = 5;
+        // 折扣价，无折扣价和原价相等
+        int64 discount_price = 6;
+        // 实际支付总价
+        int64 total_coin = 7;
+        // 瓜子类型
+        string coin_type = 8;
+        // 送礼流水唯一标识
+        string tid = 9;
+        // 送礼时间
+        int64 timestamp = 10;
+
+        // 批量连击数量
+        int64 super_batch_gift_num = 11;
+        // 批量连击 唯一标识
+        string batch_combo_id = 12;
+        // 连击条资源id
+        int64 combo_resources_id = 13;
+        // 连击 累计价值（原价）
+        int64 combo_total_coin = 14;
+        // 连击条 显示时间
+        int64 combo_stay_time = 15;
+        // 连击条放大倍数
+        float magnification = 16;
+        // 是否展示互动区连击数据
+        bool show_batch_combo_send = 17;
+
+        // 操作名称 投喂
+        string action = 18;
+        // 判断是否屏蔽特效
+        int64 effect_block = 19;
+        // 命中批量送礼且有画面
+        int64 is_special_batch = 20;
+        // 飘屏资源id
+        int64 float_sc_resource_id = 21;
+
+        // 大航海道具 标记
+        string tag_image = 22;
+        // 大乱斗暴击几率
+        int64 crit_prob = 23;
+
+        // 道具增加主播经验 pcLink用
+        int64 rcost = 24;
+
+        // deprecated: 灰度开关，false关闭 true打开，false时丢弃广播（忽略）
+        int64 test = 25;
+
+        //人脸识别特效类型，1普通礼物，2批量玩法
+        int64 face_effect_type = 26;
+
+        //当前触发的人脸识别id
+        int64 face_effect_id = 27;
+
+        //是否冠名
+        bool is_naming = 28;
+        // 收礼人 信息
+        ReceiveUserInfo receive_user_info = 29;
+        // 是否拼接 收礼人
+        bool is_join_receiver = 30;
+    }
+
+    message ReceiveUserInfo {
+        // 昵称
+        string uname = 1;
+        // uid
+        int64 uid = 2;
+    }
+
+    message SendMaster {
+        // uid
+        int64 uid = 1;
+        // 昵称
+        string uname = 2;
+    }
+
+    message BlindGift {
+        //配置id
+        int64 blind_gift_config_id = 1;
+        //主道具id
+        int64 original_gift_id = 2;
+        //主道具名称
+        string original_gift_name = 3;
+        //来源，0直播间内，1直播间外
+        int64 from = 4;
+        //动作，默认"爆出"
+        string gift_action = 5;
+    }
+
+    message MedalInfo {
+        // 勋章id
+        int64 target_id = 1;
+        // 特殊勋章样式
+        string special = 2;
+        // 勋章所属主播用户名
+        string anchor_uname = 3;
+        // 勋章所属主播房间号
+        int64 anchor_roomid = 4;
+        // 勋章等级
+        int64 medal_level = 5;
+        // 勋章名称
+        string medal_name = 6;
+        // 勋章颜色
+        int64 medal_color = 7;
+        // 勋章颜色起始值
+        int64 medal_color_start = 8;
+        // 勋章颜色终止值
+        int64 medal_color_end = 9;
+        // 勋章颜色边框
+        int64 medal_color_border = 10;
+        // 点亮状态
+        int64 is_lighted = 11;
+        //  所佩戴粉丝勋章对应主播的大航海等级
+        int64 guard_level = 12;
+    }
+}

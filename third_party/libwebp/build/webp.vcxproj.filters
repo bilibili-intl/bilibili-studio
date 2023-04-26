@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Object Include="$(OutDir)obj\webpdecode\alpha_dec.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpencode\alpha_enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\alpha_processing.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\alpha_processing_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\alpha_processing_sse41.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpencode\analysis_enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpencode\backward_references_cost_enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpencode\backward_references_enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webputils\bit_reader_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webputils\bit_writer_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdecode\buffer_dec.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webputils\color_cache_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpencode\config_enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\cost.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpencode\cost_enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\cost_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\cpu.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\dec.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\dec_clip_tables.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\dec_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\dec_sse41.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\enc_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\enc_sse41.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpencode\filter_enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\filters.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\filters_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webputils\filters_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdecode\frame_dec.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpencode\frame_enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpencode\histogram_enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webputils\huffman_encode_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webputils\huffman_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdecode\idec_dec.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdecode\io_dec.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpencode\iterator_enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\lossless.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\lossless_enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\lossless_enc_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\lossless_enc_sse41.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\lossless_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\lossless_sse41.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpencode\near_lossless_enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpencode\picture_csp_enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpencode\picture_enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpencode\picture_psnr_enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpencode\picture_rescale_enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpencode\picture_tools_enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpencode\predictor_enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdecode\quant_dec.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpencode\quant_enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webputils\quant_levels_dec_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webputils\quant_levels_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webputils\random_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\rescaler.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\rescaler_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webputils\rescaler_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\ssim.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\ssim_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpencode\syntax_enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webputils\thread_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpencode\token_enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdecode\tree_dec.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpencode\tree_enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\upsampling.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\upsampling_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\upsampling_sse41.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webputils\utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdecode\vp8_dec.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdecode\vp8l_dec.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpencode\vp8l_enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdecode\webp_dec.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpencode\webp_enc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\yuv.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\yuv_sse2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="$(OutDir)obj\webpdsp\yuv_sse41.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{FCD19AC1-1271-3A91-94A9-58459E3BFA8A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

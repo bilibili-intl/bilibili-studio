@@ -1,0 +1,1285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grit latest_public_release="0" current_release="1">
+  <outputs>
+    <output filename="grit/theme_resources.h" type="rc_header" context="default_100_percent">
+      <emit emit_type='prepend'></emit>
+    </output>
+    <output filename="grit/theme_resources_map.cc" type="resource_map_source" context="default_100_percent" />
+    <output filename="grit/theme_resources_map.h" type="resource_map_header" context="default_100_percent" />
+    <output filename="theme_resources_100_percent.pak" type="data_package" context="default_100_percent" />
+    <output filename="theme_resources_150_percent.pak" type="data_package" context="default_150_percent" />
+    <output filename="theme_resources_200_percent.pak" type="data_package" context="default_200_percent" />
+  </outputs>
+  <release seq="1">
+    <structures fallback_to_low_resolution="true">
+      <structure type="chrome_scaled_image" name="IDR_LOGIN_DEF_USR_FACE" file="face.png" />
+      <structure type="chrome_scaled_image" name="IDR_SCENE_NOTICE_IMG" file="scene_notice.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_STATUS" file="status.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_TITLEBAR_USER_FACE" file="face.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_CURRENCY" file="currency/ic_currency_icon.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_TABAREA_SCENE_DOWN" file="sceneDown.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_TABAREA_SCENE_UP" file="sceneUp.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_PARTITION_HOT_IMG" file="channel_hot.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_PARTITION_PAGE_LEFT_IMG" file="page_left.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_PARTITION_PAGE_RIGHT_IMG" file="page_right.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_HOTKEY_LIVE_START" file="HotkeyNotice/broadcast_start.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_HOTKEY_LIVE_STOP" file="HotkeyNotice/broadcast_stop.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_HOTKEY_MIC_MUTE" file="HotkeyNotice/mic-mute.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_HOTKEY_MIC_UNMUTE" file="HotkeyNotice/mic-unmute.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_HOTKEY_RECORD_START" file="HotkeyNotice/record_start.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_HOTKEY_RECORD_STOP" file="HotkeyNotice/record_stop.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_HOTKEY_SCENE_SWITCH" file="HotkeyNotice/scene-switch.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_HOTKEY_SYSTEM_MUTE" file="HotkeyNotice/system-mute.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_HOTKEY_SYSTEM_UNMUTE" file="HotkeyNotice/system-unmute.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_HOTKEY_CLEAR_DANMAKU_TTS_QUEUE" file="HotkeyNotice/clear_danmaku_tts_queue.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_AVATAR_FRAME_CAPTAIN" file="avatar_frame/ic_avatar_frame_captain.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_AVATAR_FRAME_ADMIRAL" file="avatar_frame/ic_avatar_frame_admiral.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_AVATAR_FRAME_GOVERNOR" file="avatar_frame/ic_avatar_frame_governor.png" />
+
+      <!-- personal_information-->
+      <structure type="chrome_scaled_image" name="IDR_PI_TITLE_ICON" file="host_center_icon.png" />
+      <structure type="chrome_scaled_image" name="IDR_PI_FANS" file="personal_information_fans.png" />
+      <structure type="chrome_scaled_image" name="IDR_PI_GIFT" file="personal_information_gift.png" />
+      <structure type="chrome_scaled_image" name="IDR_PI_SAN" file="personal_information_san.png" />
+      <structure type="chrome_scaled_image" name="IDR_PI_LOAD" file="personal_information_load.png" />
+      <structure type="chrome_scaled_image" name="IDR_PI_ERROR" file="personal_information_error.png" />
+
+      <!-- livehime v2.0 -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TITLEBAR_BILIBILI" file="v2.0/bilibililink_logo.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TITLEBAR_SET" file="v2.0/icon_set.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TITLEBAR_SET_HV" file="v2.0/icon_set_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TITLEBAR_MORE" file="v2.0/icon_more.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TITLEBAR_MORE_HV" file="v2.0/icon_more_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TITLEBAR_MINIMIZE" file="v2.0/icon_minimize.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TITLEBAR_MINIMIZE_HV" file="v2.0/icon_minimize_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TITLEBAR_MAXIMIZE" file="v2.0/icon_maximize.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TITLEBAR_MAXIMIZE_HV" file="v2.0/icon_maximize_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TITLEBAR_RESTORE" file="v2.0/icon_maximize_open.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TITLEBAR_RESTORE_HV" file="v2.0/icon_maximize_open_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TITLEBAR_SHUT_DOWN" file="v2.0/icon_shutdown.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TITLEBAR_SHUT_DOWN_HV" file="v2.0/icon_shutdown_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TITLEBAR_PACKUP" file="v2.0/icon_sidebar_shutdown.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TITLEBAR_PACKUP_HV" file="v2.0/icon_sidebar_shutdown_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TITLEBAR_UNFOLD" file="v2.0/icon_sidebar_open.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TITLEBAR_UNFOLD_HV" file="v2.0/icon_sidebar_open_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TITLEBAR_SUBMENU_ARROW" file="v2.0/icon_right.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TITLEBAR_SUBMENU_ARROW_HV" file="v2.0/icon_right_hover.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_STRIP_MATCH_DROP_DOWN" file="v4.0/vtuber/drop_down.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_STRIP_DROP_DOWN" file="v2.0/drop_down.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_STRIP_DROP_DOWN_TRIANGLE" file="v2.0/drop_down_triangle.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_STRIP_DROP_DOWN_HV" file="v2.0/drop_down_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_STRIP_PULL_UP" file="v2.0/pull_up.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_STRIP_PULL_UP_HV" file="v2.0/pull_up_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_SCENE_UP" file="v2.0/icon_up.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_SCENE_UP_HV" file="v2.0/icon_up_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_SCENE_DOWN" file="v2.0/icon_down.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_SCENE_DOWN_HV" file="v2.0/icon_down_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_SCENE_STICK_TO_THE_TOP" file="v2.0/icon_top.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_SCENE_STICK_TO_THE_TOP_HV" file="v2.0/icon_top_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_SCENE_SET_AT_THE_END" file="v2.0/icon_bottom.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_SCENE_SET_AT_THE_END_HV" file="v2.0/icon_bottom_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_SCENE_DELETE" file="v2.0/icon_delete.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_SCENE_DELETE_HV" file="v2.0/icon_delete_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_SCENE_ITEM_EYES_CLOSED" file="v2.0/icon_eyes_closed.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_SCENE_ITEM_EYES_OPEN" file="v2.0/icon_eyer_open.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_TOAST_OK" file="v2.0/toast_ok.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_TOAST_WARN" file="v2.0/toast_warn.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_POPUP_CLOSE" file="v2.0/关闭.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_POPUP_CLOSE_HV" file="v2.0/关闭hover态.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_POPUP_BLACKLIST" file="v2.0/黑名单.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_POPUP_BLACKLIST_HV" file="v2.0/黑名单-激活.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_POPUP_BANNED" file="v2.0/全局禁言.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_POPUP_BANNED_HV" file="v2.0/全局禁言激活.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_POPUP_REFRESH" file="v2.0/刷新.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_POPUP_REFRESH_HV" file="v2.0/刷新-激活.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_POPUP_SEARCH" file="v2.0/搜索.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TABAREA_POPUP_SEARCH_HV" file="v2.0/搜索-激活.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_TOOLBAR_CAMERA" file="v2.0/icon_camera.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_TOOLBAR_CAMERA_HOVER" file="v2.0/icon_camera_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_TOOLBAR_GAME" file="v2.0/icon_game.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_TOOLBAR_GAME_HOVER" file="v2.0/icon_game_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_TOOLBAR_MEDIA" file="v2.0/icon_multi_media.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_TOOLBAR_MEDIA_HOVER" file="v2.0/icon_multi_media_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_TOOLBAR_PICTURE" file="v2.0/icon_picture.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_TOOLBAR_PICTURE_HOVER" file="v2.0/icon_picture_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_TOOLBAR_SCREEN" file="v2.0/icon_printscreen.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_TOOLBAR_SCREEN_HOVER" file="v2.0/icon_printscreen_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_TOOLBAR_TEXT" file="v2.0/icon_text.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_TOOLBAR_TEXT_HOVER" file="v2.0/icon_text_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_TOOLBAR_SWITCH_ON" file="v2.0/icon_danmuji_open.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_TOOLBAR_SWITCH_OFF" file="v2.0/icon_danmuji.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_TOOLBAR_DANMUJI_SET" file="v2.0/icon_danmuji_set.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_TOOLBAR_DANMUJI_SET_HOVER" file="v2.0/icon_danmuji_set_hover.png" />
+
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_MSGBOX_TOOLBAR_CLOSE" file="v2.0/icon_close.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_MSGBOX_TOOLBAR_CLOSE_HV" file="v2.0/icon_close_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_MSGBOX_TOOLBAR_MIN" file="v2.0/icon_min.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_MSGBOX_TOOLBAR_MIN_HV" file="v2.0/icon_min_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_MSGBOX_TOOLBAR_SET" file="v2.0/icon_set_30x30.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_MSGBOX_TITLEBAR_HELP" file="v2.0/icon_help.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_MSGBOX_TITLEBAR_HELP_HV" file="v2.0/icon_help_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_MSGBOX_GEN_TOOLBAR_CLOSE" file="v4.0/source/button/msgbox_gen_close.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_MSGBOX_GEN_TOOLBAR_CLOSE_HV" file="v4.0/source/button/msgbox_gen_close_hov.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_MSGBOX_GEN_TOOLBAR_CHECKBOX" file="v4.0/source/button/msgbox_gen_check.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_MSGBOX_GEN_TOOLBAR_CHECKBOX_CHECKED" file="v4.0/source/button/msgbox_gen_checked.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_CHECKBOX" file="v2.0/checkbox.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_CHECKBOX_HV" file="v2.0/checkbox_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_CHECKBOX_SELECT" file="v2.0/checkbox_sel.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_CHECKBOX_SELECT_DIS" file="v2.0/checkbox_dis.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_RADIO" file="v2.0/radio.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_RADIO_HV" file="v2.0/radio_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_RADIO_SELECT" file="v2.0/radio_sel.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TIP" file="v2.0/icon_prompt_box.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TIP_HV" file="v2.0/icon_prompt_box_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SELECT_STATE" file="v2.0/icon_selected_state.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VOLUME" file="v2.0/volume.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VOLUME_HV" file="v2.0/volume_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VOLUME_RESTORE_DEFAULT" file="v2.0/icon_restore_default.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VOLUME_RESTORE_DEFAULT_HV" file="v2.0/icon_restore_default_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VOLUME_RESTORE_DEFAULT_DISABLED" file="v2.0/icon_restore_disabled.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_LOGIN_BACKGROUND" file="v2.0/login_background.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_LOGIN_CLOSE_BTN" file="v2.0/login_close_btn.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_LOGIN_CLOSE_BTN_HV" file="v2.0/login_close_btn_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_LOGIN_CLOSE_BTN_PRESSED" file="v2.0/login_close_btn_pressed.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SEARCH" file="v2.0/icon_search.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SEARCH_HV" file="v2.0/icon_search_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_PAGE_LEFT_ARROW" file="v2.0/icon_left.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_PAGE_LEFT_ARROW_HV" file="v2.0/icon_left_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_PAGE_RIGHT_ARROW" file="v2.0/icon_right.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_PAGE_RIGHT_ARROW_HV" file="v2.0/icon_right_hover.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_PROPERTY_CAMERA_TITLE" file="v2.0/icon_camera_title.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_PROPERTY_GAME_TITLE" file="v2.0/icon_game_title.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_PROPERTY_MEDIA_TITLE" file="v2.0/icon_multi_media_title.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_PROPERTY_PICTURE_TITLE" file="v2.0/icon_picture_title.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_PROPERTY_PRINTSCREEN_TITLE" file="v2.0/icon_printscreen_title.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_PROPERTY_TEXT_TITLE" file="v2.0/icon_text_title.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_PROPERTY_BROWSER_TITLE" file="v2.0/icon_browser_title.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_PROPERTY_AUDIO_DEVICE_TITLE" file="v2.0/icon_audio_device_title.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_PROPERTY_DMKHIME_TITLE" file="v2.0/ic_dmkhime_title.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_PROPERTY_VTUBER_TITLE" file="v2.0/icon_vtuber.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_CAMERA_FILTER_BING" file="v2.0/filter/冰菓.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_CAMERA_FILTER_FENG" file="v2.0/filter/风早爽子.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_CAMERA_FILTER_LAN" file="v2.0/filter/蓝月.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_CAMERA_FILTER_QI" file="v2.0/filter/奇诺之色.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_CAMERA_FILTER_TONG" file="v2.0/filter/同调增强.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_CAMERA_FILTER_YING" file="v2.0/filter/樱花瓣.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_CAMERA_FILTER_YIN" file="v2.0/filter/萤の森.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_CAMERA_FILTER_ZI" file="v2.0/filter/紫阳花.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_CAMERA_FACE_STICKER_LEFT" file="v3.0/bytedance_sdk/左滑按钮.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_CAMERA_FACE_STICKER_RIGHT" file="v3.0/bytedance_sdk/右滑按钮.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_MONTHLY_LORD" file="v2.0/danmaku_hime/monthly_lord.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_YEARLY_LORD" file="v2.0/danmaku_hime/yearly_lord.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_CAPTAIN" file="v2.0/danmaku_hime/captain.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_CAPTAIN_LARGE" file="v2.0/danmaku_hime/captain_large.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_MEDAL_CAPTAIN" file="v2.0/danmaku_hime/ic_medal_captain.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_ADMIRAL" file="v2.0/danmaku_hime/admiral.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_ADMIRAL_LARGE" file="v2.0/danmaku_hime/admiral_large.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_MEDAL_ADMIRAL" file="v2.0/danmaku_hime/ic_medal_admiral.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_GOVERNOR" file="v2.0/danmaku_hime/governor.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_GOVERNOR_LARGE" file="v2.0/danmaku_hime/governor_large.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_MEDAL_GOVERNOR" file="v2.0/danmaku_hime/ic_medal_governor.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_SILVER_MELON" file="v2.0/danmaku_hime/ic_silver_melon.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_GOLD_ANCHOR" file="v2.0/danmaku_hime/ic_gold_anchor.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_SILVER_ANCHOR" file="v2.0/danmaku_hime/ic_silver_anchor.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_NUMBER_0" file="v2.0/danmaku_hime/ic_number_0.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_NUMBER_1" file="v2.0/danmaku_hime/ic_number_1.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_NUMBER_2" file="v2.0/danmaku_hime/ic_number_2.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_NUMBER_3" file="v2.0/danmaku_hime/ic_number_3.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_NUMBER_4" file="v2.0/danmaku_hime/ic_number_4.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_NUMBER_5" file="v2.0/danmaku_hime/ic_number_5.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_NUMBER_6" file="v2.0/danmaku_hime/ic_number_6.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_NUMBER_7" file="v2.0/danmaku_hime/ic_number_7.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_NUMBER_8" file="v2.0/danmaku_hime/ic_number_8.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_NUMBER_9" file="v2.0/danmaku_hime/ic_number_9.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_NUMBER_MULTIPLE" file="v2.0/danmaku_hime/ic_number_multiple.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_NUMBER_WHITE_0" file="v2.0/danmaku_hime/ic_number_white_0.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_NUMBER_WHITE_1" file="v2.0/danmaku_hime/ic_number_white_1.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_NUMBER_WHITE_2" file="v2.0/danmaku_hime/ic_number_white_2.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_NUMBER_WHITE_3" file="v2.0/danmaku_hime/ic_number_white_3.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_NUMBER_WHITE_4" file="v2.0/danmaku_hime/ic_number_white_4.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_NUMBER_WHITE_5" file="v2.0/danmaku_hime/ic_number_white_5.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_NUMBER_WHITE_6" file="v2.0/danmaku_hime/ic_number_white_6.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_NUMBER_WHITE_7" file="v2.0/danmaku_hime/ic_number_white_7.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_NUMBER_WHITE_8" file="v2.0/danmaku_hime/ic_number_white_8.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_NUMBER_WHITE_9" file="v2.0/danmaku_hime/ic_number_white_9.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_NUMBER_WHITE_MULTIPLE" file="v2.0/danmaku_hime/ic_number_white_multiple.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_STRING_COMBO" file="v2.0/danmaku_hime/ic_string_combo.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_STRING_SPECIAL_COMBO" file="v2.0/danmaku_hime/ic_string_special_combo.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_SUPER_CHAT" file="v2.0/danmaku_hime/ic_super_chat.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_HOT_RANKING" file="v2.0/danmaku_hime/ic_hot_ranking.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_MVP" file="v2.0/danmaku_hime/ic_mvp.png" />
+	  <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_POPULARITY" file="v2.0/danmaku_hime/ic_popularity.png" />
+	 <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_ICON_POPULARITY_BLACK" file="v2.0/danmaku_hime/ic_popularity_black.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_GIFTBOX" file="v2.0/icon_giftbox.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_GIFTBOX_NON" file="v2.0/giftbox/icon_liwu_non.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_GIFTBOX_RED" file="v2.0/giftbox/icon_liwu_red.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_GIFTBOX_NON_HV" file="v2.0/giftbox/icon_liwu_non_hv.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_GIFTBOX_RED_HV" file="v2.0/giftbox/icon_liwu_red_hv.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_GIFTBOX_REFRESH" file="v2.0/giftbox/刷新_框.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_GIFTBOX_REFRESH_HV" file="v2.0/giftbox/刷新_框_hover.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_SETTING_DEFAULT" file="v2.0/danmaku_hime/ic_settings_normal.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_SETTING_PRESSED" file="v2.0/danmaku_hime/ic_settings_pressed.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_CLOSE_DEFAULT" file="v2.0/danmaku_hime/ic_close_normal.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_CLOSE_PRESSED" file="v2.0/danmaku_hime/ic_close_pressed.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_LOCK" file="v2.0/danmaku_hime/ic_lock_pressed.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_UNLOCK" file="v2.0/danmaku_hime/ic_lock_normal.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_TOPMOST" file="v2.0/danmaku_hime/ic_topmost_pressed.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_NOTOPMOST" file="v2.0/danmaku_hime/ic_topmost_normal.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_UPLOAD_STATUS_GRAY" file="v2.0/upload_status_gray.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_UPLOAD_STATUS_GREEN" file="v2.0/upload_status_green.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_UPLOAD_STATUS_RED" file="v2.0/upload_status_red.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_UPLOAD_STATUS_YELLOW" file="v2.0/upload_status_yellow.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_DRAG_HANDLE" file="v2.0/danmaku_hime/ic_drag_handle.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_UPLOAD_QUALITY_DEFAULT" file="v2.0/upload_quality_default.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_UPLOAD_QUALITY_BEST" file="v2.0/upload_quality_best.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_UPLOAD_QUALITY_CLEAR" file="v2.0/upload_quality_clear.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_UPLOAD_QUALITY_BLURRED" file="v2.0/upload_quality_blurred.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_UPLOAD_QUALITY_SLIGHTLY_BLURRED" file="v2.0/upload_quality_slightly blurred.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUHIME_UPLOAD_QUALITY_SERIOUSLY_BLURRED" file="v2.0/upload_quality_seriously_blurred.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SHADOW_BORDER" file="v2.0/shadow_border.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_JOINMIC_PKRECORD" file="v2.0/join_mic/pk记录.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_JOINMIC_PKRECORD_HV" file="v2.0/join_mic/pk记录hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_JOINMIC_REMOTE_MUTE" file="v2.0/join_mic/对方声音（关闭）.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_JOINMIC_REMOTE_MUTE_HV" file="v2.0/join_mic/对方声音（关）hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_JOINMIC_REMOTE_NOT_MUTE" file="v2.0/join_mic/对方声音（开）.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_JOINMIC_REMOTE_NOT_MUTE_HV" file="v2.0/join_mic/对方声音（开）hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_JOINMIC_MATCH" file="v2.0/join_mic/搜索.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_JOINMIC_MATCHING" file="v2.0/join_mic/搜索激活.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_JOINMIC_EVEN" file="v2.0/join_mic/平局.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_JOINMIC_VICTORY" file="v2.0/join_mic/胜利.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_JOINMIC_FAILD" file="v2.0/join_mic/失败.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_JOINMIC_CLOSE" file="v2.0/join_mic/icon_close.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_JOINMIC_CLOSE_HV" file="v2.0/join_mic/icon_close_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_JOINMIC_USER_LIST_CANCEL_SEARCH" file="v2.0/join_mic/取消.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_JOINMIC_USER_LIST_BACK" file="v2.0/join_mic/返回.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_JOINMIC_SETUP" file="v2.0/join_mic/设置.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_JOINMIC_VIDEO_SETTING" file="v2.0/join_mic/video_setting.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_JOINMIC_PLAY_BTN" file="v2.0/join_mic/play.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_JOINMIC_REFUSE" file="v2.0/join_mic/refuse.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_USER_VERFY_OFFICIAL" file="v2.0/ic_Certification_official.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEMAIN_USER_VERFY_ENTERPRISE" file="v2.0/ic_Certification_enterprise.png" />
+
+      <!-- livehime v2.0 -->
+
+      <!-- livehime v3.0 begin -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TITLEBAR_BK" file="v3.0/小电视.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_BUBBLE_TOP_ARROW" file="v3.0/bubble/top_arrow.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_BUBBLE_DOWN_ARROW" file="v3.0/bubble/down_arrow.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_SCREEN" file="v3.0/source/截图.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_SCREEN_HV" file="v3.0/source/blue/截图- blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_SCREEN_NOTES" file="v3.0/source/notes/截图.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_FULL_SCREEN" file="v3.0/source/全屏.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_FULL_SCREEN_HV" file="v3.0/source/blue/全屏hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_FULL_SCREEN_NOTES" file="v3.0/source/notes/全屏.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_WINDOW" file="v3.0/source/屏幕.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_WINDOW_HV" file="v3.0/source/blue/屏幕- blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_WINDOW_NOTES" file="v3.0/source/notes/屏幕.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_GAME" file="v3.0/source/游戏.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_GAME_HV" file="v3.0/source/blue/游戏- blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_GAME_NOTES" file="v3.0/source/notes/游戏.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_TEXT" file="v3.0/source/文本.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_TEXT_HV" file="v3.0/source/blue/文本- blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_TEXT_NOTES" file="v3.0/source/notes/文本.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_IMAGE" file="v3.0/source/图片.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_IMAGE_HV" file="v3.0/source/blue/图片- blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_IMAGE_NOTES" file="v3.0/source/notes/图片.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_CAMERA" file="v3.0/source/摄像头.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_CAMERA_HV" file="v3.0/source/blue/摄像头- blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_CAMERA_NOTES" file="v3.0/source/notes/摄像头.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_MEDIA" file="v3.0/source/多媒体.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_MEDIA_HV" file="v3.0/source/blue/多媒体- blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_MEDIA_NOTES" file="v3.0/source/notes/多媒体.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_PHONE" file="v3.0/source/手游.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_PHONE_HV" file="v3.0/source/blue/手游- blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_PHONE_NOTES" file="v3.0/source/notes/手游.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_WEBBROWSER" file="v3.0/source/浏览器.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_WEBBROWSER_HV" file="v3.0/source/blue/浏览器-blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_WEBBROWSER_NOTES" file="v3.0/source/notes/浏览器.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_MIC" file="v3.0/source/麦克风.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_MIC_NOTES" file="v3.0/source/notes/麦克风.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_LOUDSPEAKER" file="v3.0/source/扬声器.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_LOUDSPEAKER_NOTES" file="v3.0/source/notes/扬声器.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_AUDIODEVICE" file="v3.0/source/音频.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_AUDIODEVICE_HV" file="v3.0/source/blue/音频-blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_TPS" file="v3.0/source/第三方推流.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_TPS_HV" file="v3.0/source/blue/第三方推流hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_TPS_NOTES" file="v3.0/source/notes/第三方推流.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_DMKHIME" file="v3.0/source/弹幕姬.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_DMKHIME_HV" file="v3.0/source/blue/弹幕姬-blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_DMKHIME_NOTES" file="v3.0/source/notes/弹幕姬.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_VTUBER" file="v3.0/source/virtual_2d.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_VTUBER_HV" file="v3.0/source/blue/virtual_2d.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_VTUBER_NOTES" file="v3.0/source/notes/虚拟形象.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_THREE_VTUBER" file="v3.0/source/three_vtuber.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_THREE_VTUBER_HV" file="v3.0/source/three_vtuber.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_THREE_VTUBER_NOTES" file="v3.0/source/notes/three_vtuber.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_ZSTAR_VTUBER" file="v3.0/source/ar_vtuber.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_ZSTAR_VTUBER_HV" file="v3.0/source/ar_vtuber.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_ZSTAR_VTUBER_NOTES" file="v3.0/source/notes/ar_vtuber.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SCENEITEM_MOVE_UP" file="v3.0/scene_item/icon_up.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SCENEITEM_MOVE_UP_HV" file="v3.0/scene_item/blue/icon_up-blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SCENEITEM_MOVE_DOWN" file="v3.0/scene_item/icon_down.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SCENEITEM_MOVE_DOWN_HV" file="v3.0/scene_item/blue/icon_down-blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SCENEITEM_MOVE_TOP" file="v3.0/scene_item/top.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SCENEITEM_MOVE_TOP_HV" file="v3.0/scene_item/blue/top-blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SCENEITEM_MOVE_BOTTOM" file="v3.0/scene_item/Low Profile Mode.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SCENEITEM_MOVE_BOTTOM_HV" file="v3.0/scene_item/blue/Low Profile Mode-blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SCENEITEM_EDIT" file="v3.0/scene_item/edit.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SCENEITEM_EDIT_HV" file="v3.0/scene_item/blue/edit-blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SCENEITEM_LOCK" file="v3.0/scene_item/lock.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SCENEITEM_LOCK_HV" file="v3.0/scene_item/blue/lock-blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SCENEITEM_UNLOCK" file="v3.0/scene_item/unlock.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SCENEITEM_UNLOCK_HV" file="v3.0/scene_item/blue/unlock-blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SCENEITEM_HIDE" file="v3.0/scene_item/out of sight.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SCENEITEM_HIDE_HV" file="v3.0/scene_item/blue/out of sight-blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SCENEITEM_SHOW" file="v3.0/scene_item/see.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SCENEITEM_SHOW_HV" file="v3.0/scene_item/blue/see-blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SCENEITEM_DEL" file="v3.0/scene_item/Trash.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SCENEITEM_DEL_HV" file="v3.0/scene_item/blue/Trash-blue.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SCENE_ADD" file="v3.0/scene_item/add_scene.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SCENE_CLEAR" file="v3.0/scene_item/clear_scene.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SET_SHIELD_DEL" file="v3.0/activity/shield_del.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_STATUSBAR_NOTICE" file="v3.0/status_bar/公告.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_STATUSBAR_RECORD" file="v3.0/status_bar/录屏时间.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_STATUSBAR_LIVE" file="v3.0/status_bar/直播时间.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_STATUSBAR_NETWORK_GOOD" file="v3.0/status_bar/network_good.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_STATUSBAR_NETWORK_SECONDARY" file="v3.0/status_bar/network_secondary.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_STATUSBAR_NETWORK_POOR" file="v3.0/status_bar/network_poor.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_STATUSBAR_NETWORK_ANOMALY" file="v3.0/status_bar/network_anomaly.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_STATUSBAR_QUALITY_GOOD" file="v3.0/status_bar/quality_good.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_STATUSBAR_QUALITY_SECONDARY" file="v3.0/status_bar/quality_secondary.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_STATUSBAR_QUALITY_POOR" file="v3.0/status_bar/quality_poor.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOTICE_NEW_ROOM" file="v3.0/live_notice/new_room.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOTICE_OLD_ROOM" file="v3.0/live_notice/old_room.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOTICE_NET" file="v3.0/live_notice/net.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOTICE_WATCH" file="v3.0/live_notice/watch.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_ACTIVITY_BOOK_TIME" file="v3.0/activity/book_time.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_ACTIVITY_DANMAKU_ON" file="v3.0/activity/kaiguan-on.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_ACTIVITY_DANMAKU_OFF" file="v3.0/activity/kaiguan-off.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_ACTIVITY_SWITCH_ON" file="v3.0/activity/switch_on.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_ACTIVITY_SWITCH_OFF" file="v3.0/activity/switch_off.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_ACTIVITY_DANMAKU_CFG" file="v3.0/activity/弹幕设置.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_ACTIVITY_DANMAKU_CFG_HV" file="v3.0/activity/blue/弹幕设置-blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_ACTIVITY_PLACEHOLDER" file="v3.0/activity/ic_event_placeholder.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_ACTIVITY_EMPTY" file="v3.0/activity/empty.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_ACTIVITY_GIFTBOX" file="v3.0/activity/giftbox.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_ACTIVITY_MELEE" file="v3.0/activity/ic_event_melee.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_ACTIVITY_MECHA" file="v3.0/activity/mecha.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_ACTIVITY_LUCKGIFT" file="v3.0/activity/luckgift.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_ACTIVITY_LIVE_PROMOTION" file="v3.0/activity/推广.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_ACTIVITY_CENTER" file="v3.0/activity/activity_center.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_ACTIVITY_LIVE_MISSION" file="v3.0/activity/主播任务.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_ACTIVITY_VTUBER_STORM" file="v3.0/activity/vtuber_storm.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_HOSTCENTER_HEADSHOT_DOWN" file="v3.0/hostcenter/head arrows down.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_HOSTCENTER_HEADSHOT_UP" file="v3.0/hostcenter/head arrows up.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_HOSTCENTER_LIVEDATA" file="v3.0/hostcenter/直播数据.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_HOSTCENTER_LIVEDATA_HV" file="v3.0/hostcenter/blue/直播数据-blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_HOSTCENTER_LIVEROOM" file="v3.0/hostcenter/我的直播间.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_HOSTCENTER_LIVEROOM_HV" file="v3.0/hostcenter/blue/我的直播间-blue.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TITLEBAR_CLOSE" file="v3.0/titlebar/icon_close.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TITLEBAR_MAX" file="v3.0/titlebar/icon_max.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TITLEBAR_RESTORE" file="v3.0/titlebar/restore.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TITLEBAR_MIN" file="v3.0/titlebar/icon_min.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TITLEBAR_MORE" file="v3.0/titlebar/icon_more.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TITLEBAR_CFG" file="v3.0/titlebar/icon_set.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TITLEBAR_SHARE" file="v3.0/titlebar/icon_share.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TITLEBAR_QQ" file="v3.0/titlebar/icon_qq.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TITLEBAR_ZONE" file="v3.0/titlebar/icon_zone.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TITLEBAR_BLOG" file="v3.0/titlebar/icon_blog.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TITLEBAR_BACK" file="v3.0/titlebar/left-返回.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TITLEBAR_ANCHOR_NOTICES" file="v3.0/titlebar/anchor_notices.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TITLEBAR_MEDAL" file="v3.0/titlebar/medal.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TITLEBAR_DEFAULT_MEDAL" file="v3.0/titlebar/medal_default.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TITLEBAR_GUARD_TIPS_NORMAL" file="v3.0/titlebar/tips_normal.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TITLEBAR_GUARD_TIPS_HOVER" file="v3.0/titlebar/tips_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TITLEBAR_CAPTAIN_WARNING_TIPS" file="v3.0/titlebar/captain_warning.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_TOP_TITLEEDIT" file="v3.0/toolbar/Headliner.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_MIC" file="v3.0/toolbar/麦克风.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_MIC_HV" file="v3.0/toolbar/blue/麦克风-blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_MIC_MUTE" file="v3.0/toolbar/麦克风off.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_MIC_MUTE_HV" file="v3.0/toolbar/blue/麦克风off-blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_MIC_DIS" file="v3.0/toolbar/disable/microphone-hidden.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_VOL" file="v3.0/toolbar/音量.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_VOL_HV" file="v3.0/toolbar/blue/音量-blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_VOL_MUTE" file="v3.0/toolbar/音量off.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_VOL_MUTE_HV" file="v3.0/toolbar/blue/音量off-blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_VOL_DIS" file="v3.0/toolbar/disable/volume-hidden.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_EFFECT" file="v3.0/toolbar/音效.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_EFFECT_HV" file="v3.0/toolbar/blue/音效-blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_EFFECT_DIS" file="v3.0/toolbar/disable/Audio-hidden.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_RECORD" file="v3.0/toolbar/REC point-grey.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_RECORD_RED" file="v3.0/toolbar/REC point-red.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_SLIDER" file="v3.0/toolbar/immovable.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_SLIDER_HV" file="v3.0/toolbar/blue/movable.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_SLIDER_DIS" file="v3.0/toolbar/disable/Unclickable.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_ERROR" file="v3.0/toolbar/icon-error.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_REFRESH" file="v3.0/toolbar/刷新.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_ENTRANCE_MNG" file="v3.0/entrance/manager.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_ENTRANCE_ADD" file="v3.0/entrance/add.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_ENTRANCE_DEL" file="v3.0/entrance/del.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TABAREA_MENU_ARROW_DOWN" file="v3.0/tabarea/arrows down.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TABAREA_MENU_ARROW_UP" file="v3.0/tabarea/arrows UP.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TABAREA_NAMELIST" file="v3.0/tabarea/黑名单.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TABAREA_NAMELIST_HV" file="v3.0/tabarea/blue/黑名单-blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TABAREA_BANNED" file="v3.0/tabarea/禁言.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TABAREA_BANNED_HV" file="v3.0/tabarea/blue/禁言-blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TABAREA_REFRESH" file="v3.0/tabarea/刷新.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TABAREA_REFRESH_HV" file="v3.0/tabarea/blue/刷新-blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TABAREA_SEARCH" file="v3.0/tabarea/搜索.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TABAREA_SEARCH_HV" file="v3.0/tabarea/blue/搜索-blue.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TABAREA_MODEL_H" file="v3.0/tabarea/横竖屏-横.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TABAREA_MODEL_V" file="v3.0/tabarea/横竖屏-竖.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TABAREA_DIALOG" file="v3.0/tabarea/dialog.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TABAREA_CAMERA" file="v3.0/tabarea/camera.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TABAREA_ADD_MATERIALS" file="v3.0/tabarea/add_materials.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TABAREA_ADD_MORE" file="v3.0/tabarea/more.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TABAREA_ADD_PROJECTION" file="v3.0/tabarea/projection.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TABAREA_ADD_VTUBER" file="v3.0/tabarea/虚拟形象.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOVICEGUIDE_TAB_GAME" file="v3.0/novice_guide/ic_tab_game_normal.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOVICEGUIDE_TAB_GAME_HV" file="v3.0/novice_guide/ic_tab_game_active.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOVICEGUIDE_TAB_MOBILE" file="v3.0/novice_guide/ic_tab_mobile_normal.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOVICEGUIDE_TAB_MOBILE_HV" file="v3.0/novice_guide/ic_tab_mobile_active.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOVICEGUIDE_TAB_ENT" file="v3.0/novice_guide/ic_tab_ent_normal.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOVICEGUIDE_TAB_ENT_HV" file="v3.0/novice_guide/ic_tab_ent_active.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOVICEGUIDE_TAB_DRAWING" file="v3.0/novice_guide/ic_tab_drawing_normal.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOVICEGUIDE_TAB_DRAWING_HV" file="v3.0/novice_guide/ic_tab_drawing_active.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOVICEGUIDE_TAB_RADIO" file="v3.0/novice_guide/ic_tab_radio_normal.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOVICEGUIDE_TAB_RADIO_HV" file="v3.0/novice_guide/ic_tab_radio_active.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOVICEGUIDE_TAB_RECOMMEND" file="v3.0/novice_guide/ic_tab_recommend.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOVICEGUIDE_TITLE_MAIN" file="v3.0/novice_guide/ic_main_title.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOVICEGUIDE_TBG_CAMERA_R" file="v3.0/novice_guide/ic_title_camera_red.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOVICEGUIDE_TBG_CAMERA_Y" file="v3.0/novice_guide/ic_title_camera_yellow.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOVICEGUIDE_TBG_FULLSCREEN_R" file="v3.0/novice_guide/ic_title_fullscreen_red.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOVICEGUIDE_TBG_FULLSCREEN_P" file="v3.0/novice_guide/ic_title_fullscreen_purple.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOVICEGUIDE_TBG_GAMELIVE" file="v3.0/novice_guide/ic_title_gamelive.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOVICEGUIDE_TBG_SCANCODE" file="v3.0/novice_guide/ic_title_scancode.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOVICEGUIDE_TBG_SOUND_SOURCE" file="v3.0/novice_guide/ic_title_sound_source.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOVICEGUIDE_BG_DIVER22" file="v3.0/novice_guide/ic_bg_diver22_fade.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOVICEGUIDE_BG_DIVER33" file="v3.0/novice_guide/ic_bg_diver33_fade.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_NOVICEGUIDE_BG_WATER_PLANTS" file="v3.0/novice_guide/ic_bg_water_plants_fade.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_LUCKYGIFT_CLOSE_BTN" file="v3.0/lucky_gift/ic_close_btn.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_LUCKYGIFT_STATUS_LOADING" file="v3.0/lucky_gift/ic_status_loading.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_LUCKYGIFT_STATUS_NULL_RECORD" file="v3.0/lucky_gift/ic_status_null_record.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_LUCKYGIFT_STATUS_LOAD_FAILED" file="v3.0/lucky_gift/ic_status_load_failed.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_LUCKYGIFT_STATUS_HELP" file="v3.0/lucky_gift/ic_status_help.png" />
+      <!-- livehime v3.0 end -->
+
+      <!-- livehime v3.1 begin -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_GAME_PUBG" file="v3.0/novice_guide/games/ic_game_pubg.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_GAME_LOL" file="v3.0/novice_guide/games/ic_game_lol.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_GAME_DOTA2" file="v3.0/novice_guide/games/ic_game_dota2.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_GAME_OVERWATCH" file="v3.0/novice_guide/games/ic_game_overwatch.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_GAME_DNF" file="v3.0/novice_guide/games/ic_game_dnf.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_GAME_HEARTHSTONE" file="v3.0/novice_guide/games/ic_game_hearthstone.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_GAME_SELECTED_BG" file="v3.0/novice_guide/games/ic_game_selected_bg.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_PROPERTY_SP_PROJECTING" file="v3.0/source/property/screen_projection/投屏中.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_PROPERTY_SP_EXPECT" file="v3.0/source/property/screen_projection/期待.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_PROPERTY_SP_NEW" file="v3.0/source/property/screen_projection/new.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_PROPERTY_SP_HOW_TO_SCAN" file="v3.0/source/property/screen_projection/扫码方法.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_SOURCE_PROPERTY_SP_ICON" file="v3.0/source/property/screen_projection/手游.png" />
+      <!-- livehime v3.1 end -->
+
+      <!-- livehime melee begin -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SETTLEMENT_ARROW_LEFT" file="v3.0/melee/arrow-left.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SETTLEMENT_ARROW_RIGHT" file="v3.0/melee/arrow-right.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SETTLEMENT_BUTTON_LOTTERY" file="v3.0/melee/button-lottery.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SETTLEMENT_BUTTON_GREEN" file="v3.0/melee/button-green.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SETTLEMENT_BUTTON_YELLOW" file="v3.0/melee/button-yellow.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SETTLEMENT_DOTTED_LINE_H" file="v3.0/melee/dotted-line-h.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SETTLEMENT_DOTTED_LINE_V" file="v3.0/melee/dotted-line-v.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SETTLEMENT_LEVEL_PLACEHOLDER" file="v3.0/melee/level-placeholder.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_MAIN_BACKGROUND" file="v3.0/melee/main-background.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SEASON_TITLE_BACKGROUND" file="v3.0/melee/title-background.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SEASON_BUTTON_MATCH" file="v3.0/melee/button-match.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SEASON_BUTTON_MATCH_FORBIDDEN" file="v3.0/melee/button-match-forbidden.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SEASON_RECORD_WIN" file="v3.0/melee/record-win.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SEASON_RECORD_LOSE" file="v3.0/melee/record-lose.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SEASON_RECORD_TIE" file="v3.0/melee/record-tie.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SEASON_RECORD_FINAL_HIT" file="v3.0/melee/record-final-hit.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_GRID_LINES" file="v3.0/melee/gridlines.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SING_UP_BUBBLE" file="v3.0/melee/sing-up-bubble.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_AVATAR_WINNER" file="v3.0/melee/winner.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_AVATAR_LEADER" file="v3.0/melee/leader.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SCOREBAR_INIT_BK" file="v3.0/melee/score_bar/gray.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SCOREBAR_LOCAL_SCORE" file="v3.0/melee/score_bar/pk-score-local.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SCOREBAR_REMOTE_SCORE" file="v3.0/melee/score_bar/pk-score-remote.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SCOREBAR_MIDDLE_LINE" file="v3.0/melee/score_bar/发光.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SCOREBAR_COUNTDOWN_BK" file="v3.0/melee/score_bar/时间框.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SCOREBAR_ARROW_RIGHT" file="v3.0/melee/score_bar/箭头右.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SCOREBAR_ARROW_LEFT" file="v3.0/melee/score_bar/箭头左.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SCROLL_ARROW" file="v3.0/melee/scroll-arrow.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_FINAL_TASK" file="v3.0/melee/final-task.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_TASK_BUTTON_OK" file="v3.0/melee/task-button-ok.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_RECTANGLE_BACKGROUND" file="v3.0/melee/rectangle-background.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_MP_UP" file="v3.0/melee/mp-up.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SBCD_NORMAL" file="v3.0/melee/score_bar_new/normal.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SBCD_BUZZED" file="v3.0/melee/score_bar_new/被绝杀.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SBCD_BUZZ_END" file="v3.0/melee/score_bar_new/绝杀结束.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SBCD_BUZZ_ZONE" file="v3.0/melee/score_bar_new/绝杀时刻.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SBCD_BUZZ_ZONE_RED" file="v3.0/melee/score_bar_new/绝杀时刻-红.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SBCD_BUZZ_ZONE_TEXT" file="v3.0/melee/score_bar_new/绝杀时刻-文案-白.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SBCD_BUZZ_ZONE_TEXT_RED" file="v3.0/melee/score_bar_new/绝杀时刻-文案-红.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SBCD_VICTORY" file="v3.0/melee/score_bar_new/胜利.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SBCD_LAST" file="v3.0/melee/score_bar_new/最后时刻.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_CONTIGUOUS_PK_BUTTON_NORMAL" file="v3.0/melee/contiguous_pk_button_normal.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_CONTIGUOUS_PK_BUTTON_PRESSED" file="v3.0/melee/contiguous_pk_button_pressed.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_RULE_ARROW" file="v3.0/melee/rule_arrow.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SHADOW" file="v3.0/melee/shadow.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_BUTTON_VIEW_SHADOW" file="v3.0/melee/button_view_shadow.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_PUNISH_BG" file="v3.0/melee/punish_bg.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_SMALL_LOGO" file="v3.0/melee/melee_small_logo.png" />
+      <!-- livehime melee end -->
+      <!-- livehime v3.7 begin -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TIPS_DIALOG_IMG22" file="v3.0/tips_dialog/Img22.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TIPS_DIALOG_IMG33" file="v3.0/tips_dialog/Img33.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TIPS_DIALOG_BUBBLE" file="v3.0/tips_dialog/气泡.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TIPS_DIALOG_FLEET_HUND_BUTTON" file="v3.0/tips_dialog/ic_fleet_hundred_ach_button.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TIPS_DIALOG_FLEET_THOU_BUTTON" file="v3.0/tips_dialog/ic_fleet_thousand_ach_button.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TIPS_DIALOG_FLEET_TTHO_BUTTON" file="v3.0/tips_dialog/ic_fleet_ten_thousand_ach_button.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_RECORD_TIME" file="v3.0/toolbar/录屏时间.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_LIVE_END" file="v3.0/toolbar/结束.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_DANMAKU" file="v3.0/toolbar/弹幕.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_MAX" file="v3.0/toolbar/峰值.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_FANS" file="v3.0/toolbar/关注.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_WATCHING" file="v3.0/toolbar/观看.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_TOOLBAR_GIFT" file="v3.0/toolbar/礼物.png" />
+      <!-- livehime v3.7 end -->
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VTUVBER_SET_ALINE" file="v3.0/source/face_aline.png" />
+
+      <!-- livehime voice-link begin -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VOICE_LINK_LINKING" file="v3.0/voice_link/voice_link_linking.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VOICE_LINK_LINKING_DARK" file="v3.0/voice_link/voice_link_linking_dark.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VOICE_LINK_LINKING_HOVER" file="v3.0/voice_link/voice_link_linking_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VOICE_LINK_OFF" file="v3.0/voice_link/voice_link_off.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VOICE_LINK_OFF_DARK" file="v3.0/voice_link/voice_link_off_dark.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VOICE_LINK_OFF_HOVER" file="v3.0/voice_link/voice_link_off_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VOICE_LINK_ON" file="v3.0/voice_link/voice_link_on.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VOICE_LINK_ON_DARK" file="v3.0/voice_link/voice_link_on_dark.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VOICE_LINK_ON_HOVER" file="v3.0/voice_link/voice_link_on_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VOICE_LINK_MIC_VOLUME" file="v3.0/voice_link/mic_volume.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VOICE_LINK_MIC_VOLUME_DARK" file="v3.0/voice_link/mic_volume_dark.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VOICE_LINK_BG_CLOSE" file="v3.0/voice_link/bg_close.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VOICE_LINK_R_ARROW" file="v3.0/voice_link/r_arrow.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VOICE_LINK_MORE_MENU" file="v3.0/voice_link/more_menu.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VOICE_LINK_MORE_MENU_HOVER" file="v3.0/voice_link/more_menu_hover.png" />
+      <!-- livehime voice-link end -->
+
+      <!-- livehime video-connection begin -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VIDEO_CONN_INVITING" file="v3.0/video_connection/ic_vconn_inviting_button.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VIDEO_CONN_AUDIENCE" file="v3.0/video_connection/ic_audience.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VIDEO_CONN_WATCHED" file="v3.0/video_connection/ic_watched.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VIDEO_CAPTURE" file="v3.0/video_connection/crop.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VIDEO_CAPTURE_HV" file="v3.0/video_connection/crop_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VIDEO_CONN_ATTENTION" file="v3.0/video_connection/attention.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VIDEO_CONN_NO_ATTENTION" file="v3.0/video_connection/no_attention.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VIDEO_CONN_MAN" file="v3.0/video_connection/man.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VIDEO_CONN_WOMAN" file="v3.0/video_connection/woman.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VIDEO_CONN_HISTORY" file="v3.0/video_connection/history.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VIDEO_CONN_HISTORY_HOVER" file="v3.0/video_connection/history_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_VIDEO_CONN_VCON" file="v3.0/video_connection/v_con.png" />
+      <!-- livehime video-connection end -->
+
+      <!-- livehime live-replay begin -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_LIVE_REPLAY_MASK" file="v3.0/live_replay/Mask.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_LIVE_REPLAY_LOADING" file="v3.0/live_replay/加载中图.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_LIVE_REPLAY_CLOSE" file="v3.0/live_replay/close.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_LIVE_REPLAY_TIP" file="v3.0/live_replay/tip.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_LIVE_REPLAY_NET" file="v3.0/live_replay/net_error.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_LIVE_REPLAY_RIGHT" file="v3.0/live_replay/right.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V3_LIVE_REPLAY_STAR" file="v3.0/live_replay/star.png" />
+	  <structure type="chrome_scaled_image" name="IDR_LIVEHIME_STOP_DIALOG_HIGHLIGHT_IMG" file="v4.0/source/button/highlightslice.png" />
+		<!-- livehime live-replay end -->
+
+      <!-- livehime banner-view begin -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_BANNER_ARROW_LEFT" file="v3.0/tabarea/banner/left.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_BANNER_ARROW_RIGHT" file="v3.0/tabarea/banner/right.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_BANNER_CLOSE" file="v3.0/tabarea/banner/close.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_BANNER_UNCHECKED" file="v3.0/tabarea/banner/unchecked.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_BANNER_CHECKED" file="v3.0/tabarea/banner/checked.png" />
+      <!-- livehime banner-view end -->
+
+      <!-- livehime notice-view -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_NOTICE_VIEW_CLOSE" file="v3.0/notice/close.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_NOTICE_VIEW_STATUS" file="v3.0/notice/status.png" />
+      <!-- livehime notice-view -->
+
+      <!-- livehime lottery -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_LOTTERY_ENTRANCE" file="v3.0/lottery/entrance.png" />
+      <!-- livehime lottery -->
+
+      <!-- livehime markedness message -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MARKEDNESS_MESSAGE_MORE" file="v3.0/markedness_message/more.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MARKEDNESS_MESSAGE_WATCH" file="v3.0/markedness_message/watch.png" />
+      <!-- livehime markedness message -->
+
+      <!-- livehime anchor promotion -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_ANCHOR_PROMOTION_BUTTON" file="v3.0/anchor_promotion/promotion_button.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_ANCHOR_PROMOTION_FOLD" file="v3.0/anchor_promotion/fold.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_ANCHOR_PROMOTION_UNFOLD" file="v3.0/anchor_promotion/unfold.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_ANCHOR_PROMOTION_COMPLETED" file="v3.0/anchor_promotion/order_completed.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_ANCHOR_PROMOTION_STARLIGHT" file="v3.0/anchor_promotion/starlight.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_ANCHOR_PROMOTION_EFFECT_PH" file="v3.0/anchor_promotion/effect_ph.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_ANCHOR_PROMOTION_SETTLEMENT_MORE" file="v3.0/anchor_promotion/web more.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_ANCHOR_PROMOTION_HELP" file="v3.0/anchor_promotion/help.png" />
+      <!-- livehime anchor promotion -->
+
+      <!-- livehime screen capture -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SCREEN_CAPTURE_CLOSE" file="v3.0/source/property/screen_capture/关闭.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SCREEN_CAPTURE_CONFIRM" file="v3.0/source/property/screen_capture/正确.png" />
+      <!-- livehime screen capture -->
+
+      <!-- livehime danmaku -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_WHITE_SETTING_BTN" file="v3.0/danmaku_hime/white_setting_btn.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_WHITE_POP_BTN" file="v3.0/danmaku_hime/white_pop_btn.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_WHITE_LOCK_BTN" file="v3.0/danmaku_hime/white_lock_btn.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_WHITE_CLOSE_BTN" file="v3.0/danmaku_hime/white_close_btn.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_WHITE_PIN_BTN" file="v3.0/danmaku_hime/white_pin_btn.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_WHITE_QUESTION_MARK" file="v3.0/danmaku_hime/white_question_mark.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_WHITE_INCOME" file="v3.0/danmaku_hime/white_income.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_WHITE_AUDIENCE" file="v3.0/danmaku_hime/white_audience.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_WHITE_ORDER_BTN" file="v3.0/danmaku_hime/white_order_btn.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_WHITE_SPEAKER_BTN" file="v3.0/danmaku_hime/white_speaker.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_WHITE_SPEAKER_NOTICE_BTN" file="v3.0/danmaku_hime/white_speaker_notice.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_WHITE_FUNCTION" file="v3.0/danmaku_hime/white_function.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_WHITE_BLOCK_EFFECT" file="v3.0/danmaku_hime/white_block_effect.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_HOVER_BLOCK_EFFECT" file="v3.0/danmaku_hime/hover_block_effect.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_DARK_SETTING_BTN" file="v3.0/danmaku_hime/dark_setting_btn.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_DARK_LOCK_BTN" file="v3.0/danmaku_hime/dark_lock_btn.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_DARK_CLOSE_BTN" file="v3.0/danmaku_hime/dark_close_btn.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_DARK_PIN_BTN" file="v3.0/danmaku_hime/dark_pin_btn.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_DARK_QUESTION_MARK" file="v3.0/danmaku_hime/dark_question_mark.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_DARK_INCOME" file="v3.0/danmaku_hime/dark_income.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_DARK_AUDIENCE" file="v3.0/danmaku_hime/dark_audience.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_DARK_ORDER_BTN" file="v3.0/danmaku_hime/dark_order_btn.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_DARK_SPEAKER_BTN" file="v3.0/danmaku_hime/dark_speaker.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_DARK_SPEAKER_NOTICE_BTN" file="v3.0/danmaku_hime/dark_speaker_notice.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_DARK_FUNCTION" file="v3.0/danmaku_hime/dark_function.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_DARK_BLOCK_EFFECT" file="v3.0/danmaku_hime/dark_block_effect.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_HOVER_SETTING_BTN" file="v3.0/danmaku_hime/hover_setting_btn.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_HOVER_LOCK_BTN" file="v3.0/danmaku_hime/hover_lock_btn.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_HOVER_LOCKED_BTN" file="v3.0/danmaku_hime/hover_locked_btn.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_HOVER_CLOSE_BTN" file="v3.0/danmaku_hime/hover_close_btn.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_HOVER_PIN_BTN" file="v3.0/danmaku_hime/hover_pin_btn.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_HOVER_POP_BTN" file="v3.0/danmaku_hime/hover_pop_btn.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_HOVER_ORDER_BTN" file="v3.0/danmaku_hime/hover_order_btn.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_HOVER_SPEAKER_BTN" file="v3.0/danmaku_hime/hover_speaker.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_HOVER_SPEAKER_NOTICE_BTN" file="v3.0/danmaku_hime/hover_speaker_notice.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_HOVER_FUNCTION" file="v3.0/danmaku_hime/white_function_hover.png"/>
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_EFFECT_STORM" file="v4.0/danmaku_hime/effect/storm.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_EFFECT_STORM_BIG" file="v4.0/danmaku_hime/effect/storm_big.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_EFFECT_CMP" file="v4.0/danmaku_hime/effect/cmp.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_EFFECT_COMPLETION" file="v4.0/danmaku_hime/effect/completion.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_GUIDE_ARROW" file="v4.0/danmaku_hime/arrow.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_ARROW_RIGHT" file="v4.0/danmaku_hime/arrow_right.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_ARROW_RIGHT_HOVER" file="v4.0/danmaku_hime/arrow_right_hover.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_ASSISTANT_RIGHT" file="v4.0/danmaku_hime/assistant_guide.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_SWITCH" file="v4.0/danmaku_hime/switch.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_SWITCH_DARK" file="v4.0/danmaku_hime/switch_dark.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_TEST_AUDIO" file="v4.0/danmaku_hime/test_audio.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_STOP_AUDIO" file="v4.0/danmaku_hime/stop_audio.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_TEST_AUDIO_DISABLE" file="v4.0/danmaku_hime/test_audio_disable.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_STOP_AUDIO_DISABLE" file="v4.0/danmaku_hime/stop_audio_disable.png"/>
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_CHECK_NORMAL" file="v4.0/danmaku_hime/check_normal.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_CHECK_SELECT" file="v4.0/danmaku_hime/check_select.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_CHECK_HOVER" file="v4.0/danmaku_hime/check_hover.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_CHECK_DISABLE" file="v4.0/danmaku_hime/check_disable.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_RED_PACKET" file="v4.0/danmaku_hime/effect/red_packet.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_LIKE_ICON" file="v4.0/danmaku_hime/local_like_icon.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_CORE_USER_BT" file="v4.0/danmaku_hime/core_user.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_CORE_USER_BG" file="v4.0/danmaku_hime/core_user_bg.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKU_CORE_USER_PLACEHOLDER" file="v4.0/danmaku_hime/core_user_placeholder.png"/>
+
+      <structure type="chrome_scaled_image" name="IDR_VIDDUP_DANMAKU_USER_IDENTITY_TAG_ADMIN" file="v4.0/danmaku_hime/admin.png"/>
+      <structure type="chrome_scaled_image" name="IDR_VIDDUP_DANMAKU_USER_IDENTITY_TAG_TOP1" file="v4.0/danmaku_hime/Top1.png"/>
+      <structure type="chrome_scaled_image" name="IDR_VIDDUP_DANMAKU_USER_IDENTITY_TAG_TOP2" file="v4.0/danmaku_hime/Top2.png"/>
+      <structure type="chrome_scaled_image" name="IDR_VIDDUP_DANMAKU_USER_IDENTITY_TAG_TOP3" file="v4.0/danmaku_hime/Top3.png"/>
+      <structure type="chrome_scaled_image" name="IDR_VIDDUP_DANMAKU_WARNING" file="v4.0/danmaku_hime/warning.png"/>
+
+      <!-- livehime danmaku -->
+
+      <!-- livehime danmaku vote -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUVOTE_ENTRANCE" file="v3.0/danmaku_vote/danmaku_vote_entrance.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUVOTE_VOTE_DANMAKU" file="v3.0/danmaku_vote/vote_danmaku.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUVOTE_VOTE_GIFT" file="v3.0/danmaku_vote/vote_gift.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUVOTE_PKVIEW_TITLE" file="v3.0/danmaku_vote/pk_title.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUVOTE_PKVIEW_PROCESS" file="v3.0/danmaku_vote/pk_process.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUVOTE_PKVIEW_DANMAKU_LEFT" file="v3.0/danmaku_vote/pk_danmaku_left.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUVOTE_PKVIEW_DANMAKU_RIGHT" file="v3.0/danmaku_vote/pk_danmaku_right.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUVOTE_PKVIEW_GIFT_LEFT" file="v3.0/danmaku_vote/pk_gift_left.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUVOTE_PKVIEW_GIFT_RIGHT" file="v3.0/danmaku_vote/pk_gift_right.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUVOTE_PKVIEW_TITLE_LEFT" file="v3.0/danmaku_vote/pk_title_left.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DANMAKUVOTE_PKVIEW_TITLE_RIGHT" file="v3.0/danmaku_vote/pk_title_right.png" />
+      <!-- livehime danmaku vote -->
+
+      <!-- livehime high energy rank -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_HE_LOOKING" file="v3.0/high-energy-rank/ic_ol_rank_looking.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_HE_QUESTION" file="v3.0/high-energy-rank/ic_he_question.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_HE_RANK_1" file="v3.0/high-energy-rank/ic_he_rank1.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_HE_RANK_2" file="v3.0/high-energy-rank/ic_he_rank2.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_HE_RANK_3" file="v3.0/high-energy-rank/ic_he_rank3.png" />
+      <!-- livehime high energy rank -->
+
+      <!-- livehime example begin -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_EXAMPLE_SVGA_PLAY" file="examples/ic_play.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_EXAMPLE_SVGA_STOP" file="examples/ic_stop.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_EXAMPLE_SVGA_PAUSE" file="examples/ic_pause.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_EXAMPLE_SVGA_PREV_FRAME" file="examples/ic_prev_frame.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_EXAMPLE_SVGA_NEXT_FRAME" file="examples/ic_next_frame.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_EXAMPLE_SVGA_PREV_FILE" file="examples/ic_prev_file.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_EXAMPLE_SVGA_NEXT_FILE" file="examples/ic_next_file.png" />
+      <!-- livehime example end -->
+
+      <!-- livehime third-praty-stream -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TPS_STEP_FIRST" file="v3.0/third_party_stream/步骤1.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TPS_STEP_SECOND" file="v3.0/third_party_stream/步骤2.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TPS_STEP_THIRD" file="v3.0/third_party_stream/步骤3.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TPS_STEP_FOURTH" file="v3.0/third_party_stream/步骤4.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TPS_STEP_ARROW" file="v3.0/third_party_stream/进度.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TPS_OBS_GUIDE_DIR" file="v3.0/third_party_stream/obs-guide/obs-dir.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TPS_OBS_GUIDE_ENTRY" file="v3.0/third_party_stream/obs-guide/obs-entry.png" />
+      <!-- livehime third-praty-stream -->
+
+      <!-- melee-integrate -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_INTEGRATE_NEW" file="v3.0/melee_integrate/ic_melee_int_new.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_INTEGRATE_EMPTY" file="v3.0/melee_integrate/ic_melee_int_empty.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_INTEGRATE_MELEE" file="v3.0/melee_integrate/ic_melee_int_melee.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MELEE_INTEGRATE_MELEE_COLIVE_PK" file="v3.0/melee_integrate/ic_melee_int_melee_colive_pk.png" />
+      <!-- melee-integrate -->
+
+      <!-- feedback -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FEEDBACK_START_CHECKED" file="v3.0/feedback/选中星.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FEEDBACK_START_UNCHECKED" file="v3.0/feedback/未选中星.png" />
+      <!-- feedback -->
+
+      <!-- faux-audient-effect -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FAUX_AUDIENT_EFFECT_LANDSCAPE" file="v3.0/faux_audient_effect/ic_faux_audient_effect_landscape.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FAUX_AUDIENT_EFFECT_PORTRAIT" file="v3.0/faux_audient_effect/ic_faux_audient_effect_portrait.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FAUX_AUDIENT_EFFECT_AUDIENCE" file="v3.0/faux_audient_effect/人气值.png" />
+      <!-- faux-audient-effect -->
+
+      <!-- new live room guide -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_NEW_LIVEROOM_GUIDE_FRAME" file="v3.0/new_live_room_guide/frame.png" />
+      <!-- new live room guide -->
+
+      <!-- 热门榜 -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_HOT_RANK_ENTRANCE" file="v3.0/hot_rank/ic_hot_rank_entrance.png" />
+      <!-- 热门榜 -->
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_APPOINTMENT_ENTRANCE" file="v3.0/hot_rank/ic_appointment_entrance.png" />
+
+      <!-- 语音弹幕 -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VOICE_DANMU_RIPE" file="v3.0/voice_danmu/voice_danmu_ripe.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VOICE_DANMU_WHITE" file="v3.0/voice_danmu/voice_danmu_white.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VOICE_PAUSE" file="v3.0/voice_danmu/voice_pause.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VOICE_PLAY" file="v3.0/voice_danmu/voice_play.png" />
+      <!-- 语音弹幕 -->
+
+      <!-- Video-PK -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_BACK" file="v3.0/colive/ic_colive_back.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_CRY" file="v3.0/colive/ic_colive_cry.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_EXPAND" file="v3.0/colive/ic_colive_expand.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_FAILED_LARGE" file="v3.0/colive/ic_colive_failed_large.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_FAILED_SMALL" file="v3.0/colive/ic_colive_failed_small.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_LAUGH" file="v3.0/colive/ic_colive_laugh.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_LOGO" file="v3.0/colive/ic_colive_logo.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_S12_LOGO" file="v3.0/colive/ic_colive_s12_logo.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_S12_NO_SUB" file="v3.0/colive/pk_logo.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_NO1" file="v3.0/colive/ic_colive_no1.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_NO2" file="v3.0/colive/ic_colive_no2.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_NO3" file="v3.0/colive/ic_colive_no3.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_VICTORY_BG" file="v3.0/colive/ic_colive_victory_bg.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_VICTORY_LARGE" file="v3.0/colive/ic_colive_victory_large.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_VICTORY_SMALL" file="v3.0/colive/ic_colive_victory_small.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_WAIT_MVP" file="v3.0/colive/ic_colive_wait_mvp.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_CROWN" file="v3.0/colive/ic_colive_crown.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_EVEN_LARGE" file="v3.0/colive/ic_colive_even_large.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_EVEN_SMALL" file="v3.0/colive/ic_colive_even_small.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_BG" file="v3.0/colive/ic_colive_bg.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_ATTEND" file="v3.0/colive/ic_colive_attend.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_ATTENDED" file="v3.0/colive/ic_colive_attended.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_VOICE_OFF" file="v3.0/colive/voice_mute.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_VOICE_ON" file="v3.0/colive/voice_open.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_ECHO_SUGGESTION_SUGGESTION" file="v3.0/colive/echo_suggestion/suggestion.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_ECHO_SUGGESTION_SUGGESTION_HOVER" file="v3.0/colive/echo_suggestion/suggestion_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_PROGRESS_MINITV" file="v4.0/basic/minitv.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_TIP" file="v4.0/basic/vtuber_tip.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_TIP_HOVER" file="v4.0/basic/vtuber_tip_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_MATCH_BACKGROUND" file="v4.0/vtuber/match_background.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_GAME_MATCH" file="v4.0/vtuber/game_match.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_NORMAL_MATCH" file="v4.0/vtuber/normal_match.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_MATCH_LINE" file="v4.0/vtuber/match_line.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_REMOTE_MATCH" file="v4.0/vtuber/remote_match.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_MATCH_TIP" file="v4.0/vtuber/match_tip.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FRAME" file="v4.0/basic/frame.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TV_FANS" file="v4.0/basic/tv_fans.png" />
+	  <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FRAME_RED" file="v4.0/basic/frame_red.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TV_FANS_HOV" file="v4.0/basic/tv_fans_hov.png" />
+	  <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FRAME_HOV" file="v4.0/basic/frame_hov.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_LEFT_ARROW" file="v3.0/colive/left_arrow.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COLIVE_RIGHT_ARROW" file="v3.0/colive/right_arrow.png" />
+      <!-- Video-PK -->
+
+      <!-- Face-Beauty -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_BEAUTY_NEW" file="v3.0/face_beauty/new.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_BEAUTY_LOGO" file="v3.0/face_beauty/logo.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_BEAUTY_CLEAN" file="v3.0/face_beauty/clean.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_BEAUTY_FILTER_RH" file="v3.0/face_beauty/filter/柔和.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_BEAUTY_FILTER_ZR" file="v3.0/face_beauty/filter/自然.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_BEAUTY_FILTER_SN" file="v3.0/face_beauty/filter/水嫩.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_BEAUTY_FILTER_ZG" file="v3.0/face_beauty/filter/质感.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_BEAUTY_FILTER_JD" file="v3.0/face_beauty/filter/经典.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_BEAUTY_FILTER_RJ" file="v3.0/face_beauty/filter/柔焦.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_BEAUTY_FILTER_SW" file="v3.0/face_beauty/filter/水雾.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_BEAUTY_FILTER_XY" file="v3.0/face_beauty/filter/夕颜.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_BEAUTY_FILTER_FG" file="v3.0/face_beauty/filter/复古.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_BEAUTY_FILTER_MT" file="v3.0/face_beauty/filter/蜜桃.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_BEAUTY_FILTER_FD" file="v3.0/face_beauty/filter/粉调.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_BEAUTY_FILTER_QX" file="v3.0/face_beauty/filter/清晰.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_BEAUTY_FILTER_BX" file="v3.0/face_beauty/filter/白皙.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_BEAUTY_FILTER_QXIN" file="v3.0/face_beauty/filter/清新.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_BEAUTY_FILTER_NY" file="v3.0/face_beauty/filter/奶油.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_BEAUTY_FILTER_FY" file="v3.0/face_beauty/filter/粉樱.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_BEAUTY_FILTER_HY" file="v3.0/face_beauty/filter/回忆.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_BEAUTY_FILTER_GF" file="v3.0/face_beauty/filter/港风.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_BEAUTY_FILTER_JT" file="v3.0/face_beauty/filter/焦糖.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_BEAUTY_FILTER_LR" file="v3.0/face_beauty/filter/落日.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_BEAUTY_FILTER_GJ" file="v3.0/face_beauty/filter/高级.png" />
+      <!-- Face-Beauty -->
+
+      <!-- Face-Sticker -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_STICKER_KAT" file="v3.0/face_beauty/sticker/可爱兔.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_STICKER_DJZ" file="v3.0/face_beauty/sticker/等舰长.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_STICKER_QTW" file="v3.0/face_beauty/sticker/求投喂.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_STICKER_GZW" file="v3.0/face_beauty/sticker/关注我.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_STICKER_TYFJ" file="v3.0/face_beauty/sticker/涂鸦发夹.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_STICKER_XXM" file="v3.0/face_beauty/sticker/星星猫.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_STICKER_FHM" file="v3.0/face_beauty/sticker/粉红喵.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_STICKER_XEM" file="v3.0/face_beauty/sticker/小恶魔.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_STICKER_AX" file="v3.0/face_beauty/sticker/爱心.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_STICKER_XX" file="v3.0/face_beauty/sticker/小熊.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_STICKER_XL" file="v3.0/face_beauty/sticker/小鹿.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_STICKER_MJ" file="v3.0/face_beauty/sticker/墨镜.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_STICKER_XDS" file="v3.0/face_beauty/sticker/小电视.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_STICKER_HDJ" file="v3.0/face_beauty/sticker/蝴蝶结.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_FACE_STICKER_TPK" file="v3.0/face_beauty/sticker/甜品框.png" />
+      <!-- Face-Sticker -->
+
+      <!-- Vtuber -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_ADD_FIGMA" file="v3.0/vtuber/ic_vtuber_add.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_DELETE_FIGMA" file="v3.0/vtuber/ic_vtuber_delete.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_DL_FOLDER" file="v3.0/vtuber/ic_vtuber_dl_folder.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_UPLOAD" file="v3.0/vtuber/ic_vtuber_upload.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_DOWNLOAD" file="v3.0/vtuber/ic_vtuber_download.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_PREVIEW" file="v3.0/vtuber/ic_vtuber_preview.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_MOTION_ITEM_SELECTED" file="v3.0/vtuber/icon_selected.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_GIFT" file="v3.0/vtuber/gift.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_NEW_FEATURE" file="v3.0/vtuber/feature.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_NORMAL_2D" file="v4.0/vtuber/normal_2d.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_NORMAL_3D" file="v4.0/vtuber/normal_3d.png" />
+	  <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_NORMAL_UE" file="v4.0/vtuber/normal_ue.png" />
+	  <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_HOVER_2D" file="v4.0/vtuber/hover_2d.png" />
+	  <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_HOVER_3D" file="v4.0/vtuber/hover_3d.png" />
+	  <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_HOVER_UE" file="v4.0/vtuber/hover_ue.png" />
+      <!-- Vtuber-Ornament -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_ORNAMENT_NEW" file="v3.0/vtuber_ornament/new.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_ORNAMENT_DOWNLOAD" file="v3.0/vtuber_ornament/download.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_ORNAMENT_DEMO" file="v3.0/vtuber_ornament/ornament.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_ORNAMENT_OPT" file="v3.0/vtuber_ornament/ornament_opt.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_ORNAMENT_POP" file="v3.0/vtuber_ornament/pop.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_ORNAMENT_CLOSE" file="v3.0/vtuber_ornament/close.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_PEACHA" file="v3.0/vtuber/ic_vtuber_peacha.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_TIP_POP" file="v4.0/vtuber/vtuber_pop.png" />
+
+      <!-- Vtuber -->
+
+      <!-- Realname -->
+      <structure type="chrome_scaled_image" name="IDR_REALNAME_SCAN_QRCODE_TIPS" file="v3.0/realname/tips.png" />
+      <structure type="chrome_scaled_image" name="IDR_REALNAME_AUTH_SUCCESS" file="v3.0/realname/success.png" />
+
+    <structure type="chrome_scaled_image" name="IDR_FACE_AUTH_TIPS" file="v3.0/realname/face_auth_tips.png" />
+    <structure type="chrome_scaled_image" name="IDR_FACE_AUTH_TIPS1" file="v3.0/realname/face_auth_tips1.png" />
+    <structure type="chrome_scaled_image" name="IDR_FACE_AUTH_RECT" file="v3.0/realname/face_auth_rect.png" />
+      <!-- Realname -->
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_STORM_POP" file="v3.0/vtuber/vtuber_storm_pop.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_VTUBER_POP_CLOSE" file="v3.0/vtuber/storm_pop_close.png" />
+      <!-- livehime v4.0 begin -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_PARTITION_BAR" file="v4.0/topic_bar/icon_partition.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_PARTITION_BAR_HOV" file="v4.0/topic_bar/icon_partition_hov.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TOPIC_BAR" file="v4.0/topic_bar/icon_topic.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_TOPIC_BAR_HOV" file="v4.0/topic_bar/icon_topic_hov.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SHARE_BAR" file="v4.0/topic_bar/icon_share.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SHARE_BAR_HOV" file="v4.0/topic_bar/icon_share_hov.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COVER_BAR" file="v4.0/topic_bar/bg_cover.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_AUDIT_MASK" file="v4.0/topic_bar/audit_mask.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_AUDIT_NOT_PASS_MASK" file="v4.0/topic_bar/audit_not_pass_mask.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_UPLOAD_BAR" file="v4.0/topic_bar/iocn_upload.png" />
+       <structure type="chrome_scaled_image" name="IDR_LIVEHIME_RANDOM_BAR" file="v4.0/topic_bar/iocn_random.png" />
+       <structure type="chrome_scaled_image" name="IDR_LIVEHIME_RANDOM_BAR_HOV" file="v4.0/topic_bar/iocn_random_hov.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COVER_ADVICE_BAR" file="v4.0/topic_bar/cover_advice.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COVER_ADVICE_WARNING_BAR" file="v4.0/topic_bar/cover_advice_warning.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_COVER_ADVICE_TIP_BAR" file="v4.0/topic_bar/cover_advice_tip.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_ROTATE_LEFT_NORMAL" file="v4.0/source/button/rotate_left_normal.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_ROTATE_LEFT_HOVER" file="v4.0/source/button/rotate_left_hover.png" />
+
+
+      <!-- 场景 -->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_BULLET"  file="v4.0/source/category/icon_bullet.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_CAM"     file="v4.0/source/category/icon_cam.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_GAME"    file="v4.0/source/category/icon_game.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_IMAGE"   file="v4.0/source/category/icon_imgae.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_MEDIA"   file="v4.0/source/category/icon_media.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_MICRO"   file="v4.0/source/category/icon_micro.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_MONITOR" file="v4.0/source/category/icon_monitor.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_SCREEN"  file="v4.0/source/category/icon_screen.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_SCREENHOT" file="v4.0/source/category/icon_Screenshot.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_SPEAKER" file="v4.0/source/category/icon_speaker.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_TEXT" file="v4.0/source/category/icon_text.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_THIRD" file="v4.0/source/category/icon_third.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_VIRTUAL" file="v4.0/source/category/icon_virtual.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_WINDOW" file="v4.0/source/category/icon_winodw.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_BROWSER" file="v4.0/source/category/iocn_browser.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_HORZ_FLIP" file="v4.0/source/camera/horz_flip.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_VERT_FLIP" file="v4.0/source/camera/vert_flip.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_HORZ_FLIP_FOCUS" file="v4.0/source/camera/horz_flip_focus.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SOURCE_VERT_FLIP_FOCUS" file="v4.0/source/camera/vert_flip_focus.png" />
+      <!-- 场景 -->
+      <!--scene_item-->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_EDIT_NORMAL" file="v4.0/scene_item/iocn_edit.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_EDIT_HOV" file="v4.0/scene_item/iocn_edit_hov.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DELETE_NORMAL" file="v4.0/scene_item/iocn_delete.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_DELETE_HOV" file="v4.0/scene_item/iocn_delete_hov.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_UNLOCK_NORMAL" file="v4.0/scene_item/icon_unlock.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_UNLOCK_HOV"   file="v4.0/scene_item/iocn_unlock_hov.png"/>
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_LOCK_NORMAL" file="v4.0/scene_item/iocn_lock.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_LOCK_HOV" file="v4.0/scene_item/iocn_lock_hov.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SEE_NORMAL" file="v4.0/scene_item/iocn_see.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_SEE_HOV" file="v4.0/scene_item/iocn_see_hov.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_HIDE_NORMAL" file="v4.0/scene_item/iocn_hide.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_HIDE_HOV" file="v4.0/scene_item/iocn_hide_hov.png" />
+      <!--scene_item-->
+      <!--增加、清除 素材、场景-->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_ADD_NORMAL" file="v4.0/source/button/iocn_add.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_ADD_HOV" file="v4.0/source/button/iocn_add_hov.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_CLEAN_NORMAL" file="v4.0/source/button/iocn_clean_up.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_CLEAN_HOV" file="v4.0/source/button/icon_clean_up_hov.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_H_NORMAL" file="v4.0/source/button/iocn_horiz.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_H_HOV" file="v4.0/source/button/iocn_horiz_hov.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_V_NORMAL" file="v4.0/source/button/iocn_vertical.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_V_HOV" file="v4.0/source/button/iocn_vertical_hov.png" />
+
+      <!--插件-->
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_PLUGIN" file="v4.0/source/button/plugin.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_PLUGIN_HOV" file="v4.0/source/button/plugin_bule.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_PLUGIN_ICON" file="v4.0/plugin/plugin_icon.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_GAME_ICON" file="v4.0/plugin/game_icon.png" />
+
+      <!--增加、清除 素材、场景-->
+
+    <!-- Novice-Guide -->
+    <structure type="chrome_scaled_image" name="IDR_MAIN_NOVICE_GUIDE_ACTIVITY_MODULE" file="v4.0/main_novice_guide/activity_module.png" />
+    <structure type="chrome_scaled_image" name="IDR_MAIN_NOVICE_GUIDE_ROOM_INFO" file="v4.0/main_novice_guide/room_info.png" />
+    <structure type="chrome_scaled_image" name="IDR_MAIN_NOVICE_GUIDE_REAL_TIME_INTERACTIVE" file="v4.0/main_novice_guide/real_time_interactive.png" />
+    <structure type="chrome_scaled_image" name="IDR_MAIN_NOVICE_GUIDE_GUIDE_LINE_UP" file="v4.0/main_novice_guide/guide_line_up.png" />
+    <structure type="chrome_scaled_image" name="IDR_MAIN_NOVICE_GUIDE_GUIDE_LINE_DOWN" file="v4.0/main_novice_guide/guide_line_down.png" />
+    <structure type="chrome_scaled_image" name="IDR_MAIN_NOVICE_GUIDE_GUIDE_KNOW" file="v4.0/main_novice_guide/know.png" />
+    <structure type="chrome_scaled_image" name="IDR_MAIN_NOVICE_GUIDE_GUIDE_KNOW_DISABLED" file="v4.0/main_novice_guide/know_disabled.png" />
+    <structure type="chrome_scaled_image" name="IDR_MAIN_NOVICE_GUIDE_GUIDE_KNOW_HOVER" file="v4.0/main_novice_guide/know_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_MAIN_NOVICE_GUIDE_GUIDE_BUBBLE" file="v4.0/main_novice_guide/bubble.png" />
+      <structure type="chrome_scaled_image" name="IDR_MAIN_NOVICE_GUIDE_GUIDE_BUBBLE_CLOSE" file="v4.0/main_novice_guide/bubble_close.png" />
+    <!-- Novice-Guide -->
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_TITLEBAR_NOTICE" file="v4.0/titlebar/iocn_notice.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_TITLEBAR_MORE_DETAILS" file="v4.0/titlebar/iocn_more.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_PK" file="v4.0/live_tool/PK大乱斗.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_PK_HV" file="v4.0/live_tool/blue/PK大乱斗.png" />
+	  <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_PK_DIS" file="v4.0/live_tool/gray/PK_melee_dis.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_ROOM" file="v4.0/live_tool/房间管理.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_ROOM_HV" file="v4.0/live_tool/blue/房间管理.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_INTERACTION" file="v4.0/live_tool/互动投票.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_INTERACTION_HV" file="v4.0/live_tool/blue/互动投票.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_LIMIT" file="v4.0/live_tool/限时热门榜.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_LIMIT_HV" file="v4.0/live_tool/blue/限时热门榜.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_VOICE" file="v4.0/live_tool/语音连麦.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_VOICE_HV" file="v4.0/live_tool/blue/语音连麦.png" />
+	  <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_VOICE_DIS" file="v4.0/live_tool/gray/voice_colive_dis.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_SETUP" file="v4.0/live_tool/直播设置.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_SETUP_HV" file="v4.0/live_tool/blue/直播设置.png" />
+	  <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_SELLING" file="v4.0/live_tool/直播带货.png" />
+	  <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_SELLING_HV" file="v4.0/live_tool/blue/直播带货.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_EXTENSION" file="v4.0/live_tool/直播推广.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_EXTENSION_HV" file="v4.0/live_tool/blue/直播推广.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_ORDER" file="v4.0/live_tool/直播预约.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_ORDER_HV" file="v4.0/live_tool/blue/直播预约.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_NOTICE" file="v4.0/live_tool/主播公告.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_NOTICE_HV" file="v4.0/live_tool/blue/主播公告.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_OPTION" file="v4.0/live_tool/天选时刻.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_OPTION_HV" file="v4.0/live_tool/blue/天选时刻.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_ORNAMENT" file="v4.0/live_tool/vtuber_ornament.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_ORNAMENT_HV" file="v4.0/live_tool/blue/vtuber_ornament.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_WISH" file="v4.0/live_tool/wish.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_WISH_HV" file="v4.0/live_tool/blue/wish.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_PLAY_CENTER" file="v4.0/live_tool/paly_center.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_PLAY_CENTER_HV" file="v4.0/live_tool/blue/paly_center.png" />
+	  <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_PLAY_CENTER_DIS" file="v4.0/live_tool/gray/paly_center_dis.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_GAME_TITLE" file="v4.0/live_tool/game_title.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_POPUP_CPM_POP" file="v4.0/popup/cpm_pop.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_MAIN_VIEW_LEFT_TOOL_VIEW_HIDE" file="v4.0/main_view/left_tool_view_hide.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_MAIN_VIEW_LEFT_TOOL_VIEW_SHOW" file="v4.0/main_view/left_tool_view_show.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_POPUP_SING_IDENTIFY" file="v4.0/popup/sing_identify_pop.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_NFT_ICON" file="v4.0/main_view/nft_icon.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOGETHER" file="v4.0/live_tool/together.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOGETHER_DARK" file="v4.0/live_tool/together_dark.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOGETHER_HV" file="v4.0/live_tool/blue/together.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOGETHER_OFF" file="v4.0/live_tool/off.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOGETHER_OFF_DARK" file="v4.0/live_tool/off_dark.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOGETHER_OFF_HV" file="v4.0/live_tool/blue/off.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOGETHER_OFF_HV_DARK" file="v4.0/live_tool/blue/off_dark.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOGETHER_TITLE" file="v4.0/live_tool/together_title.png" />
+	  <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOGETHER_DIS" file="v4.0/live_tool/gray/together_dis.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_PROPHESY" file="v4.0/live_tool/prophesy.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_PROPHESY_HV" file="v4.0/live_tool/blue/prophesy.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_VIRTUAL_LIVE" file="v4.0/live_tool/virtual_2d.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_VIRTUAL_LIVE_HV" file="v4.0/live_tool/blue/virtual_2d.png" />
+	  <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_VIRTUAL_LIVE_DIS" file="v4.0/live_tool/gray/virtual_2d_dis.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_VOYAGE" file="v4.0/live_tool/voyage.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_VOYAGE_HV" file="v4.0/live_tool/blue/voyage.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_KING" file="v4.0/live_tool/icon_king.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_KING_HV" file="v4.0/live_tool/blue/icon_king.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_MULTI_CONN" file="v4.0/live_tool/multi_conn.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_MULTI_CONN_HV" file="v4.0/live_tool/blue/multi_conn.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_MULTI_CONN_DIS" file="v4.0/live_tool/gray/multi_conn_dis.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_CHAT_ROOM" file="v4.0/live_tool/chatroom_entrance.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_CHAT_ROOM_HV" file="v4.0/live_tool/blue/chatroom_entrance_hov.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_CHAT_ROOM_DIS" file="v4.0/live_tool/gray/chatroom_entrance_dis.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_GIFT_PANEL" file="v4.0/live_tool/gift_panel.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_LIVE_TOOL_GIFT_PANEL_HV" file="v4.0/live_tool/blue/gift_panel.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_GIFT_PANEL_DANMU" file="v4.0/live_tool/gift_panel_danmu.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_V4_GIFT_PANEL_DANMU_HV" file="v4.0/live_tool/blue/gift_panel_danmu.png" />
+      <!-- livehime v4.0 end  -->
+
+      <!-- 预设素材 -->
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_MAIN_VIEW_1" file="v4.0/preset_material/1.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_MAIN_VIEW_2" file="v4.0/preset_material/2.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_MAIN_VIEW_ART" file="v4.0/preset_material/art.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_MAIN_VIEW_BG" file="v4.0/preset_material/bg.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_MAIN_VIEW_BG_HOVER" file="v4.0/preset_material/bg_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_MAIN_VIEW_GAME" file="v4.0/preset_material/game.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_MAIN_VIEW_LEARNING" file="v4.0/preset_material/learning.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_MAIN_VIEW_STEP" file="v4.0/preset_material/step.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_MAIN_VIEW_VIRTUAL" file="v4.0/preset_material/virtual.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_MAIN_VIEW_VOICE" file="v4.0/preset_material/voice.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_MAIN_VIEW_ARROW_BACK_LEFT" file="v4.0/preset_material/arrow_back_left.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_MAIN_VIEW_ARROW_FORWARD_RIGHT" file="v4.0/preset_material/arrow_forward_right.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_OBS_COPY_CODE" file="v4.0/preset_material/obs_copy_code.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_OBS_START" file="v4.0/preset_material/obs_start.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_PROJECTION0" file="v4.0/preset_material/projection/projection0.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_PROJECTION1" file="v4.0/preset_material/projection/projection1.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_PROJECTION2" file="v4.0/preset_material/projection/projection2.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_PROJECTION3" file="v4.0/preset_material/projection/projection3.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_PROJECTION4" file="v4.0/preset_material/projection/projection4.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_PROJECTION5" file="v4.0/preset_material/projection/projection5.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_PROJECTION_FAIL" file="v4.0/preset_material/projection/icon_fail.png"/>
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_MIC" file="v4.0/preset_material/volume/mic.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_MIC_HOVER" file="v4.0/preset_material/volume/mic_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_MUTE_MIC" file="v4.0/preset_material/volume/mute_mic.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_MUTE_MIC_HOVER" file="v4.0/preset_material/volume/mute_mic_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_SPEAKER" file="v4.0/preset_material/volume/speaker.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_SPEAKER_HOVER" file="v4.0/preset_material/volume/speaker_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_MUTE_SPEAKER" file="v4.0/preset_material/volume/mute_speaker.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_MUTE_SPEAKER_HOVER" file="v4.0/preset_material/volume/mute_speaker_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_IMPORT_STEP" file="v4.0/preset_material/import_step.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_CLOCKWISE" file="v4.0/preset_material/clockwise.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_ANTICLOCKWISE" file="v4.0/preset_material/anticlockwise.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_CLOCKWISE_FOCUS" file="v4.0/preset_material/clockwise_focus.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_ANTICLOCKWISE_FOCUS" file="v4.0/preset_material/anticlockwise_focus.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_STEP1" file="v4.0/preset_material/step1.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_STEP2" file="v4.0/preset_material/step2.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_STEP3" file="v4.0/preset_material/step3.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_VTUBER_GUIDE1" file="v4.0/preset_material/vtuber_guide1.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_VTUBER_GUIDE2" file="v4.0/preset_material/vtuber_guide2.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_VTUBER_GUIDE3" file="v4.0/preset_material/vtuber_guide3.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_DEFAULT_BK" file="v4.0/preset_material/default_bk.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_MATERIAL_BIG_ADD" file="v4.0/preset_material/big_add.png" />
+      <!-- 预设素材 end-->
+
+      <!-- 粉丝勋章 -->
+      <structure type="chrome_scaled_image" name="IDR_PRESET_DANMAKU_CROWN_1_4" file="v4.0/danmaku_hime/crown1-4.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_DANMAKU_CROWN_5_8" file="v4.0/danmaku_hime/crown5-8.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_DANMAKU_CROWN_9_12" file="v4.0/danmaku_hime/crown9-12.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_DANMAKU_CROWN_13_16" file="v4.0/danmaku_hime/crown13-16.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_DANMAKU_CROWN_17_20" file="v4.0/danmaku_hime/crown17-20.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_DANMAKU_CROWN_21_24" file="v4.0/danmaku_hime/crown21-24.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_DANMAKU_CROWN_25_28" file="v4.0/danmaku_hime/crown25-28.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_DANMAKU_CROWN_29_32" file="v4.0/danmaku_hime/crown29-32.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_DANMAKU_CROWN_33_36" file="v4.0/danmaku_hime/crown33-36.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_DANMAKU_CROWN_37_40" file="v4.0/danmaku_hime/crown37-40.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_DANMAKU_CROWN_CAPTAIN" file="v4.0/danmaku_hime/crown-captain.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_DANMAKU_CROWN_GOVERNOR" file="v4.0/danmaku_hime/crown-governor.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_DANMAKU_CROWN_UNLIT" file="v4.0/danmaku_hime/crown-unlit.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_DANMAKU_ICON_CAPTAIN" file="v4.0/danmaku_hime/icon_captain.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_DANMAKU_ICON_ADMIRAL" file="v4.0/danmaku_hime/icon_admiral.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_DANMAKU_ICON_GOVERNOR" file="v4.0/danmaku_hime/icon_governor.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_DANMAKU_ICON_TH_CAPTAIN" file="v4.0/danmaku_hime/icon_th_captain.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_DANMAKU_ICON_TH_ADMIRAL" file="v4.0/danmaku_hime/icon_th_admiral.png" />
+      <structure type="chrome_scaled_image" name="IDR_PRESET_DANMAKU_ICON_TH_GOVERNOR" file="v4.0/danmaku_hime/icon_th_governor.png" />
+      <!-- 粉丝勋章 -->
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_ROUND_ARROW_BG_RECTANGLE_WHITE" file="v4.0/round_bubble/rectangle_white.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_ROUND_ARROW_BG_SQUARE_WHITE" file="v4.0/round_bubble/square_white.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_ROUND_ARROW_BG_SQUARE_BLACK" file="v4.0/round_bubble/square_black.png" />
+
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_ROUND_SWITCH_BUTTON_V3_ON" file="v4.0/main_view/switch_button_on.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_ROUND_SWITCH_BUTTON_V3_OFF" file="v4.0/main_view/switch_button_off.png" />      <!-- 摄像头属性 -->
+      <structure type="chrome_scaled_image" name="IDR_CAMERA_BEAUTY_RESET" file="v4.0/beauty/reset.png" />
+      <structure type="chrome_scaled_image" name="IDR_CAMERA_BEAUTY_RESET_ACTIVE" file="v4.0/beauty/reset_active.png" />
+      <structure type="chrome_scaled_image" name="IDR_CAMERA_BEAUTY_BEAUTY" file="v4.0/beauty/beauty.png" />
+      <structure type="chrome_scaled_image" name="IDR_CAMERA_BEAUTY_BEAUTY_ACTIVE" file="v4.0/beauty/beauty_active.png" />
+      <structure type="chrome_scaled_image" name="IDR_CAMERA_BEAUTY_NEW" file="v4.0/beauty/new.png" />
+      <structure type="chrome_scaled_image" name="IDR_CAMERA_BEAUTY_RADIO_ON" file="v4.0/beauty/radio_on.png" />
+      <structure type="chrome_scaled_image" name="IDR_CAMERA_BEAUTY_RADIO_OFF" file="v4.0/beauty/radio_off.png" />
+      <structure type="chrome_scaled_image" name="IDR_CAMERA_BEAUTY_CONTRAST" file="v4.0/beauty/contrast.png" />
+      <structure type="chrome_scaled_image" name="IDR_CAMERA_BEAUTY_CONTRAST_ACTIVE" file="v4.0/beauty/contrast_active.png" />
+      <structure type="chrome_scaled_image" name="IDR_CAMERA_BEAUTY_DWONLOAD" file="v4.0/beauty/download.png" />
+      <structure type="chrome_scaled_image" name="IDR_CAMERA_BEAUTY_LOADING" file="v4.0/beauty/loading.png" />
+      <structure type="chrome_scaled_image" name="IDR_CAMERA_BEAUTY_DEFAULT" file="v4.0/beauty/default.png" />
+      <!-- 摄像头属性 -->
+
+      <!-- 通用弹窗 -->
+      <structure type="chrome_scaled_image" name="IDR_COMMON_TITLE_CLOSE" file="v4.0/common_title/close.png" />
+      <structure type="chrome_scaled_image" name="IDR_COMMON_TITLE_CLOSE_HV" file="v4.0/common_title/close_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_COMMON_TITLE_GRAY_CLOSE" file="v4.0/common_title/gray/close.png" />
+      <structure type="chrome_scaled_image" name="IDR_COMMON_TITLE_GRAY_CLOSE_HV" file="v4.0/common_title/gray/close_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_COMMON_TITLE_HELP" file="v4.0/common_title/help.png" />
+      <structure type="chrome_scaled_image" name="IDR_COMMON_TITLE_HELP_HV" file="v4.0/common_title/help_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_COMMON_TITLE_GRAY_HELP" file="v4.0/common_title/gray/help.png" />
+      <structure type="chrome_scaled_image" name="IDR_COMMON_TITLE_GRAY_HELP_HV" file="v4.0/common_title/gray/help_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_COMMON_TITLE_SET" file="v4.0/common_title/set.png" />
+      <structure type="chrome_scaled_image" name="IDR_COMMON_TITLE_SET_HV" file="v4.0/common_title/set_hover.png" />
+      <structure type="chrome_scaled_image" name="IDR_COMMON_TITLE_GRAY_SET" file="v4.0/common_title/gray/set.png" />
+      <structure type="chrome_scaled_image" name="IDR_COMMON_TITLE_GRAY_SET_HV" file="v4.0/common_title/gray/set_hover.png" />
+
+      <!-- 多人视频连线 -->
+      <structure type="chrome_scaled_image" name="IDR_MULTI_VIDEO_CONN_INVITATION" file="v4.0/multi_video_conn/invitation.png" />
+      <structure type="chrome_scaled_image" name="IDR_MULTI_VIDEO_CONN_INVITATION_HOV" file="v4.0/multi_video_conn/invitation_hov.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MULTI_VIDEO_CONN_CROP" file="v4.0/multi_video_conn/crop.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MULTI_VIDEO_CONN_SETTINGS" file="v4.0/multi_video_conn/settings.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MULTI_VIDEO_CONN_2233" file="v4.0/multi_video_conn/2233.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MULTI_VIDEO_CONN_FRAME_CLOSE" file="v4.0/multi_video_conn/frame_close.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MULTI_VIDEO_CONN_FRAME_OPEN" file="v4.0/multi_video_conn/frame_open.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MULTI_VIDEO_CONN_MIC_CLOSE" file="v4.0/multi_video_conn/mic_close.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MULTI_VIDEO_CONN_MIC_OPEN" file="v4.0/multi_video_conn/mic_open.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MULTI_VIDEO_CONN_OUT" file="v4.0/multi_video_conn/out.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_MULTI_VIDEO_CONN_SEAT" file="v4.0/multi_video_conn/seat.png" />
+      <structure type="chrome_scaled_image" name="IDR_MULTI_VIDEO_CONN_LAYOUT" file="v4.0/multi_video_conn/layout.png" />
+      <structure type="chrome_scaled_image" name="IDR_MULTI_VIDEO_CONN_BACK" file="v4.0/multi_video_conn/back.png" />
+      <structure type="chrome_scaled_image" name="IDR_MULTI_VIDEO_CONN_DEFAULT_AVATAR" file="v4.0/multi_video_conn/default_avatar.png" />
+      <!-- 多人视频连线 -->
+
+      <!-- 语聊房 -->
+	  <structure type="chrome_scaled_image" name="IDR_LIVEHIME_CHAT_ROOM_PREVIEW" file="v4.0/chat_room/chat_room_preview.png" />
+	  <structure type="chrome_scaled_image" name="IDR_LIVEHIME_LIST_REFRESH" file="v4.0/chat_room/list_refresh.png" />
+	  <structure type="chrome_scaled_image" name="IDR_LIVEHIME_LIST_EMPTY" file="v4.0/chat_room/list_empty.png" />
+	  <structure type="chrome_scaled_image" name="IDR_LIVEHIME_CHAT_ROOM_SETTING" file="v4.0/chat_room/setting.png" />
+	  <structure type="chrome_scaled_image" name="IDR_LIVEHIME_CHAT_ROOM_NEW_MESSAGE" file="v4.0/chat_room/new_message.png" />
+	  <structure type="chrome_scaled_image" name="IDR_LIVEHIME_CHAT_ROOM_QUIT" file="v4.0/chat_room/quit.png" />
+	  <structure type="chrome_scaled_image" name="IDR_LIVEHIME_CHAT_ROOM_BACKGROUND" file="v4.0/chat_room/background.png" />
+      <structure type="chrome_scaled_image" name="IDR_LIVEHIME_CHAT_ROOM_MUTE" file="v4.0/chat_room/mute.png" />
+	  <structure type="chrome_scaled_image" name="IDR_LIVEHIME_CHAT_ROOM_GIFT_ICON_BIG" file="v4.0/chat_room/gift1.png" />
+	  <structure type="chrome_scaled_image" name="IDR_LIVEHIME_CHAT_ROOM_GIFT_ICON_SMALL" file="v4.0/chat_room/gift2.png" />
+      <!-- 语聊房 -->
+
+
+  </structures>
+    <includes>
+      <include name="IDR_UPLOADER_LOADING_TV" file="gif/uploader/loadingTV.gif" type="gif" />
+      <include name="IDR_LIVEMAIN_VOICELINK_PREPARE" file="gif/livehime/voice-link/vl-prepare.gif" type="gif" />
+      <include name="IDR_LIVEMAIN_MELEE_UP_ARROW" file="gif/livehime/melee/up_arrow.gif" type="gif" />
+      <include name="IDR_LIVEMAIN_VIDEOPK_LOADING" file="gif/livehime/video-pk/loading.gif" type="gif" />
+      <include name="IDR_LIVEMAIN_VTUBER_LOADING" file="gif/livehime/vtuber-pk/figma_loading.gif" type="gif" />
+      <include name="IDR_LIVEMAIN_NFT_GIF" file="gif/livehime/cover/nft.gif" type="gif" />
+      <include name="IDR_LIVEHIME_VOICE_GIF" file="gif/livehime/voice_danmu/voice.gif" type="gif" />
+      <include name="IDR_LIVEHIME_VOICE_GIF_BALCK" file="gif/livehime/voice_danmu/voice_black.gif" type="gif" />
+      <include name="IDR_LIVEMAIN_SVGA_MELEE_COUNTDOWN" file="svga/live_melee_countdown.svga" type="bin" />
+      <include name="IDR_LIVEMAIN_SVGA_PK_NEW_COUNTDOWN" file="svga/live_pk_new__countdown.svga" type="bin" />
+      <include name="IDR_LIVEMAIN_SVGA_MELEE_READYGO" file="svga/live_melee_readygo.svga" type="bin" />
+      <include name="IDR_LIVEMAIN_SVGA_MELEE_FIRE_LTR" file="svga/live_melee_fire_ltr.svga" type="bin" />
+      <include name="IDR_LIVEMAIN_SVGA_MELEE_FIRE_RTL" file="svga/live_melee_fire_rtl.svga" type="bin" />
+      <include name="IDR_LIVEMAIN_SVGA_MELEE_BOOM_LEFT" file="svga/live_melee_boom_left.svga" type="bin" />
+      <include name="IDR_LIVEMAIN_SVGA_MELEE_BOOM_RIGHT" file="svga/live_melee_boom_right.svga" type="bin" />
+      <include name="IDR_LIVEMAIN_SVGA_MELEE_VICTORY" file="svga/live_melee_victory.svga" type="bin" />
+      <include name="IDR_LIVEMAIN_SVGA_MELEE_FAILURE" file="svga/live_melee_failure.svga" type="bin" />
+      <include name="IDR_LIVEMAIN_SVGA_MELEE_EVEN_22" file="svga/live_melee_even_22.svga" type="bin" />
+      <include name="IDR_LIVEMAIN_SVGA_MELEE_EVEN_33" file="svga/live_melee_even_33.svga" type="bin" />
+      <include name="IDR_LIVEMAIN_SVGA_MELEE_CRY_TV" file="svga/melee_cry_tv.svga" type="bin" />
+      <include name="IDR_LIVEMAIN_SVGA_MELEE_CUTE_TV" file="svga/melee_cute_tv.svga" type="bin" />
+      <include name="IDR_LIVEMAIN_SVGA_MELEE_LIGHTNING" file="svga/melee_lightning.svga" type="bin" />
+
+      <include name="IDR_LIVEMAIN_MP4_VIDEO_COUNTDOWN" file="mp4/video_pk_countdown.mp4" type="bin" />
+
+      <include name="IDR_LIVEMAIN_CPM_GUIDE" file="svga/cpm_guide.svga" type="bin" />
+      <include name="IDR_LIVEMAIN_NEW_ROOM_GUIDE" file="svga/new_room_guide.svga" type="bin" />
+
+      <include name="IDR_LIVEMAIN_SPEED_TEST_FLV" file="binary/speed_test.flv" type="bin" />
+		
+      <!-- 核心付费用户弹幕入场消息标签 -->
+      <include name="IDR_DANMAKU_CORE_USER_ACTIVE_DARK" file="core_user_tag/active_dark.png" type="bin" />
+      <include name="IDR_DANMAKU_CORE_USER_ACTIVE_WHITE" file="core_user_tag/active_white.png" type="bin" />
+      <include name="IDR_DANMAKU_CORE_USER_FANS_DARK" file="core_user_tag/fans_dark.png" type="bin" />
+      <include name="IDR_DANMAKU_CORE_USER_FANS_WHITE" file="core_user_tag/fans_white.png" type="bin" />
+      <include name="IDR_DANMAKU_CORE_USER_HIGH_ENERGY_DARK" file="core_user_tag/high_energy_dark.png" type="bin" />
+      <include name="IDR_DANMAKU_CORE_USER_HIGH_ENERGY_WHITE" file="core_user_tag/high_energy_white.png" type="bin" />
+      <include name="IDR_DANMAKU_CORE_USER_SEA_PATROL_DARK" file="core_user_tag/sea_patrol_dark.png" type="bin" />
+      <include name="IDR_DANMAKU_CORE_USER_SEA_PATROL_WHITE" file="core_user_tag/sea_patrol_white.png" type="bin" />
+      <include name="IDR_DANMAKU_CORE_USER_SUPERPOWER_DARK" file="core_user_tag/superpower_dark.png" type="bin" />
+      <include name="IDR_DANMAKU_CORE_USER_SUPERPOWER_WHITE" file="core_user_tag/superpower_white.png" type="bin" />
+      <!-- 核心付费用户弹幕入场消息标签 -->
+		
+    </includes>
+  </release>
+</grit>

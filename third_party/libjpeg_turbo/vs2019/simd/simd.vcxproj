@@ -1,0 +1,1071 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2EFEB347-7859-32BE-917A-79A6CDFB605B}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>simd</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>I:\git\libjpeg-turbo-1.2.90\vs2019;I:\git\libjpeg-turbo-1.2.90;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>I:\git\libjpeg-turbo-1.2.90\vs2019;I:\git\libjpeg-turbo-1.2.90;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>I:\git\libjpeg-turbo-1.2.90\vs2019;I:\git\libjpeg-turbo-1.2.90;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>I:\git\libjpeg-turbo-1.2.90\vs2019;I:\git\libjpeg-turbo-1.2.90;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\git\libjpeg-turbo-1.2.90\vs2019\CMakeFiles\11de7889f064e29884e091ddf31754f7\jccolss2-64.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jccolss2-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jccolss2-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jccolss2-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jccolss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcclrss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jccolss2-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jccolss2-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jccolss2-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jccolss2-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jccolss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcclrss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jccolss2-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jccolss2-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jccolss2-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jccolss2-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jccolss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcclrss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jccolss2-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jccolss2-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jccolss2-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jccolss2-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jccolss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcclrss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jccolss2-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\git\libjpeg-turbo-1.2.90\vs2019\CMakeFiles\11de7889f064e29884e091ddf31754f7\jcgrass2-64.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jcgrass2-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jcgrass2-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jcgrass2-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jcgrass2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcgryss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcgrass2-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jcgrass2-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jcgrass2-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jcgrass2-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jcgrass2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcgryss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcgrass2-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jcgrass2-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jcgrass2-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jcgrass2-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jcgrass2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcgryss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcgrass2-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jcgrass2-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jcgrass2-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jcgrass2-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jcgrass2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcgryss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcgrass2-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\git\libjpeg-turbo-1.2.90\vs2019\CMakeFiles\11de7889f064e29884e091ddf31754f7\jcqnts2f-64.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jcqnts2f-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jcqnts2f-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jcqnts2f-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jcqnts2f-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcqnts2f-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jcqnts2f-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jcqnts2f-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jcqnts2f-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jcqnts2f-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcqnts2f-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jcqnts2f-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jcqnts2f-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jcqnts2f-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jcqnts2f-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcqnts2f-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jcqnts2f-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jcqnts2f-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jcqnts2f-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jcqnts2f-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcqnts2f-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\git\libjpeg-turbo-1.2.90\vs2019\CMakeFiles\11de7889f064e29884e091ddf31754f7\jcqnts2i-64.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jcqnts2i-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jcqnts2i-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jcqnts2i-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jcqnts2i-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcqnts2i-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jcqnts2i-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jcqnts2i-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jcqnts2i-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jcqnts2i-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcqnts2i-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jcqnts2i-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jcqnts2i-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jcqnts2i-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jcqnts2i-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcqnts2i-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jcqnts2i-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jcqnts2i-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jcqnts2i-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jcqnts2i-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcqnts2i-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\git\libjpeg-turbo-1.2.90\vs2019\CMakeFiles\11de7889f064e29884e091ddf31754f7\jcsamss2-64.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jcsamss2-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jcsamss2-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jcsamss2-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jcsamss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcsamss2-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jcsamss2-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jcsamss2-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jcsamss2-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jcsamss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcsamss2-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jcsamss2-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jcsamss2-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jcsamss2-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jcsamss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcsamss2-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jcsamss2-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jcsamss2-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jcsamss2-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jcsamss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcsamss2-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\git\libjpeg-turbo-1.2.90\vs2019\CMakeFiles\11de7889f064e29884e091ddf31754f7\jdcolss2-64.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jdcolss2-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jdcolss2-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jdcolss2-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jdcolss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jdclrss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdcolss2-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jdcolss2-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jdcolss2-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jdcolss2-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jdcolss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jdclrss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdcolss2-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jdcolss2-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jdcolss2-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jdcolss2-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jdcolss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jdclrss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdcolss2-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jdcolss2-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jdcolss2-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jdcolss2-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jdcolss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jdclrss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdcolss2-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\git\libjpeg-turbo-1.2.90\vs2019\CMakeFiles\11de7889f064e29884e091ddf31754f7\jdmerss2-64.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jdmerss2-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jdmerss2-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jdmerss2-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jdmerss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jdmrgss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdmerss2-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jdmerss2-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jdmerss2-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jdmerss2-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jdmerss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jdmrgss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdmerss2-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jdmerss2-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jdmerss2-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jdmerss2-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jdmerss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jdmrgss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdmerss2-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jdmerss2-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jdmerss2-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jdmerss2-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jdmerss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jdmrgss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdmerss2-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\git\libjpeg-turbo-1.2.90\vs2019\CMakeFiles\11de7889f064e29884e091ddf31754f7\jdsamss2-64.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jdsamss2-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jdsamss2-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jdsamss2-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jdsamss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdsamss2-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jdsamss2-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jdsamss2-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jdsamss2-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jdsamss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdsamss2-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jdsamss2-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jdsamss2-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jdsamss2-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jdsamss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdsamss2-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jdsamss2-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jdsamss2-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jdsamss2-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jdsamss2-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdsamss2-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\git\libjpeg-turbo-1.2.90\vs2019\CMakeFiles\11de7889f064e29884e091ddf31754f7\jfss2fst-64.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jfss2fst-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jfss2fst-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jfss2fst-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jfss2fst-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfss2fst-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jfss2fst-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jfss2fst-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jfss2fst-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jfss2fst-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfss2fst-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jfss2fst-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jfss2fst-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jfss2fst-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jfss2fst-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfss2fst-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jfss2fst-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jfss2fst-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jfss2fst-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jfss2fst-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfss2fst-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\git\libjpeg-turbo-1.2.90\vs2019\CMakeFiles\11de7889f064e29884e091ddf31754f7\jfss2int-64.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jfss2int-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jfss2int-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jfss2int-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jfss2int-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfss2int-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jfss2int-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jfss2int-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jfss2int-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jfss2int-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfss2int-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jfss2int-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jfss2int-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jfss2int-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jfss2int-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfss2int-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jfss2int-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jfss2int-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jfss2int-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jfss2int-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfss2int-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\git\libjpeg-turbo-1.2.90\vs2019\CMakeFiles\11de7889f064e29884e091ddf31754f7\jfsseflt-64.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jfsseflt-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jfsseflt-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jfsseflt-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jfsseflt-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfsseflt-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jfsseflt-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jfsseflt-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jfsseflt-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jfsseflt-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfsseflt-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jfsseflt-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jfsseflt-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jfsseflt-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jfsseflt-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfsseflt-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jfsseflt-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jfsseflt-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jfsseflt-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jfsseflt-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfsseflt-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\git\libjpeg-turbo-1.2.90\vs2019\CMakeFiles\11de7889f064e29884e091ddf31754f7\jiss2flt-64.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jiss2flt-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jiss2flt-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jiss2flt-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jiss2flt-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2flt-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jiss2flt-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jiss2flt-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jiss2flt-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jiss2flt-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2flt-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jiss2flt-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jiss2flt-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jiss2flt-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jiss2flt-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2flt-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jiss2flt-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jiss2flt-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jiss2flt-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jiss2flt-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2flt-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\git\libjpeg-turbo-1.2.90\vs2019\CMakeFiles\11de7889f064e29884e091ddf31754f7\jiss2fst-64.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jiss2fst-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jiss2fst-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jiss2fst-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jiss2fst-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2fst-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jiss2fst-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jiss2fst-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jiss2fst-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jiss2fst-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2fst-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jiss2fst-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jiss2fst-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jiss2fst-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jiss2fst-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2fst-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jiss2fst-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jiss2fst-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jiss2fst-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jiss2fst-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2fst-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\git\libjpeg-turbo-1.2.90\vs2019\CMakeFiles\11de7889f064e29884e091ddf31754f7\jiss2int-64.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jiss2int-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jiss2int-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jiss2int-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jiss2int-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2int-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jiss2int-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jiss2int-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jiss2int-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jiss2int-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2int-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jiss2int-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jiss2int-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jiss2int-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jiss2int-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2int-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jiss2int-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jiss2int-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jiss2int-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jiss2int-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2int-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\git\libjpeg-turbo-1.2.90\vs2019\CMakeFiles\11de7889f064e29884e091ddf31754f7\jiss2red-64.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating $(Configuration)/jiss2red-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jiss2red-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jiss2red-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jiss2red-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2red-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating $(Configuration)/jiss2red-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jiss2red-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jiss2red-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jiss2red-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2red-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating $(Configuration)/jiss2red-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jiss2red-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jiss2red-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jiss2red-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2red-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating $(Configuration)/jiss2red-64.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+nasm -fwin64 -DWIN64 -D__x86_64__ -II:/git/libjpeg-turbo-1.2.90/win/ -II:/git/libjpeg-turbo-1.2.90/simd/ I:/git/libjpeg-turbo-1.2.90/simd/jiss2red-64.asm -oI:/git/libjpeg-turbo-1.2.90/vs2019/simd/$(Configuration)/jiss2red-64.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\simd\jiss2red-64.asm;I:\git\libjpeg-turbo-1.2.90\simd\jcolsamp.inc;I:\git\libjpeg-turbo-1.2.90\simd\jdct.inc;I:\git\libjpeg-turbo-1.2.90\simd\jsimdext.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2red-64.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\git\libjpeg-turbo-1.2.90\vs2019\CMakeFiles\9439d83d081a20ccc277f01376ec1413\simd.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfsseflt-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jccolss2-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdcolss2-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcgrass2-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcsamss2-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdsamss2-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdmerss2-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcqnts2i-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfss2fst-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfss2int-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2red-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2int-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2fst-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcqnts2f-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2flt-64.obj;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\CMakeFiles\simd</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfsseflt-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jccolss2-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdcolss2-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcgrass2-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcsamss2-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdsamss2-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdmerss2-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcqnts2i-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfss2fst-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfss2int-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2red-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2int-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2fst-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcqnts2f-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2flt-64.obj;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\CMakeFiles\simd</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfsseflt-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jccolss2-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdcolss2-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcgrass2-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcsamss2-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdsamss2-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdmerss2-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcqnts2i-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfss2fst-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfss2int-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2red-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2int-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2fst-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcqnts2f-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2flt-64.obj;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\CMakeFiles\simd</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfsseflt-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jccolss2-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdcolss2-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcgrass2-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcsamss2-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdsamss2-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdmerss2-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcqnts2i-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfss2fst-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfss2int-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2red-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2int-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2fst-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcqnts2f-64.obj;I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2flt-64.obj;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\CMakeFiles\simd</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\git\libjpeg-turbo-1.2.90\simd\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule I:/git/libjpeg-turbo-1.2.90/simd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SI:/git/libjpeg-turbo-1.2.90 -BI:/git/libjpeg-turbo-1.2.90/vs2019 --check-stamp-file I:/git/libjpeg-turbo-1.2.90/vs2019/simd/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule I:/git/libjpeg-turbo-1.2.90/simd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SI:/git/libjpeg-turbo-1.2.90 -BI:/git/libjpeg-turbo-1.2.90/vs2019 --check-stamp-file I:/git/libjpeg-turbo-1.2.90/vs2019/simd/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule I:/git/libjpeg-turbo-1.2.90/simd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SI:/git/libjpeg-turbo-1.2.90 -BI:/git/libjpeg-turbo-1.2.90/vs2019 --check-stamp-file I:/git/libjpeg-turbo-1.2.90/vs2019/simd/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule I:/git/libjpeg-turbo-1.2.90/simd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SI:/git/libjpeg-turbo-1.2.90 -BI:/git/libjpeg-turbo-1.2.90/vs2019 --check-stamp-file I:/git/libjpeg-turbo-1.2.90/vs2019/simd/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\simd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="I:\git\libjpeg-turbo-1.2.90\vs2019\simd\CMakeFiles\simd">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="I:\git\libjpeg-turbo-1.2.90\vs2019\ZERO_CHECK.vcxproj">
+      <Project>{41D5C251-BF55-3DFD-8ADE-39EE5C6B6728}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

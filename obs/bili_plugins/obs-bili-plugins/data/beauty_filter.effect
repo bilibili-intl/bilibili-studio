@@ -1,0 +1,192 @@
+uniform float4x4 ViewProj;
+uniform texture2d image;
+uniform texture2d lookup_table;
+uniform float4 beauty_params;
+uniform float2 step_offset;
+
+sampler_state textureSampler {
+	Filter    = Linear;
+	AddressU  = Wrap;
+	AddressV  = Wrap;
+};
+
+struct VertData {
+	float4 pos : POSITION;
+	float2 uv  : TEXCOORD0;
+};
+
+VertData VS_Through(VertData v_in)
+{
+	VertData vert_out;
+	vert_out.pos = mul(float4(v_in.pos.xyz, 1.0), ViewProj);
+	vert_out.uv  = v_in.uv;
+	return vert_out;
+}
+
+sampler_state samplers2D {
+	Filter    = Linear;
+	AddressU  = Wrap;
+	AddressV  = Wrap;
+};
+
+float4 gl_texture2D(float2 t)
+{
+    return image.Sample(samplers2D, t);
+}
+
+float4 lookup(float4 textureColorRgba)
+{
+	float3 textureColor = textureColorRgba.rgb;
+	float blueColor = textureColor.b * 63.0;
+
+	float2 quad1;
+	quad1.y = floor(floor(blueColor) / 8.0);
+	quad1.x = floor(blueColor) - (quad1.y * 8.0);
+
+	float2 quad2;
+	quad2.y = floor(ceil(blueColor) / 8.0);
+	quad2.x = ceil(blueColor) - (quad2.y * 8.0);
+
+	float2 texPos1;
+	texPos1.x = (quad1.x * 0.125) + 0.5/512.0 + ((0.125 - 1.0/512.0) * textureColor.r);
+	texPos1.y = (quad1.y * 0.125) + 0.5/512.0 + ((0.125 - 1.0/512.0) * textureColor.g);
+
+	float2 texPos2;
+	texPos2.x = (quad2.x * 0.125) + 0.5/512.0 + ((0.125 - 1.0/512.0) * textureColor.r);
+	texPos2.y = (quad2.y * 0.125) + 0.5/512.0 + ((0.125 - 1.0/512.0) * textureColor.g);
+
+	float mixratio = blueColor - floor(blueColor);
+
+	float4 newColor1 = lookup_table.Sample(samplers2D, texPos1);
+	float4 newColor2 = lookup_table.Sample(samplers2D, texPos2);
+
+	float4 newColor = newColor1 * (1.0 - mixratio) + newColor2 * mixratio;
+
+	return newColor;
+}
+
+float3 toYUV(float3 c)
+{
+	float3 yext = float3(0.3, 0.59, 0.11);
+	float y = dot(c.xyz, yext);
+    float u = 0.5 * (c.z - y) / (1.0 - 0.11);
+    float v = 0.5 * (c.x - y) / (1.0 - 0.3);
+
+	return float3(y, u, v);
+}
+
+float3 toRGB(float3 c)
+{
+	float r = clamp(c.x + 2.0 * c.z * (1.0 - 0.3), 0.0, 1.0);
+	float g = clamp(c.x - 2.0 * c.y * (1.0 - 0.11) * 0.11 / 0.59 - 2.0 * c.z * (1.0 - 0.3) * 0.3 / 0.59, 0.0, 1.0);
+	float b = clamp(c.x + 2.0 * c.y * (1.0 - 0.11), 0.0, 1.0);
+	return float3(r, g, b);
+}
+
+float isSkin(float3 cYUV)
+{
+	/* YUV椭圆模型，检查肤色 */
+	/* 原点 -0.0569, 0.1102，长半轴 0.0918，短半轴 0.0596，与x夹角43度 */
+	/* sin43 = 0.682, cos43 = 0.731, 0.0596/0.0918 = 0.64924, 0.0596*0.0596 = 0.00355216 */
+
+	float lx = ((cYUV.y + 0.0569) * 0.731 - (cYUV.z - 0.1102) * 0.682) * 0.64924;
+	float ly = (cYUV.y + 0.0569) * 0.682 + (cYUV.z - 0.1102) * 0.731;
+	float r = 1.0 - sqrt((lx * lx + ly * ly) * 200.0);
+	return clamp(sign(r), 0.0, 1.0);
+}
+
+float4 processfrag(float4 cur, float4 center, float3 centerYUV, float2 inputPos, float weight)
+{
+    float4 input = gl_texture2D(inputPos);
+    float3 inpYUV = toYUV(input.xyz);
+
+    float4 r =
+		abs(inpYUV.x - centerYUV.x) > beauty_params.y
+		|| abs(inpYUV.y - centerYUV.y) > beauty_params.z
+		|| abs(inpYUV.z - centerYUV.z) > beauty_params.z
+		?
+        cur + center * weight
+		:
+        cur + weight * input
+		;
+	r.w = cur.w + isSkin(inpYUV);
+	return r;
+}
+
+float4 addlight(float4 inp, float inpY)
+{
+	float strong = beauty_params.w * 1.7;
+    return clamp(inp * (1 + (-strong*inpY*inpY + strong*inpY)), 0.0, 1.0);
+}
+
+float4 gl_frag(float2 pos)
+{
+    float4 c = gl_texture2D(pos);
+	float3 cYUV = toYUV(c.xyz);
+
+	float cIsSkin = isSkin(cYUV);
+
+	/* 磨皮 */
+	int i;
+	int j;
+	float totalweight = beauty_params.x;
+	float4 r = c * beauty_params.x;
+	r.w = cIsSkin;
+
+	float cnt = cIsSkin;
+
+	for (i = -9; i <= 9; i += 6)
+	{
+		for (j = -9; j <= 9; j += 6)
+		{
+			float2 offsetDist = float2(i, j);
+			float curweight = (13.416 - distance(float2(0.0, 0.0), offsetDist));
+			curweight *= curweight;
+			r = processfrag(r, c, cYUV, pos + step_offset * offsetDist, curweight);
+			totalweight += curweight;
+			cnt += 1.0;
+		}
+	}
+
+	float4 processed = cIsSkin * float4(r.xyz / totalweight, 1.0) + (1.0 - cIsSkin) * c;
+	float gdiff = clamp(processed.y - c.y, 0, 1.0);
+	processed.x = c.x + gdiff * 0.8;
+	processed.z = c.z + gdiff * 0.8;
+	float stronglevel = r.w / cnt;
+
+	/* 调亮 */
+	processed = float4(toYUV(processed.xyz), 1.0);
+	processed.x = processed.x + beauty_params.w * (-1.0 * pow(processed.x - 0.5, 2) + 0.25);
+	processed.x = clamp(processed.x, 0.0, 1.0);
+
+	/* 白皙 */
+	processed.y = processed.y * (1.0 - beauty_params.w * 0.4);
+	processed.y = clamp(processed.y, -0.5, 0.5);
+	processed.z = processed.z * (1.0 - beauty_params.w * 0.2);
+	processed.z = clamp(processed.z, -0.5, 0.5);
+	
+	processed = float4(toRGB(processed.xyz), 1.0);
+
+	processed = (0.7 + stronglevel * 0.3) * processed + (0.3 - stronglevel * 0.3) * c;
+
+	/* 滤镜 */
+	float4 lookupedColor = lookup(processed.rgba);
+	lookupedColor.a = c.a;
+	return lookupedColor;
+}
+
+float4 PS_Beauty(VertData v_in) : TARGET
+{
+    float4 clrs[9];
+
+	return gl_frag(v_in.uv.xy);
+}
+
+technique Draw
+{
+	pass
+	{
+		vertex_shader = VS_Through(v_in);
+		pixel_shader  = PS_Beauty(v_in);
+	}
+}

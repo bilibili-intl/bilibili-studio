@@ -1,0 +1,69 @@
+
+# Visual Studio specific files
+
+*.sdf
+*.opensdf
+*.suo
+*.user
+*.aps
+*.VC.db
+*.opendb
+.vs/
+
+# Build results
+
+[Dd]ebug/
+[Rr]elease/
+[Oo]ut/
+[Oo]ut64/
+
+# Jenkins Build Record
+ci_ws/
+
+# Python JIT files
+*.pyc
+
+# CMake
+CMakeSettings.json
+
+tools/depot_tools/
+bililive/app/bililive_dll.aps
+bililive/app/bililive_exe.aps
+bililive/secret/deps/openssl/changes.txt
+bililive/secret/deps/openssl/faq.txt
+
+.vscode/
+
+ipch/
+
+.idea/
+
+build/make_installer/program_raw/
+
+# openssl build intermediate files
+
+bililive/secret/deps/openssl-1.0.2h/openssl-1.0.2h/build/
+bililive/secret/deps/openssl-1.0.2h/openssl-1.0.2h/inc32/
+bililive/secret/deps/openssl-1.0.2h/openssl-1.0.2h/tmp32/
+bililive/secret/deps/openssl-1.0.2h/openssl-1.0.2h/tmp32dll/
+bililive/secret/deps/openssl-1.0.2h/openssl-1.0.2h/out32/
+bililive/secret/deps/openssl-1.0.2h/openssl-1.0.2h/out32dll/
+bililive/secret/deps/openssl-1.0.2h/openssl-1.0.2h/ssl/include/
+bililive/secret/deps/openssl-1.0.2h/openssl-1.0.2h/crypto/opensslconf.h.bak
+
+# ijk player
+
+ijk/FFmpeg-ff3.2-ijk0.7.4-20161116-001/build/bin/avcodec-57.dll
+ijk/FFmpeg-ff3.2-ijk0.7.4-20161116-001/build/bin/avcodec.lib
+ijk/FFmpeg-ff3.2-ijk0.7.4-20161116-001/build/bin/avfilter-6.dll
+ijk/FFmpeg-ff3.2-ijk0.7.4-20161116-001/build/bin/avfilter.lib
+ijk/FFmpeg-ff3.2-ijk0.7.4-20161116-001/build/bin/avformat-57.dll
+ijk/FFmpeg-ff3.2-ijk0.7.4-20161116-001/build/bin/avformat.lib
+ijk/FFmpeg-ff3.2-ijk0.7.4-20161116-001/build/bin/avutil-55.dll
+ijk/FFmpeg-ff3.2-ijk0.7.4-20161116-001/build/bin/avutil.lib
+ijk/FFmpeg-ff3.2-ijk0.7.4-20161116-001/build/bin/swresample-2.dll
+ijk/FFmpeg-ff3.2-ijk0.7.4-20161116-001/build/bin/swresample.lib
+ijk/FFmpeg-ff3.2-ijk0.7.4-20161116-001/build/bin/swscale-4.dll
+ijk/FFmpeg-ff3.2-ijk0.7.4-20161116-001/build/bin/swscale.lib
+ijk/FFmpeg-ff3.2-ijk0.7.4-20161116-001/config.h
+Debug

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{50140bc4-8da5-4471-8bde-e9f5688da380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\_excluded_files">
+      <UniqueIdentifier>{54638857-c025-4dd7-80e3-3641b4652566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="corewm">
+      <UniqueIdentifier>{68909478-382a-4f32-ad97-5c2ee35dfc0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="corewm\_excluded_files">
+      <UniqueIdentifier>{9da56290-f8fc-416d-a07a-f94baab4d18c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test\capture_tracking_view.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\desktop_test_views_delegate.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\test_views.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\test_views_delegate.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\test_widget_observer.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\views_test_base.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\child_modal_window.cc">
+      <Filter>test\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="corewm\tooltip_controller_test_helper.cc">
+      <Filter>corewm\_excluded_files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="test\capture_tracking_view.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\desktop_test_views_delegate.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\test_views.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\test_views_delegate.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\test_widget_observer.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\views_test_base.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\child_modal_window.h">
+      <Filter>test\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="corewm\tooltip_controller_test_helper.h">
+      <Filter>corewm\_excluded_files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="views.gyp" />
+  </ItemGroup>
+</Project>

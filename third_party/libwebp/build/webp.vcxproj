@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F917BB35-4C74-357A-8629-86E099B28DCF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>webp</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PlatformToolset>v142</PlatformToolset>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <PlatformToolset>v142</PlatformToolset>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\build\$(Platform)\$(Configuration)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\obj\$(ProjectName)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName)</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\..\build\$(Platform)\$(Configuration)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\obj\$(ProjectName)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectName)</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\..\..\build\$(Platform)\$(Configuration)</OutDir>
+    <IntDir>$(OutDir)\obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\..\..\build\$(Platform)\$(Configuration)</OutDir>
+    <IntDir>$(OutDir)\obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\libwebp;D:\libwebp\build;D:\libwebp\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\libwebp;D:\libwebp\build;D:\libwebp\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\libwebp;D:\libwebp\build;D:\libwebp\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <OutputFile>$(OutDir)lib\$(ProjectName)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\libwebp;D:\libwebp\build;D:\libwebp\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\libwebp;D:\libwebp\build;D:\libwebp\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\libwebp;D:\libwebp\build;D:\libwebp\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <OutputFile>$(OutDir)lib\$(ProjectName)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Lib>
+      <OutputFile>$(OutDir)lib\$(ProjectName).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Lib>
+      <OutputFile>$(OutDir)lib\$(ProjectName).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Object Include="$(OutDir)obj\webpdecode\alpha_dec.obj" />
+    <Object Include="$(OutDir)obj\webpdecode\buffer_dec.obj" />
+    <Object Include="$(OutDir)obj\webpdecode\frame_dec.obj" />
+    <Object Include="$(OutDir)obj\webpdecode\idec_dec.obj" />
+    <Object Include="$(OutDir)obj\webpdecode\io_dec.obj" />
+    <Object Include="$(OutDir)obj\webpdecode\quant_dec.obj" />
+    <Object Include="$(OutDir)obj\webpdecode\tree_dec.obj" />
+    <Object Include="$(OutDir)obj\webpdecode\vp8_dec.obj" />
+    <Object Include="$(OutDir)obj\webpdecode\vp8l_dec.obj" />
+    <Object Include="$(OutDir)obj\webpdecode\webp_dec.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\alpha_processing.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\cpu.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\dec.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\dec_clip_tables.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\filters.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\lossless.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\rescaler.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\upsampling.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\yuv.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\alpha_processing_sse41.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\dec_sse41.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\lossless_sse41.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\upsampling_sse41.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\yuv_sse41.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\alpha_processing_sse2.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\dec_sse2.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\filters_sse2.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\lossless_sse2.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\rescaler_sse2.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\upsampling_sse2.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\yuv_sse2.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\cost.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\enc.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\lossless_enc.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\ssim.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\cost_sse2.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\enc_sse2.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\lossless_enc_sse2.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\ssim_sse2.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\enc_sse41.obj" />
+    <Object Include="$(OutDir)obj\webpdsp\lossless_enc_sse41.obj" />
+    <Object Include="$(OutDir)obj\webpencode\alpha_enc.obj" />
+    <Object Include="$(OutDir)obj\webpencode\analysis_enc.obj" />
+    <Object Include="$(OutDir)obj\webpencode\backward_references_cost_enc.obj" />
+    <Object Include="$(OutDir)obj\webpencode\backward_references_enc.obj" />
+    <Object Include="$(OutDir)obj\webpencode\config_enc.obj" />
+    <Object Include="$(OutDir)obj\webpencode\cost_enc.obj" />
+    <Object Include="$(OutDir)obj\webpencode\filter_enc.obj" />
+    <Object Include="$(OutDir)obj\webpencode\frame_enc.obj" />
+    <Object Include="$(OutDir)obj\webpencode\histogram_enc.obj" />
+    <Object Include="$(OutDir)obj\webpencode\iterator_enc.obj" />
+    <Object Include="$(OutDir)obj\webpencode\near_lossless_enc.obj" />
+    <Object Include="$(OutDir)obj\webpencode\picture_enc.obj" />
+    <Object Include="$(OutDir)obj\webpencode\picture_csp_enc.obj" />
+    <Object Include="$(OutDir)obj\webpencode\picture_psnr_enc.obj" />
+    <Object Include="$(OutDir)obj\webpencode\picture_rescale_enc.obj" />
+    <Object Include="$(OutDir)obj\webpencode\picture_tools_enc.obj" />
+    <Object Include="$(OutDir)obj\webpencode\predictor_enc.obj" />
+    <Object Include="$(OutDir)obj\webpencode\quant_enc.obj" />
+    <Object Include="$(OutDir)obj\webpencode\syntax_enc.obj" />
+    <Object Include="$(OutDir)obj\webpencode\token_enc.obj" />
+    <Object Include="$(OutDir)obj\webpencode\tree_enc.obj" />
+    <Object Include="$(OutDir)obj\webpencode\vp8l_enc.obj" />
+    <Object Include="$(OutDir)obj\webpencode\webp_enc.obj" />
+    <Object Include="$(OutDir)obj\webputils\bit_reader_utils.obj" />
+    <Object Include="$(OutDir)obj\webputils\color_cache_utils.obj" />
+    <Object Include="$(OutDir)obj\webputils\filters_utils.obj" />
+    <Object Include="$(OutDir)obj\webputils\huffman_utils.obj" />
+    <Object Include="$(OutDir)obj\webputils\quant_levels_dec_utils.obj" />
+    <Object Include="$(OutDir)obj\webputils\rescaler_utils.obj" />
+    <Object Include="$(OutDir)obj\webputils\random_utils.obj" />
+    <Object Include="$(OutDir)obj\webputils\thread_utils.obj" />
+    <Object Include="$(OutDir)obj\webputils\utils.obj" />
+    <Object Include="$(OutDir)obj\webputils\bit_writer_utils.obj" />
+    <Object Include="$(OutDir)obj\webputils\huffman_encode_utils.obj" />
+    <Object Include="$(OutDir)obj\webputils\quant_levels_utils.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\build\webpdecode.vcxproj">
+      <Project>{93016C9F-76BC-384F-B150-2FEF63290C92}</Project>
+      <Name>webpdecode</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="..\build\webpdsp.vcxproj">
+      <Project>{9F460E30-3778-35E7-B787-0F6064586736}</Project>
+      <Name>webpdsp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="..\build\webpencode.vcxproj">
+      <Project>{FEFFC92F-B690-3A4A-AD05-2502230FE7D0}</Project>
+      <Name>webpencode</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="..\build\webputils.vcxproj">
+      <Project>{EF6996D7-63DC-387A-B053-B11226B06606}</Project>
+      <Name>webputils</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

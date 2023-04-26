@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{37738150-D66E-4831-8636-304CC0169860}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>cef_proxy_dll</RootNamespace>
+    <ProjectName>cef_proxy</ProjectName>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;CEF_PROXY_DLL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>.;..;..\cef_core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>..\cef_core\$(Platform)\$(Configuration)\libcef.lib;..\cef_core\$(Platform)\build\libcef_dll_wrapper\$(Configuration)\libcef_dll_wrapper.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImportLibrary>$(OutDir)lib\$(ProjectName).lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)plugins\$(TargetName).pdb</ProgramDataBaseFile>
+      <OutputFile>$(OutDir)plugins\$(ProjectName)$(TargetExt)</OutputFile>
+      <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>%(AdditionalManifestFiles)</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;CEF_PROXY_DLL_EXPORTS;%(PreprocessorDefinitions);USE_VIDDUP</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>.;..;..\cef_core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>..\cef_core\$(Platform)\$(Configuration)\libcef.lib;..\cef_core\$(Platform)\build\libcef_dll_wrapper\$(Configuration)\libcef_dll_wrapper.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImportLibrary>$(OutDir)lib\$(ProjectName).lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)plugins\$(TargetName).pdb</ProgramDataBaseFile>
+      <OutputFile>$(OutDir)plugins\$(ProjectName)$(TargetExt)</OutputFile>
+      <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>%(AdditionalManifestFiles)</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;CEF_PROXY_DLL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>.;..;..\cef_core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>..\cef_core\$(Platform)\$(Configuration)\libcef.lib;..\cef_core\$(Platform)\build\libcef_dll_wrapper\$(Configuration)\libcef_dll_wrapper.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImportLibrary>$(OutDir)lib\$(ProjectName).lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)plugins\$(TargetName).pdb</ProgramDataBaseFile>
+      <OutputFile>$(OutDir)plugins\$(ProjectName)$(TargetExt)</OutputFile>
+      <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>
+      </AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;CEF_PROXY_DLL_EXPORTS;%(PreprocessorDefinitions);USE_VIDDUP</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>.;..;..\cef_core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>..\cef_core\$(Platform)\$(Configuration)\libcef.lib;..\cef_core\$(Platform)\build\libcef_dll_wrapper\$(Configuration)\libcef_dll_wrapper.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImportLibrary>$(OutDir)lib\$(ProjectName).lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)plugins\$(TargetName).pdb</ProgramDataBaseFile>
+      <OutputFile>$(OutDir)plugins\$(ProjectName)$(TargetExt)</OutputFile>
+      <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>%(AdditionalManifestFiles)</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\bililive_browser\shared\livehime_cef_app.h" />
+    <ClInclude Include="browser\biliyun\livehime_biliyun_client_delegate.h" />
+    <ClInclude Include="browser\livehime_cef_app_browser.h" />
+    <ClInclude Include="browser\livehime_cef_resource_handler.h" />
+    <ClInclude Include="browser\mini_login\livehime_login_client_delegate.h" />
+    <ClInclude Include="browser\obs_studio\livehime_obs_studio_app_browser_delegate.h" />
+    <ClInclude Include="..\cef_core\include\base\cef_atomicops.h" />
+    <ClInclude Include="..\cef_core\include\base\cef_atomic_ref_count.h" />
+    <ClInclude Include="..\cef_core\include\base\cef_basictypes.h" />
+    <ClInclude Include="..\cef_core\include\base\cef_bind.h" />
+    <ClInclude Include="..\cef_core\include\base\cef_bind_helpers.h" />
+    <ClInclude Include="..\cef_core\include\base\cef_build.h" />
+    <ClInclude Include="..\cef_core\include\base\cef_callback.h" />
+    <ClInclude Include="..\cef_core\include\base\cef_callback_forward.h" />
+    <ClInclude Include="..\cef_core\include\base\cef_callback_helpers.h" />
+    <ClInclude Include="..\cef_core\include\base\cef_callback_list.h" />
+    <ClInclude Include="..\cef_core\include\base\cef_cancelable_callback.h" />
+    <ClInclude Include="..\cef_core\include\base\cef_lock.h" />
+    <ClInclude Include="..\cef_core\include\base\cef_logging.h" />
+    <ClInclude Include="..\cef_core\include\base\cef_macros.h" />
+    <ClInclude Include="..\cef_core\include\base\cef_move.h" />
+    <ClInclude Include="..\cef_core\include\base\cef_platform_thread.h" />
+    <ClInclude Include="..\cef_core\include\base\cef_ref_counted.h" />
+    <ClInclude Include="..\cef_core\include\base\cef_scoped_ptr.h" />
+    <ClInclude Include="..\cef_core\include\base\cef_string16.h" />
+    <ClInclude Include="..\cef_core\include\base\cef_template_util.h" />
+    <ClInclude Include="..\cef_core\include\base\cef_thread_checker.h" />
+    <ClInclude Include="..\cef_core\include\base\cef_trace_event.h" />
+    <ClInclude Include="..\cef_core\include\base\cef_tuple.h" />
+    <ClInclude Include="..\cef_core\include\base\cef_weak_ptr.h" />
+    <ClInclude Include="..\cef_core\include\base\internal\cef_atomicops_x86_msvc.h" />
+    <ClInclude Include="..\cef_core\include\base\internal\cef_bind_internal.h" />
+    <ClInclude Include="..\cef_core\include\base\internal\cef_bind_internal_win.h" />
+    <ClInclude Include="..\cef_core\include\base\internal\cef_callback_internal.h" />
+    <ClInclude Include="..\cef_core\include\base\internal\cef_lock_impl.h" />
+    <ClInclude Include="..\cef_core\include\base\internal\cef_raw_scoped_refptr_mismatch_checker.h" />
+    <ClInclude Include="..\cef_core\include\base\internal\cef_thread_checker_impl.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_accessibility_handler_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_app_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_auth_callback_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_base_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_browser_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_browser_process_handler_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_callback_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_client_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_command_line_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_context_menu_handler_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_cookie_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_crash_util_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_dialog_handler_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_display_handler_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_dom_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_download_handler_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_download_item_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_drag_data_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_drag_handler_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_extension_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_extension_handler_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_file_util_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_find_handler_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_focus_handler_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_frame_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_image_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_jsdialog_handler_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_keyboard_handler_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_life_span_handler_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_load_handler_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_menu_model_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_menu_model_delegate_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_navigation_entry_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_origin_whitelist_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_parser_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_path_util_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_print_handler_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_print_settings_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_process_message_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_process_util_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_render_handler_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_render_process_handler_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_request_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_request_context_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_request_context_handler_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_request_handler_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_resource_bundle_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_resource_bundle_handler_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_resource_handler_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_response_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_response_filter_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_scheme_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_server_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_ssl_info_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_ssl_status_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_stream_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_string_visitor_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_task_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_thread_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_trace_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_urlrequest_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_v8_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_values_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_waitable_event_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_web_plugin_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_x509_certificate_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_xml_reader_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\cef_zip_reader_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\test\cef_test_helpers_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\test\cef_translator_test_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\views\cef_box_layout_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\views\cef_browser_view_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\views\cef_browser_view_delegate_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\views\cef_button_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\views\cef_button_delegate_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\views\cef_display_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\views\cef_fill_layout_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\views\cef_label_button_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\views\cef_layout_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\views\cef_menu_button_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\views\cef_menu_button_delegate_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\views\cef_panel_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\views\cef_panel_delegate_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\views\cef_scroll_view_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\views\cef_textfield_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\views\cef_textfield_delegate_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\views\cef_view_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\views\cef_view_delegate_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\views\cef_window_capi.h" />
+    <ClInclude Include="..\cef_core\include\capi\views\cef_window_delegate_capi.h" />
+    <ClInclude Include="..\cef_core\include\cef_accessibility_handler.h" />
+    <ClInclude Include="..\cef_core\include\cef_app.h" />
+    <ClInclude Include="..\cef_core\include\cef_auth_callback.h" />
+    <ClInclude Include="..\cef_core\include\cef_base.h" />
+    <ClInclude Include="..\cef_core\include\cef_browser.h" />
+    <ClInclude Include="..\cef_core\include\cef_browser_process_handler.h" />
+    <ClInclude Include="..\cef_core\include\cef_callback.h" />
+    <ClInclude Include="..\cef_core\include\cef_client.h" />
+    <ClInclude Include="..\cef_core\include\cef_command_line.h" />
+    <ClInclude Include="..\cef_core\include\cef_context_menu_handler.h" />
+    <ClInclude Include="..\cef_core\include\cef_cookie.h" />
+    <ClInclude Include="..\cef_core\include\cef_crash_util.h" />
+    <ClInclude Include="..\cef_core\include\cef_dialog_handler.h" />
+    <ClInclude Include="..\cef_core\include\cef_display_handler.h" />
+    <ClInclude Include="..\cef_core\include\cef_dom.h" />
+    <ClInclude Include="..\cef_core\include\cef_download_handler.h" />
+    <ClInclude Include="..\cef_core\include\cef_download_item.h" />
+    <ClInclude Include="..\cef_core\include\cef_drag_data.h" />
+    <ClInclude Include="..\cef_core\include\cef_drag_handler.h" />
+    <ClInclude Include="..\cef_core\include\cef_extension.h" />
+    <ClInclude Include="..\cef_core\include\cef_extension_handler.h" />
+    <ClInclude Include="..\cef_core\include\cef_file_util.h" />
+    <ClInclude Include="..\cef_core\include\cef_find_handler.h" />
+    <ClInclude Include="..\cef_core\include\cef_focus_handler.h" />
+    <ClInclude Include="..\cef_core\include\cef_frame.h" />
+    <ClInclude Include="..\cef_core\include\cef_image.h" />
+    <ClInclude Include="..\cef_core\include\cef_jsdialog_handler.h" />
+    <ClInclude Include="..\cef_core\include\cef_keyboard_handler.h" />
+    <ClInclude Include="..\cef_core\include\cef_life_span_handler.h" />
+    <ClInclude Include="..\cef_core\include\cef_load_handler.h" />
+    <ClInclude Include="..\cef_core\include\cef_menu_model.h" />
+    <ClInclude Include="..\cef_core\include\cef_menu_model_delegate.h" />
+    <ClInclude Include="..\cef_core\include\cef_navigation_entry.h" />
+    <ClInclude Include="..\cef_core\include\cef_origin_whitelist.h" />
+    <ClInclude Include="..\cef_core\include\cef_pack_resources.h" />
+    <ClInclude Include="..\cef_core\include\cef_pack_strings.h" />
+    <ClInclude Include="..\cef_core\include\cef_parser.h" />
+    <ClInclude Include="..\cef_core\include\cef_path_util.h" />
+    <ClInclude Include="..\cef_core\include\cef_print_handler.h" />
+    <ClInclude Include="..\cef_core\include\cef_print_settings.h" />
+    <ClInclude Include="..\cef_core\include\cef_process_message.h" />
+    <ClInclude Include="..\cef_core\include\cef_process_util.h" />
+    <ClInclude Include="..\cef_core\include\cef_render_handler.h" />
+    <ClInclude Include="..\cef_core\include\cef_render_process_handler.h" />
+    <ClInclude Include="..\cef_core\include\cef_request.h" />
+    <ClInclude Include="..\cef_core\include\cef_request_context.h" />
+    <ClInclude Include="..\cef_core\include\cef_request_context_handler.h" />
+    <ClInclude Include="..\cef_core\include\cef_request_handler.h" />
+    <ClInclude Include="..\cef_core\include\cef_resource_bundle.h" />
+    <ClInclude Include="..\cef_core\include\cef_resource_bundle_handler.h" />
+    <ClInclude Include="..\cef_core\include\cef_resource_handler.h" />
+    <ClInclude Include="..\cef_core\include\cef_response.h" />
+    <ClInclude Include="..\cef_core\include\cef_response_filter.h" />
+    <ClInclude Include="..\cef_core\include\cef_sandbox_win.h" />
+    <ClInclude Include="..\cef_core\include\cef_scheme.h" />
+    <ClInclude Include="..\cef_core\include\cef_server.h" />
+    <ClInclude Include="..\cef_core\include\cef_ssl_info.h" />
+    <ClInclude Include="..\cef_core\include\cef_ssl_status.h" />
+    <ClInclude Include="..\cef_core\include\cef_stream.h" />
+    <ClInclude Include="..\cef_core\include\cef_string_visitor.h" />
+    <ClInclude Include="..\cef_core\include\cef_task.h" />
+    <ClInclude Include="..\cef_core\include\cef_thread.h" />
+    <ClInclude Include="..\cef_core\include\cef_trace.h" />
+    <ClInclude Include="..\cef_core\include\cef_urlrequest.h" />
+    <ClInclude Include="..\cef_core\include\cef_v8.h" />
+    <ClInclude Include="..\cef_core\include\cef_values.h" />
+    <ClInclude Include="..\cef_core\include\cef_version.h" />
+    <ClInclude Include="..\cef_core\include\cef_waitable_event.h" />
+    <ClInclude Include="..\cef_core\include\cef_web_plugin.h" />
+    <ClInclude Include="..\cef_core\include\cef_x509_certificate.h" />
+    <ClInclude Include="..\cef_core\include\cef_xml_reader.h" />
+    <ClInclude Include="..\cef_core\include\cef_zip_reader.h" />
+    <ClInclude Include="..\cef_core\include\internal\cef_export.h" />
+    <ClInclude Include="..\cef_core\include\internal\cef_logging_internal.h" />
+    <ClInclude Include="..\cef_core\include\internal\cef_ptr.h" />
+    <ClInclude Include="..\cef_core\include\internal\cef_string.h" />
+    <ClInclude Include="..\cef_core\include\internal\cef_string_list.h" />
+    <ClInclude Include="..\cef_core\include\internal\cef_string_map.h" />
+    <ClInclude Include="..\cef_core\include\internal\cef_string_multimap.h" />
+    <ClInclude Include="..\cef_core\include\internal\cef_string_types.h" />
+    <ClInclude Include="..\cef_core\include\internal\cef_string_wrappers.h" />
+    <ClInclude Include="..\cef_core\include\internal\cef_thread_internal.h" />
+    <ClInclude Include="..\cef_core\include\internal\cef_time.h" />
+    <ClInclude Include="..\cef_core\include\internal\cef_trace_event_internal.h" />
+    <ClInclude Include="..\cef_core\include\internal\cef_types.h" />
+    <ClInclude Include="..\cef_core\include\internal\cef_types_win.h" />
+    <ClInclude Include="..\cef_core\include\internal\cef_types_wrappers.h" />
+    <ClInclude Include="..\cef_core\include\internal\cef_win.h" />
+    <ClInclude Include="..\cef_core\include\test\cef_test_helpers.h" />
+    <ClInclude Include="..\cef_core\include\test\cef_translator_test.h" />
+    <ClInclude Include="..\cef_core\include\views\cef_box_layout.h" />
+    <ClInclude Include="..\cef_core\include\views\cef_browser_view.h" />
+    <ClInclude Include="..\cef_core\include\views\cef_browser_view_delegate.h" />
+    <ClInclude Include="..\cef_core\include\views\cef_button.h" />
+    <ClInclude Include="..\cef_core\include\views\cef_button_delegate.h" />
+    <ClInclude Include="..\cef_core\include\views\cef_display.h" />
+    <ClInclude Include="..\cef_core\include\views\cef_fill_layout.h" />
+    <ClInclude Include="..\cef_core\include\views\cef_label_button.h" />
+    <ClInclude Include="..\cef_core\include\views\cef_layout.h" />
+    <ClInclude Include="..\cef_core\include\views\cef_menu_button.h" />
+    <ClInclude Include="..\cef_core\include\views\cef_menu_button_delegate.h" />
+    <ClInclude Include="..\cef_core\include\views\cef_panel.h" />
+    <ClInclude Include="..\cef_core\include\views\cef_panel_delegate.h" />
+    <ClInclude Include="..\cef_core\include\views\cef_scroll_view.h" />
+    <ClInclude Include="..\cef_core\include\views\cef_textfield.h" />
+    <ClInclude Include="..\cef_core\include\views\cef_textfield_delegate.h" />
+    <ClInclude Include="..\cef_core\include\views\cef_view.h" />
+    <ClInclude Include="..\cef_core\include\views\cef_view_delegate.h" />
+    <ClInclude Include="..\cef_core\include\views\cef_window.h" />
+    <ClInclude Include="..\cef_core\include\views\cef_window_delegate.h" />
+    <ClInclude Include="..\cef_core\include\wrapper\cef_byte_read_handler.h" />
+    <ClInclude Include="..\cef_core\include\wrapper\cef_closure_task.h" />
+    <ClInclude Include="..\cef_core\include\wrapper\cef_helpers.h" />
+    <ClInclude Include="..\cef_core\include\wrapper\cef_message_router.h" />
+    <ClInclude Include="..\cef_core\include\wrapper\cef_resource_manager.h" />
+    <ClInclude Include="..\cef_core\include\wrapper\cef_scoped_temp_dir.h" />
+    <ClInclude Include="..\cef_core\include\wrapper\cef_stream_resource_handler.h" />
+    <ClInclude Include="..\cef_core\include\wrapper\cef_xml_object.h" />
+    <ClInclude Include="..\cef_core\include\wrapper\cef_zip_archive.h" />
+    <ClInclude Include="cef_proxy_dll.h" />
+    <ClInclude Include="event_dispatcher\livehime_cef_proxy_events_dispatcher.h" />
+    <ClInclude Include="browser\bilibili\livehime_bilibili_client_delegate.h" />
+    <ClInclude Include="browser\dev_tools\livehime_dev_tools_client_delegate.h" />
+    <ClInclude Include="browser\livehime_cef_client_browser.h" />
+    <ClInclude Include="public\livehime_cef_proxy_calldata.h" />
+    <ClInclude Include="public\livehime_cef_proxy_constants.h" />
+    <ClInclude Include="public\livehime_cef_proxy_define.h" />
+    <ClInclude Include="public\livehime_cef_proxy_exports.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="util\cef_proxy_util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\bililive_browser\shared\livehime_cef_app.cpp" />
+    <ClCompile Include="browser\biliyun\livehime_biliyun_client_delegate.cpp" />
+    <ClCompile Include="browser\livehime_cef_app_browser.cpp" />
+    <ClCompile Include="browser\livehime_cef_app_browser_delegate.cpp" />
+    <ClCompile Include="browser\livehime_cef_resource_handler.cpp" />
+    <ClCompile Include="browser\mini_login\livehime_login_client_delegate.cpp" />
+    <ClCompile Include="browser\obs_studio\livehime_obs_studio_app_browser_delegate.cpp" />
+    <ClCompile Include="cef_proxy_dll.cpp" />
+    <ClCompile Include="cef_proxy_dll_win.cpp" />
+    <ClCompile Include="dllmain.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="event_dispatcher\livehime_cef_proxy_events_dispatcher.cpp" />
+    <ClCompile Include="browser\bilibili\livehime_bilibili_client_delegate.cpp" />
+    <ClCompile Include="browser\dev_tools\livehime_dev_tools_client_delegate.cpp" />
+    <ClCompile Include="browser\livehime_cef_client_browser.cpp" />
+    <ClCompile Include="browser\livehime_cef_client_browser_delegate.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="util\cef_proxy_util.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

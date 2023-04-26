@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="widget">
+      <UniqueIdentifier>{0f7dfeb0-4b18-4987-ae9b-d4351e222a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="widget\_excluded_files">
+      <UniqueIdentifier>{77c4005a-b71e-4779-8c4f-93451bea02ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="widget\desktop_aura">
+      <UniqueIdentifier>{91571ab4-cd9b-4816-ad31-c6e50ea661c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="widget\desktop_aura\_excluded_files">
+      <UniqueIdentifier>{53f4b133-09fa-4c6c-9781-5ce2996d030e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="corewm">
+      <UniqueIdentifier>{bef063bd-3269-4919-b30d-248d239ecf5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="corewm\_excluded_files">
+      <UniqueIdentifier>{00aa4415-b9a5-4eaf-8512-16625588a10a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ime">
+      <UniqueIdentifier>{21f47fa6-caa6-4f4c-8045-f06b7a3f5f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ime\_excluded_files">
+      <UniqueIdentifier>{c3871d47-e4fe-4fbd-9cb5-6a4a91ddacce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="touchui">
+      <UniqueIdentifier>{5b3d3c89-2a74-42c8-a1e0-2f40cd4841ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="touchui\_excluded_files">
+      <UniqueIdentifier>{792cae0f-2df7-42f7-b828-f773723113ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="focus">
+      <UniqueIdentifier>{b5fe44cb-b048-4d77-925c-4868d9b72c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controls">
+      <UniqueIdentifier>{796d8f5f-d1b0-4ad5-a97c-181bca8f3a38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controls\tabbed_pane">
+      <UniqueIdentifier>{9580d9dd-543b-4694-9e1a-8403f1f8783f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controls\menu">
+      <UniqueIdentifier>{a79083b8-16d8-4e7b-a5d5-c7eb2030f5e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controls\button">
+      <UniqueIdentifier>{c31f9ae2-c7af-42e0-9018-d520982345aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controls\tree">
+      <UniqueIdentifier>{65cc4d14-2c9b-4a82-bfd6-2a0149f173dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controls\scrollbar">
+      <UniqueIdentifier>{9de7f8af-69a9-40ec-a650-77b5076ab108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controls\combobox">
+      <UniqueIdentifier>{91d8e2ce-a76b-43c0-9184-951992af75a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controls\table">
+      <UniqueIdentifier>{60ac57ce-0b31-4e48-afe7-a6f7e2b58efe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controls\textfield">
+      <UniqueIdentifier>{0c6770ea-49d9-4f7d-ad10-caa95cd9e74e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controls\native">
+      <UniqueIdentifier>{7a69b9db-07e1-42d7-9635-23d6f100233d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controls\native\_excluded_files">
+      <UniqueIdentifier>{63876320-51d5-4385-a747-148a520d553e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="accessibility">
+      <UniqueIdentifier>{4c26a16a-4e05-4c34-80bb-aac9533ce96e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window">
+      <UniqueIdentifier>{ddb2622b-520e-49be-8400-f090da7bc5c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="animation">
+      <UniqueIdentifier>{703d5cf8-17bd-4923-a45b-8fc98a6acc4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="layout">
+      <UniqueIdentifier>{7125d17f-6406-4399-abd8-ca6b2dc4760c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bubble">
+      <UniqueIdentifier>{edd273f9-8aac-4e54-bbf3-423dbb6361ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="widget\native_widget_unittest.cc">
+      <Filter>widget</Filter>
+    </ClCompile>
+    <ClCompile Include="widget\native_widget_win_unittest.cc">
+      <Filter>widget</Filter>
+    </ClCompile>
+    <ClCompile Include="widget\widget_unittest.cc">
+      <Filter>widget</Filter>
+    </ClCompile>
+    <ClCompile Include="widget\native_widget_aura_unittest.cc">
+      <Filter>widget\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="widget\window_reorderer_unittest.cc">
+      <Filter>widget\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="widget\desktop_aura\desktop_capture_client_unittest.cc">
+      <Filter>widget\desktop_aura\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="widget\desktop_aura\desktop_screen_position_client_unittest.cc">
+      <Filter>widget\desktop_aura\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="corewm\compound_event_filter_unittest.cc">
+      <Filter>corewm\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="corewm\cursor_manager_unittest.cc">
+      <Filter>corewm\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="corewm\focus_controller_unittest.cc">
+      <Filter>corewm\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="corewm\image_grid_unittest.cc">
+      <Filter>corewm\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="corewm\input_method_event_filter_unittest.cc">
+      <Filter>corewm\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="corewm\shadow_controller_unittest.cc">
+      <Filter>corewm\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="corewm\tooltip_controller_unittest.cc">
+      <Filter>corewm\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="corewm\visibility_controller_unittest.cc">
+      <Filter>corewm\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="corewm\window_animations_unittest.cc">
+      <Filter>corewm\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="corewm\window_util_unittest.cc">
+      <Filter>corewm\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="ime\input_method_bridge_unittest.cc">
+      <Filter>ime\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="touchui\touch_selection_controller_impl_unittest.cc">
+      <Filter>touchui\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="focus\focus_manager_test.cc">
+      <Filter>focus</Filter>
+    </ClCompile>
+    <ClCompile Include="focus\focus_manager_unittest.cc">
+      <Filter>focus</Filter>
+    </ClCompile>
+    <ClCompile Include="focus\focus_manager_unittest_win.cc">
+      <Filter>focus</Filter>
+    </ClCompile>
+    <ClCompile Include="focus\focus_traversal_unittest.cc">
+      <Filter>focus</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\label_unittest.cc">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\prefix_selector_unittest.cc">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\progress_bar_unittest.cc">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\scroll_view_unittest.cc">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\single_split_view_unittest.cc">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\slider_unittest.cc">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\styled_label_unittest.cc">
+      <Filter>controls</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\tabbed_pane\tabbed_pane_unittest.cc">
+      <Filter>controls\tabbed_pane</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\menu\menu_model_adapter_unittest.cc">
+      <Filter>controls\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\button\custom_button_unittest.cc">
+      <Filter>controls\button</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\button\image_button_unittest.cc">
+      <Filter>controls\button</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\button\label_button_unittest.cc">
+      <Filter>controls\button</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\tree\tree_view_unittest.cc">
+      <Filter>controls\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\scrollbar\scrollbar_unittest.cc">
+      <Filter>controls\scrollbar</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\combobox\native_combobox_views_unittest.cc">
+      <Filter>controls\combobox</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\table\table_utils_unittest.cc">
+      <Filter>controls\table</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\table\table_view_unittest.cc">
+      <Filter>controls\table</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\table\test_table_model.cc">
+      <Filter>controls\table</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\textfield\native_textfield_views_unittest.cc">
+      <Filter>controls\textfield</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\textfield\textfield_views_model_unittest.cc">
+      <Filter>controls\textfield</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\native\native_view_host_unittest.cc">
+      <Filter>controls\native</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\native\native_view_host_aura_unittest.cc">
+      <Filter>controls\native\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="accessibility\native_view_accessibility_win_unittest.cc">
+      <Filter>accessibility</Filter>
+    </ClCompile>
+    <ClCompile Include="window\dialog_client_view_unittest.cc">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="window\dialog_delegate_unittest.cc">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\bounds_animator_unittest.cc">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClCompile Include="layout\box_layout_unittest.cc">
+      <Filter>layout</Filter>
+    </ClCompile>
+    <ClCompile Include="layout\grid_layout_unittest.cc">
+      <Filter>layout</Filter>
+    </ClCompile>
+    <ClCompile Include="bubble\bubble_border_unittest.cc">
+      <Filter>bubble</Filter>
+    </ClCompile>
+    <ClCompile Include="bubble\bubble_delegate_unittest.cc">
+      <Filter>bubble</Filter>
+    </ClCompile>
+    <ClCompile Include="bubble\bubble_frame_view_unittest.cc">
+      <Filter>bubble</Filter>
+    </ClCompile>
+    <ClCompile Include="accessible_pane_view_unittest.cc" />
+    <ClCompile Include="run_all_unittests.cc" />
+    <ClCompile Include="view_model_unittest.cc" />
+    <ClCompile Include="view_model_utils_unittest.cc" />
+    <ClCompile Include="view_unittest.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="focus\focus_manager_test.h">
+      <Filter>focus</Filter>
+    </ClInclude>
+    <ClInclude Include="controls\table\test_table_model.h">
+      <Filter>controls\table</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="views.gyp" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+syntax = "proto3";
+ 
+message Event {
+    string logId = 1;  // 对应的logid
+    string eventId = 2; // 对应的eventid，适合于北极星上报场景
+    bytes body = 3;  // 数据的body
+    map<string, string> meta = 4; // 数据的meta
+}
+ 
+message EventList {
+    repeated Event events = 1;
+}

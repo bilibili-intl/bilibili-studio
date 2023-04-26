@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4B6722A7-BDA3-3E9D-9762-076A56326A2A}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>jpeg</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\sharedlib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">jpeg.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">jpeg62</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\sharedlib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">jpeg.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">jpeg62</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\sharedlib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">jpeg.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">jpeg62</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\sharedlib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">jpeg.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">jpeg62</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>I:\git\libjpeg-turbo-1.2.90\vs2019;I:\git\libjpeg-turbo-1.2.90;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;WITH_SIMD;CMAKE_INTDIR="Debug";jpeg_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;WITH_SIMD;CMAKE_INTDIR=\"Debug\";jpeg_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>I:\git\libjpeg-turbo-1.2.90\vs2019;I:\git\libjpeg-turbo-1.2.90;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>I:\git\libjpeg-turbo-1.2.90\vs2019;I:\git\libjpeg-turbo-1.2.90;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>I:/git/libjpeg-turbo-1.2.90/vs2019/sharedlib/Debug/jpeg.lib</ImportLibrary>
+      <ModuleDefinitionFile>I:/git/libjpeg-turbo-1.2.90/win/jpeg62-memsrcdst.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>I:/git/libjpeg-turbo-1.2.90/vs2019/sharedlib/Debug/jpeg.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>I:\git\libjpeg-turbo-1.2.90\vs2019;I:\git\libjpeg-turbo-1.2.90;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WITH_SIMD;CMAKE_INTDIR="Release";jpeg_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WITH_SIMD;CMAKE_INTDIR=\"Release\";jpeg_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>I:\git\libjpeg-turbo-1.2.90\vs2019;I:\git\libjpeg-turbo-1.2.90;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>I:\git\libjpeg-turbo-1.2.90\vs2019;I:\git\libjpeg-turbo-1.2.90;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>I:/git/libjpeg-turbo-1.2.90/vs2019/sharedlib/Release/jpeg.lib</ImportLibrary>
+      <ModuleDefinitionFile>I:/git/libjpeg-turbo-1.2.90/win/jpeg62-memsrcdst.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>I:/git/libjpeg-turbo-1.2.90/vs2019/sharedlib/Release/jpeg.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>I:\git\libjpeg-turbo-1.2.90\vs2019;I:\git\libjpeg-turbo-1.2.90;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WITH_SIMD;CMAKE_INTDIR="MinSizeRel";jpeg_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WITH_SIMD;CMAKE_INTDIR=\"MinSizeRel\";jpeg_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>I:\git\libjpeg-turbo-1.2.90\vs2019;I:\git\libjpeg-turbo-1.2.90;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>I:\git\libjpeg-turbo-1.2.90\vs2019;I:\git\libjpeg-turbo-1.2.90;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>I:/git/libjpeg-turbo-1.2.90/vs2019/sharedlib/MinSizeRel/jpeg.lib</ImportLibrary>
+      <ModuleDefinitionFile>I:/git/libjpeg-turbo-1.2.90/win/jpeg62-memsrcdst.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>I:/git/libjpeg-turbo-1.2.90/vs2019/sharedlib/MinSizeRel/jpeg.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>I:\git\libjpeg-turbo-1.2.90\vs2019;I:\git\libjpeg-turbo-1.2.90;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WITH_SIMD;CMAKE_INTDIR="RelWithDebInfo";jpeg_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WITH_SIMD;CMAKE_INTDIR=\"RelWithDebInfo\";jpeg_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>I:\git\libjpeg-turbo-1.2.90\vs2019;I:\git\libjpeg-turbo-1.2.90;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>I:\git\libjpeg-turbo-1.2.90\vs2019;I:\git\libjpeg-turbo-1.2.90;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>I:/git/libjpeg-turbo-1.2.90/vs2019/sharedlib/RelWithDebInfo/jpeg.lib</ImportLibrary>
+      <ModuleDefinitionFile>I:/git/libjpeg-turbo-1.2.90/win/jpeg62-memsrcdst.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>I:/git/libjpeg-turbo-1.2.90/vs2019/sharedlib/RelWithDebInfo/jpeg.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\git\libjpeg-turbo-1.2.90\sharedlib\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule I:/git/libjpeg-turbo-1.2.90/sharedlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SI:/git/libjpeg-turbo-1.2.90 -BI:/git/libjpeg-turbo-1.2.90/vs2019 --check-stamp-file I:/git/libjpeg-turbo-1.2.90/vs2019/sharedlib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\sharedlib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule I:/git/libjpeg-turbo-1.2.90/sharedlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SI:/git/libjpeg-turbo-1.2.90 -BI:/git/libjpeg-turbo-1.2.90/vs2019 --check-stamp-file I:/git/libjpeg-turbo-1.2.90/vs2019/sharedlib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\sharedlib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule I:/git/libjpeg-turbo-1.2.90/sharedlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SI:/git/libjpeg-turbo-1.2.90 -BI:/git/libjpeg-turbo-1.2.90/vs2019 --check-stamp-file I:/git/libjpeg-turbo-1.2.90/vs2019/sharedlib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\sharedlib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule I:/git/libjpeg-turbo-1.2.90/sharedlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SI:/git/libjpeg-turbo-1.2.90 -BI:/git/libjpeg-turbo-1.2.90/vs2019 --check-stamp-file I:/git/libjpeg-turbo-1.2.90/vs2019/sharedlib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\git\libjpeg-turbo-1.2.90\vs2019\sharedlib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jcapimin.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jcapistd.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jccoefct.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jccolor.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jcdctmgr.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jchuff.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jcinit.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jcmainct.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jcmarker.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jcmaster.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jcomapi.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jcparam.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jcphuff.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jcprepct.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jcsample.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jctrans.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jdapimin.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jdapistd.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jdatadst.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jdatasrc.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jdcoefct.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jdcolor.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jddctmgr.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jdhuff.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jdinput.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jdmainct.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jdmarker.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jdmaster.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jdmerge.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jdphuff.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jdpostct.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jdsample.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jdtrans.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jerror.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jfdctflt.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jfdctfst.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jfdctint.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jidctflt.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jidctfst.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jidctint.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jidctred.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jquant1.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jquant2.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jutils.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jmemmgr.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jmemnobs.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jaricom.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jcarith.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\jdarith.c" />
+    <ClCompile Include="I:\git\libjpeg-turbo-1.2.90\simd\jsimd_x86_64.c" />
+    <Object Include="I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfsseflt-64.obj" />
+    <Object Include="I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jccolss2-64.obj" />
+    <Object Include="I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdcolss2-64.obj" />
+    <Object Include="I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcgrass2-64.obj" />
+    <Object Include="I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcsamss2-64.obj" />
+    <Object Include="I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdsamss2-64.obj" />
+    <Object Include="I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jdmerss2-64.obj" />
+    <Object Include="I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcqnts2i-64.obj" />
+    <Object Include="I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfss2fst-64.obj" />
+    <Object Include="I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jfss2int-64.obj" />
+    <Object Include="I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2red-64.obj" />
+    <Object Include="I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2int-64.obj" />
+    <Object Include="I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2fst-64.obj" />
+    <Object Include="I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jcqnts2f-64.obj" />
+    <Object Include="I:\git\libjpeg-turbo-1.2.90\vs2019\simd\$(Configuration)\jiss2flt-64.obj" />
+    <None Include="I:\git\libjpeg-turbo-1.2.90\win\jpeg62-memsrcdst.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="I:\git\libjpeg-turbo-1.2.90\vs2019\ZERO_CHECK.vcxproj">
+      <Project>{41D5C251-BF55-3DFD-8ADE-39EE5C6B6728}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="I:\git\libjpeg-turbo-1.2.90\vs2019\simd\simd.vcxproj">
+      <Project>{2EFEB347-7859-32BE-917A-79A6CDFB605B}</Project>
+      <Name>simd</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

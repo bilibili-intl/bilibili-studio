@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{c8d19dfe-90c6-4050-81b1-d7d8c7e5dda1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\mozilla">
+      <UniqueIdentifier>{1e1886e4-ee1e-4348-8fe9-a815965f7adc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="third_party\mozilla\url_parse.cc">
+      <Filter>third_party\mozilla</Filter>
+    </ClCompile>
+    <ClCompile Include="gurl.cc" />
+    <ClCompile Include="url_canon_etc.cc" />
+    <ClCompile Include="url_canon_filesystemurl.cc" />
+    <ClCompile Include="url_canon_fileurl.cc" />
+    <ClCompile Include="url_canon_host.cc" />
+    <ClCompile Include="url_canon_icu.cc" />
+    <ClCompile Include="url_canon_internal.cc" />
+    <ClCompile Include="url_canon_ip.cc" />
+    <ClCompile Include="url_canon_mailtourl.cc" />
+    <ClCompile Include="url_canon_path.cc" />
+    <ClCompile Include="url_canon_pathurl.cc" />
+    <ClCompile Include="url_canon_query.cc" />
+    <ClCompile Include="url_canon_relative.cc" />
+    <ClCompile Include="url_canon_stdurl.cc" />
+    <ClCompile Include="url_parse_file.cc" />
+    <ClCompile Include="url_util.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="third_party\mozilla\url_parse.h">
+      <Filter>third_party\mozilla</Filter>
+    </ClInclude>
+    <ClInclude Include="gurl.h" />
+    <ClInclude Include="url_canon.h" />
+    <ClInclude Include="url_canon_icu.h" />
+    <ClInclude Include="url_canon_internal.h" />
+    <ClInclude Include="url_canon_internal_file.h" />
+    <ClInclude Include="url_canon_ip.h" />
+    <ClInclude Include="url_canon_stdstring.h" />
+    <ClInclude Include="url_file.h" />
+    <ClInclude Include="url_parse_internal.h" />
+    <ClInclude Include="url_util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="url.gyp" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,39 @@
+{
+  "view_id": 1000,
+  "type": "combo_layout",
+  "layout": {
+    "views": [{
+      "view_id": 10001,
+      "type": "grid_layout",
+      "layout": {
+        "columnset": [{
+          "column_set_id": 0,
+          "columns": [{
+            "h_align": 3,
+            "v_align": 3,
+            "resize_percent": 1.0,
+            "size_type": 1,
+            "fixed_width": 0,
+            "min_width": 0
+          }]
+        }],
+        "viewset": [{
+          "column_set_id": 0,
+          "rows": [{
+            "views": [1001]
+          }, {
+            "views": [1002]
+          }, {
+            "views": [1003]
+          }]
+        }]
+      }
+    }, {
+      "view_id": 1000,
+      "type": "box_layout",
+      "layout": {
+        "views": [10001, 1004]
+      }
+    }]
+  }
+}

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{4a48bf9d-6f66-4141-890e-385e4de028ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include">
+      <UniqueIdentifier>{0f612e25-877b-4c22-9aa2-8167d08323e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest">
+      <UniqueIdentifier>{8ca3f374-a2b6-41fc-bdb4-e42dd75d1e09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gtest\include\gtest\gtest_prod.h">
+      <Filter>gtest\include\gtest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="gtest.gyp" />
+  </ItemGroup>
+</Project>

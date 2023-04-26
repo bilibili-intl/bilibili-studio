@@ -1,0 +1,66 @@
+{
+    "view_id": 1001,
+    "type": "grid_layout",
+    "layout": {
+        "insets": {
+            "top": 0,
+            "left": 30,
+            "bottom": 0,
+            "right": 0
+        },
+        "columnset": [
+            {
+                "column_set_id": 0,
+                "columns": [
+                    {
+                        "resize_percent": 0,
+                        "size_type": 1,
+                        "v_align": 1
+                    },
+                    {
+                        "resize_percent": 1.0,
+                        "size_type": 1
+                    },
+                    {
+                        "resize_percent": 0,
+                        "size_type": 1
+                    },
+                    {
+                        "resize_percent": 0,
+                        "size_type": 1
+                    },
+                    {
+                        "resize_percent": 0,
+                        "size_type": 1
+                    },
+                    {
+                        "resize_percent": 0,
+                        "size_type": 1
+                    },
+                    {
+                        "resize_percent": 0,
+                        "size_type": 1
+                    },
+                    {
+                        "resize_percent": 0,
+                        "size_type": 1
+                    },
+                    { 
+                        "resize_percent": 0,
+                        "size_type": 1
+                    }
+                ]
+            }
+        ],
+        "viewset": [
+            {
+                "column_set_id": 0,
+                "rows": [
+                    {
+                        "views": [ 1000, 0, 1002, 1003, 2001, 1004, 1005, 1006, 1007 ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="i18n">
+      <UniqueIdentifier>{f03c895a-ecd7-4451-a303-6ab03d46b02d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{63a2a6eb-a852-4c17-b404-3c0da99a226e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{dd38d042-a789-4ef0-9c9b-48a6471a130a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="i18n\base_i18n_export.h">
+      <Filter>i18n</Filter>
+    </ClInclude>
+    <ClInclude Include="i18n\bidi_line_iterator.h">
+      <Filter>i18n</Filter>
+    </ClInclude>
+    <ClInclude Include="i18n\break_iterator.h">
+      <Filter>i18n</Filter>
+    </ClInclude>
+    <ClInclude Include="i18n\case_conversion.h">
+      <Filter>i18n</Filter>
+    </ClInclude>
+    <ClInclude Include="i18n\char_iterator.h">
+      <Filter>i18n</Filter>
+    </ClInclude>
+    <ClInclude Include="i18n\file_util_icu.h">
+      <Filter>i18n</Filter>
+    </ClInclude>
+    <ClInclude Include="i18n\i18n_constants.h">
+      <Filter>i18n</Filter>
+    </ClInclude>
+    <ClInclude Include="i18n\icu_encoding_detection.h">
+      <Filter>i18n</Filter>
+    </ClInclude>
+    <ClInclude Include="i18n\icu_string_conversions.h">
+      <Filter>i18n</Filter>
+    </ClInclude>
+    <ClInclude Include="i18n\icu_util.h">
+      <Filter>i18n</Filter>
+    </ClInclude>
+    <ClInclude Include="i18n\number_formatting.h">
+      <Filter>i18n</Filter>
+    </ClInclude>
+    <ClInclude Include="i18n\rtl.h">
+      <Filter>i18n</Filter>
+    </ClInclude>
+    <ClInclude Include="i18n\string_compare.h">
+      <Filter>i18n</Filter>
+    </ClInclude>
+    <ClInclude Include="i18n\string_search.h">
+      <Filter>i18n</Filter>
+    </ClInclude>
+    <ClInclude Include="i18n\time_formatting.h">
+      <Filter>i18n</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="i18n\bidi_line_iterator.cc">
+      <Filter>i18n</Filter>
+    </ClCompile>
+    <ClCompile Include="i18n\break_iterator.cc">
+      <Filter>i18n</Filter>
+    </ClCompile>
+    <ClCompile Include="i18n\case_conversion.cc">
+      <Filter>i18n</Filter>
+    </ClCompile>
+    <ClCompile Include="i18n\char_iterator.cc">
+      <Filter>i18n</Filter>
+    </ClCompile>
+    <ClCompile Include="i18n\file_util_icu.cc">
+      <Filter>i18n</Filter>
+    </ClCompile>
+    <ClCompile Include="i18n\i18n_constants.cc">
+      <Filter>i18n</Filter>
+    </ClCompile>
+    <ClCompile Include="i18n\icu_encoding_detection.cc">
+      <Filter>i18n</Filter>
+    </ClCompile>
+    <ClCompile Include="i18n\icu_string_conversions.cc">
+      <Filter>i18n</Filter>
+    </ClCompile>
+    <ClCompile Include="i18n\icu_util.cc">
+      <Filter>i18n</Filter>
+    </ClCompile>
+    <ClCompile Include="i18n\number_formatting.cc">
+      <Filter>i18n</Filter>
+    </ClCompile>
+    <ClCompile Include="i18n\rtl.cc">
+      <Filter>i18n</Filter>
+    </ClCompile>
+    <ClCompile Include="i18n\string_compare.cc">
+      <Filter>i18n</Filter>
+    </ClCompile>
+    <ClCompile Include="i18n\string_search.cc">
+      <Filter>i18n</Filter>
+    </ClCompile>
+    <ClCompile Include="i18n\time_formatting.cc">
+      <Filter>i18n</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="base.gyp" />
+  </ItemGroup>
+</Project>

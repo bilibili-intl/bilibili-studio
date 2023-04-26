@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup
+    Condition="'$(versionBeforeTargets)' == '' and '$(versionAfterTargets)' == '' and '$(ConfigurationType)' != 'Makefile'">
+    <versionBeforeTargets>Midl</versionBeforeTargets>
+    <versionAfterTargets>CustomBuild</versionAfterTargets>
+  </PropertyGroup>
+  <PropertyGroup>
+    <versionDependsOn
+      Condition="'$(ConfigurationType)' != 'Makefile'">_SelectedFiles;$(versionDependsOn)</versionDependsOn>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <version>
+      <CommandLineTemplate>call "$(ProjectDir)..\third_party\cygwin\setup_env.bat" &amp;&amp; set CYGWIN=nontsec&amp;&amp; set OUTDIR=$(OutDir)&amp;&amp; set INPUTPATH=%(FullPath) &amp;&amp; bash -c "\"python\" \"../bililive/tools/build/version.py\" \"-f\" \"`cygpath -m \\\"${INPUTPATH}\\\"`\" \"-f\" \"VERSION\" \"-f\" \"app/theme/bililive/BRANDING\" \"-f\" \"../build/util/LASTCHANGE\" \"app/bililive_version.rc.version\" \"`cygpath -m \\\"${OUTDIR}\\\"`obj/global_intermediate/bililive_version/%(Filename)_version.rc\""</CommandLineTemplate>
+      <Outputs>$(OutDir)obj\global_intermediate\bililive_version\%(Filename)_version.rc</Outputs>
+      <ExecutionDescription>Generating version information in "$(OutDir)obj/global_intermediate/bililive_version/%(Filename)_version.rc"</ExecutionDescription>
+      <AdditionalDependencies>..\bililive\tools\build\version.py;VERSION;app\theme\bililive\BRANDING;..\build\util\LASTCHANGE;app\bililive_version.rc.version</AdditionalDependencies>
+    </version>
+  </ItemDefinitionGroup>
+</Project>

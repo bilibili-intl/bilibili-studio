@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="base">
+      <UniqueIdentifier>{b72f4de9-415f-4196-9262-e4a7204101f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\test">
+      <UniqueIdentifier>{a7a86437-ae18-456b-ad4a-09d7625b344b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\test\_excluded_files">
+      <UniqueIdentifier>{7bf5cdd4-66c1-491f-a819-16caa708336c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ime">
+      <UniqueIdentifier>{9f7316aa-b8a0-422b-b386-93a1d2881f04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ime\win">
+      <UniqueIdentifier>{52e2c430-ef7f-4a7d-94fb-08ed91589cbf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base\test\cocoa_test_event_utils.h">
+      <Filter>base\test</Filter>
+    </ClInclude>
+    <ClInclude Include="base\test\ui_cocoa_test_helper.h">
+      <Filter>base\test</Filter>
+    </ClInclude>
+    <ClInclude Include="base\test\ui_controls.h">
+      <Filter>base\test</Filter>
+    </ClInclude>
+    <ClInclude Include="base\test\ui_controls_internal_win.h">
+      <Filter>base\test</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ime\dummy_input_method.h">
+      <Filter>base\ime</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ime\win\mock_tsf_bridge.h">
+      <Filter>base\ime\win</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base\test\ui_controls_internal_win.cc">
+      <Filter>base\test</Filter>
+    </ClCompile>
+    <ClCompile Include="base\test\ui_controls_win.cc">
+      <Filter>base\test</Filter>
+    </ClCompile>
+    <ClCompile Include="base\test\ui_controls_aura.cc">
+      <Filter>base\test\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\test\ui_controls_gtk.cc">
+      <Filter>base\test\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ime\dummy_input_method.cc">
+      <Filter>base\ime</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ime\win\mock_tsf_bridge.cc">
+      <Filter>base\ime\win</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="base\test\cocoa_test_event_utils.mm">
+      <Filter>base\test\_excluded_files</Filter>
+    </None>
+    <None Include="base\test\ui_cocoa_test_helper.mm">
+      <Filter>base\test\_excluded_files</Filter>
+    </None>
+    <None Include="base\test\ui_controls_mac.mm">
+      <Filter>base\test\_excluded_files</Filter>
+    </None>
+    <None Include="ui.gyp" />
+  </ItemGroup>
+</Project>

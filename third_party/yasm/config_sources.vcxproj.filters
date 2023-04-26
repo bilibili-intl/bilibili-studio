@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{0a625b38-23fb-42b2-a893-3c2a763f7f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\config">
+      <UniqueIdentifier>{e77dd523-5d24-462b-99ea-17c27b219b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\config\win">
+      <UniqueIdentifier>{e98efff7-5238-44a8-b891-072b06e88ae1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="yasm.gyp" />
+    <None Include="source\config\win\Makefile">
+      <Filter>source\config\win</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\config\win\libyasm-stdint.h">
+      <Filter>source\config\win</Filter>
+    </ClInclude>
+    <ClInclude Include="source\config\win\config.h">
+      <Filter>source\config\win</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

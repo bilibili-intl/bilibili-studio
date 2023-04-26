@@ -1,0 +1,103 @@
+{
+    "view_id": 10001,
+    "type": "grid_layout",
+    "layout": {
+        "insets": {
+            "top": 1,
+            "left": 1,
+            "bottom": 1,
+            "right": 1
+        },
+        "columnset": [
+            {
+                "column_set_id": 0,
+                "columns": [
+                    {
+                        "h_align": 3,
+                        "v_align": 3,
+                        "resize_percent": 1.0,
+                        "size_type": 1
+                    }
+                ]
+            },
+            {
+                "column_set_id": 1,
+                "columns": [
+                    {
+                        "resize_percent": 1.0,
+                        "size_type": 1
+                    },
+                    {
+                        "h_align": 3,
+                        "v_align": 1,
+                        "resize_percent": 0,
+                        "size_type": 1,
+                        "min_width": 90
+                    },
+                    {
+                        "resize_percent": 0,
+                        "size_type": 0,
+                        "fixed_width": 34,
+                        "min_width": 34
+                    },
+                    {
+                        "h_align": 3,
+                        "v_align": 1,
+                        "resize_percent": 0,
+                        "size_type": 1,
+                        "min_width": 90
+                    },
+                    {
+                        "resize_percent": 1.0,
+                        "size_type": 1
+                    }
+                ]
+            }
+        ],
+        "viewset": [
+            {
+                "column_set_id": 0,
+                "rows": [
+                    {
+                        "vertical_resize": 1.0,
+                        "views": [ 1002 ]
+                    }
+                ]
+            },
+            {
+                "column_set_id": 1,
+                "rows": [
+                    {
+                        "vertical_resize": 0.0,
+                        "size": 15
+                    },
+                    {
+                        "views": [
+                            0,
+                            {
+                                "view_id": 1003,
+                                "h_align": 3,
+                                "v_align": 3,
+                                "pref_width": 0,
+                                "pref_height": 35
+                            },
+                            0,
+                            {
+                                "view_id": 1004,
+                                "h_align": 3,
+                                "v_align": 3,
+                                "pref_width": 0,
+                                "pref_height": 35
+                            },
+                            0
+                        ]
+                    },
+                    {
+                        "vertical_resize": 0.0,
+                        "size": 15
+                    }
+                ]
+            }
+        ]
+    }
+}

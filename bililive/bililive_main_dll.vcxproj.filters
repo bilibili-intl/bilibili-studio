@@ -1,0 +1,3383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="%24%28OutDir%29obj">
+      <UniqueIdentifier>{bee1cee5-3018-466f-9c09-5e2b27c414fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%24%28OutDir%29obj\global_intermediate">
+      <UniqueIdentifier>{4b39cac3-b71c-4c97-8e8d-7e6217f85e4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%24%28OutDir%29obj\global_intermediate\bililive_version">
+      <UniqueIdentifier>{1630fcd4-7fd3-45b4-890d-d40ff0d82ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%24%28OutDir%29obj\global_intermediate\ui">
+      <UniqueIdentifier>{7ed1661c-69b2-4a12-bed2-f6e59d65d890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%24%28OutDir%29obj\global_intermediate\ui\ui_resources">
+      <UniqueIdentifier>{b5c3d84e-610a-4526-8590-50a5d710eedc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{bfcbb696-ba30-46d6-8e47-34341a512dd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{0722ec52-ae99-4e0e-ab3d-ac9f596861cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\base">
+      <UniqueIdentifier>{7fc6ed46-4db6-4dc3-bc83-fd1fe38e5019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\base\win">
+      <UniqueIdentifier>{d645d129-2d59-4e6d-8c97-f7b4debae5f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui">
+      <UniqueIdentifier>{c9efb56e-e608-4b46-8bfe-4184df5c3fe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui\resources">
+      <UniqueIdentifier>{4e093f2f-6455-4e3f-a683-324d6ff1c410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\ui\resources\cursors">
+      <UniqueIdentifier>{e0486740-1e89-4f44-8174-8c5a8f68132c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{d9b9c4ef-9c39-49e2-9b48-c15dbc24e265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive">
+      <UniqueIdentifier>{7612ced6-0864-468f-b851-5612999d97b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui">
+      <UniqueIdentifier>{949897b5-0ac0-4aa2-bbe7-fbfeceb7b5fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views">
+      <UniqueIdentifier>{d5220b76-4a90-42d7-9004-73b75851154f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\startup">
+      <UniqueIdentifier>{b32f68a9-26ab-4d6f-a5b5-504064507bf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\profiles">
+      <UniqueIdentifier>{3718af1b-9878-4be9-a579-4ab46c7f835d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\prefs">
+      <UniqueIdentifier>{7cbf8bb9-7aef-4949-a387-dea0e283c1c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\themes">
+      <UniqueIdentifier>{cf279ca7-e52d-44c7-8078-10159da1a39e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\stauts_icons">
+      <UniqueIdentifier>{e4afe861-05a6-4628-9622-4ce76f7421a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\status_icons">
+      <UniqueIdentifier>{4ef4f14b-790b-4d4f-b2e8-75480fdbc552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public">
+      <UniqueIdentifier>{e147b9bd-eb9c-4ea2-ac6c-5bc11103585a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\bililive">
+      <UniqueIdentifier>{336697dc-8b10-4ae4-93fc-247afcf870fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\common">
+      <UniqueIdentifier>{1e2f7022-6008-4fa3-857a-b013012610b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\utils">
+      <UniqueIdentifier>{3091dc28-5f31-4dc0-ac97-b87c9041cbd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\controls">
+      <UniqueIdentifier>{58031857-73ad-40ac-8415-88b80f7fb215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\dialog">
+      <UniqueIdentifier>{cdbe84b4-ac2f-4512-903b-fa6d20ee48cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\first_run">
+      <UniqueIdentifier>{979c7782-cb58-49fd-a9c5-f38c0f473a7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\utils\gdiplus">
+      <UniqueIdentifier>{cfba7dd4-e1a0-42dc-830e-3e31fcda04e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\url_image_view">
+      <UniqueIdentifier>{6ed0c4c7-bbc0-4568-945f-2a67de87d599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\controls\image_render">
+      <UniqueIdentifier>{39412e01-e09d-4426-bf7b-f0fe09c175a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{844cbe73-2bf3-4be1-97eb-2091e4b04dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="layout">
+      <UniqueIdentifier>{35e4eb6f-2424-4eb6-a845-a2d406591e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\uploader">
+      <UniqueIdentifier>{e0084342-1547-4924-8f7e-f996a7d0e4dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\secret">
+      <UniqueIdentifier>{28b7a45e-d2ec-4f15-8ad7-f71128816d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\controls\scrollview">
+      <UniqueIdentifier>{68257686-be5b-4d1b-b4db-936345486550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\controls\combox">
+      <UniqueIdentifier>{30109d90-994e-43c6-a864-382f237c691e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime">
+      <UniqueIdentifier>{5110ea88-d53d-41fb-9b9f-cc07442c39fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\controls\frame_view">
+      <UniqueIdentifier>{b467db34-0f0e-4dbf-a9d7-9a4785fe2b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\control_util">
+      <UniqueIdentifier>{19d7feb0-04d7-43b0-bc8f-ed6cf6fe7f02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime">
+      <UniqueIdentifier>{f8946faa-3b91-442c-80f0-31531dac3073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime">
+      <UniqueIdentifier>{1ce194ec-6454-4e39-a729-2bd1d72a1421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\controls\bililive_widget_delegate">
+      <UniqueIdentifier>{d39abb2a-fac0-4bda-af9e-8edcd2e00ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\controls">
+      <UniqueIdentifier>{0868af85-3404-4931-a1bd-ed517732343f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\sources_properties">
+      <UniqueIdentifier>{7844c7d6-b1eb-4405-bf21-741f8bcf132e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\obs">
+      <UniqueIdentifier>{0509b43f-e481-415f-afd7-50ecab55b99e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\main_view">
+      <UniqueIdentifier>{30abfa47-3b33-4529-9058-ecfb018dae88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\toolbar">
+      <UniqueIdentifier>{a03f295a-c73a-44d9-9333-4902be7894e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\tabarea">
+      <UniqueIdentifier>{a863e1ca-89b4-469e-8d34-a31c7e173beb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\preview">
+      <UniqueIdentifier>{c578831e-bf05-42a0-80f7-3ba4467f61b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\menu">
+      <UniqueIdentifier>{a600a14d-4a41-4af0-8c72-b1d274a6d1d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\hotkey_notify">
+      <UniqueIdentifier>{abf22ee4-a0b8-4a1f-84f8-f92a0e978d0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\controls\native_ctrls">
+      <UniqueIdentifier>{c6e7863d-d96f-44e3-835f-43b5002b4724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\settings">
+      <UniqueIdentifier>{b23a398d-5d4c-4c1c-9d51-bbb41ec3994f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\main_view">
+      <UniqueIdentifier>{b14aeb34-de67-4446-b5d0-2f7cf53fbc0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\settings">
+      <UniqueIdentifier>{6cf081a3-9c44-473d-9c56-08e4f9488f76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\sources_properties">
+      <UniqueIdentifier>{09b54873-b87e-4072-8ab0-7470041f41cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\tabarea">
+      <UniqueIdentifier>{6723eb11-f934-472a-aa31-888ee6a15b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\examples">
+      <UniqueIdentifier>{9f2c6be3-69ac-41ed-828f-e0da80673ece}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\volume">
+      <UniqueIdentifier>{1442841c-ad96-4d86-8824-0286873730a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\volume">
+      <UniqueIdentifier>{32ec00ca-2b3e-43e5-8f0d-0cb04896cd87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\danmaku_hime">
+      <UniqueIdentifier>{ab7ec232-3b83-4f4c-a0b5-1150ffd0ab47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\text_to_speech">
+      <UniqueIdentifier>{e09f15fd-1938-4d45-907b-15a078c0f34f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\colive">
+      <UniqueIdentifier>{7f300408-a2c5-4e36-af5d-241fd1e3ff8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\server_broadcast">
+      <UniqueIdentifier>{37c496c6-b609-4ed2-b809-38e5b69b8112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\danmaku_hime">
+      <UniqueIdentifier>{06cc6feb-eafc-4928-8ea8-ea0e2c96b239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\login">
+      <UniqueIdentifier>{7d9d5356-9cea-4380-ab97-0d5d97c35f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\login">
+      <UniqueIdentifier>{c67df6dd-afe7-4454-908e-f2e8dc4e6154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\danmaku_hime\inline_objects">
+      <UniqueIdentifier>{ae6d4cd2-d808-4727-bf22-2f347c916e71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\colive\popup_view">
+      <UniqueIdentifier>{0a700753-f3af-43cf-9d2d-0cf0467bcec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\controls\util">
+      <UniqueIdentifier>{194d7157-f187-4663-a459-0853d31e201b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\controls\listview">
+      <UniqueIdentifier>{e06c5918-40c4-45ed-bd57-5ff462ee0e5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\status_bar">
+      <UniqueIdentifier>{ae01a2a1-6d9b-46ed-8162-79f63b92feec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\theme">
+      <UniqueIdentifier>{12203a5c-0b3b-40ef-bc12-4fab472426b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\theme\predefined_theme">
+      <UniqueIdentifier>{74131620-d32c-4869-8e0e-4a9a7bf88aa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\user_info">
+      <UniqueIdentifier>{a8f8fe5b-415b-4ff2-acc7-56fa018cf011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\theme\v3_special">
+      <UniqueIdentifier>{68f03f53-74fe-4619-893e-c5e214496e00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\qrcode">
+      <UniqueIdentifier>{f6e50f87-c154-4e01-a969-a02dddc3ee9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\gift_image">
+      <UniqueIdentifier>{18856698-02c1-421b-9b71-1150edb02a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\sources_properties\browser_source">
+      <UniqueIdentifier>{1be18085-1c8e-43ff-baa6-7b68416fb56d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\cef">
+      <UniqueIdentifier>{f65661a0-7d5d-4cf6-8b0e-7d626d0c98c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\controls\browser">
+      <UniqueIdentifier>{41f45cf6-7dec-443e-9325-fd7d0ee7ec52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\hybrid_ui">
+      <UniqueIdentifier>{bdfc3e86-2035-4144-a9b4-38127cfe33de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\web_browser">
+      <UniqueIdentifier>{dfa438b2-7131-4de4-9c8b-b8a1ce1db92b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\tips_dialog">
+      <UniqueIdentifier>{a497774f-f790-434e-a2e8-e758abc7ec00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\layout">
+      <UniqueIdentifier>{9368dcb0-db06-43e1-956d-4f6ac37f42ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\anchor_notice">
+      <UniqueIdentifier>{f5c0aa3c-754c-4ab7-8269-e50120ca6b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\notice">
+      <UniqueIdentifier>{3fd31639-70bd-473f-8a02-34b363d8ca82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ipc">
+      <UniqueIdentifier>{ec4f5a15-462a-4719-9bbb-0ab53d1c211f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\third_party_streaming">
+      <UniqueIdentifier>{240465ed-50d3-4131-8e00-d129411cba94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\third_party_streaming">
+      <UniqueIdentifier>{d2cdf3c6-5c2e-4426-8cf3-3e8948d5c615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\third_party_streaming\obs_livehime_plugin">
+      <UniqueIdentifier>{fd9623b4-8fda-49c9-981d-2eb0dea88e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\live_room">
+      <UniqueIdentifier>{2b97f6c8-10f0-441b-8b22-52a90b561e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\sources_properties\monitor_source">
+      <UniqueIdentifier>{c99a01ba-86b5-4858-b670-4fa4e5b898d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\svga_player">
+      <UniqueIdentifier>{018276e5-03f4-40ae-b65e-dca0677588e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\svga_player\entities">
+      <UniqueIdentifier>{677fce2b-cc18-41f0-814c-f91549d7cf4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\svga_player\protobuf">
+      <UniqueIdentifier>{9e5d7cf5-62b6-43e2-9ed4-247a468cb81f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\svga_player\proto">
+      <UniqueIdentifier>{fad33557-2ea5-4de5-8414-0574b8d8c9d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\svga_player\utils">
+      <UniqueIdentifier>{8ec30087-5615-47ec-a2ec-1757f8a3a420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\svga_player\drawer">
+      <UniqueIdentifier>{b6f1edf5-d60f-482f-85d4-9833a61c60e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\feedback">
+      <UniqueIdentifier>{ea154d0d-dd2b-4346-84cd-322fd9e3643c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\help_center">
+      <UniqueIdentifier>{4044dd6c-e63c-4248-b74c-c341eedda5a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\danmaku_hime\visions">
+      <UniqueIdentifier>{fe7cc5d6-0030-4a82-a001-a37bdf2d37d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\danmaku_hime\super_chat">
+      <UniqueIdentifier>{6a592258-efd7-4003-b9f6-5b72b1510148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\danmaku_hime\renderer">
+      <UniqueIdentifier>{91ecece6-0d52-4b50-9376-67bab220ef72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\log_report">
+      <UniqueIdentifier>{41a78023-68f6-412e-8189-f86463f1cc2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\event_report">
+      <UniqueIdentifier>{45decab0-4dd8-487e-8427-fe26b4d8e727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\function_control">
+      <UniqueIdentifier>{00650be2-9b2d-4b48-9adc-2ca2f0d7a717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\protobuf">
+      <UniqueIdentifier>{b875a57b-da9a-4394-b10c-a34da9f719e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\streaming_report">
+      <UniqueIdentifier>{c3ea521d-47bb-4910-9f97-0a0780ff17eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\streaming_diagrams">
+      <UniqueIdentifier>{59c39f0f-bfde-4f02-82b0-bbacf1e9d86a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\feedback">
+      <UniqueIdentifier>{57c50888-b63f-4cbb-9f7a-fe94242ff2d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\danmaku_hime\controls">
+      <UniqueIdentifier>{10bf2b1a-7e81-45af-90a0-d9a16e522847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\common_pref">
+      <UniqueIdentifier>{14fd29fc-7209-4db7-90af-233256dd94a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\tabarea\materials_area">
+      <UniqueIdentifier>{0330ba57-31fe-4363-8d0a-0b94fac9e4f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\tabarea\materials_area\danmaku_tab">
+      <UniqueIdentifier>{1f671a7d-6cb9-4bb7-bbd2-391c72745154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\tabarea\materials_area\danmaku_tab\bottom_bar">
+      <UniqueIdentifier>{548b7e27-1242-4f7e-8b29-e849ea2a4801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\tabarea\materials_area\danmaku_tab\bottom_bar\banned">
+      <UniqueIdentifier>{d1363467-1fd9-4a5d-be75-116c5614eccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\tabarea\materials_area\material_tab">
+      <UniqueIdentifier>{8d90dea7-2283-4f57-a23f-4618db415f26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\tabarea\scenes_area">
+      <UniqueIdentifier>{b74bd138-4905-40a2-986d-de2cf69fd8aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\live_model">
+      <UniqueIdentifier>{90956f58-eee6-4160-adb2-928422bb7b0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\new_live_room">
+      <UniqueIdentifier>{825df965-4749-4a28-b6e2-0a4e5b0ec091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\notify_ui_control">
+      <UniqueIdentifier>{4f5a0268-6216-42a5-9e2f-cac79c9ff982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\pluggable">
+      <UniqueIdentifier>{464b63e4-6ee2-4e38-a77c-c20cb491d91b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\check_processor">
+      <UniqueIdentifier>{e80e3bfa-630e-4377-b46b-11d7efc5965a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\tabarea\activity_area">
+      <UniqueIdentifier>{037862b0-014f-4dbc-bcb8-9958f7b3ac87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\kv">
+      <UniqueIdentifier>{a4f79a86-cd98-4a93-9db9-d5092283c32f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\log_ext">
+      <UniqueIdentifier>{127ffb54-c93b-4cd1-8e17-6986e42d2f87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\notify_window">
+      <UniqueIdentifier>{b8ec4c49-073f-4e08-81c8-759a610f3264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\live_notice">
+      <UniqueIdentifier>{ed200352-fc30-47c3-a55b-e4e8b60bae5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\audio_player">
+      <UniqueIdentifier>{b0109545-0634-4873-bda7-e2610ede20cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\game_connection">
+      <UniqueIdentifier>{faee4f5a-dd9b-4b24-8b5e-5a1cb7f3ab56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\sub_broadcast">
+      <UniqueIdentifier>{5814ad99-94e8-4b04-8e18-679a12282e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\pre_start_live">
+      <UniqueIdentifier>{225e7525-b1cf-480e-87f5-7a86554d6fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\preset_material">
+      <UniqueIdentifier>{d369707c-9cce-4398-907c-c3f6ca01a77a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\livehime\preset_material">
+      <UniqueIdentifier>{7c2edaca-f1f9-4b41-a80d-168f3b62e554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\livehime\sing_identify_notice">
+      <UniqueIdentifier>{89865420-74d4-424a-8d2e-49725eaa7b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\viddup">
+      <UniqueIdentifier>{8831b7f2-6ed4-4f2b-9770-bd12478b37b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\viddup">
+      <UniqueIdentifier>{39abe8b0-7289-4c7a-b237-53303e1ced9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\viddup\main_view">
+      <UniqueIdentifier>{e45b81e9-22ad-4a6b-8ef2-06e77474d1b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\viddup\tabarea">
+      <UniqueIdentifier>{031d5a93-c8c5-4a5b-9e12-9cffc6ef4ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\viddup\toolbar">
+      <UniqueIdentifier>{64f7726e-d911-47a7-b72d-191d2cccb6ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\viddup\theme">
+      <UniqueIdentifier>{b6c747cb-ca5d-443e-b82e-2c13d50802fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\viddup\titlebar">
+      <UniqueIdentifier>{1ed18c51-3a9f-4ada-a3cb-2c795709bc36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\viddup\danmaku_hime">
+      <UniqueIdentifier>{435d1b65-93ea-4bad-94b4-92bee389aa3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\ui\views\viddup\danmaku_hime">
+      <UniqueIdentifier>{bca22e51-a377-47e1-9a75-7de1e90e541d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\viddup\server_broadcast">
+      <UniqueIdentifier>{50d09e06-2e47-45e1-ae49-e973c401d224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\viddup\live_room">
+      <UniqueIdentifier>{a5cb7f1c-38a8-48b8-ab08-3c3f87d981ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\viddup\obs">
+      <UniqueIdentifier>{a0685b7b-32c8-4ffb-88e5-35233a2012cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive\viddup\live_model">
+      <UniqueIdentifier>{28ea904a-a686-422f-a3c4-c638cd4926be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\bililive_version\bililive_dll_version.rc">
+      <Filter>%24%28OutDir%29obj\global_intermediate\bililive_version</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\ui\ui_resources\ui_unscaled_resources.rc">
+      <Filter>%24%28OutDir%29obj\global_intermediate\ui\ui_resources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="app\bililive_dll.rc">
+      <Filter>app</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app\bililive_dll_resource.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\bililive_main_loop.h">
+      <Filter>bililive</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\bililive_main_runner.h">
+      <Filter>bililive</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\bililive_process_impl.h">
+      <Filter>bililive</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\bililive_process_sub_thread.h">
+      <Filter>bililive</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\bililive_thread_impl.h">
+      <Filter>bililive</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\command_updater.h">
+      <Filter>bililive</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\command_updater_delegate.h">
+      <Filter>bililive</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\startup_task_runner.h">
+      <Filter>bililive</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\bililive_commands.h">
+      <Filter>bililive\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\bililive_main_extra_parts_views.h">
+      <Filter>bililive\ui\views</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\bililive_views_delegate.h">
+      <Filter>bililive\ui\views</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\startup\startup_bililive_creator.h">
+      <Filter>bililive\ui\startup</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\profiles\profile.h">
+      <Filter>bililive\profiles</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\profiles\profile_impl.h">
+      <Filter>bililive\profiles</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\prefs\bililive_prefs.h">
+      <Filter>bililive\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\prefs\scoped_user_pref_update.h">
+      <Filter>bililive\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\themes\extension.h">
+      <Filter>bililive\themes</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\status_icons\status_tray.h">
+      <Filter>bililive\stauts_icons</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\status_icons\status_icon.h">
+      <Filter>bililive\stauts_icons</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\status_icons\status_icon_observer.h">
+      <Filter>bililive\stauts_icons</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\status_icons\status_icon_win.h">
+      <Filter>bililive\ui\views\status_icons</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\status_icons\status_tray_win.h">
+      <Filter>bililive\ui\views\status_icons</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\bililive_paths.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\bililive_paths_internal.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\pref_names.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\bililive_constants.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bililive\bililive_main_parts.h">
+      <Filter>public\bililive</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bililive\bililive_notification_types.h">
+      <Filter>public\bililive</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bililive\bililive_thread.h">
+      <Filter>public\bililive</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bililive\bililive_main_extra_parts.h">
+      <Filter>public\bililive</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bililive\bililive_thread_delegate.h">
+      <Filter>public\bililive</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bililive\bililive_process.h">
+      <Filter>public\bililive</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\tabbed_pane\tabbed_pane.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\tabbed_pane\tabbed_pane_listener.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_label.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_theme_common.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_labelbutton.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_textfield.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_roundrect_view.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\utils\bililive_canvas_drawer.h">
+      <Filter>bililive\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\bililive_command_controller.h">
+      <Filter>bililive\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_imagebutton.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_slider.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\dialog\shell_dialogs.h">
+      <Filter>bililive\ui\views\dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\refcounted_dictionary.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\menu\sceneitem_menu_cmd.h">
+      <Filter>bililive\ui\views\livehime\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\menu\sceneitem_menu.h">
+      <Filter>bililive\ui\views\livehime\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_bubble.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\utils\bililive_filetype_exts.h">
+      <Filter>bililive\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_menuitemview.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\hotkey_notify\bililive_hotkey_notify_view.h">
+      <Filter>bililive\ui\views\livehime\hotkey_notify</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\pref_constants.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\first_run\first_run.h">
+      <Filter>bililive\first_run</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\utils\gdiplus\bililive_gdiplus_utils.h">
+      <Filter>bililive\utils\gdiplus</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\image_render\bililive_image_render.h">
+      <Filter>bililive\ui\views\controls\image_render</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\refcounted_canvas.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\bililive_main_parts_impl.h">
+      <Filter>bililive</Filter>
+    </ClInclude>
+    <ClInclude Include="common\bililive_logging.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\refcounted_canvas.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_floating_view.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\uploader\bililive_uploader_type.h">
+      <Filter>bililive\ui\views\uploader</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_progressbar.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_link.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\command_observer.h">
+      <Filter>bililive</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\utils\gdiplus\bililive_gdiplus_image.h">
+      <Filter>bililive\utils\gdiplus</Filter>
+    </ClInclude>
+    <ClInclude Include="public\secret\bililive_secret.h">
+      <Filter>public\secret</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_cascade_view.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\bililive_database.h">
+      <Filter>bililive</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\bililive_single_instance_guarantor.h">
+      <Filter>bililive</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\combox\bililive_combobox.h">
+      <Filter>bililive\ui\views\controls\combox</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\combox\bililive_editable_combobox.h">
+      <Filter>bililive\ui\views\controls\combox</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\combox\bililive_combobox_ex.h">
+      <Filter>bililive\ui\views\controls\combox</Filter>
+    </ClInclude>
+    <ClInclude Include="common\bililive_context.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\bililive_ipc_pipe.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\bililive_path.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\navigation_bar.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_frame_view\bililive_frame_view.h">
+      <Filter>bililive\ui\views\controls\frame_view</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_frame_view\bililive_frame_titlebar_view.h">
+      <Filter>bililive\ui\views\controls\frame_view</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_frame_view\bililive_shadow_frame_view.h">
+      <Filter>bililive\ui\views\controls\frame_view</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\control_util\button_helper.h">
+      <Filter>bililive\ui\control_util</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\control_util\checkbox_helper.h">
+      <Filter>bililive\ui\control_util</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\control_util\slider_helper.h">
+      <Filter>bililive\ui\control_util</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\control_util\bind_placeholder_macros.h">
+      <Filter>bililive\ui\control_util</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\control_util\combobox_helper.h">
+      <Filter>bililive\ui\control_util</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\control_util\textfield_helper.h">
+      <Filter>bililive\ui\control_util</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\bililive_dragdrop_data_types.h">
+      <Filter>bililive\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_widget_delegate\bililive_widget_delegate.h">
+      <Filter>bililive\ui\views\controls\bililive_widget_delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_widget_delegate\bililive_mask_widget.h">
+      <Filter>bililive\ui\views\controls\bililive_widget_delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\bililive_command_handler_livehime.h">
+      <Filter>bililive\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\bililive_command_receiver.h">
+      <Filter>bililive\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bililive\bililive_command_ids.h">
+      <Filter>public\bililive</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\utils\pinyin-search.h">
+      <Filter>bililive\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\url_image_view\bililive_url_image_view.h">
+      <Filter>bililive\ui\url_image_view</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\bililive_command_macros.h">
+      <Filter>bililive\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_floating_scroll_view.h">
+      <Filter>bililive\ui\views\controls\scrollview</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_radio_button.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_hover_tip_button.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_tabbed.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_button.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_combobox.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_slider.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_property_base_view.h">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\obs\obs_proxy_service.h">
+      <Filter>bililive\livehime\obs</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_theme_common.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\obs\obs_status.h">
+      <Filter>bililive\livehime\obs</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\obs\obs_status_details.h">
+      <Filter>bililive\livehime\obs</Filter>
+    </ClInclude>
+    <ClInclude Include="common\bililive_result_codes.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_frame_view\bililive_frame_titlebar.h">
+      <Filter>bililive\ui\views\controls\frame_view</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_label.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_textfield.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_message_box.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bilibili_native_edit_view.h">
+      <Filter>bililive\ui\views\controls\native_ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\win32_datetimepicker_view.h">
+      <Filter>bililive\ui\views\controls\native_ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\win32_richedit_view.h">
+      <Filter>bililive\ui\views\controls\native_ctrls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bilibili_search_list_view.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_search_list_view.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_native_edit.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\main_view\livehime_main_native_widget_win.h">
+      <Filter>bililive\ui\views\livehime\main_view</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\main_view\livehime_main_view.h">
+      <Filter>bililive\ui\views\livehime\main_view</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_image_property_view.h">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_media_property_view.h">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_text_property_view.h">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_window_property_view.h">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_menu.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\obs\source_creator.h">
+      <Filter>bililive\livehime\obs</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\obs\obs_proxy_main_extra_parts.h">
+      <Filter>bililive\livehime\obs</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\settings\video_settings_view.h">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\settings\streaming_settings_view.h">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\settings\base_settings_view.h">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\settings\audio_settings_view.h">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\settings\settings_frame_view.h">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\settings\accelerator_settings_view.h">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\settings\global_settings_view.h">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_checkbox.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\obs\srcprop_ui_util.h">
+      <Filter>bililive\livehime\obs</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\settings\denoise_slider.h">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\main_view\livehime_main_close_widget.h">
+      <Filter>bililive\ui\views\livehime\main_view</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\main_view\livehime_main_close_contract.h">
+      <Filter>bililive\livehime\main_view</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\main_view\livehime_main_close_presenter_impl.h">
+      <Filter>bililive\livehime\main_view</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\main_view\livehime_main_close_pref_constants.h">
+      <Filter>bililive\livehime\main_view</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\sources_properties\source_text_property_contract.h">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\sources_properties\source_text_property_presenter_impl.h">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\tabarea\tab_pane_danmaku_contract.h">
+      <Filter>bililive\livehime\tabarea</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\tabarea\tab_pane_danmaku_presenter_impl.h">
+      <Filter>bililive\livehime\tabarea</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\tabarea\bottom_bar\bottom_area_view.h">
+      <Filter>bililive\ui\views\livehime\tabarea\materials_area\danmaku_tab\bottom_bar</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\tabarea\bottom_bar\bottom_area_popup_view.h">
+      <Filter>bililive\ui\views\livehime\tabarea\materials_area\danmaku_tab\bottom_bar</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_inside_frame_titlebar.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\sources_properties\source_camera_property_contract.h">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\sources_properties\source_camera_property_presenter_impl.h">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\sources_properties\source_image_property_contract.h">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\sources_properties\source_image_property_presenter_impl.h">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\sources_properties\source_media_property_contract.h">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\sources_properties\source_media_property_presenter_impl.h">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\sources_properties\source_public_property_presenter.h">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\sources_properties\source_property_snapshot.h">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\tabarea\global_banned_contract.h">
+      <Filter>bililive\livehime\tabarea</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\tabarea\global_banned_presenter_impl.h">
+      <Filter>bililive\livehime\tabarea</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\tabarea\bottom_bar\banned_begin_view.h">
+      <Filter>bililive\ui\views\livehime\tabarea\materials_area\danmaku_tab\bottom_bar\banned</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\tabarea\bottom_bar\banned_end_view.h">
+      <Filter>bililive\ui\views\livehime\tabarea\materials_area\danmaku_tab\bottom_bar\banned</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\tabarea\bottom_bar\global_banned_view.h">
+      <Filter>bililive\ui\views\livehime\tabarea\materials_area\danmaku_tab\bottom_bar\banned</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\tabarea\bottom_bar\loading_view.h">
+      <Filter>bililive\ui\views\livehime\tabarea\materials_area\danmaku_tab\bottom_bar\banned</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_album_property_view.h">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\sources_properties\source_album_property_contract.h">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\sources_properties\source_album_property_presenter_impl.h">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\utils\is_administrator_required.h">
+      <Filter>bililive\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\examples\examples_frame_view.h">
+      <Filter>bililive\ui\examples</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\examples\examples_runner.h">
+      <Filter>bililive\ui\examples</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\examples\label_tab_view.h">
+      <Filter>bililive\ui\examples</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\examples\button_tab_view.h">
+      <Filter>bililive\ui\examples</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\examples\misc_tab_view.h">
+      <Filter>bililive\ui\examples</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\volume\sound_effect_property_contract.h">
+      <Filter>bililive\livehime\volume</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\volume\sound_effect_property_presenter_impl.h">
+      <Filter>bililive\livehime\volume</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\volume\sound_effect_property_snapshot.h">
+      <Filter>bililive\livehime\volume</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\volume\bililive_sound_effect_widget.h">
+      <Filter>bililive\ui\views\livehime\volume</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\volume\bililive_sound_effect_view.h">
+      <Filter>bililive\ui\views\livehime\volume</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\danmaku_hime\danmaku_hime_contract.h">
+      <Filter>bililive\livehime\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\danmaku_hime\danmaku_hime_presenter_impl.h">
+      <Filter>bililive\livehime\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\text_to_speech\tts_helper.h">
+      <Filter>bililive\text_to_speech</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\text_to_speech\tts_service.h">
+      <Filter>bililive\text_to_speech</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\tabarea\bottom_bar\danmaku_search_view.h">
+      <Filter>bililive\ui\views\livehime\tabarea\materials_area\danmaku_tab\bottom_bar</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\tabarea\bottom_bar\danmaku_search_notification_details.h">
+      <Filter>bililive\ui\views\livehime\tabarea\materials_area\danmaku_tab\bottom_bar</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\settings\fixed_slider.h">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\utils\convert_util.h">
+      <Filter>bililive\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\utils\time_span.h">
+      <Filter>bililive\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\volume\bililive_volume_controller_contract.h">
+      <Filter>bililive\livehime\volume</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\volume\bililive_volume_controller_presenter_impl.h">
+      <Filter>bililive\livehime\volume</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\volume\bililive_volume_controllers_devices_contract.h">
+      <Filter>bililive\livehime\volume</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\volume\bililive_volume_controllers_devices_present_impl.h">
+      <Filter>bililive\livehime\volume</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\volume\bililive_audio_device_contract.h">
+      <Filter>bililive\livehime\volume</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\volume\bililive_audio_device_presenter_impl.h">
+      <Filter>bililive\livehime\volume</Filter>
+    </ClInclude>
+    <ClInclude Include="common\bililive_features.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\obs\output_controller.h">
+      <Filter>bililive\livehime\obs</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\settings\settings_contract.h">
+      <Filter>bililive\livehime\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\image_render\bililive_sequence_images_util.h">
+      <Filter>bililive\ui\views\controls\image_render</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\utils\image_util.h">
+      <Filter>bililive\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_sequence_image_button.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\colive\colive_theme_common.h">
+      <Filter>bililive\ui\views\livehime\colive</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\colive\colive_preview_control.h">
+      <Filter>bililive\ui\views\livehime\colive</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\colive\colive_crop_view.h">
+      <Filter>bililive\ui\views\livehime\colive</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\utils\sequenced_image_package.h">
+      <Filter>bililive\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\server_broadcast\broadcast_service.h">
+      <Filter>bililive\livehime\server_broadcast</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\d2d_manager.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\danmaku_structs.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\danmakuhime_theme_common.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\scrolling_interpolator.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\sculptor.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\text_layout.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\login\bilibili_login_control.h">
+      <Filter>bililive\ui\views\login</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\login\bililive_login_frame_view.h">
+      <Filter>bililive\ui\views\login</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\login\bililive_login_info_collection_view.h">
+      <Filter>bililive\ui\views\login</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\login\bililive_login_logining_status_view.h">
+      <Filter>bililive\ui\views\login</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\login\bililive_login_main_view.h">
+      <Filter>bililive\ui\views\login</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\login\bililive_login_contract.h">
+      <Filter>bililive\login</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\login\bililive_login_presenter_impl.h">
+      <Filter>bililive\login</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\settings\settings_presenter_impl.h">
+      <Filter>bililive\livehime\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\utils\bililive_image_util.h">
+      <Filter>bililive\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_color_property_view.h">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\sources_properties\source_color_property_contract.h">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\sources_properties\source_color_property_presenter_impl.h">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\resource_helper.h">
+      <Filter>bililive\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\paint.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\flags_inline_object.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\inline_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\image_inline_object.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\inline_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\medal_inline_object.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\inline_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\text_renderer.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\text_drawing_effect.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_bubble.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\colive\colive_popup_view.h">
+      <Filter>bililive\ui\views\livehime\colive\popup_view</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\util\bililive_util_views.h">
+      <Filter>bililive\ui\views\controls\util</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_user_related_ctrls.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_list_state_banner.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\tabarea\tabarea_danmaku_view.h">
+      <Filter>bililive\ui\views\livehime\tabarea\materials_area\danmaku_tab</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\toolbar\toolbar_volume_ctrl.h">
+      <Filter>bililive\ui\views\livehime\toolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\tabarea\tabarea_toast_view.h">
+      <Filter>bililive\ui\views\livehime\tabarea\materials_area\danmaku_tab</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\preview\livehime_obs_preview_control.h">
+      <Filter>bililive\ui\views\livehime\preview</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\preview\livehime_preview_view.h">
+      <Filter>bililive\ui\views\livehime\preview</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_widget_delegate\bililive_widget_delegate_types.h">
+      <Filter>bililive\ui\views\controls\bililive_widget_delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\bililive_installation_rejecter.h">
+      <Filter>bililive</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\status_bar\livehime_status_bar_view.h">
+      <Filter>bililive\ui\views\livehime\status_bar</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\theme\livehime_theme_service.h">
+      <Filter>bililive\ui\views\livehime\theme</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\theme\livehime_theme_constants.h">
+      <Filter>bililive\ui\views\livehime\theme</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\theme\livehime_theme_pref_names.h">
+      <Filter>bililive\ui\views\livehime\theme</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\visions\vision.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\visions</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\visions\vision_group.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\visions</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\visions\danmaku_vision.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\visions</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\danmaku_renderer.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\visions\danmaku_list.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\visions</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\visions\danmaku_list_adapter.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\visions</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\user_info\user_info_service.h">
+      <Filter>bililive\livehime\user_info</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\theme\livehime_theme_v3_special_constants.h">
+      <Filter>bililive\ui\views\livehime\theme\v3_special</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\obs\obs_scene_util.h">
+      <Filter>bililive\livehime\obs</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\qrcode\qrcode_generator.h">
+      <Filter>bililive\livehime\qrcode</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\sources_properties\source_receiver_property_contract.h">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\sources_properties\source_receiver_property_presenter_impl.h">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_volume_control_view.h">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\gift_image\image_fetcher.h">
+      <Filter>bililive\livehime\gift_image</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\gift_image\image_fetcher_async.h">
+      <Filter>bililive\livehime\gift_image</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\danmaku_hime\danmaku_hime_pref_service.h">
+      <Filter>bililive\livehime\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\visions\overlay_scroll_bar.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\visions</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\average_layout.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_browser_property_view.h">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\sources_properties\source_browser_property_contract.h">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\sources_properties\source_browser_property_presenter_impl.h">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\browser_source\browser_source_interaction_view.h">
+      <Filter>bililive\ui\views\livehime\sources_properties\browser_source</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\cef\cef_proxy_wrapper.h">
+      <Filter>bililive\livehime\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\login\livehime_captcha_frame_view.h">
+      <Filter>bililive\ui\views\login</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\cef\obs_frontend_callbacks_impl.h">
+      <Filter>bililive\livehime\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\cef\cef_hybrid_cache.h">
+      <Filter>bililive\livehime\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\cef\cef_callback_data_presenter.h">
+      <Filter>bililive\livehime\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\browser\livehime_web_browser_view.h">
+      <Filter>bililive\ui\views\controls\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\hybrid_ui\hybrid_ui.h">
+      <Filter>bililive\livehime\hybrid_ui</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\gridview.h">
+      <Filter>bililive\ui\views\controls\listview</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\listview.h">
+      <Filter>bililive\ui\views\controls\listview</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_webview_state_banner.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_image_view.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\preview\livehime_preview_area_utils.h">
+      <Filter>bililive\ui\views\livehime\preview</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_pk_common_ctrls.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\web_browser\livehime_web_browser_widget.h">
+      <Filter>bililive\ui\views\livehime\web_browser</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\web_browser\livehime_unite_browser_widget.h">
+      <Filter>bililive\ui\views\livehime\web_browser</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\web_browser\bililive_browser_frame_view.h">
+      <Filter>bililive\ui\views\livehime\web_browser</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\web_browser\livehime_web_browser_datatype.h">
+      <Filter>bililive\ui\views\livehime\web_browser</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\tips_dialog\tips_dialog.h">
+      <Filter>bililive\ui\views\livehime\tips_dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\layout\user_info_layout.h">
+      <Filter>bililive\ui\views\livehime\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\anchor_notice\anchor_notice_box_view.h">
+      <Filter>bililive\ui\views\livehime\anchor_notice</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\login\livehime_login_util.h">
+      <Filter>bililive\ui\views\login</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\login\livehime_login_message_box.h">
+      <Filter>bililive\ui\views\login</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\sources_properties\source_audio_device_property_contract.h">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\sources_properties\source_audio_device_property_presenter_impl.h">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\notice\notice_tips_view.h">
+      <Filter>bililive\ui\views\livehime\notice</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ipc\bililive_ipc_channel.h">
+      <Filter>bililive\ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bililive\livehime_obs_ipc_message.h">
+      <Filter>public\bililive</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\third_party_streaming\third_party_streaming_datatypes.h">
+      <Filter>bililive\livehime\third_party_streaming</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\third_party_streaming\obs_livehime_plugin\livehime_obs_plugin_ipc.h">
+      <Filter>bililive\livehime\third_party_streaming\obs_livehime_plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\live_room\live_controller.h">
+      <Filter>bililive\livehime\live_room</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\live_room\live_room_contract.h">
+      <Filter>bililive\livehime\live_room</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\third_party_streaming\third_party_output_controller.h">
+      <Filter>bililive\livehime\third_party_streaming</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_monitor_property_view.h">
+      <Filter>bililive\ui\views\livehime\sources_properties\monitor_source</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_monitor_capture_view.h">
+      <Filter>bililive\ui\views\livehime\sources_properties\monitor_source</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\svga_player\svga_parser.h">
+      <Filter>bililive\livehime\svga_player</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\svga_player\proto\movie_params.h">
+      <Filter>bililive\livehime\svga_player\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\svga_player\protobuf\proto_reader.h">
+      <Filter>bililive\livehime\svga_player\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\svga_player\proto\transform.h">
+      <Filter>bililive\livehime\svga_player\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\svga_player\proto\shape_entity.h">
+      <Filter>bililive\livehime\svga_player\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\svga_player\proto\layout.h">
+      <Filter>bililive\livehime\svga_player\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\svga_player\proto\frame_entity.h">
+      <Filter>bililive\livehime\svga_player\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\svga_player\proto\sprite_entity.h">
+      <Filter>bililive\livehime\svga_player\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\svga_player\proto\audio_entity.h">
+      <Filter>bililive\livehime\svga_player\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\svga_player\proto\movie_entity.h">
+      <Filter>bililive\livehime\svga_player\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\svga_player\entities\svga_audio_entity.h">
+      <Filter>bililive\livehime\svga_player\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\svga_player\entities\svga_path_entity.h">
+      <Filter>bililive\livehime\svga_player\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\svga_player\entities\svga_video_shape_entity.h">
+      <Filter>bililive\livehime\svga_player\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\svga_player\entities\svga_video_sprite_frame_entity.h">
+      <Filter>bililive\livehime\svga_player\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\svga_player\entities\svga_video_sprite_entity.h">
+      <Filter>bililive\livehime\svga_player\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\svga_player\entities\svga_video_entity.h">
+      <Filter>bililive\livehime\svga_player\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\svga_player\entities\svga_dynamic_entity.h">
+      <Filter>bililive\livehime\svga_player\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\svga_player\utils\svga_scale_info.h">
+      <Filter>bililive\livehime\svga_player\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\svga_player\drawer\svga_drawer.h">
+      <Filter>bililive\livehime\svga_player\drawer</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\svga_player\drawer\svga_canvas_drawer.h">
+      <Filter>bililive\livehime\svga_player\drawer</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_svga_image_view.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\svga_player\svga_drawable.h">
+      <Filter>bililive\livehime\svga_player</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_svga_delegate.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\third_party_streaming\tps_break_waitting_view.h">
+      <Filter>bililive\ui\views\livehime\third_party_streaming</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\third_party_streaming\tps_mode_view.h">
+      <Filter>bililive\ui\views\livehime\third_party_streaming</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\third_party_streaming\tps_obs_guide_view.h">
+      <Filter>bililive\ui\views\livehime\third_party_streaming</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\feedback\livehime_feedback_web_view.h">
+      <Filter>bililive\ui\views\livehime\feedback</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\danmaku_hime\dmkhime_source_contract.h">
+      <Filter>bililive\livehime\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\danmaku_hime\dmkhime_source_presenter_impl.h">
+      <Filter>bililive\livehime\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\danmaku_renderer.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="public\common\except_common.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="public\bililive\livehime_obs_frame_extra.h">
+      <Filter>public\bililive</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\gift_image\gift_icon_recorder.h">
+      <Filter>bililive\livehime\gift_image</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\help_center\help_center.h">
+      <Filter>bililive\livehime\help_center</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\visions\nav_down_button.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\visions</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\super_chat\markedness_message_theme_common.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\super_chat</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\super_chat\markedness_message_view.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\super_chat</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\server_broadcast\danmaku_statistics.h">
+      <Filter>bililive\livehime\server_broadcast</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\renderer\danmaku_renderer_utils.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\log_report\log_reporter.h">
+      <Filter>bililive\log_report</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\log_report\app_integrity_checking.h">
+      <Filter>bililive\log_report</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\event_report\event_report_center.h">
+      <Filter>bililive\livehime\event_report</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\utils\net_util.h">
+      <Filter>bililive\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\obs\obs_inject_util.h">
+      <Filter>bililive\livehime\obs</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\first_run\first_run_tasks.h">
+      <Filter>bililive\first_run</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\custom_inline_object.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\inline_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\spread_inline_object.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\inline_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\function_control\app_function_controller.h">
+      <Filter>bililive\livehime\function_control</Filter>
+    </ClInclude>
+    <ClInclude Include="public\protobuf\streaming_details.pb.h">
+      <Filter>public\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\utils\KGpuMon.h">
+      <Filter>bililive\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\streaming_report\streaming_report_service.h">
+      <Filter>bililive\livehime\streaming_report</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\streaming_diagrams\streaming_diagrams_main_view.h">
+      <Filter>bililive\ui\views\livehime\streaming_diagrams</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\utils\setting_util.h">
+      <Filter>bililive\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\streaming_report\streaming_qmcs_types.h">
+      <Filter>bililive\livehime\streaming_report</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\streaming_diagrams\streaming_warning_notify_view.h">
+      <Filter>bililive\ui\views\livehime\streaming_diagrams</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\feedback\feedback_presenter.h">
+      <Filter>bililive\livehime\feedback</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\streaming_report\apm_statistic_analysis.h">
+      <Filter>bililive\livehime\streaming_report</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\controls\dmkhime_controls.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\common_pref\common_pref_names.h">
+      <Filter>bililive\livehime\common_pref</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\common_pref\common_pref_service.h">
+      <Filter>bililive\livehime\common_pref</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\tips_dialog\fleet_achievement_dialog.h">
+      <Filter>bililive\ui\views\livehime\tips_dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\tabarea\tabarea_tab_strip_view.h">
+      <Filter>bililive\ui\views\livehime\tabarea\scenes_area</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\tabarea\tabarea_materials_view.h">
+      <Filter>bililive\ui\views\livehime\tabarea\materials_area\material_tab</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\live_model\live_model_controller.h">
+      <Filter>bililive\livehime\live_model</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\main_view\faux_audient_effect_view.h">
+      <Filter>bililive\ui\views\livehime\main_view</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\settings\join_slide_tips_view.h">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\new_live_room\new_live_room_guide_view.h">
+      <Filter>bililive\ui\views\livehime\new_live_room</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\notify_ui_control\notify_ui_controller.h">
+      <Filter>bililive\livehime\notify_ui_control</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\notify_ui_control\notify_ui_control_type.h">
+      <Filter>bililive\livehime\notify_ui_control</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\colive\colive_splitter_view.h">
+      <Filter>bililive\ui\views\livehime\colive</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\pluggable\pluggable_controller.h">
+      <Filter>bililive\livehime\pluggable</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_native_widget.h">
+      <Filter>bililive\ui\views\controls\bililive_widget_delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\notify_ui_control\notify_ui_prop.h">
+      <Filter>bililive\livehime\notify_ui_control</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\settings\record_settings_view.h">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\check_processor\encoder_check_processor.h">
+      <Filter>bililive\livehime\check_processor</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\danmaku_hime\danmakuhime_data_handler.h">
+      <Filter>bililive\livehime\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\tabarea\tabarea_materials_widget.h">
+      <Filter>bililive\ui\views\livehime\tabarea\materials_area</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\controls\dmkhime_toast_view.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\kv\kv_colive_settings.h">
+      <Filter>bililive\livehime\kv</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\kv\vanish_ul_controller.h">
+      <Filter>bililive\livehime\kv</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\event_report\log_file_collection.h">
+      <Filter>bililive\livehime\event_report</Filter>
+    </ClInclude>
+    <ClInclude Include="public\log_ext\log_constants.h">
+      <Filter>public\log_ext</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_fliter_select_color_view.h">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\sources_properties\source_filter_property_presenter.h">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_filter_base_property_view.h">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\sources_properties\source_window_property_presenter.h">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\hotkey_notify\bililive_toast_notify_view.h">
+      <Filter>bililive\ui\views\livehime\hotkey_notify</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\notify_window\live_handon_notify_window.h">
+      <Filter>bililive\ui\views\livehime\notify_window</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\toolbar\live_auto_replay_dialog.h">
+      <Filter>bililive\ui\views\livehime\toolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\cef\cef_proxy_ipc_handler.h">
+      <Filter>bililive\livehime\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\browser\livehime_web_browser_view_osr.h">
+      <Filter>bililive\ui\views\controls\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\browser\livehime_web_browser_osr_view.h">
+      <Filter>bililive\ui\views\controls\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\browser\livehime_web_browser_delegate.h">
+      <Filter>bililive\ui\views\controls\browser</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\cef\cef_proxy_ipc_handler.h">
+      <Filter>bililive\livehime\cef</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\live_notice\live_notice_dialog.h">
+      <Filter>bililive\ui\views\livehime\live_notice</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_sub_edit.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\audio_player\audio_player_presenter.h">
+      <Filter>bililive\livehime\audio_player</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\audio_player\audio_player_presenter_imp.h">
+      <Filter>bililive\livehime\audio_player</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\audio_player\ffmpeg_source_audio_player.h">
+      <Filter>bililive\livehime\audio_player</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\wic_bitmaps_render.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\wic_bitmaps_read.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\game_connection\game_conn_types.h">
+      <Filter>bililive\ui\views\livehime\game_connection</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\blank_view.h" />
+    <ClInclude Include="bililive\ui\views\controls\round_rect_background.h" />
+    <ClInclude Include="bililive\livehime\sub_broadcast\sub_fifter_broadcast.h">
+      <Filter>bililive\livehime\sub_broadcast</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\danmaku_web_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\button_inline_object.h" />
+    <ClInclude Include="bililive\ui\views\livehime\settings\settings_widget.h">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\settings\settings_widget_common_view.h">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\blank_view.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\round_rect_background.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\danmaku_web_view.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\button_inline_object.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\inline_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\linear_layout.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\danmaku_view.hpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\danmaku_view_theme.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\custom_style_button.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\danmaku_base_render_view.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\danmaku_web_view.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\button_inline_object.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\inline_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\round_rect_background.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\blank_view.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\utils\game_launcher.h">
+      <Filter>bililive\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\pre_start_live\pre_start_live_source_preview_view.h">
+      <Filter>bililive\ui\views\livehime\pre_start_live</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_audio_base_view.h">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\preset_material\preset_material_common.h">
+      <Filter>bililive\ui\views\livehime\preset_material</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\base_setup_view.h">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\custom_style_checkbox.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\volume\sound_reverb_view.h">
+      <Filter>bililive\ui\views\livehime\volume</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\volume\bililive_volume_bar.h">
+      <Filter>bililive\ui\views\livehime\volume</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\preset_material\preset_material_ui_presenter.h">
+      <Filter>bililive\livehime\preset_material</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\preset_material\preset_material_background_preview_view.h">
+      <Filter>bililive\ui\views\livehime\preset_material</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\custom_style_radio_button.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\main_view\stretch_control_view.h">
+      <Filter>bililive\ui\views\livehime\main_view</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\examples\mp4_player_view.h">
+      <Filter>bililive\ui\examples</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_mp4_player_viewer.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\volume\sing_identify_property_presenter.h">
+      <Filter>bililive\livehime\volume</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\sing_identify_notice\sing_identify_notice_dialog.h">
+      <Filter>bililive\ui\views\livehime\sing_identify_notice</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\volume\bililive_mic_record_contract.h">
+      <Filter>bililive\livehime\volume</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\volume\bililive_mic_record_presenter_impl.h">
+      <Filter>bililive\livehime\volume</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\toolbar\record_live_button.h">
+      <Filter>bililive\ui\views\livehime\toolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\bililive_round_bubble.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\status_bar\livehime_streaming_quality_view.h">
+      <Filter>bililive\ui\views\livehime\status_bar</Filter>
+    </ClInclude>
+    <ClInclude Include="public\protobuf\broadcast.pb.h">
+      <Filter>public\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_media_player_view.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\gift_inline_object.h">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\inline_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\tab_bar_view.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\utils\file_util.h">
+      <Filter>bililive\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\mesh_layout.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\controls\tab_select_view.h">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\controls\livehime_mic_volume_beat_view.h">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\tabarea\livehime_module_view.h">
+      <Filter>bililive\ui\views\livehime\tabarea\activity_area</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\utils\fast_forward_url_convert.h">
+      <Filter>bililive\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\beauty_base_item_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\beauty_camera_control_preview_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\beauty_base_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\beauty_tab_item_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_camera_base_settings_view.h" />
+    <ClInclude Include="bililive\ui\views\livehime\sources_properties\source_camera_property_view.h" />
+    <ClInclude Include="bililive\ui\views\menu\colive_scene_item_menu.h">
+      <Filter>bililive\ui\views\livehime\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\danmaku_hime\MessageLoopView.h">
+      <Filter>bililive\livehime\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\livehime\cef\cef_hybrid_browser_delegate.h" />
+    <ClInclude Include="bililive\livehime\gift_image\image_recorder.h">
+      <Filter>bililive\livehime\gift_image</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\web_browser\common\module_common_title.h" />
+    <ClInclude Include="bililive\ui\views\livehime\web_browser\common\module_common_view.hpp" />
+    <ClInclude Include="bililive\ui\views\livehime\web_browser\gift_panel\gift_panel_title.h" />
+    <ClInclude Include="bililive\ui\views\livehime\web_browser\gift_panel\livehime_gift_panel_widget.h" />
+    <ClInclude Include="bililive\ui\views\login\bililive_mini_login_viddup_widget.h">
+      <Filter>bililive\ui\views\login</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\viddup\main_view\livehime_main_viddup_view.h">
+      <Filter>bililive\ui\views\viddup\main_view</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\viddup\tabarea\tabarea_viddup_view.h">
+      <Filter>bililive\ui\views\viddup\tabarea</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\viddup\tabarea\tabarea_scenes_viddup_view.h">
+      <Filter>bililive\ui\views\viddup\tabarea</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\viddup\toolbar\livehime_top_toolbar_viddup_view.h">
+      <Filter>bililive\ui\views\viddup\toolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\viddup\tabarea\tabarea_scene_content_viddup_view.h">
+      <Filter>bililive\ui\views\viddup\tabarea</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\viddup\toolbar\toolbar_viddup_view.h">
+      <Filter>bililive\ui\views\viddup\toolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\viddup\tabarea\tabarea_tab_strip_viddup_view.h">
+      <Filter>bililive\ui\views\viddup\tabarea</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\viddup\main_view\stretch_control_viddup_view.h">
+      <Filter>bililive\ui\views\viddup\main_view</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\viddup\titlebar\titlebar_viddup_view.h">
+      <Filter>bililive\ui\views\viddup\titlebar</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\viddup\danmaku_hime\danmakuhime_data_viddup_handler.h">
+      <Filter>bililive\viddup\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\viddup\danmaku_hime\send_danmaku_viddup_presenter.h">
+      <Filter>bililive\viddup\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\viddup\danmaku_hime\danmaku_merged_main_viddup_view.h">
+      <Filter>bililive\ui\views\viddup\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\viddup\tabarea\canvas_materials_viddup_view.h">
+      <Filter>bililive\ui\views\viddup\tabarea</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\viddup\server_broadcast\danmaku_broadcast_viddup_presenter.h">
+      <Filter>bililive\viddup\server_broadcast</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\viddup\server_broadcast\broadcast_viddup_service.h">
+      <Filter>bililive\viddup\server_broadcast</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\settings\language_settings_view.h">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\viddup\live_room\viddup_live_controller.h">
+      <Filter>bililive\viddup\live_room</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\viddup\obs\viddup_output_controller.h">
+      <Filter>bililive\viddup\obs</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\viddup\live_model\viddup_live_model_controller.h">
+      <Filter>bililive\viddup\live_model</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\viddup\danmaku_hime\danmaku_interaction_title_viddup_view.h">
+      <Filter>bililive\ui\views\viddup\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\viddup\danmaku_hime\danmaku_interaction_viddup_view.h">
+      <Filter>bililive\ui\views\viddup\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\viddup\danmaku_hime\danmaku_render_viddup_view.h">
+      <Filter>bililive\ui\views\viddup\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\settings\language_settings_view.h">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\livehime\settings\language_settings_view.h">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\viddup\titlebar\bililive_user_info_viddup_frame.h">
+      <Filter>bililive\ui\views\viddup\titlebar</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\viddup\danmaku_hime\danmaku_viddup_renderer.h">
+      <Filter>bililive\viddup\danmaku_hime</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\bililive_main_extra_parts_livehime_intl.h">
+      <Filter>bililive</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\ui\views\viddup\toolbar\open_live_viddup_view.h" />
+    <ClInclude Include="bililive\ui\views\tabarea\tabarea_view.h">
+      <Filter>bililive\ui\views\livehime\tabarea</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="app\bililive_main.cc">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\win\dllmain.cc">
+      <Filter>..\base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\bililive_main_loop.cc">
+      <Filter>bililive</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\bililive_main_runner.cc">
+      <Filter>bililive</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\bililive_process_impl.cc">
+      <Filter>bililive</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\bililive_process_sub_thread.cc">
+      <Filter>bililive</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\bililive_thread_impl.cc">
+      <Filter>bililive</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\command_updater.cc">
+      <Filter>bililive</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\startup_task_runner.cc">
+      <Filter>bililive</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\bililive_commands.cc">
+      <Filter>bililive\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\bililive_main_extra_parts_views.cc">
+      <Filter>bililive\ui\views</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\bililive_views_delegate.cc">
+      <Filter>bililive\ui\views</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\startup\startup_bililive_creator.cc">
+      <Filter>bililive\ui\startup</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\profiles\profile.cc">
+      <Filter>bililive\profiles</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\profiles\profile_impl.cc">
+      <Filter>bililive\profiles</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\prefs\bililive_prefs.cc">
+      <Filter>bililive\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\prefs\scoped_user_pref_update.cc">
+      <Filter>bililive\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\themes\bililive_theme_pack.cc">
+      <Filter>bililive\themes</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\themes\custom_theme_supplier.cc">
+      <Filter>bililive\themes</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\themes\theme_properties.cc">
+      <Filter>bililive\themes</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\themes\theme_service.cc">
+      <Filter>bililive\themes</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\themes\extension.cc">
+      <Filter>bililive\themes</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\status_icons\status_icon.cc">
+      <Filter>bililive\stauts_icons</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\status_icons\status_tray.cc">
+      <Filter>bililive\stauts_icons</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\status_icons\status_icon_win.cc">
+      <Filter>bililive\ui\views\status_icons</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\status_icons\status_tray_win.cc">
+      <Filter>bililive\ui\views\status_icons</Filter>
+    </ClCompile>
+    <ClCompile Include="public\common\bililive_paths.cc">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="public\common\bililive_paths_win.cc">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="public\common\pref_names.cc">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="public\common\bililive_constants.cc">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\bililive_obs.cc">
+      <Filter>bililive\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\tabbed_pane\tabbed_pane.cc">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_label.cc">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_theme_common.cc">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_labelbutton.cc">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_textfield.cc">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_roundrect_view.cc">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\utils\bililive_canvas_drawer.cpp">
+      <Filter>bililive\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\bililive_command_controller.cc">
+      <Filter>bililive\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_imagebutton.cc">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_checkbox.cpp">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_slider.cc">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\dialog\select_color_dialog.cc">
+      <Filter>bililive\ui\views\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\dialog\select_font_dialog.cc">
+      <Filter>bililive\ui\views\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\dialog\select_file_dialog.cc">
+      <Filter>bililive\ui\views\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="public\common\refcounted_dictionary.cc">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\menu\sceneitem_menu.cc">
+      <Filter>bililive\ui\views\livehime\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_bubble.cc">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\utils\bililive_filetype_exts.cpp">
+      <Filter>bililive\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_menuitemview.cpp">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\hotkey_notify\bililive_hotkey_notify_view.cc">
+      <Filter>bililive\ui\views\livehime\hotkey_notify</Filter>
+    </ClCompile>
+    <ClCompile Include="public\common\pref_constants.cpp">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\first_run\first_run.cpp">
+      <Filter>bililive\first_run</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\first_run\d3d_components_validation.cpp">
+      <Filter>bililive\first_run</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\utils\gdiplus\bililive_gdiplus_utils.cpp">
+      <Filter>bililive\utils\gdiplus</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\url_image_view\bililive_url_fetcher_context_getter.cpp">
+      <Filter>bililive\ui\url_image_view</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\url_image_view\bililive_url_fetcher_delegate.cpp">
+      <Filter>bililive\ui\url_image_view</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\url_image_view\bililive_url_image_view.cpp">
+      <Filter>bililive\ui\url_image_view</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\url_image_view\bililive_url_img_fetch_globals.cpp">
+      <Filter>bililive\ui\url_image_view</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\url_image_view\bililive_url_img_fetch_transaction.cpp">
+      <Filter>bililive\ui\url_image_view</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\image_render\bililive_image_render.cc">
+      <Filter>bililive\ui\views\controls\image_render</Filter>
+    </ClCompile>
+    <ClCompile Include="public\common\refcounted_canvas.cc">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\bililive_main_parts_impl.cc">
+      <Filter>bililive</Filter>
+    </ClCompile>
+    <ClCompile Include="common\bililive_logging.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="public\common\refcounted_canvas.cc">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_floating_view.cc">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\uploader\bililive_uploader_type.cc">
+      <Filter>bililive\ui\views\uploader</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_progressbar.cc">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_link.cc">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\utils\gdiplus\bililive_gdiplus_image.cpp">
+      <Filter>bililive\utils\gdiplus</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_cascade_view.cc">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\bililive_database.cpp">
+      <Filter>bililive</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\bililive_single_instance_guarantor.cpp">
+      <Filter>bililive</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\combox\bililive_combobox.cc">
+      <Filter>bililive\ui\views\controls\combox</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\combox\bililive_editable_combobox.cc">
+      <Filter>bililive\ui\views\controls\combox</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\combox\bililive_combobox_ex.cc">
+      <Filter>bililive\ui\views\controls\combox</Filter>
+    </ClCompile>
+    <ClCompile Include="common\bililive_context.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\bililive_ipc_pipe.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\bililive_path.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\navigation_bar.cc">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_frame_view\bililive_frame_view.cc">
+      <Filter>bililive\ui\views\controls\frame_view</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_frame_view\bililive_frame_titlebar_view.cc">
+      <Filter>bililive\ui\views\controls\frame_view</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_frame_view\bililive_shadow_frame_view.cc">
+      <Filter>bililive\ui\views\controls\frame_view</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\control_util\checkbox_helper.cpp">
+      <Filter>bililive\ui\control_util</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\control_util\slider_helper.cpp">
+      <Filter>bililive\ui\control_util</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\control_util\button_helper.cpp">
+      <Filter>bililive\ui\control_util</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\control_util\combobox_helper.cpp">
+      <Filter>bililive\ui\control_util</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\control_util\textfield_helper.cpp">
+      <Filter>bililive\ui\control_util</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_widget_delegate\bililive_widget_delegate.cpp">
+      <Filter>bililive\ui\views\controls\bililive_widget_delegate</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_widget_delegate\bililive_mask_widget.cpp">
+      <Filter>bililive\ui\views\controls\bililive_widget_delegate</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\bililive_command_handler_livehime.cpp">
+      <Filter>bililive\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\bililive_command_receiver.cpp">
+      <Filter>bililive\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\utils\pinyin-search.cpp">
+      <Filter>bililive\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\utils\pinyin-table.cpp">
+      <Filter>bililive\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_floating_scroll_view.cc">
+      <Filter>bililive\ui\views\controls\scrollview</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_radio_button.cpp">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_hover_tip_button.cc">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_tabbed.cc">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_button.cc">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_combobox.cc">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_slider.cc">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_property_base_view.cc">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\obs\obs_proxy_service.cc">
+      <Filter>bililive\livehime\obs</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\obs\obs_status.cpp">
+      <Filter>bililive\livehime\obs</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\obs\obs_status_details.cpp">
+      <Filter>bililive\livehime\obs</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_frame_view\bililive_frame_titlebar.cc">
+      <Filter>bililive\ui\views\controls\frame_view</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_label.cc">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_textfield.cc">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_message_box.cc">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_theme_common.cpp">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bilibili_native_edit_view.cpp">
+      <Filter>bililive\ui\views\controls\native_ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\win32_datetimepicker_view.cpp">
+      <Filter>bililive\ui\views\controls\native_ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\win32_richedit_view.cpp">
+      <Filter>bililive\ui\views\controls\native_ctrls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_search_list_view.cc">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_native_edit.cc">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bilibili_search_list_view.cc">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\main_view\livehime_main_native_widget_win.cc">
+      <Filter>bililive\ui\views\livehime\main_view</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\main_view\livehime_main_view.cc">
+      <Filter>bililive\ui\views\livehime\main_view</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_image_property_view.cc">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_media_property_view.cc">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_text_property_view.cc">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_window_property_view.cc">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_menu.cc">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\obs\source_creator.cpp">
+      <Filter>bililive\livehime\obs</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\obs\obs_proxy_main_extra_parts.cpp">
+      <Filter>bililive\livehime\obs</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\settings\video_settings_view.cpp">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\settings\streaming_settings_view.cpp">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\settings\base_settings_view.cpp">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\settings\audio_settings_view.cpp">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\settings\settings_frame_view.cpp">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\settings\accelerator_settings_view.cpp">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\settings\global_settings_view.cpp">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\obs\srcprop_ui_util.cc">
+      <Filter>bililive\livehime\obs</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\settings\denoise_slider.cpp">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\main_view\livehime_main_close_widget.cpp">
+      <Filter>bililive\ui\views\livehime\main_view</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\main_view\livehime_main_close_presenter_impl.cpp">
+      <Filter>bililive\livehime\main_view</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\main_view\livehime_main_close_pref_constants.cpp">
+      <Filter>bililive\livehime\main_view</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\sources_properties\source_text_property_presenter_impl.cpp">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\tabarea\tab_pane_danmaku_presenter_impl.cpp">
+      <Filter>bililive\livehime\tabarea</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\tabarea\bottom_bar\bottom_area_view.cc">
+      <Filter>bililive\ui\views\livehime\tabarea\materials_area\danmaku_tab\bottom_bar</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\tabarea\bottom_bar\bottom_area_popup_view.cc">
+      <Filter>bililive\ui\views\livehime\tabarea\materials_area\danmaku_tab\bottom_bar</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_inside_frame_titlebar.cc">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\sources_properties\source_camera_property_presenter_impl.cpp">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\sources_properties\source_image_property_presenter_impl.cpp">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\sources_properties\source_media_property_presenter_impl.cpp">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\sources_properties\source_public_property_presenter.cpp">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\tabarea\global_banned_presenter_impl.cpp">
+      <Filter>bililive\livehime\tabarea</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\tabarea\bottom_bar\banned_begin_view.cpp">
+      <Filter>bililive\ui\views\livehime\tabarea\materials_area\danmaku_tab\bottom_bar\banned</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\tabarea\bottom_bar\banned_end_view.cpp">
+      <Filter>bililive\ui\views\livehime\tabarea\materials_area\danmaku_tab\bottom_bar\banned</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\tabarea\bottom_bar\global_banned_view.cpp">
+      <Filter>bililive\ui\views\livehime\tabarea\materials_area\danmaku_tab\bottom_bar\banned</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\tabarea\bottom_bar\loading_view.cpp">
+      <Filter>bililive\ui\views\livehime\tabarea\materials_area\danmaku_tab\bottom_bar\banned</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_album_property_view.cpp">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\sources_properties\source_album_property_presenter_impl.cpp">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\utils\is_administrator_required.cpp">
+      <Filter>bililive\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\examples\examples_frame_view.cpp">
+      <Filter>bililive\ui\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\examples\examples_runner.cpp">
+      <Filter>bililive\ui\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\examples\label_tab_view.cpp">
+      <Filter>bililive\ui\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\examples\button_tab_view.cpp">
+      <Filter>bililive\ui\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\examples\misc_tab_view.cpp">
+      <Filter>bililive\ui\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\volume\sound_effect_property_presenter_impl.cpp">
+      <Filter>bililive\livehime\volume</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\volume\bililive_sound_effect_widget.cpp">
+      <Filter>bililive\ui\views\livehime\volume</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\volume\bililive_sound_effect_view.cpp">
+      <Filter>bililive\ui\views\livehime\volume</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\danmaku_hime\danmaku_hime_presenter_impl.cpp">
+      <Filter>bililive\livehime\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\text_to_speech\tts_helper.cpp">
+      <Filter>bililive\text_to_speech</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\text_to_speech\tts_service.cpp">
+      <Filter>bililive\text_to_speech</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\tabarea\bottom_bar\danmaku_search_view.cpp">
+      <Filter>bililive\ui\views\livehime\tabarea\materials_area\danmaku_tab\bottom_bar</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\settings\fixed_slider.cpp">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\utils\convert_util.cc">
+      <Filter>bililive\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\utils\time_span.cpp">
+      <Filter>bililive\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\volume\bililive_volume_controller_presenter_impl.cpp">
+      <Filter>bililive\livehime\volume</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\volume\bililive_volume_controllers_devices_present_impl.cpp">
+      <Filter>bililive\livehime\volume</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\volume\bililive_audio_device_presenter_impl.cpp">
+      <Filter>bililive\livehime\volume</Filter>
+    </ClCompile>
+    <ClCompile Include="common\bililive_features.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\obs\output_controller.cpp">
+      <Filter>bililive\livehime\obs</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\settings\settings_presenter_impl.cpp">
+      <Filter>bililive\livehime\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\image_render\bililive_sequence_images_util.cc">
+      <Filter>bililive\ui\views\controls\image_render</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\utils\image_util.cc">
+      <Filter>bililive\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_sequence_image_button.cc">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\colive\colive_theme_common.cpp">
+      <Filter>bililive\ui\views\livehime\colive</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\colive\colive_preview_control.cc">
+      <Filter>bililive\ui\views\livehime\colive</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\colive\colive_crop_view.cc">
+      <Filter>bililive\ui\views\livehime\colive</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\utils\sequenced_image_package.cpp">
+      <Filter>bililive\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\server_broadcast\broadcast_service.cpp">
+      <Filter>bililive\livehime\server_broadcast</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\d2d_manager.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\danmaku_structs.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\danmakuhime_theme_common.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\scrolling_interpolator.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\sculptor.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\text_layout.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\login\bilibili_login_control.cpp">
+      <Filter>bililive\ui\views\login</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\login\bililive_login_frame_view.cpp">
+      <Filter>bililive\ui\views\login</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\login\bililive_login_info_collection_view.cpp">
+      <Filter>bililive\ui\views\login</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\login\bililive_login_logining_status_view.cpp">
+      <Filter>bililive\ui\views\login</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\login\bililive_login_main_view.cpp">
+      <Filter>bililive\ui\views\login</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\login\bililive_login_presenter_impl.cpp">
+      <Filter>bililive\login</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\utils\bililive_image_util.cpp">
+      <Filter>bililive\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\sources_properties\source_color_property_presenter_impl.cpp">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_color_property_view.cc">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\paint.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\flags_inline_object.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\inline_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\image_inline_object.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\inline_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\medal_inline_object.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\inline_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\text_renderer.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\text_drawing_effect.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_bubble.cc">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\colive\colive_popup_view.cpp">
+      <Filter>bililive\ui\views\livehime\colive\popup_view</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\util\bililive_util_views.cc">
+      <Filter>bililive\ui\views\controls\util</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_user_related_ctrls.cc">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_list_state_banner.cc">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\tabarea\tabarea_danmaku_view.cpp">
+      <Filter>bililive\ui\views\livehime\tabarea\materials_area\danmaku_tab</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\toolbar\toolbar_volume_ctrl.cc">
+      <Filter>bililive\ui\views\livehime\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\tabarea\tabarea_toast_view.cc">
+      <Filter>bililive\ui\views\livehime\tabarea\materials_area\danmaku_tab</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\preview\livehime_obs_preview_control.cc">
+      <Filter>bililive\ui\views\livehime\preview</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\preview\livehime_preview_view.cc">
+      <Filter>bililive\ui\views\livehime\preview</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\bililive_installation_rejecter.cpp">
+      <Filter>bililive</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\status_bar\livehime_status_bar_view.cpp">
+      <Filter>bililive\ui\views\livehime\status_bar</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\theme\livehime_theme_service.cpp">
+      <Filter>bililive\ui\views\livehime\theme</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\theme\livehime_theme_pref_names.cpp">
+      <Filter>bililive\ui\views\livehime\theme</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\theme\livehime_theme_blue.cpp">
+      <Filter>bililive\ui\views\livehime\theme\predefined_theme</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\theme\livehime_theme_black.cpp">
+      <Filter>bililive\ui\views\livehime\theme\predefined_theme</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\theme\livehime_theme_constants.cpp">
+      <Filter>bililive\ui\views\livehime\theme</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\visions\vision.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\visions</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\visions\vision_group.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\visions</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\visions\danmaku_vision.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\visions</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\visions\danmaku_list.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\visions</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\visions\danmaku_list_adapter.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\visions</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\user_info\user_info_service.cpp">
+      <Filter>bililive\livehime\user_info</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\theme\livehime_theme_v3_special_constants.cpp">
+      <Filter>bililive\ui\views\livehime\theme\v3_special</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\obs\obs_scene_util.cc">
+      <Filter>bililive\livehime\obs</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\sources_properties\source_receiver_property_presenter_impl.cpp">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_volume_control_view.cc">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\qrcode\qrcode_generator.cpp">
+      <Filter>bililive\livehime\qrcode</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\gift_image\image_fetcher.cpp">
+      <Filter>bililive\livehime\gift_image</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\gift_image\image_fetcher_async.cpp">
+      <Filter>bililive\livehime\gift_image</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\danmaku_hime\danmaku_hime_pref_service.cpp">
+      <Filter>bililive\livehime\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\visions\overlay_scroll_bar.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\visions</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\average_layout.cpp">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_browser_property_view.cc">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\sources_properties\source_browser_property_presenter_impl.cpp">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\browser_source\browser_source_interaction_view.cpp">
+      <Filter>bililive\ui\views\livehime\sources_properties\browser_source</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\cef\cef_proxy_wrapper.cpp">
+      <Filter>bililive\livehime\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\login\livehime_captcha_frame_view.cpp">
+      <Filter>bililive\ui\views\login</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\cef\obs_frontend_callbacks_impl.cpp">
+      <Filter>bililive\livehime\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\cef\cef_hybrid_cache.cpp">
+      <Filter>bililive\livehime\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\cef\cef_callback_data_presenter.cpp">
+      <Filter>bililive\livehime\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\browser\livehime_web_browser_view.cc">
+      <Filter>bililive\ui\views\controls\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\hybrid_ui\hybrid_ui.cpp">
+      <Filter>bililive\livehime\hybrid_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\gridview.cc">
+      <Filter>bililive\ui\views\controls\listview</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\listview.cc">
+      <Filter>bililive\ui\views\controls\listview</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_webview_state_banner.cc">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_image_view.cpp">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\preview\livehime_preview_area_utils.cc">
+      <Filter>bililive\ui\views\livehime\preview</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_pk_common_ctrls.cc">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\web_browser\livehime_web_browser_widget.cpp">
+      <Filter>bililive\ui\views\livehime\web_browser</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\web_browser\livehime_unite_browser_widget.cpp">
+      <Filter>bililive\ui\views\livehime\web_browser</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\web_browser\bililive_browser_frame_view.cpp">
+      <Filter>bililive\ui\views\livehime\web_browser</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\tips_dialog\tips_dialog.cpp">
+      <Filter>bililive\ui\views\livehime\tips_dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\layout\user_info_layout.cpp">
+      <Filter>bililive\ui\views\livehime\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\anchor_notice\anchor_notice_box_view.cpp">
+      <Filter>bililive\ui\views\livehime\anchor_notice</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\login\livehime_login_util.cpp">
+      <Filter>bililive\ui\views\login</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\login\livehime_login_message_box.cpp">
+      <Filter>bililive\ui\views\login</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\sources_properties\source_audio_device_property_presenter_impl.cpp">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\notice\notice_tips_view.cpp">
+      <Filter>bililive\ui\views\livehime\notice</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ipc\bililive_ipc_channel.cc">
+      <Filter>bililive\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\third_party_streaming\obs_livehime_plugin\livehime_obs_plugin_ipc.cc">
+      <Filter>bililive\livehime\third_party_streaming\obs_livehime_plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\live_room\live_controller.cpp">
+      <Filter>bililive\livehime\live_room</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\live_room\live_room_contract.cpp">
+      <Filter>bililive\livehime\live_room</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\third_party_streaming\third_party_output_controller.cpp">
+      <Filter>bililive\livehime\third_party_streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\live_room\live_controller_third_party.cpp">
+      <Filter>bililive\livehime\live_room</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_monitor_property_view.cc">
+      <Filter>bililive\ui\views\livehime\sources_properties\monitor_source</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_monitor_capture_view.cc">
+      <Filter>bililive\ui\views\livehime\sources_properties\monitor_source</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\svga_player\svga_parser.cpp">
+      <Filter>bililive\livehime\svga_player</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\svga_player\proto\movie_params.cpp">
+      <Filter>bililive\livehime\svga_player\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\svga_player\protobuf\proto_reader.cpp">
+      <Filter>bililive\livehime\svga_player\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\svga_player\proto\transform.cpp">
+      <Filter>bililive\livehime\svga_player\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\svga_player\proto\shape_entity.cpp">
+      <Filter>bililive\livehime\svga_player\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\svga_player\proto\layout.cpp">
+      <Filter>bililive\livehime\svga_player\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\svga_player\proto\frame_entity.cpp">
+      <Filter>bililive\livehime\svga_player\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\svga_player\proto\sprite_entity.cpp">
+      <Filter>bililive\livehime\svga_player\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\svga_player\proto\audio_entity.cpp">
+      <Filter>bililive\livehime\svga_player\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\svga_player\proto\movie_entity.cpp">
+      <Filter>bililive\livehime\svga_player\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\svga_player\entities\svga_audio_entity.cpp">
+      <Filter>bililive\livehime\svga_player\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\svga_player\entities\svga_path_entity.cpp">
+      <Filter>bililive\livehime\svga_player\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\svga_player\entities\svga_video_shape_entity.cpp">
+      <Filter>bililive\livehime\svga_player\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\svga_player\entities\svga_video_sprite_frame_entity.cpp">
+      <Filter>bililive\livehime\svga_player\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\svga_player\entities\svga_video_sprite_entity.cpp">
+      <Filter>bililive\livehime\svga_player\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\svga_player\entities\svga_video_entity.cpp">
+      <Filter>bililive\livehime\svga_player\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\svga_player\entities\svga_dynamic_entity.cpp">
+      <Filter>bililive\livehime\svga_player\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\svga_player\utils\svga_scale_info.cpp">
+      <Filter>bililive\livehime\svga_player\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\svga_player\drawer\svga_drawer.cpp">
+      <Filter>bililive\livehime\svga_player\drawer</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\svga_player\drawer\svga_canvas_drawer.cpp">
+      <Filter>bililive\livehime\svga_player\drawer</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_svga_image_view.cpp">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\svga_player\svga_drawable.cpp">
+      <Filter>bililive\livehime\svga_player</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\dialog\select_file_dialog_ex.cc">
+      <Filter>bililive\ui\views\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\third_party_streaming\tps_break_waitting_view.cpp">
+      <Filter>bililive\ui\views\livehime\third_party_streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\third_party_streaming\tps_mode_view.cpp">
+      <Filter>bililive\ui\views\livehime\third_party_streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\third_party_streaming\tps_obs_guide_view.cpp">
+      <Filter>bililive\ui\views\livehime\third_party_streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\feedback\livehime_feedback_web_view.cpp">
+      <Filter>bililive\ui\views\livehime\feedback</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\danmaku_hime\dmkhime_source_presenter_impl.cpp">
+      <Filter>bililive\livehime\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\danmaku_renderer.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\gift_image\gift_icon_recorder.cpp">
+      <Filter>bililive\livehime\gift_image</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\help_center\help_center.cpp">
+      <Filter>bililive\livehime\help_center</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\visions\nav_down_button.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\visions</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\third_party_streaming\third_party_output_live_answer_controller.cpp">
+      <Filter>bililive\livehime\third_party_streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\super_chat\markedness_message_view.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\super_chat</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\server_broadcast\danmaku_statistics.cpp">
+      <Filter>bililive\livehime\server_broadcast</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\renderer\danmaku_renderer_utils.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\log_report\log_reporter.cpp">
+      <Filter>bililive\log_report</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\log_report\app_integrity_checking.cpp">
+      <Filter>bililive\log_report</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\event_report\event_report_center.cpp">
+      <Filter>bililive\livehime\event_report</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\utils\net_util.cc">
+      <Filter>bililive\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\third_party_streaming\third_party_output_live_answer_controller.cpp">
+      <Filter>bililive\livehime\third_party_streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\obs\obs_inject_util.cpp">
+      <Filter>bililive\livehime\obs</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\custom_inline_object.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\inline_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\spread_inline_object.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\inline_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\function_control\app_function_controller.cpp">
+      <Filter>bililive\livehime\function_control</Filter>
+    </ClCompile>
+    <ClCompile Include="public\protobuf\streaming_details.pb.cc">
+      <Filter>public\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\utils\KGpuMon.cc">
+      <Filter>bililive\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\streaming_report\streaming_report_service.cpp">
+      <Filter>bililive\livehime\streaming_report</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\streaming_diagrams\streaming_diagrams_main_view.cpp">
+      <Filter>bililive\ui\views\livehime\streaming_diagrams</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\utils\setting_util.cc">
+      <Filter>bililive\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\streaming_diagrams\streaming_warning_notify_view.cpp">
+      <Filter>bililive\ui\views\livehime\streaming_diagrams</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\streaming_report\apm_statistic_analysis.cpp">
+      <Filter>bililive\livehime\streaming_report</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\controls\dmkhime_controls.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\common_pref\common_pref_names.cpp">
+      <Filter>bililive\livehime\common_pref</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\common_pref\common_pref_service.cpp">
+      <Filter>bililive\livehime\common_pref</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\tips_dialog\fleet_achievement_dialog.cpp">
+      <Filter>bililive\ui\views\livehime\tips_dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\tabarea\tabarea_tab_strip_view.cc">
+      <Filter>bililive\ui\views\livehime\tabarea\scenes_area</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\tabarea\tabarea_materials_view.cpp">
+      <Filter>bililive\ui\views\livehime\tabarea\materials_area\material_tab</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\live_model\live_model_controller.cpp">
+      <Filter>bililive\livehime\live_model</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\main_view\faux_audient_effect_view.cpp">
+      <Filter>bililive\ui\views\livehime\main_view</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\settings\join_slide_tips_view.cpp">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\new_live_room\new_live_room_guide_view.cpp">
+      <Filter>bililive\ui\views\livehime\new_live_room</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\notify_ui_control\notify_ui_controller.cpp">
+      <Filter>bililive\livehime\notify_ui_control</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\colive\colive_splitter_view.cpp">
+      <Filter>bililive\ui\views\livehime\colive</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\pluggable\pluggable_controller.cpp">
+      <Filter>bililive\livehime\pluggable</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_native_widget.cpp">
+      <Filter>bililive\ui\views\controls\bililive_widget_delegate</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\notify_ui_control\notify_ui_prop.cpp">
+      <Filter>bililive\livehime\notify_ui_control</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\settings\record_settings_view.cpp">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\check_processor\encoder_check_processor.cpp">
+      <Filter>bililive\livehime\check_processor</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\danmaku_hime\danmakuhime_data_handler.cpp">
+      <Filter>bililive\livehime\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\tabarea\tabarea_materials_widget.cpp">
+      <Filter>bililive\ui\views\livehime\tabarea\materials_area</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\controls\dmkhime_toast_view.cc">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\kv\kv_colive_settings.cpp">
+      <Filter>bililive\livehime\kv</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\kv\vanish_ul_controller.cpp">
+      <Filter>bililive\livehime\kv</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\event_report\log_file_collection.cpp">
+      <Filter>bililive\livehime\event_report</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\hotkey_notify\bililive_toast_notify_view.cc">
+      <Filter>bililive\ui\views\livehime\hotkey_notify</Filter>
+    </ClCompile>
+    <ClCompile Include="public\log_ext\log_constants.cpp">
+      <Filter>public\log_ext</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_fliter_select_color_view.cc">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\sources_properties\source_filter_property_presenter.cpp">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_filter_base_property_view.cpp">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\sources_properties\source_window_property_presenter.cpp">
+      <Filter>bililive\livehime\sources_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\notify_window\live_handon_notify_window.cpp">
+      <Filter>bililive\ui\views\livehime\notify_window</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\toolbar\live_auto_replay_dialog.cpp">
+      <Filter>bililive\ui\views\livehime\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\cef\cef_proxy_ipc_handler.cc">
+      <Filter>bililive\livehime\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\notify_window\live_handon_notify_window.cpp">
+      <Filter>bililive\ui\views\livehime\notify_window</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\browser\livehime_web_browser_view_osr.cpp">
+      <Filter>bililive\ui\views\controls\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\browser\livehime_web_browser_osr_view.cc">
+      <Filter>bililive\ui\views\controls\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\cef\cef_proxy_ipc_handler.cc">
+      <Filter>bililive\livehime\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\live_notice\live_notice_dialog.cpp">
+      <Filter>bililive\ui\views\livehime\live_notice</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_sub_edit.cc">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\audio_player\audio_player_presenter.cpp">
+      <Filter>bililive\livehime\audio_player</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\audio_player\audio_player_presenter_imp.cpp">
+      <Filter>bililive\livehime\audio_player</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\audio_player\ffmpeg_source_audio_player.cpp">
+      <Filter>bililive\livehime\audio_player</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\wic_bitmaps_render.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\wic_bitmaps_read.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\danmaku_renderer.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\blank_view.cpp" />
+    <ClCompile Include="bililive\ui\views\controls\round_rect_background.cpp" />
+    <ClCompile Include="bililive\livehime\sub_broadcast\sub_fifter_broadcast.cpp">
+      <Filter>bililive\livehime\sub_broadcast</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\danmaku_web_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\button_inline_object.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\settings\settings_widget.cpp">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\settings\settings_widget_common_view.cpp">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\blank_view.cpp">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\round_rect_background.cpp">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\danmaku_web_view.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\button_inline_object.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\inline_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\linear_layout.cpp">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\danmaku_view_theme.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\custom_style_button.cpp">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\danmaku_base_render_view.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\danmaku_web_view.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\danmaku_web_view.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\button_inline_object.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\inline_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\blank_view.cpp">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\round_rect_background.cpp">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\utils\game_launcher.cpp">
+      <Filter>bililive\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\pre_start_live\pre_start_live_source_preview_view.cpp">
+      <Filter>bililive\ui\views\livehime\pre_start_live</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_audio_base_view.cpp">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\preset_material\preset_material_common.cpp">
+      <Filter>bililive\ui\views\livehime\preset_material</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\base_setup_view.cpp">
+      <Filter>bililive\ui\views\livehime\sources_properties</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\custom_style_checkbox.cpp">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\volume\sound_reverb_view.cpp">
+      <Filter>bililive\ui\views\livehime\volume</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\volume\bililive_volume_bar.cpp">
+      <Filter>bililive\ui\views\livehime\volume</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\preset_material\preset_material_ui_presenter.cpp">
+      <Filter>bililive\livehime\preset_material</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\preset_material\preset_material_background_preview_view.cpp">
+      <Filter>bililive\ui\views\livehime\preset_material</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\custom_style_radio_button.cpp">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\main_view\stretch_control_view.cpp">
+      <Filter>bililive\ui\views\livehime\main_view</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\examples\mp4_player_view.cpp">
+      <Filter>bililive\ui\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_mp4_player_viewer.cpp">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\volume\sing_identify_property_presenter.cpp">
+      <Filter>bililive\livehime\volume</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\sing_identify_notice\sing_identify_notice_dialog.cpp">
+      <Filter>bililive\ui\views\livehime\sing_identify_notice</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\volume\bililive_mic_record_presenter_impl.cpp">
+      <Filter>bililive\livehime\volume</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\toolbar\record_live_button.cpp">
+      <Filter>bililive\ui\views\livehime\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\bililive_round_bubble.cc">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\status_bar\livehime_streaming_quality_view.cpp">
+      <Filter>bililive\ui\views\livehime\status_bar</Filter>
+    </ClCompile>
+    <ClCompile Include="public\protobuf\broadcast.pb.cc">
+      <Filter>public\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_media_player_view.cpp">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\inline_objects\gift_inline_object.cpp">
+      <Filter>bililive\ui\views\livehime\danmaku_hime\inline_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\utils\file_util.cpp">
+      <Filter>bililive\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\tab_bar_view.cc">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\mesh_layout.cpp">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\controls\tab_select_view.cpp">
+      <Filter>bililive\ui\views\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\controls\livehime_mic_volume_beat_view.cc">
+      <Filter>bililive\ui\views\livehime\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\tabarea\livehime_module_view.cpp">
+      <Filter>bililive\ui\views\livehime\tabarea\activity_area</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\utils\fast_forward_url_convert.cc">
+      <Filter>bililive\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\beauty_base_item_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\beauty_camera_control_preview_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\beauty_base_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\beauty_tab_item_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_camera_base_settings_view.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\sources_properties\source_camera_property_view.cc" />
+    <ClCompile Include="bililive\ui\views\menu\colive_scene_item_menu.cc">
+      <Filter>bililive\ui\views\livehime\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\cef\cef_hybrid_browser_delegate.cpp">
+      <Filter>bililive\livehime\cef</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\livehime\danmaku_hime\MessageLoopView.cpp">
+      <Filter>bililive\livehime\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\danmaku_hime\danmaku_view.cpp" />
+    <ClCompile Include="bililive\livehime\gift_image\image_recorder.cpp">
+      <Filter>bililive\livehime\gift_image</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\web_browser\common\module_common_title.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\web_browser\gift_panel\gift_panel_title.cpp" />
+    <ClCompile Include="bililive\ui\views\livehime\web_browser\gift_panel\livehime_gift_panel_widget.cpp" />
+    <ClCompile Include="bililive\ui\views\login\bililive_mini_login_viddup_widget.cpp">
+      <Filter>bililive\ui\views\login</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\viddup\main_view\livehime_main_viddup_view.cc">
+      <Filter>bililive\ui\views\viddup\main_view</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\viddup\tabarea\tabarea_viddup_view.cc">
+      <Filter>bililive\ui\views\viddup\tabarea</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\viddup\tabarea\tabarea_scenes_viddup_view.cc">
+      <Filter>bililive\ui\views\viddup\tabarea</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\viddup\toolbar\livehime_top_toolbar_viddup_view.cpp">
+      <Filter>bililive\ui\views\viddup\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\viddup\theme\livehime_theme_viddup.cpp">
+      <Filter>bililive\ui\views\viddup\theme</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\viddup\tabarea\tabarea_scene_content_viddup_view.cc">
+      <Filter>bililive\ui\views\viddup\tabarea</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\viddup\toolbar\toolbar_viddup_view.cc">
+      <Filter>bililive\ui\views\viddup\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\viddup\tabarea\tabarea_tab_strip_viddup_view.cc">
+      <Filter>bililive\ui\views\viddup\tabarea</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\viddup\main_view\stretch_control_viddup_view.cpp">
+      <Filter>bililive\ui\views\viddup\main_view</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\viddup\titlebar\titlebar_viddup_view.cc">
+      <Filter>bililive\ui\views\viddup\titlebar</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\viddup\danmaku_hime\danmakuhime_data_viddup_handler.cpp">
+      <Filter>bililive\viddup\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\viddup\danmaku_hime\send_danmaku_viddup_presenter.cpp">
+      <Filter>bililive\viddup\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\viddup\danmaku_hime\danmaku_merged_main_viddup_view.cpp">
+      <Filter>bililive\ui\views\viddup\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\viddup\tabarea\canvas_materials_viddup_view.cpp">
+      <Filter>bililive\ui\views\viddup\tabarea</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\viddup\server_broadcast\danmaku_broadcast_viddup_presenter.cpp">
+      <Filter>bililive\viddup\server_broadcast</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\viddup\server_broadcast\broadcast_viddup_service.cpp">
+      <Filter>bililive\viddup\server_broadcast</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\viddup\live_room\viddup_live_controller.cpp">
+      <Filter>bililive\viddup\live_room</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\viddup\obs\viddup_output_controller.cpp">
+      <Filter>bililive\viddup\obs</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\viddup\live_model\viddup_live_model_controller.cpp">
+      <Filter>bililive\viddup\live_model</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\viddup\danmaku_hime\danmaku_interaction_title_viddup_view.cpp">
+      <Filter>bililive\ui\views\viddup\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\viddup\danmaku_hime\danmaku_interaction_viddup_view.cpp">
+      <Filter>bililive\ui\views\viddup\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\viddup\danmaku_hime\danmaku_render_viddup_view.cpp">
+      <Filter>bililive\ui\views\viddup\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\settings\language_settings_view.cpp">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\settings\language_settings_view.cpp">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\settings\language_settings_view.cpp">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\livehime\settings\language_settings_view.cpp">
+      <Filter>bililive\ui\views\livehime\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\viddup\titlebar\bililive_user_info_viddup_frame.cpp">
+      <Filter>bililive\ui\views\viddup\titlebar</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\viddup\danmaku_hime\danmaku_viddup_renderer.cpp">
+      <Filter>bililive\viddup\danmaku_hime</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\bililive_main_extra_parts_livehime_intl.cpp">
+      <Filter>bililive</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\ui\views\viddup\toolbar\open_live_viddup_view.cpp" />
+    <ClCompile Include="bililive\ui\views\tabarea\tabarea_view.cc">
+      <Filter>bililive\ui\views\livehime\tabarea</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\ui\resources\cursors\aliasb.cur">
+      <Filter>..\ui\resources\cursors</Filter>
+    </None>
+    <None Include="..\ui\resources\cursors\cell.cur">
+      <Filter>..\ui\resources\cursors</Filter>
+    </None>
+    <None Include="..\ui\resources\cursors\col_resize.cur">
+      <Filter>..\ui\resources\cursors</Filter>
+    </None>
+    <None Include="..\ui\resources\cursors\copy.cur">
+      <Filter>..\ui\resources\cursors</Filter>
+    </None>
+    <None Include="..\ui\resources\cursors\none.cur">
+      <Filter>..\ui\resources\cursors</Filter>
+    </None>
+    <None Include="..\ui\resources\cursors\row_resize.cur">
+      <Filter>..\ui\resources\cursors</Filter>
+    </None>
+    <None Include="..\ui\resources\cursors\vertical_text.cur">
+      <Filter>..\ui\resources\cursors</Filter>
+    </None>
+    <None Include="..\ui\resources\cursors\zoom_in.cur">
+      <Filter>..\ui\resources\cursors</Filter>
+    </None>
+    <None Include="..\ui\resources\cursors\zoom_out.cur">
+      <Filter>..\ui\resources\cursors</Filter>
+    </None>
+    <None Include="app\theme\bililive\bililive_obs_layout.json">
+      <Filter>layout</Filter>
+    </None>
+    <None Include="app\theme\bililive\bililive_obs_layout_test.json">
+      <Filter>layout</Filter>
+    </None>
+    <None Include="app\theme\bililive\bililive_obs_titlebar_layout.json">
+      <Filter>layout</Filter>
+    </None>
+    <None Include="app\theme\bililive\bililive_obs_toolbar_layout.json">
+      <Filter>layout</Filter>
+    </None>
+    <None Include="app\theme\bililive\bililive_toolbar_config_accelerators_layout.json">
+      <Filter>layout</Filter>
+    </None>
+    <None Include="app\theme\bililive\bililive_toolbar_config_audio_layout.json">
+      <Filter>layout</Filter>
+    </None>
+    <None Include="app\theme\bililive\bililive_toolbar_config_danmaku_layout.json">
+      <Filter>layout</Filter>
+    </None>
+    <None Include="app\theme\bililive\bililive_toolbar_config_general_layout.json">
+      <Filter>layout</Filter>
+    </None>
+    <None Include="app\theme\bililive\bililive_toolbar_config_layout.json">
+      <Filter>layout</Filter>
+    </None>
+    <None Include="app\theme\bililive\bililive_toolbar_config_plugflow_layout.json">
+      <Filter>layout</Filter>
+    </None>
+    <None Include="app\theme\bililive\bililive_toolbar_config_video_layout.json">
+      <Filter>layout</Filter>
+    </None>
+    <None Include="app\theme\bililive\uploader_partitions.json">
+      <Filter>layout</Filter>
+    </None>
+    <None Include="public\protobuf\streaming_details.proto">
+      <Filter>public\protobuf</Filter>
+    </None>
+    <None Include="public\protobuf\broadcast.proto">
+      <Filter>public\protobuf</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="bililive\themes\bililive_theme_pack.h">
+      <Filter>bililive\themes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bililive\themes\custom_theme_supplier.h">
+      <Filter>bililive\themes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bililive\themes\theme_properties.h">
+      <Filter>bililive\themes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bililive\themes\theme_service.h">
+      <Filter>bililive\themes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bililive\ui\bililive_obs.h">
+      <Filter>bililive\ui</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app\theme\bililive\bililive.ico" />
+    <Image Include="app\theme\bililive\danmaku.ico" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+#ifndef BILILIVE_BILILIVE_BILILIVE_INSTALLATION_REJECTER_H_
+#define BILILIVE_BILILIVE_BILILIVE_INSTALLATION_REJECTER_H_
+
+
+class BililiveInstallationRejecter {
+public:
+    static bool Reject();
+};
+
+#endif  //  BILILIVE_BILILIVE_BILILIVE_INSTALLATION_REJECTER_H_

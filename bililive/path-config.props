@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <OBSDir><![CDATA[$(SolutionDir)..\obs\obs-studio\]]></OBSDir>
+    <OBSDepsDir><![CDATA[$(SolutionDir)..\obs\dependencies2019\]]></OBSDepsDir>
+    <ThirdPartyDir><![CDATA[$(SolutionDir)..\third_party\]]></ThirdPartyDir>
+    <BuildDir><![CDATA[$(SolutionDir)..\build\$(Configuration)\]]></BuildDir>
+    <CEFCodeDir><![CDATA[$(SolutionDir)..\cef\cef_core\]]></CEFCodeDir>
+    <LivehimeCMakeDir><![CDATA[$(SolutionDir)..\out\livehime\]]></LivehimeCMakeDir>
+    <LivehimeCMakeDir64><![CDATA[$(SolutionDir)..\out64\livehime\]]></LivehimeCMakeDir64>
+    <OBSCMakeDir><![CDATA[$(SolutionDir)..\out\livehime\obs\obs-studio\]]></OBSCMakeDir>
+    <OBSCMakeDir64><![CDATA[$(SolutionDir)..\out64\livehime\obs\obs-studio\]]></OBSCMakeDir64>
+  </PropertyGroup>
+</Project>

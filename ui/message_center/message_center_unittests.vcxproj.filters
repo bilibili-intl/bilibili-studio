@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="cocoa">
+      <UniqueIdentifier>{bd79f0c6-c487-4955-8fb3-d6769638759c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocoa\_excluded_files">
+      <UniqueIdentifier>{510fff7a-4cc2-4b98-87eb-11f7de0d7043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{f6ae9c8b-4ca6-4166-a629-51005acf5088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="views">
+      <UniqueIdentifier>{54f47f51-8035-4651-945c-ed10dd27552a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="message_center.gyp" />
+    <None Include="cocoa\settings_controller_unittest.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </None>
+    <None Include="cocoa\popup_controller_unittest.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </None>
+    <None Include="cocoa\popup_collection_unittest.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </None>
+    <None Include="cocoa\tray_controller_unittest.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </None>
+    <None Include="cocoa\tray_view_controller_unittest.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </None>
+    <None Include="cocoa\status_item_view_unittest.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </None>
+    <None Include="cocoa\notification_controller_unittest.mm">
+      <Filter>cocoa\_excluded_files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="message_center_tray_unittest.cc" />
+    <ClCompile Include="message_center_impl_unittest.cc" />
+    <ClCompile Include="notification_list_unittest.cc" />
+    <ClCompile Include="test\run_all_unittests.cc">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="views\message_popup_collection_unittest.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClCompile Include="views\message_center_view_unittest.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+    <ClCompile Include="views\bounded_label_unittest.cc">
+      <Filter>views</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

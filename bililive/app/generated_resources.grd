@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+This file contains definitions of resources that will be translated for each
+locale.  The variables is_win, is_macosx, is_linux, and is_posix are available
+for making strings OS specific.  Other platform defines such as use_titlecase
+are declared in build/common.gypi.
+-->
+
+<grit base_dir="." latest_public_release="0" current_release="1"
+      source_lang_id="en" enc_check="möl">
+  <outputs>
+    <output filename="grit/generated_resources.h" type="rc_header">
+      <emit emit_type='prepend'></emit>
+    </output>
+    <output filename="generated_resources_en-US.pak" type="data_package" lang="en" />
+    <output filename="generated_resources_fake-bidi.pak" type="data_package" lang="fake-bidi" />
+    <output filename="generated_resources_zh-CN.pak" type="data_package" lang="zh-CN" />
+    <output filename="generated_resources_id-ID.pak" type="data_package" lang="id-ID" />
+    <output filename="generated_resources_th-TH.pak" type="data_package" lang="th-TH" />
+  </outputs>
+  <translations>
+    <file path="resources/generated_resources_zh-CN.xtb" lang="zh-CN" />
+    <file path="resources/generated_resources_id-ID.xtb" lang="id-ID" />
+    <file path="resources/generated_resources_th-TH.xtb" lang="th-TH" />
+  </translations>
+  <release seq="1" allow_pseudo="false">
+    <messages fallback_to_english="true">
+      <!-- TODO add all of your "string table" messages here.  Remember to
+      change nontranslateable parts of the messages into placeholders (using the
+      <ph> element).  You can also use the 'grit add' tool to help you identify
+      nontranslateable parts and create placeholders for them. -->
+
+      <!--Common-->
+      <message name="IDS_EXIT" use_name_for_id="true">
+        E&amp;xit
+      </message>
+      <message name="IDS_SURE" use_name_for_id="true">OK</message>
+      <message name="IDS_CANCEL" use_name_for_id="true">Cancel</message>
+      <message name="IDS_BACK" use_name_for_id="true">Back</message>
+      <message name="IDS_IKNOW" use_name_for_id="true">OK</message>
+      <message name="IDS_COMMON_NO_CAMERA" use_name_for_id="true">Microphone undetected</message>
+      <message name="IDS_COMMON_NO_SYS_VOICE" use_name_for_id="true">System sound undetected</message>
+      <message name="IDS_HELP" use_name_for_id="true">Help</message>
+      <message name="IDS_SET" use_name_for_id="true">Set</message>
+      <!--Common-->
+      <message name="IDS_BILILIVE_TITLE_2" use_name_for_id="true">Bilibili Studio (Beta)</message>
+
+      <message name="IDS_BILILIVE_TITLE" use_name_for_id="true">Bilibili Studio (Beta)</message>
+
+      <!--Exit window-->
+      <message name="IDS_MAIN_CLOSE_TITLE" use_name_for_id="true">Tips</message>
+      <message name="IDS_MAIN_CLOSE_LABEL_TITLE" use_name_for_id="true">Select an exit method:</message>
+      <message name="IDS_MAIN_CLOSE_MIN" use_name_for_id="true">Minimize to Tray</message>
+      <message name="IDS_MAIN_CLOSE_EXIT" use_name_for_id="true">Exit</message>
+      <message name="IDS_MAIN_CLOSE_REMEMBER" use_name_for_id="true">Remember My Choice</message>
+      <!--Exit window-->
+
+      <message name="IDS_LIVEHIME_MY_LIVE_ROOM" use_name_for_id="true">My Livestreaming Channel</message>
+      <message name="IDS_LIVEHIME_LIVE_DATA" use_name_for_id="true">Live Data</message>
+
+      <!-- Live room info edit dialog -->
+      <message name="IDS_LIVE_ROOM_INFO_EDIT_OK" use_name_for_id="true">Confirm</message>
+      <message name="IDS_LIVE_ROOM_MSGBOX_TITLE" use_name_for_id="true">Notification</message>
+      <message name="IDS_LIVE_ROOM_MSGBOX_IKNOW" use_name_for_id="true">Not Now</message>
+      <!-- Live room info edit dialog -->
+
+      <message name="IDS_TITLEBAR_MORE_PREVIEWPROJECT" use_name_for_id="true">Preview Projection</message>
+      <message name="IDS_TITLEBAR_MORE_PROJECT_MONITOR" use_name_for_id="true">Display</message>
+      <message name="IDS_TITLEBAR_MORE_HELP" use_name_for_id="true">Help</message>
+      <message name="IDS_TITLEBAR_MORE_DETECT" use_name_for_id="true">Check for updates</message>
+      <message name="IDS_TITLEBAR_MORE_LOG_FILE" use_name_for_id="true">Logs</message>
+      <message name="IDS_TITLEBAR_MORE_LOGOUT" use_name_for_id="true">Log out</message>
+      <message name="IDS_HELP_VIEW_HELP" use_name_for_id="true">
+          View Help
+      </message>
+
+      <!-- Add material interface hover tips begin -->
+      <message name="IDS_TOOLBAR_CAMERA_NOTES" use_name_for_id="true">Add Video Capture Device to the live stream  to attract more viewers.</message>
+      <message name="IDS_TOOLBAR_SCREEN_FULL_NOTES" use_name_for_id="true">To livestream  the full screen you choose, please run the game in windowed or borderless full screen mode to avoid a black screen.</message>
+      <message name="IDS_TOOLBAR_SCREEN_WINDOW_NOTES" use_name_for_id="true">Livestream  the game window you choose and still capture the game content even if you drag the window.</message>
+      <message name="IDS_TOOLBAR_VIDEO_NOTES" use_name_for_id="true">Add stream pulling or local files to live stream.</message>
+      <message name="IDS_TOOLBAR_TEXT_NOTES" use_name_for_id="true">Add text to explain campaigns and rules in your livestreaming channel to your audience.</message>
+      <message name="IDS_TOOLBAR_PICTURE_NOTES" use_name_for_id="true">Add images to show them to your audience.</message>
+      <message name="IDS_TOOLBAR_BROWSER_NOTES" use_name_for_id="true">Add web plug-ins to your browser.</message>
+      <!-- Add material interface hover tips end -->
+
+      <message name="IDS_TOOLBAR_CAMERA" use_name_for_id="true">Video Capture Device</message>
+      <message name="IDS_TOOLBAR_GAME" use_name_for_id="true">Syphon Client</message>
+      <message name="IDS_TOOLBAR_SCREEN_FULL" use_name_for_id="true">Display Capture</message>
+      <message name="IDS_TOOLBAR_SCREEN_MONITOR" use_name_for_id="true">Display</message>
+      <message name="IDS_TOOLBAR_SCREEN_WINDOW" use_name_for_id="true">Window Capture</message>
+      <message name="IDS_TOOLBAR_VIDEO" use_name_for_id="true">Media Source</message>
+      <message name="IDS_TOOLBAR_TEXT" use_name_for_id="true">Text</message>
+      <message name="IDS_TOOLBAR_SCREEN_PROJECTION" use_name_for_id="true">Projection</message>
+      <message name="IDS_TOOLBAR_PICTURE" use_name_for_id="true">Image</message>
+      <message name="IDS_TOOLBAR_ALBUM" use_name_for_id="true">Album</message>
+      <message name="IDS_TOOLBAR_COLORSOURCE" use_name_for_id="true">Solid Colors</message>
+      <message name="IDS_TOOLBAR_BROWSER" use_name_for_id="true">Browser</message>
+      <message name="IDS_TOOLBAR_AUDIO_DEVICE" use_name_for_id="true">
+        Audio Device
+      </message>
+      <message name="IDS_TOOLBAR_AUDIO_DEVICE_INPUT" use_name_for_id="true">Audio Input Capture</message>
+      <message name="IDS_TOOLBAR_AUDIO_DEVICE_OUTPUT" use_name_for_id="true">Audio Output Capture</message>
+      <message name="IDS_TOOLBAR_VOLUME" use_name_for_id="true">Volume</message>
+      <message name="IDS_TOOLBAR_VOLUME_MIC_OPEN_TIPS" use_name_for_id="true">
+        Open Mic
+      </message>
+      <message name="IDS_TOOLBAR_VOLUME_MIC_CLOSE_TIPS" use_name_for_id="true">Mute Mic</message>
+      <message name="IDS_TOOLBAR_VOLUME_MIC_WARNING" use_name_for_id="true">Microphone undetected</message>
+      <message name="IDS_TOOLBAR_VOLUME_SYSTEM_SOUND_OPEN_TIPS" use_name_for_id="true">
+        Open System Sound
+      </message>
+      <message name="IDS_TOOLBAR_VOLUME_SYSTEM_SOUND_CLOSE_TIPS" use_name_for_id="true">Disable System Sound</message>
+      <message name="IDS_TOOLBAR_VOLUME_SYSTEM_WARNING" use_name_for_id="true">System sound undetected</message>
+      <message name="IDS_TOOLBAR_VOLUME_SYSTEM_RENDER_WARNING" use_name_for_id="true">Loudspeakers render error</message>
+      <message name="IDS_TOOLBAR_VOLUME_SYSTEM_RENDER_WARNING_KILL" use_name_for_id="true">please kill process:</message>
+      <message name="IDS_TOOLBAR_VOLUME_SYSTEM_RENDER_WARNING_RESTART" use_name_for_id="true">,and restart Livehime</message>
+      <message name="IDS_TOOLBAR_VOLUME_SOUND_EFFECT" use_name_for_id="true">Volume</message>
+      <message name="IDS_TOOLBAR_DANMAKU_HIME" use_name_for_id="true">
+        Danmaku
+      </message>
+      <message name="IDS_TOOLBAR_TEXTURE" use_name_for_id="true">Texture</message>
+      <message name="IDS_TOOLBAR_CONFIG" use_name_for_id="true">Settings</message>
+      <message name="IDS_TOOLBAR_START_RECORDING" use_name_for_id="true">
+        StartRecording
+      </message>
+      <message name="IDS_TOOLBAR_STOP_RECORDING" use_name_for_id="true">
+        StopRecording
+      </message>
+      <message name="IDS_TOOLBAR_START_LIVE" use_name_for_id="true">Start Streaming</message>
+      <message name="IDS_TOOLBAR_START_LIVE_WAITING" use_name_for_id="true">
+        Waiting...
+      </message>
+      <message name="IDS_TOOLBAR_UPDATE_CHANNEL" use_name_for_id="true">
+        UpdatingChannel
+      </message>
+      <message name="IDS_TOOLBAR_STOP_LIVE" use_name_for_id="true">Stop Streaming</message>
+      <message name="IDS_TOOLBAR_LIVE_RETRY" use_name_for_id="true">
+        Retrying
+      </message>
+      <message name="IDS_TOOLBAR_CONFIG_VIDEO" use_name_for_id="true">Videos</message>
+      <message name="IDS_TOOLBAR_CONFIG_AUDIO" use_name_for_id="true">Audio</message>
+      <message name="IDS_TOOLBAR_CONFIG_ACCELERATORS" use_name_for_id="true">
+        Hotkeys
+      </message>
+      <message name="IDS_TOOLBAR_LOADING_ROOMINFO_TIPS" use_name_for_id="true">Loading personal information, please try again later.</message>
+      <message name="IDS_TOOLBAR_LOADED_ROOMINFO_TIPS" use_name_for_id="true">Personal information is loaded.</message>
+      <message name="IDS_TOOLBAR_NET_ERROR" use_name_for_id="true">Update room info failed.</message>
+      <message name="IDS_TOOLBAR_REPLAY_TIPS">直播很精彩哦~可在“设置-全局设置”中开启自动保存并发布到动态，快去试试吧！</message>
+      <message name="IDS_TOOLBAR_REPLAY_LIVE_REPALY">直播回放</message>
+      <message name="IDS_TOOLBAR_BITRATE" use_name_for_id="true">Bitrate:</message>
+      <message name="IDS_TOOLBAR_FPS" use_name_for_id="true">FPS:</message>
+      <message name="IDS_TOOLBAR_FRAME_LOSS" use_name_for_id="true">Frame loss:</message>
+      <message name="IDS_TOOLBAR_CPU" use_name_for_id="true">CPU:</message>
+      <message name="IDS_TOOLBAR_MEMORY" use_name_for_id="true">Memory:</message>
+      <message name="IDS_TOOLBAR_QUALITY" use_name_for_id="true">Quality:</message>
+      <message name="IDS_TOOLBAR_QUALITY_NONE" use_name_for_id="true">None</message>
+      <message name="IDS_TOOLBAR_STARTING" use_name_for_id="true">Starting</message>
+      <message name="IDS_TOOLBAR_STOPPED" use_name_for_id="true">Stopped</message>
+      <message name="IDS_TOOLBAR_SYSTEM_VOICE_WARN" use_name_for_id="true">Failed to capture system sound.</message>
+      <message name="IDS_TOOLBAR_LIVE_PARTITION" use_name_for_id="true">Choose Area</message>
+      <message name="IDS_TOOLBAR_ROOMINFO_LOAD_FAILED" use_name_for_id="true">Room info load failed</message>
+
+      <message name="IDS_PROMPT_EMPTY_SCENE_TITLE" use_name_for_id="true">Hey</message>
+      <message name="IDS_PROMPT_EMPTY_SCENE_MSG" use_name_for_id="true">Are you sure you want to start live streaming without adding any source?</message>
+
+
+      <message name="IDS_CONFIG_VIDEO_CORERATE" use_name_for_id="true">Bitrate</message>
+
+      <message name="IDS_CONFIG_VIDEO_BITRATE_CONTROL" use_name_for_id="true">Bitrate Control</message>
+      <message name="IDS_CONFIG_VIDEO_BITRATE_CONTROL_CBR" use_name_for_id="true">
+        Constant Bitrate
+      </message>
+      <message name="IDS_CONFIG_VIDEO_BITRATE_CONTROL_ABR" use_name_for_id="true">
+        Average Bitrate
+      </message>
+      <message name="IDS_CONFIG_VIDEO_BITRATE_CONTROL_TIPS" use_name_for_id="true">The network is stable. Choose Dynamic Bitrate to prevent dropping frames during the live stream.</message>
+
+      <message name="IDS_CONFIG_VIDEO_FRAMERATE" use_name_for_id="true">Frame Rate</message>
+      <message name="IDS_CONFIG_VIDEO_STREAMING_RES" use_name_for_id="true">Resolution</message>
+      <message name="IDS_CONFIG_VIDEO_STREAMING_RES_TIP" use_name_for_id="true">
+        Higher resolution improves video quality, while more CPU costly
+      </message>
+      <message name="IDS_CONFIG_VIDEO_ENCODER" use_name_for_id="true">Encoder</message>
+      <message name="IDS_CONFIG_VIDEO_ENCODER_TIP" use_name_for_id="true">Software encoding: Perform encoding by CPU with CPU performance consumption&#xD;&#xA;Hardware encoding: Perform encoding by GPU with GPU performance consumption</message>
+      <message name="IDS_CONFIG_VIDEO_PERFORMANCE_BALANCE" use_name_for_id="true">Performance Balance</message>
+      <message name="IDS_CONFIG_VIDEO_PERFORMANCE_BALANCE_TIP" use_name_for_id="true">The high performance uses less CPU and the quality is low; high quality uses more CPU and the quality is high.</message>
+      <message name="IDS_CONFIG_VIDEO_RECORDING_FORMAT" use_name_for_id="true">
+        Recording Format
+      </message>
+      <message name="IDS_CONFIG_VIDEO_RECORDING_FMT_MP4_TIP" use_name_for_id="true">
+        Friendly to editors, but the recording may be broken in case of unexpected crash.
+      </message>
+      <message name="IDS_CONFIG_VIDEO_RECORDING_FMT_FMP4_TIP" use_name_for_id="true">
+        Good compatibility, but old editors may not recognize, some player may not drag the seek bar.
+      </message>
+      <message name="IDS_CONFIG_VIDEO_RECORDING_FMT_FLV_TIP" use_name_for_id="true">
+        What you pushed is what we saved, but unfriendly to editors.
+      </message>
+      <message name="IDS_CONFIG_VIDEO_SAVEPATH" use_name_for_id="true">
+        Recording Path
+      </message>
+      <message name="IDS_CONFIG_VIDEO_OPENDIR" use_name_for_id="true">
+        Open Dir
+      </message>
+      <message name="IDS_CONFIG_VIDEO_SYNCRECORDING" use_name_for_id="true">
+        Recording when streaming
+      </message>
+      <message name="IDS_CONFIG_VIDEO_TIP" use_name_for_id="true">The above encoding settings will apply to the stream ingestion and screen recording functions.</message>
+
+      <message name="IDS_CONFIG_VIDEO_SETTING_TITLE" use_name_for_id="true">Quality</message>
+      <message name="IDS_CONFIG_VIDEO_SETTING_ADAVANCE" use_name_for_id="true">Advanced Settings</message>
+      <message name="IDS_CONFIG_VIDEO_ENCODER_TIP_LABEL" use_name_for_id="true">The computer does not support hardware encoding.</message>
+      <message name="IDS_CONFIG_VIDEO_SETTING_TIP_AUTO" use_name_for_id="true">First choice for a new streamer. The quality is automatically adjusted based on your device and network.</message>
+      <message name="IDS_CONFIG_VIDEO_SETTING_TIP_CUSTOM" use_name_for_id="true">If you are familiar with push stream parameters, customize your settings to meet your live stream requirements.</message>
+
+      <message name="IDS_CONFIG_VIDEO_CMB_CORERATE_800" use_name_for_id="true">
+        800
+      </message>
+      <message name="IDS_CONFIG_VIDEO_CMB_CORERATE_1000" use_name_for_id="true">
+        1000
+      </message>
+      <message name="IDS_CONFIG_VIDEO_CMB_CORERATE_1500" use_name_for_id="true">
+        1500
+      </message>
+      <message name="IDS_CONFIG_VIDEO_CMB_CORERATE_2000" use_name_for_id="true">
+        2000
+      </message>
+      <message name="IDS_CONFIG_VIDEO_CMB_CORERATE_3000" use_name_for_id="true">
+        3000
+      </message>
+      <message name="IDS_CONFIG_VIDEO_CMB_CORERATE_4000" use_name_for_id="true">
+        4000
+      </message>
+      <message name="IDS_CONFIG_VIDEO_CMB_CORERATE_5000" use_name_for_id="true">
+        5000
+      </message>
+      <message name="IDS_CONFIG_VIDEO_CMB_CORERATE_8000" use_name_for_id="true">
+        8000
+      </message>
+      <message name="IDS_CONFIG_VIDEO_CMB_CORERATE_10000" use_name_for_id="true">
+        10000 (Becareful, it may cause audience's video stuttering.)
+      </message>
+      <message name="IDS_CONFIG_VIDEO_CMB_CORERATE_12000" use_name_for_id="true">
+        12000 (Becareful, it may cause audience's video stuttering.)
+      </message>
+      <message name="IDS_CONFIG_VIDEO_CMB_CORERATE_14000" use_name_for_id="true">
+        14000 (Becareful, it may cause audience's video stuttering.)
+      </message>
+      <message name="IDS_CONFIG_VIDEO_CMB_FRAMERATE_24" use_name_for_id="true">
+        24
+      </message>
+      <message name="IDS_CONFIG_VIDEO_CMB_FRAMERATE_30" use_name_for_id="true">30 (recommended)</message>
+      <message name="IDS_CONFIG_VIDEO_CMB_FRAMERATE_60" use_name_for_id="true">
+        60
+      </message>
+      <message name="IDS_CONFIG_VIDEO_CMB_PREVIEWDPI_712" use_name_for_id="true">
+        712x400 (16:9)
+      </message>
+      <message name="IDS_CONFIG_VIDEO_CMB_PREVIEWDPI_800" use_name_for_id="true">
+        800x600 (4:3)
+      </message>
+      <message name="IDS_CONFIG_VIDEO_CMB_PREVIEWDPI_1280" use_name_for_id="true">
+        1280x720 (Recommended)
+      </message>
+      <message name="IDS_CONFIG_VIDEO_CMB_STREAMING_RES_712" use_name_for_id="true">
+        712x400 (16:9)
+      </message>
+      <message name="IDS_CONFIG_VIDEO_CMB_STREAMING_RES_800" use_name_for_id="true">
+        800x600 (4:3)
+      </message>
+      <message name="IDS_CONFIG_VIDEO_CMB_STREAMING_RES_1280" use_name_for_id="true">1280x720 (recommended)</message>
+      <message name="IDS_CONFIG_VIDEO_CMB_STREAMING_RES_1920" use_name_for_id="true">
+        1920x1080 (16:9)
+      </message>
+      <message name="IDS_CONFIG_VIDEO_CMB_ENCODER_SOFTWARE" use_name_for_id="true">Software Encoder</message>
+      <message name="IDS_CONFIG_VIDEO_CMB_ENCODER_NVIDIA" use_name_for_id="true">Hardware Code: NVIDIA</message>
+      <message name="IDS_CONFIG_VIDEO_CMB_ENCODER_INTEL" use_name_for_id="true">Hardware Code: Intel</message>
+      <message name="IDS_CONFIG_VIDEO_CMB_ENCODER_AMD" use_name_for_id="true">Hardware Code: AMD</message>
+      <message name="IDS_CONFIG_VIDEO_CMB_ENCODER_NVIDIA_TURING" use_name_for_id="true">Hardware Code: NVIDIA Turing (New)</message>
+      <message name="IDS_CONFIG_VIDEO_CMB_PERFORMANCE_BALANCE_1" use_name_for_id="true">High performance</message>
+      <message name="IDS_CONFIG_VIDEO_CMB_PERFORMANCE_BALANCE_2" use_name_for_id="true">Balance (recommended)</message>
+      <message name="IDS_CONFIG_VIDEO_CMB_PERFORMANCE_BALANCE_3" use_name_for_id="true">High image quality</message>
+      <message name="IDS_CONFIG_VIDEO_CMB_RECORDING_FORMAT_FLV" use_name_for_id="true">
+        FLV
+      </message>
+      <message name="IDS_CONFIG_VIDEO_CMB_RECORDING_FORMAT_MP4" use_name_for_id="true">
+        MP4
+      </message>
+      <message name="IDS_CONFIG_VIDEO_CMB_RECORDING_FORMAT_FMP4" use_name_for_id="true">
+        Fragmented MP4
+      </message>
+
+      <message name="IDS_CONFIG_AUDIO_MIC" use_name_for_id="true">
+        Microphone
+      </message>
+      <message name="IDS_CONFIG_AUDIO_MIC_NO_MIX" use_name_for_id="true">Do not use mixed channels</message>
+      <message name="IDS_CONFIG_AUDIO_MIC_L_TO_DUAL" use_name_for_id="true">Play the left channel on both sides</message>
+      <message name="IDS_CONFIG_AUDIO_MIC_R_TO_DUAL" use_name_for_id="true">Play the right channel on both sides</message>
+      <message name="IDS_CONFIG_AUDIO_MIC_MIX" use_name_for_id="true">Mix the left and right channels</message>
+      <message name="IDS_CONFIG_AUDIO_DEFAULTDEVICE" use_name_for_id="true">Default devices</message>
+      <message name="IDS_CONFIG_AUDIO_SYSVOL" use_name_for_id="true">
+        System sounds
+      </message>
+      <message name="IDS_CONFIG_AUDIO_CORERATE" use_name_for_id="true">
+        Audio bitrate
+      </message>
+      <message name="IDS_CONFIG_AUDIO_CMB_CORERATE_96" use_name_for_id="true">
+        96 kbps
+      </message>
+      <message name="IDS_CONFIG_AUDIO_CMB_CORERATE_128" use_name_for_id="true">
+        128 kbps
+      </message>
+      <message name="IDS_CONFIG_AUDIO_CMB_CORERATE_192" use_name_for_id="true">
+        192 kbps
+      </message>
+      <message name="IDS_CONFIG_AUDIO_CMB_CORERATE_256" use_name_for_id="true">
+        256 kbps
+      </message>
+      <message name="IDS_CONFIG_AUDIO_CMB_CORERATE_320" use_name_for_id="true">
+        320 kbps
+      </message>
+      <message name="IDS_CONFIG_AUDIO_CORERATE_TIP" use_name_for_id="true">
+        Higher bitrate improves audio quality, which consuming more connection bandwidth
+      </message>
+
+      <message name="IDS_CONFIG_AUDIO_TITLE" use_name_for_id="true">Mic Settings</message>
+      <message name="IDS_CONFIG_AUDIO_DEVICE" use_name_for_id="true">Devices</message>
+      <message name="IDS_CONFIG_AUDIO_INPUT_VOLUME" use_name_for_id="true">Input Volume</message>
+      <message name="IDS_CONFIG_AUDIO_SPEAKER_SETTING" use_name_for_id="true">Speaker Settings</message>
+      <message name="IDS_CONFIG_AUDIO_OUTPUT_VOLUME" use_name_for_id="true">Output Volume</message>
+      <message name="IDS_CONFIG_AUDIO_MAIN_MIC_ADV_SETTING" use_name_for_id="true">Advanced Primary Mic Properties</message>
+      <message name="IDS_CONFIG_AUDIO_MICPHONE_DENOISE" use_name_for_id="true">Noise Reduction</message>
+      <message name="IDS_CONFIG_AUDIO_RATE" use_name_for_id="true">Audio Bitrates</message>
+      <message name="IDS_CONFIG_AUDIO_TRACE" use_name_for_id="true">Audio Channels</message>
+      <message name="IDS_CONFIG_AUDIO_MONO_CAN_TRY" use_name_for_id="true">You can try this for a mono mic</message>
+      <message name="IDS_CONFIG_AUDIO_RATE_TIP" use_name_for_id="true">A higher audio bitrate requires a higher network speed</message>
+
+
+      <!-- sound reverb view -->
+      <message name="IDS_CONFIG_AUDIO_SOUND_REVERB_TITLE" use_name_for_id="true">Enable Reverb</message>
+      <message name="IDS_CONFIG_AUDIO_SOUND_REVERB_RESET" use_name_for_id="true">Reset</message>
+      <message name="IDS_CONFIG_AUDIO_SOUND_REVERB_ROOM" use_name_for_id="true">Room Size</message>
+      <message name="IDS_CONFIG_AUDIO_SOUND_REVERB_WET" use_name_for_id="true">Temperature</message>
+      <message name="IDS_CONFIG_AUDIO_SOUND_REVERB_DRY" use_name_for_id="true">Dry Level</message>
+      <message name="IDS_CONFIG_AUDIO_SOUND_REVERB_WIDTH" use_name_for_id="true">Width</message>
+      <message name="IDS_CONFIG_AUDIO_SOUND_REVERB_DAMP" use_name_for_id="true">Vibration Absorbing</message>
+      <message name="IDS_CONFIG_AUDIO_SOUND_REVERB_FREEZE" use_name_for_id="true">Freeze Mode</message>
+      <message name="IDS_CONFIG_AUDIO_SOUND_REVERB_CHECK" use_name_for_id="true">Mic Audio Testing</message>
+      <message name="IDS_CONFIG_AUDIO_SOUND_REVERB_CHECK_TIP" use_name_for_id="true">Click Mic Audio Testing, use your mic to speak, and test the mic audio</message>
+
+      <!-- Noise reduction related  denoise_slider -->
+      <message name="IDS_CONFIG_AUDIO_SOUND_DENOISE_CLOSE" use_name_for_id="true">Disabled</message>
+      <message name="IDS_CONFIG_AUDIO_SOUND_DENOISE_LEVEL1" use_name_for_id="true">Low</message>
+      <message name="IDS_CONFIG_AUDIO_SOUND_DENOISE_LEVEL2" use_name_for_id="true">Medium</message>
+      <message name="IDS_CONFIG_AUDIO_SOUND_DENOISE_LEVEL3" use_name_for_id="true">High</message>
+
+      <message name="IDS_CONFIG_SWITCH_CDN" use_name_for_id="true">
+        Switch CDN
+      </message>
+      <message name="IDS_CONFIG_SWITCH_CDN_TIP" use_name_for_id="true">
+        Take effect on next streaming before exit Livehime
+      </message>
+
+      <message name="IDS_CONFIG_ACCELERATORS_INPUT" use_name_for_id="true">
+        Press the hotkey
+      </message>
+      <message name="IDS_CONFIG_ACCELERATORS_DEL" use_name_for_id="true">
+        Delete
+      </message>
+      <message name="IDS_CONFIG_ACCELERATORS_AUDIO" use_name_for_id="true">
+        Hotkeys for audio control
+      </message>
+      <message name="IDS_CONFIG_ACCELERATORS_AUDIO_MIC" use_name_for_id="true">
+        Mic Mute/Restore
+      </message>
+      <message name="IDS_CONFIG_ACCELERATORS_AUDIO_SYSVOL" use_name_for_id="true">
+        System Vol Mute/Restore
+      </message>
+      <message name="IDS_CONFIG_ACCELERATORS_SENCE" use_name_for_id="true">
+        Hotkyes for scene control
+      </message>
+      <message name="IDS_CONFIG_ACCELERATORS_SENCE_SWAP" use_name_for_id="true">Switch to Scenario</message>
+      <message name="IDS_CONFIG_ACCELERATORS_LIVE" use_name_for_id="true">
+        Hotkeys for streaming and recording
+      </message>
+      <message name="IDS_CONFIG_ACCELERATORS_LIVE_LIVE" use_name_for_id="true">
+        Start/Stop live-streaming
+      </message>
+      <message name="IDS_CONFIG_ACCELERATORS_LIVE_RECORD" use_name_for_id="true">
+        Start/Stop recording
+      </message>
+      <message name="IDS_CONFIG_ACCELERATORS_OTHERS" use_name_for_id="true">
+        Others
+      </message>
+      <message name="IDS_CONFIG_ACCELERATORS_OTHERS_CLEAR_DANMAKU_TTS_QUEUE" use_name_for_id="true">
+        Clear danmaku TTS queue
+      </message>
+      <message name="IDS_CONFIG_ACCELERATORS_CONFLICT" use_name_for_id="true">
+        The list of hot key is conflict with other program:
+      </message>
+      <message name="IDS_CONFIG_ACCELERATORS_CONFLICT_DEAL" use_name_for_id="true">
+        Do you continue to save the hot key setup with conflict?
+      </message>
+
+      <!-- Global preferences -->
+
+      <message name="IDS_CONFIG_GLOBAL_WINDOW_CAPTURE" use_name_for_id="true">Window Capture Engine</message>
+      <message name="IDS_CONFIG_GLOBAL_WINDOW_CAPTURE_OPTIMIZE_FOR_PERFORMANCE" use_name_for_id="true">Optimize for performance</message>
+      <message name="IDS_CONFIG_GLOBAL_WINDOW_CAPTURE_OPTIMIZE_FOR_PERFORMANCE_TOOLTIP" use_name_for_id="true">More smoothly, but may malfunction on some under-qualified graphics cards (restart required)</message>
+      <message name="IDS_CONFIG_GLOBAL_EXCLUDE_FROM_CAPTURE" use_name_for_id="true">Exclude main window from capture</message>
+      <message name="IDS_CONFIG_GLOBAL_EXCLUDE_FROM_CAPTURE_TOOLTIP" use_name_for_id="true">Exclude main window from capture</message>
+
+      <message name="IDS_CONFIG_GLOBAL_ZOOM_RENDER" use_name_for_id="true">Window Zoom Render</message>
+      <message name="IDS_CONFIG_GLOBAL_ZOOM_RENDER_DRAG_FULL_WINDOWS" use_name_for_id="true">拖动时不显示窗口内容</message>
+      <message name="IDS_CONFIG_GLOBAL_ZOOM_RENDER_DRAG_FULL_WINDOWS_TOOLTIP" use_name_for_id="true">拖拽主界面出现“闪烁”时，可尝试勾选该选项</message>
+
+      <message name="IDS_CONFIG_GLOBAL_EXIT" use_name_for_id="true">Exit</message>
+      <message name="IDS_CONFIG_GLOBAL_EXIT_MIN" use_name_for_id="true">Minimize to tray</message>
+      <message name="IDS_CONFIG_GLOBAL_EXIT_IMMEDIATELY" use_name_for_id="true">Exit immediately</message>
+      <message name="IDS_CONFIG_GLOBAL_EXIT_REMIND" use_name_for_id="true">Remind me every time</message>
+
+      <message name="IDS_STREAM_NV_WARN" use_name_for_id="true">您目前直播姬使用的内存过大，存在闪退风险，可以尝试将直播姬设置中的视频设置，修改【硬件编码intel】为【软件编码器】</message>
+      <message name="IDS_STREAM_NV_IMAGE_WARN" use_name_for_id="true">您目前直播姬使用的内存过大，存在闪退风险，可以尝试以下操作
+      1、检查图片素材源的图片是否过大，清理对应的图片素材源。
+      2、检查直直播姬设置中的视频设置，修改【硬件编码intel】为【软件编码器】</message>
+      <message name="IDS_STREAM_IMAGE_WARN" use_name_for_id="true">您目前直播姬使用的内存过大，存在闪退风险，可以尝试检查图片素材源的图片资源是否过大，清理对应的图片素材源</message>
+      <message name="IDS_STREAM_MATER_WARN" use_name_for_id="true">您目前直播姬使用的内存过大，存在闪退风险，可以尝试检查素材源的资源是否过大，清理对应的素材源</message>
+
+      <!-- Studio live streaming -->
+      <message name="IDS_STUDIO_LIVE_STREAMING_TIPS_START" use_name_for_id="true">演播厅模式已开启，直播内容将发送至演播厅。</message>
+      <message name="IDS_STUDIO_LIVE_STREAMING_TIPS_END" use_name_for_id="true">演播厅模式已关闭，重新开播即可进入正常模式。</message>
+
+      <!-- Global preferences -->
+
+      <message name="IDS_HOTKEY_LIVE_START" use_name_for_id="true">Start live-streaming</message>
+      <message name="IDS_HOTKEY_LIVE_STOP" use_name_for_id="true">Stop live-streaming</message>
+      <message name="IDS_HOTKEY_MIC_MUTE" use_name_for_id="true">Mic Mute</message>
+      <message name="IDS_HOTKEY_MIC_UNMUTE" use_name_for_id="true">Mic Restore</message>
+      <message name="IDS_HOTKEY_RECORD_START" use_name_for_id="true">Start Recording</message>
+      <message name="IDS_HOTKEY_RECORD_STOP" use_name_for_id="true">Stop Recording</message>
+      <message name="IDS_HOTKEY_SYSTEM_MUTE" use_name_for_id="true">System Vol Mute</message>
+      <message name="IDS_HOTKEY_SYSTEM_UNMUTE" use_name_for_id="true">System Vol Restore</message>
+      <message name="IDS_HOTKEY_CLEAR_DANMAKU_TTS_QUEUE" use_name_for_id="true">Danmaku TTS Queue Cleared</message>
+
+      <message name="IDS_TABAREA_SCENE" use_name_for_id="true">Scene</message>
+      <message name="IDS_TABAREA_SCENE_TIP_UP" use_name_for_id="true">Move Up</message>
+      <message name="IDS_TABAREA_SCENE_TIP_DOWN" use_name_for_id="true">Move Down</message>
+      <message name="IDS_TABAREA_SCENE_TIP_TOP" use_name_for_id="true">Move to Top</message>
+      <message name="IDS_TABAREA_SCENE_TIP_BOTTOM" use_name_for_id="true">Move to Bottom</message>
+      <message name="IDS_TABAREA_SCENE_TIP_DEL" use_name_for_id="true">Delete</message>
+      <message name="IDS_TABAREA_SCENE_TIP_SHOW" use_name_for_id="true">Display</message>
+      <message name="IDS_TABAREA_SCENE_TIP_HIDE" use_name_for_id="true">Hide</message>
+      <message name="IDS_TABAREA_SCENE_TIP_EDIT" use_name_for_id="true">Edit</message>
+      <message name="IDS_TABAREA_SCENE_TIP_LOCK" use_name_for_id="true">Lock Preview</message>
+      <message name="IDS_TABAREA_SCENE_TIP_UNLOCK" use_name_for_id="true">Unlock</message>
+      <message name="IDS_TABAREA_SCENE_MATERIALS" use_name_for_id="true">Sources</message>
+      <message name="IDS_TABAREA_MODEL_TYPE_H" use_name_for_id="true">Scenes</message>
+      <message name="IDS_TABAREA_MODEL_TYPE_H_GUIDE" use_name_for_id="true">Landscape</message>
+      <message name="IDS_TABAREA_MODEL_TYPE_V" use_name_for_id="true">Portrait Model</message>
+      <message name="IDS_TABAREA_MODEL_TYPE_V_GUIDE" use_name_for_id="true">Portrait</message>
+      <message name="IDS_TABAREA_MODEL_BUTTON_GUIDE" use_name_for_id="true">直播姬支持竖屏开播啦~观众姥爷们观看体验更佳哦~</message>
+      <message name="IDS_TABAREA_MODEL_PREVIEW_GUIDE" use_name_for_id="true">点击这里可查看观众视角的直播间效果哦~</message>
+      <message name="IDS_TABAREA_MODEL_LAYOUT_SUGGESTION" use_name_for_id="true">Portrait model layout suggestion</message>
+      <message name="IDS_TABAREA_SCENE_ADD_MATERIALS" use_name_for_id="true">Sources</message>
+      <message name="IDS_TABAREA_SCENE_PLUGIN" use_name_for_id="true">Plugin</message>
+      <message name="IDS_TABAREA_SCENE_CLEAR_MATERIALS" use_name_for_id="true">Clear</message>
+      <message name="IDS_TABAREA_MODEL_TYPE_SWITCH_GUIDE" use_name_for_id="true">Switch</message>
+
+
+      <message name="IDS_CONTENTMENU_ONETOONE" use_name_for_id="true">Original Size</message>
+      <message name="IDS_CONTENTMENU_FULLSCREEN" use_name_for_id="true">Fit to screen</message>
+      <message name="IDS_CONTENTMENU_DELCUR" use_name_for_id="true">Remove</message>
+      <message name="IDS_CONTENTMENU_TOTOP" use_name_for_id="true">Move to Top</message>
+      <message name="IDS_CONTENTMENU_TOBOTTOM" use_name_for_id="true">Move to Bottom</message>
+      <message name="IDS_CONTENTMENU_ATTR" use_name_for_id="true">Properties</message>
+      <message name="IDS_CONTENTMENU_INTERACTION" use_name_for_id="true">Interaction</message>
+      <message name="IDS_CONTENTMENU_INTERACTION_WITH" use_name_for_id="true">Interaction with '%ls'</message>
+
+      <message name="IDS_STATUS_AUDIENCE_UNIT_1E4" use_name_for_id="true">
+        w
+      </message>
+
+      <message name="IDS_DANMAKU_GOVERNOR" use_name_for_id="true">[governor]</message>
+      <message name="IDS_DANMAKU_ADMIRAL" use_name_for_id="true">[admiral]</message>
+      <message name="IDS_DANMAKU_CAPTAIN" use_name_for_id="true">[captain]</message>
+      <message name="IDS_DANMAKU_BUY" use_name_for_id="true">[buy]</message>
+
+      <!-- Danmaku history -->
+      <message name="IDS_DANMAKU_HISTORY_MYSELF" use_name_for_id="true">[主播]</message>
+      <message name="IDS_DANMAKU_HISTORY_MANAGE" use_name_for_id="true">[房管]</message>
+      <message name="IDS_DANMAKU_HISTORY_SVIP" use_name_for_id="true">[年费老爷]</message>
+      <message name="IDS_DANMAKU_HISTORY_VIP" use_name_for_id="true">[月费老爷]</message>
+      <message name="IDS_DANMAKU_HISTORY_GIFT" use_name_for_id="true">[礼物提示]</message>
+
+      <message name="IDS_DANMAKUHIME_FLAG_LOCAL" use_name_for_id="true">L</message>
+      <message name="IDS_DANMAKUHIME_STATUS_UPLOAD_QUALITY_DEFAULT" use_name_for_id="true">Quality:</message>
+      <message name="IDS_DANMAKUHIME_STATUS_UPLOAD_QUALITY_BEST" use_name_for_id="true">Best</message>
+      <message name="IDS_DANMAKUHIME_STATUS_UPLOAD_QUALITY_CLEAR" use_name_for_id="true">Clear</message>
+      <message name="IDS_DANMAKUHIME_STATUS_UPLOAD_QUALITY_SLIGHTLY_BLURRED" use_name_for_id="true">Slightly</message>
+      <message name="IDS_DANMAKUHIME_STATUS_UPLOAD_QUALITY_BLURRED" use_name_for_id="true">Blurred</message>
+      <message name="IDS_DANMAKUHIME_STATUS_UPLOAD_QUALITY_SERIOUSLY_BLURRED" use_name_for_id="true">Seriously</message>
+      <message name="IDS_DANMAKUHIME_TOOLTIP_SETTING" use_name_for_id="true">Settings</message>
+      <message name="IDS_DANMAKUHIME_DMK_REGION_TIPS" use_name_for_id="true">This region shows entering, danmaku, gifts, and other interactive infomation.</message>
+
+      <!-- Recording -->
+    <message name="IDS_RECORDING_START_FAILED" use_name_for_id="true">
+      Start recording failed!
+    </message>
+    <message name="IDS_RECORDING_TIP_STARTING" use_name_for_id="true">Preparing...
+    </message>
+    <message name="IDS_RECORDING_TIP_UNKNOWN" use_name_for_id="true">
+      Unknown error
+    </message>
+    <message name="IDS_RECORDING_TIP_UNSUPPORTED" use_name_for_id="true">
+      Unsupported
+    </message>
+    <message name="IDS_RECORDING_TIP_NOSPACE" use_name_for_id="true">
+      No enough space
+    </message>
+    <message name="IDS_RECORDING_TIP_FILEPATH" use_name_for_id="true">
+      Recording file saved
+    </message>
+    <message name="IDS_RECORDING_TIP_STOPPING" use_name_for_id="true">
+      Stopping...
+    </message>
+    <message name="IDS_RECORDING_TIP_FILENOTEXISTS" use_name_for_id="true">
+      Recording file is not saved, possibly due to insufficient recording duration
+    </message>
+    <message name="IDS_RECORDING_TIP_NOTE" use_name_for_id="true">
+      NOTE:if you are using the NVENC or AMD encoder,make sure your video drivers are up to date
+    </message>
+
+    <!-- Recording -->
+    <message name="IDS_STREAMING_START_FAILED" use_name_for_id="true">
+      Start streaming failed!
+    </message>
+    <message name="IDS_STREAMING_GET_LIVE_STATUS_ERROR" use_name_for_id="true">
+      Cannot retrieve live-room data, please check your network and make sure your live-room has been activated.
+    </message>
+    <message name="IDS_STREAMING_TIP_STARTING" use_name_for_id="true">Preparing...</message>
+    <message name="IDS_STREAMING_TIP_UNKNOWN" use_name_for_id="true">
+      Unknown error
+    </message>
+    <message name="IDS_STREAMING_TIP_BAD_PATH" use_name_for_id="true">
+      Incorrect server address
+    </message>
+    <message name="IDS_STREAMING_TIP_CONNECT_FAILED" use_name_for_id="true">
+      Connecting failed
+    </message>
+    <message name="IDS_STREAMING_TIP_INVALID_STREAM" use_name_for_id="true">
+      Cannot connect to the stream
+    </message>
+    <message name="IDS_STREAMING_TIP_DISCONNECTED" use_name_for_id="true">
+      Disconnected
+    </message>
+    <message name="IDS_STREAMING_TIP_STOPPING" use_name_for_id="true">Disconnecting...</message>
+    <message name="IDS_STREAMING_TIP_RESTREAMING" use_name_for_id="true">
+      Restreaming...
+    </message>
+    <message name="IDS_STREAMING_BAD_CUSTOM_SERVER" use_name_for_id="true">
+      Bad custom streaming server settings
+    </message>
+    <message name="IDS_STREAMING_INVALID_MID_AND_CHANNEL" use_name_for_id="true">
+      Room id and channel id error
+    </message>
+    <message name="IDS_STREAMING_INVALID_MID" use_name_for_id="true">
+      Room id error
+    </message>
+    <message name="IDS_STREAMING_INVALID_CHANNEL" use_name_for_id="true">
+      Channel id error
+    </message>
+
+      <message name="IDS_ESC_CLOSE_PREVIEW_PROJECTOR" use_name_for_id="true">
+        ESC to close preview projector
+      </message>
+
+      <!-- SOURCE_DRAGMODE -->
+      <message name="IDS_SOURCE_DRAGMODE_ZOOM" use_name_for_id="true">Scaling</message>
+      <message name="IDS_SOURCE_DRAGMODE_STRETCH" use_name_for_id="true">Stretch</message>
+      <message name="IDS_SOURCE_DRAGMODE_STRETCH_TIP" use_name_for_id="true">(shift + left btn drag)</message>
+      <message name="IDS_SOURCE_DRAGMODE_CUT" use_name_for_id="true">Crop</message>
+      <message name="IDS_SOURCE_DRAGMODE_CUT_TIP" use_name_for_id="true">(alt + left btn drag)</message>
+
+      <!-- SRCPROP_CAMERA -->
+      <message name="IDS_SRCPROP_COMMON_TIPS_TITLE" use_name_for_id="true">Tips</message>
+      <message name="IDS_SRCPROP_COMMON_OK" use_name_for_id="true">OK</message>
+      <message name="IDS_SRCPROP_COMMON_CANCEL" use_name_for_id="true">Cancel</message>
+      <message name="IDS_SRCPROP_COMMON_SOURCENAME" use_name_for_id="true">Source Names</message>
+      <message name="IDS_SRCPROP_COMMON_MUTED_TIP" use_name_for_id="true">Mute</message>
+      <message name="IDS_SRCPROP_COMMON_MUTED_CANCEL_TIP" use_name_for_id="true">Muted cancel</message>
+
+        <!-- SRCPROP_CAMERA -->
+      <message name="IDS_SRCPROP_CAMERA_CAPTION" use_name_for_id="true">Camera</message>
+      <message name="IDS_SRCPROP_CAMERA_DEVICE_NOSELECT" use_name_for_id="true">Not selected</message>
+      <message name="IDS_SRCPROP_CAMERA_DIRECTION" use_name_for_id="true">Rotate Camera Output</message>
+      <message name="IDS_SRCPROP_CAMERA_ROTATE_ANGLE" use_name_for_id="true">rotate angle</message>
+      <message name="IDS_SRCPROP_CAMERA_ROTATE_RIGHT" use_name_for_id="true">Rotate 90°</message>
+      <message name="IDS_SRCPROP_CAMERA_DIR_HORFLIP" use_name_for_id="true">Flip Horizontal</message>
+      <message name="IDS_SRCPROP_CAMERA_DIR_VERFLIP" use_name_for_id="true">Flip Vertical</message>
+      <message name="IDS_SRCPROP_CAMERA_AUTO_BEAUTY" use_name_for_id="true">Auto Beauty</message>
+      <message name="IDS_SRCPROP_CAMERA_AUTO_BEAUTY_ON" use_name_for_id="true">Auto Beauty On</message>
+      <message name="IDS_SRCPROP_CAMERA_RESOLUTION" use_name_for_id="true">Resolution: </message>
+      <message name="IDS_SRCPROP_CAMERA_RESOLUTION_NOTUSED" use_name_for_id="true">Default</message>
+      <message name="IDS_SRCPROP_CAMERA_AUDIOOUTPUT" use_name_for_id="true">Audio output: </message>
+      <message name="IDS_SRCPROP_CAMERA_AUDIOOUTPUT_STREAM" use_name_for_id="true">Output to pull stream</message>
+      <message name="IDS_SRCPROP_CAMERA_AUDIOOUTPUT_DIRECTSOUND" use_name_for_id="true">Play with DirectSound (more efficient in sound processing, only recommended for capture card)</message>
+      <message name="IDS_SRCPROP_CAMERA_AUDIOOUTPUT_WAVEOUT" use_name_for_id="true">Play with WaveOut (more compatible, only recommended for capture card)</message>
+      <message name="IDS_SRCPROP_CAMERA_AUDIO_TIP" use_name_for_id="true">Adjust volume for microphone on camera here.</message>
+      <message name="IDS_SRCPROP_CAMERA_RESOLUTION_TIP" use_name_for_id="true">
+        Use resolution from camera or video card by default, change it might cause image being displayed incorrectly.</message>
+      <message name="IDS_SRCPROP_CAMERA_SETTING_TIP" use_name_for_id="true">Use the feature to perform portrait segmentation with a green screen</message>
+      <message name="IDS_SRCPROP_CAMERA_ADDSRC_BEAUTY_TIPS" use_name_for_id="true">点击摄像头源的编辑按钮，可以尝试更多的「美颜」和「贴纸」哟～</message>
+
+      <!-- source_audio_base_view.cpp -->
+      <message name="IDS_SRCPROP_CAMERA_AUDIO_INPUT_DEVICE" use_name_for_id="true">Input Devices</message>
+      <message name="IDS_SRCPROP_CAMERA_AUDIO_INPUT_VOLUME" use_name_for_id="true">Input Volume</message>
+      <message name="IDS_SRCPROP_CAMERA_AUDIO_INPUT_SETTING" use_name_for_id="true">Monitor Settings</message>
+      <message name="IDS_SRCPROP_CAMERA_AUDIO_INPUT_SETTING_TIP" use_name_for_id="true">Monitoring controls whether to play audio locally and outputting controls whether to play audio in a livestreaming channel.</message>
+      <message name="IDS_SRCPROP_CAMERA_AUDIO_OUTPUT" use_name_for_id="true">Audio Output</message>
+      <message name="IDS_SRCPROP_CAMERA_AUDIO_DEFAULT_DEVICE" use_name_for_id="true">Default devices</message>
+
+      <!-- source_filter_base_property_view.cpp -->
+      <message name="IDS_SRCPROP_FILTER_BASE_PROPERTY_VIEW_FILTER_COLOR" use_name_for_id="true">Remove Color</message>
+      <message name="IDS_SRCPROP_FILTER_BASE_PROPERTY_VIEW_CUSTOM" use_name_for_id="true">Custom</message>
+      <message name="IDS_SRCPROP_FILTER_BASE_PROPERTY_VIEW_SIMILARITY" use_name_for_id="true">Similarity</message>
+      <message name="IDS_SRCPROP_FILTER_BASE_PROPERTY_VIEW_SMOOTHNESS" use_name_for_id="true">Smoothness</message>
+      <message name="IDS_SRCPROP_FILTER_BASE_PROPERTY_VIEW_TRANSPARENCY" use_name_for_id="true">Transparency</message>
+      <message name="IDS_SRCPROP_FILTER_BASE_PROPERTY_VIEW_MAIN_COLOR_OVERFLOW" use_name_for_id="true">Main Color Spill</message>
+
+      <!-- SRCPROP_MONITOR -->
+      <message name="IDS_SRCPROP_MONITOR_CAPTION" use_name_for_id="true">Display</message>
+      <message name="IDS_SRCPROP_MONITOR_CAPTURE_MOUSE" use_name_for_id="true">Show Pointer</message>
+      <message name="IDS_SRCPROP_MONITOR_SELETE" use_name_for_id="true">Select Monitors</message>
+
+      <!-- SRCPROP_WINDOW -->
+      <message name="IDS_SRCPROP_WINDOW_CAPTION" use_name_for_id="true">Window</message>
+      <message name="IDS_SRCPROP_WINDOW_CAPTURE_MOUSE" use_name_for_id="true">Show Pointer</message>
+      <message name="IDS_SRCPROP_WINDOW_COMPATIBLE_MODE" use_name_for_id="true">Window Area Mode</message>
+      <message name="IDS_SRCPROP_WINDOW_SLI_MODE" use_name_for_id="true">Compatible Graphics Cards Mode</message>
+      <message name="IDS_SRCPROP_WINDOW_AERO_SWITCH" use_name_for_id="true">Aero Switch</message>
+      <message name="IDS_SRCPROP_WINDOW_AERO_ERROR_TITLE" use_name_for_id="true">Error</message>
+      <message name="IDS_SRCPROP_WINDOW_AERO_ERROR_TEXT" use_name_for_id="true">Operation failed on this version of Windows.</message>
+      <message name="IDS_SRCPROP_WINDOW_CAPTURE_MODEL" use_name_for_id="true">Snap Method</message>
+      <message name="IDS_SRCPROP_WINDOW_CAPTURE_MODEL_AUTO" use_name_for_id="true">Auto</message>
+      <message name="IDS_SRCPROP_WINDOW_CAPTURE_MODEL_BITBLT" use_name_for_id="true">BitBlt (Windows 7 or later)</message>
+      <message name="IDS_SRCPROP_WINDOW_CAPTURE_MODEL_WINDOWS" use_name_for_id="true">Windows graphics capture (Windows10 version 1903 or later)</message>
+
+      <message name="IDS_SRCPROP_WINDOW_SELECT_WINDOW"  use_name_for_id="true">Select Window</message>
+      <message name="IDS_SRCPROP_WINDOW_SELECT_WINDOW_WARNING"  use_name_for_id="true">* Open the window you want to add first.</message>
+      <message name="IDS_SRCPROP_WINDOW_ADVANCE_SETTING" use_name_for_id="true">Advanced Settings</message>
+      <message name="IDS_SRCPROP_WINDOW_ADVANCE_SETTING_WARNING" use_name_for_id="true">Try this mode when capture fails</message>
+      <message name="IDS_SRCPROP_WINDOW_SLI_MODE_WARNING" use_name_for_id="true">Try this mode when failing to capture game sources on multiple graphics cards</message>
+      <message name="IDS_SRCPROP_WINDOW_AERO_SWITCH_TITLE" use_name_for_id="true">Switch to Aero Mode</message>
+      <message name="IDS_SRCPROP_WINDOW_AERO_SWITCH_WARNING" use_name_for_id="true">Try this mode when window capture fails after disabling Windows Aero</message>
+      <message name="IDS_SRCPROP_WINDOW_CAPTURE_MODEL_TITLE" use_name_for_id="true">Capture Method</message>
+
+      <!-- SRCPROP_FFMPEG -->
+      <message name="IDS_SRCPROP_FFMPEG_CAPTION" use_name_for_id="true">Media Source</message>
+      <message name="IDS_SRCPROP_FFMPEG_LOOP" use_name_for_id="true">Loop</message>
+      <message name="IDS_SRCPROP_FFMPEG_TIP" use_name_for_id="true">Add pull stream addresses or local files</message>
+      <message name="IDS_SRCPROP_FFMPEG_STREAM_OR_FILE" use_name_for_id="true">Stream Pulling/File</message>
+
+      <!-- SRCPROP_TEXT -->
+      <message name="IDS_SRCPROP_TEXT_CAPTION" use_name_for_id="true">Text</message>
+      <message name="IDS_SRCPROP_TEXT_LOADFILE" use_name_for_id="true">Read from Files</message>
+      <message name="IDS_SRCPROP_TEXT_BROWSE" use_name_for_id="true">Browse</message>
+      <message name="IDS_SRCPROP_TEXT_FONT" use_name_for_id="true">Font</message>
+      <message name="IDS_SRCPROP_TEXT_FONT_SIZE" use_name_for_id="true">10#12#14#16#18#20#24#28#32#36#48#72#</message>
+      <message name="IDS_SRCPROP_TEXT_DEFAULT" use_name_for_id="true">Default</message>
+      <message name="IDS_SRCPROP_TEXT_BOLD" use_name_for_id="true">Bold</message>
+      <message name="IDS_SRCPROP_TEXT_ITALIC" use_name_for_id="true">Italic</message>
+      <message name="IDS_SRCPROP_TEXT_BOLD_ITALIC" use_name_for_id="true">Bold + Italic</message>
+      <message name="IDS_SRCPROP_TEXT_OUTLINE" use_name_for_id="true">Stroke</message>
+      <message name="IDS_SRCPROP_TEXT_USE_OUTLINE" use_name_for_id="true">Enable Stroke</message>
+      <message name="IDS_SRCPROP_TEXT_HORIZONTAL_SCROLL" use_name_for_id="true">Horizontal Scrolling</message>
+      <message name="IDS_SRCPROP_TEXT_VERTICAL_SCROLL" use_name_for_id="true">Vertical Scrolling</message>
+      <message name="IDS_SRCPROP_TEXT_TRANSPARENT" use_name_for_id="true">Opacity</message>
+      <message name="IDS_SRCPROP_TEXT_CONTAIN_SENSITIVE">包含敏感内容，请修改</message>
+      <message name="IDS_SRCPROP_TEXT_INVALID_OPERATION">操作异常，请重试</message>
+
+      <!-- SRCPROP_IMAGE -->
+      <message name="IDS_SRCPROP_IMAGE_CAPTION" use_name_for_id="true">Image</message>
+      <message name="IDS_SRCPROP_IMAGE_BROWSE" use_name_for_id="true">Browse</message>
+      <message name="IDS_SRCPROP_IMAGE_ROTATE" use_name_for_id="true">Rotate</message>
+      <message name="IDS_SRCPROP_IMAGE_ROTATE_LEFT" use_name_for_id="true">Clockwise</message>
+      <message name="IDS_SRCPROP_IMAGE_ROTATE_RIGHT" use_name_for_id="true">Counterclockwise</message>
+      <message name="IDS_SRCPROP_IMAGE_FLIP" use_name_for_id="true">Flip</message>
+      <message name="IDS_SRCPROP_IMAGE_FLIP_HORIZINTAL" use_name_for_id="true">Flip Horizontal</message>
+      <message name="IDS_SRCPROP_IMAGE_FLIP_VERTICAL" use_name_for_id="true">Flip Vertical</message>
+      <message name="IDS_SRCPROP_IMAGE_ADD_LOCAL" use_name_for_id="true">Add Local Image</message>
+      <message name="IDS_SRCPROP_IMAGE_ADD_DEFAULT_BACKGROUND" use_name_for_id="true">Add Default Background Image</message>
+      <message name="IDS_SRCPROP_IMAGE_ADVANCE_SETTING" use_name_for_id="true">Advanced Image Settings</message>
+      <message name="IDS_SRCPROP_IMAGE_DIRECTION" use_name_for_id="true">Image Orientation</message>
+      <message name="IDS_SRCPROP_IMAGE_RORATE_DEGREE" use_name_for_id="true">Angle</message>
+      <message name="IDS_SRCPROP_IMAGE_OPACITY" use_name_for_id="true">Opacity</message>
+
+      <!-- SRCPROP_ALBUM -->
+      <message name="IDS_SRCPROP_ALBUM_CAPTION" use_name_for_id="true">Album</message>
+      <message name="IDS_SRCPROP_ALBUM_TIPS" use_name_for_id="true">Livestream streamer's photos, stickers, and avatars of major followers...</message>
+      <message name="IDS_SRCPROP_ALBUM_ADD" use_name_for_id="true">Add Image</message>
+      <message name="IDS_SRCPROP_ALBUM_ADD_FILE" use_name_for_id="true">Add File</message>
+      <message name="IDS_SRCPROP_ALBUM_ADD_DIRECTORY" use_name_for_id="true">Add Catalog</message>
+      <message name="IDS_SRCPROP_ALBUM_DELETE" use_name_for_id="true">Delete</message>
+      <message name="IDS_SRCPROP_ALBUM_EMPTY" use_name_for_id="true">Clear</message>
+      <message name="IDS_SRCPROP_ALBUM_FILES_TIPS" use_name_for_id="true">Images with excessively high resolution or too many images may decrease program performance</message>
+      <message name="IDS_SRCPROP_ALBUM_TRANSITION" use_name_for_id="true">Transition</message>
+      <message name="IDS_SRCPROP_ALBUM_TRANSITION_STYLE_DEFAULT" use_name_for_id="true">Default</message>
+      <message name="IDS_SRCPROP_ALBUM_TRANSITION_STYLE_LEFT_OUT" use_name_for_id="true">Slide Left</message>
+      <message name="IDS_SRCPROP_ALBUM_TRANSITION_STYLE_RIGHT_IN" use_name_for_id="true">Push Left</message>
+      <message name="IDS_SRCPROP_ALBUM_TRANSITION_STYLE_FADE_OUT" use_name_for_id="true">Fade Out</message>
+      <message name="IDS_SRCPROP_ALBUM_PLAYTIME" use_name_for_id="true">Play Time</message>
+      <message name="IDS_SRCPROP_ALBUM_TRANSITION_TIME" use_name_for_id="true">Transition Time</message>
+      <message name="IDS_SRCPROP_ALBUM_PLAY" use_name_for_id="true">Play</message>
+      <message name="IDS_SRCPROP_ALBUM_LOOP" use_name_for_id="true">Loop</message>
+      <message name="IDS_SRCPROP_ALBUM_RANDOM" use_name_for_id="true">Random</message>
+
+      <!-- SRCPROP_COLOR -->
+      <message name="IDS_SRCPROP_COLOR_CAPTION" use_name_for_id="true">Pure Color</message>
+      <message name="IDS_SRCPROP_COLOR_COLOR" use_name_for_id="true">Color</message>
+      <message name="IDS_SRCPROP_COLOR_WIDTH" use_name_for_id="true">Width</message>
+      <message name="IDS_SRCPROP_COLOR_HEIGHT" use_name_for_id="true">Height</message>
+      <message name="IDS_SRCPROP_COLOR_TRANSPARENT" use_name_for_id="true">Transparent</message>
+
+      <!-- SRCPROP_MOBILE -->
+      <message name="IDS_SRCPROP_MOBILE_VOLUME" use_name_for_id="true">Mobile volume</message>
+
+      <!-- SRCPROP_BROWSER -->
+      <message name="IDS_SRCPROP_BROWSER_CAPTION" use_name_for_id="true">Browser</message>
+      <message name="IDS_SRCPROP_BROWSER_URL" use_name_for_id="true">URL</message>
+      <message name="IDS_SRCPROP_BROWSER_WIDTH" use_name_for_id="true">Width</message>
+      <message name="IDS_SRCPROP_BROWSER_HEIGHT" use_name_for_id="true">Height</message>
+      <message name="IDS_SRCPROP_BROWSER_CSS" use_name_for_id="true">Custom CSS</message>
+      <message name="IDS_SRCPROP_BROWSER_REFRESH" use_name_for_id="true">Refresh Current Page Cache</message>
+
+      <!-- SRCPROP_AUDIO_DEVICE -->
+      <message name="IDS_SRCPROP_AUDIO_DEVICE_MONITER" use_name_for_id="true">Audio Monitor</message>
+      <message name="IDS_SRCPROP_AUDIO_DEVICE_MONITER_NONE" use_name_for_id="true">Output sound to stream without monitoring</message>
+      <message name="IDS_SRCPROP_AUDIO_DEVICE_MONITER_ONLY" use_name_for_id="true">Output sound to stream with only monitoring</message>
+      <message name="IDS_SRCPROP_AUDIO_DEVICE_MONITER_AND_OUTPUT" use_name_for_id="true">Output sound to stream with monitoring (exercise caution because repeated sound may appear)</message>
+
+      <!-- SRCPROP_DMKHIME -->
+      <message name="IDS_SRCPROP_DMKHIME_CAPTION" use_name_for_id="true">Danmaku Hime</message>
+      <message name="IDS_SRCPROP_DMKHIME_TIPS" use_name_for_id="true">Tips: Please use split Danmaku Hime</message>
+
+      <!-- COLIVE -->
+      <message name="IDS_COLIVE_CROP_SCENE_TIP" use_name_for_id="true">Tweak cropping region</message>
+      <message name="IDS_COLIVE_MSGBOX_CANCEL" use_name_for_id="true">Cancel</message>
+      <message name="IDS_COLIVE_MSGBOX_QUIT" use_name_for_id="true">Accept</message>
+
+      <!-- LUCKYGIFT -->
+      <message name="IDS_LUCKYGIFT_INFO_STATUS_LOADING" use_name_for_id="true">Loading...</message>
+      <message name="IDS_LUCKYGIFT_INFO_STATUS_NO_RECORD" use_name_for_id="true">Nothing...</message>
+      <message name="IDS_LUCKYGIFT_INFO_STATUS_LOADING_FAILED" use_name_for_id="true">Network error. Please check your network connection…</message>
+
+      <!-- MELEE -->
+      <message name="IDS_MELEE_MSGBOX_NOTIFICATION" use_name_for_id="true">Notification</message>
+
+      <!-- SOUND_EFFECT -->
+      <message name="IDS_VOLUME_SOUND_EFFECT_CAPTION" use_name_for_id="true">Sound Effects</message>
+
+      <!-- FILEDIALOG -->
+      <message name="IDS_FILEDIALOG_IMAGE_FILTER" use_name_for_id="true">Image File</message>
+      <message name="IDS_FILEDIALOG_MEDIA_FILTER" use_name_for_id="true">Media File</message>
+      <message name="IDS_FILEDIALOG_TEXT_FILTER" use_name_for_id="true">Text File</message>
+
+
+      <!-- UGC begin -->
+      <message name="IDS_UGC_MORE" use_name_for_id="true">More</message>
+      <message name="IDS_UGC_MINIMISE" use_name_for_id="true">Minimize</message>
+      <message name="IDS_UGC_MAXIMIN" use_name_for_id="true">Maximize</message>
+      <message name="IDS_UGC_RESTORE" use_name_for_id="true">Restore</message>
+      <message name="IDS_UGC_CLOSE" use_name_for_id="true">Close</message>
+      <message name="IDS_UGC_MSGBOX_SURE" use_name_for_id="true">OK</message>
+      <message name="IDS_UGC_MSGBOX_CANCEL" use_name_for_id="true">Cancel</message>
+      <message name="IDS_UGC_MSGBOX_GETUSERINFO_FAILED" use_name_for_id="true">用户信息获取失败，请重新登录。</message>
+      <message name="IDS_UGC_MSGBOX_VIDEO_FILTER" use_name_for_id="true">Video</message>
+      <!-- UGC end -->
+
+
+      <!-- TIP_DLG -->
+      <message name="IDS_TIP_DLG_TIP" use_name_for_id="true">Tips</message>
+      <message name="IDS_TIP_DLG_TIP_INFO" use_name_for_id="true">Tip</message>
+      <message name="IDS_TIP_DLG_NAVY_ACHIEVEMENT_IKNOW" use_name_for_id="true">I know(%d)</message>
+
+      <!-- TIP_DLG_REMOVE -->
+      <message name="IDS_TIP_DLG_REMOVE_ITEM" use_name_for_id="true">Are you sure you want to delete the selected source?</message>
+
+      <!-- TIP_DLG_RENAME -->
+      <message name="IDS_TIP_DLG_RENAME_ITEM" use_name_for_id="true">Can not rename current source.</message>
+      <message name="IDS_MESSAGEBOX_CONTENTS_INVALIDFOLDER" use_name_for_id="true">directory not exists</message>
+      <message name="IDS_MESSAGEBOX_OPER_TITLE" use_name_for_id="true">
+        Tip
+      </message>
+      <message name="IDS_MESSAGEBOX_OPER_CONTENTS" use_name_for_id="true">
+        We need to restart streaming or recording for making the settings work, this will take 5-10 seconds
+      </message>
+      <message name="IDS_MESSAGEBOX_CONTENTS_CONFIRMEXIT" use_name_for_id="true">
+        Are you sure you want to exit Bililive ?
+      </message>
+      <message name="IDS_MESSAGEBOX_CONTENTS_CONFIRMLOGOUT" use_name_for_id="true">Do you want to log off?</message>
+      <message name="IDS_MESSAGEBOX_BUTTON_RESTREAM" use_name_for_id="true">
+        Confirm change
+      </message>
+
+      <message name="IDS_TOKEN_INVALID" use_name_for_id="true">登录信息已过期，请重新登录</message>
+
+      <!-- Novice-->
+      <message name="IDS_PADDING_CHAR" use_name_for_id="true">空</message>
+
+      <!-- Blacklist -->
+      <message name="IDS_DANMUKU_NAMELIST_WINDOW_TITLE" use_name_for_id="true">Names of list</message>
+
+      <message name="IDS_DANMUKU_ROOMMNGLIST_LOADING_NODATA" use_name_for_id="true">No one is set to room manager~</message>
+      <!-- Blacklist end -->
+
+      <!-- Report -->
+      <message name="IDS_DANMUKU_REPORT_TOAST_SUCCESS" use_name_for_id="true">Report danmaku successfully!</message>
+      <message name="IDS_DANMUKU_REPORT_TOAST_FAIL" use_name_for_id="true">Operation failed! Maybe you are not connected to the Internet...</message>
+      <!-- Report end -->
+
+      <!-- room admin -->
+      <message name="IDS_DANMUKU_ROOM_ADMIN_ADD_TOAST_SUCCESS" use_name_for_id="true">Room admin add successfully!</message>
+      <message name="IDS_DANMUKU_ROOM_ADMIN_ADD_TOAST_FAIL" use_name_for_id="true">Operation failed! Maybe you are not connected to the Internet...</message>
+      <!-- room admin end-->
+
+
+      <!-- LIVEHIME_TRAY_MODEL -->
+      <message name="IDS_LIVEHIME_TRAY_MODEL_MAIN_SHOW" use_name_for_id="true">Preview Mode</message>
+      <message name="IDS_LIVEHIME_TRAY_MODEL_DANMAKU_SHOW" use_name_for_id="true">Enable/Disable Bilibili Studio (Beta)</message>
+      <message name="IDS_LIVEHIME_TRAY_MODEL_EXIT" use_name_for_id="true">Exit</message>
+      <!-- LIVEHIME_TRAY_MODEL end -->
+
+      <!-- DANMUKU_BANNED -->
+      <message name="IDS_DANMUKU_BANNED_TITLE" use_name_for_id="true">Banned to Post</message>
+      <message name="IDS_DANMUKU_BANNED_TIME" use_name_for_id="true">Banned in</message>
+      <message name="IDS_DANMUKU_BANNED_LOADING" use_name_for_id="true">Loading......</message>
+      <message name="IDS_DANMUKU_BANNED_ERROR" use_name_for_id="true">Error loading!</message>
+      <message name="IDS_DANMUKU_BANNED_NO_BANNED" use_name_for_id="true">Banned unopened</message>
+      <message name="IDS_DANMUKU_BANNED_REMOVE" use_name_for_id="true">Banned remove</message>
+      <message name="IDS_DANMUKU_BANNED_THIS_LIVE" use_name_for_id="true">Banned this live</message>
+      <message name="IDS_DANMUKU_BANNED_BEGIN_TIPS" use_name_for_id="true">All users will not be able to send the bullet screen after opening</message>
+      <message name="IDS_DANMUKU_BANNED_END_TIPS" use_name_for_id="true">All users will not be able to send the bullet screen after opening</message>
+      <message name="IDS_DANMUKU_BANNED_TOAST_UNOPENED" use_name_for_id="true">You can open the forbidden function only after start streaming~</message>
+      <message name="IDS_DANMUKU_BANNED_TOAST_ERROR" use_name_for_id="true">Error!Probably not connected to the Internet...</message>
+      <!-- DANMUKU_BANNED end -->
+
+      <!-- DANMUKU_SEARCH -->
+      <message name="IDS_DANMUKU_SEARCH_TITLE" use_name_for_id="true">搜索</message>
+      <message name="IDS_DANMUKU_SEARCH_HOLDER_TEXT" use_name_for_id="true">输入关键字或礼物名称</message>
+      <message name="IDS_DANMUKU_SEARCH_TIME_RANGE" use_name_for_id="true">时间范围</message>
+      <message name="IDS_DANMUKU_SEARCH_TIME_RANGE_ALL" use_name_for_id="true">全部</message>
+      <message name="IDS_DANMUKU_SEARCH_TIME_RANGE_WEEK" use_name_for_id="true">最近一周</message>
+      <message name="IDS_DANMUKU_SEARCH_TIME_RANGE_MONTH" use_name_for_id="true">最近一个月</message>
+      <message name="IDS_DANMUKU_SEARCH_TIME_RANGE_QUARTER" use_name_for_id="true">最近三个月</message>
+      <!-- DANMUKU_SEARCH end -->
+
+      <!-- VOICELINK -->
+      <message name="IDS_VOICELINK_SETTING_CUSTOM" use_name_for_id="true">Custom</message>
+      <!-- VOICELINK end -->
+
+      <!-- VTUBER begin -->
+      <message name="IDS_VTUBER_GUIDE_BUBBLE" use_name_for_id="true">直播姬支持虚拟形象啦！快来试试吧~</message>
+      <!-- VTUBER end -->
+
+      <!-- TOOL v4.0-->
+      <message name="IDS_TOOL_TITLE_NAME" use_name_for_id="true">直播工具</message>
+      <!-- TOOL end-->
+
+      <!-- LOGIN begin -->
+      <!-- 输入提示 -->
+      <message name="IDS_LOGIN_UID_HINT" use_name_for_id="true">mobile/email</message>
+      <message name="IDS_LOGIN_PWD_HINT" use_name_for_id="true">password</message>
+
+      <!-- 链接 -->
+      <message name="IDS_LOGIN_REGISTER_LINK" use_name_for_id="true">
+        Register
+      </message>
+      <message name="IDS_LOGIN_LOST_LINK" use_name_for_id="true">
+        Lost
+      </message>
+
+      <!-- checkbox -->
+      <message name="IDS_LOGIN_REMEMBER_PWD" use_name_for_id="true">
+        Remember
+      </message>
+      <message name="IDS_LOGIN_AUTO_LOGIN" use_name_for_id="true">
+        AutoLogin
+      </message>
+
+      <!-- captcha -->
+      <message name="IDS_LOGIN_CAPTCHA_HINT" use_name_for_id="true">
+        Captcha
+      </message>
+      <message name="IDS_LOGIN_SECURITY_VERIFY" use_name_for_id="true">
+        Security Verify
+      </message>
+      <message name="IDS_LOGIN_REFRESH" use_name_for_id="true">
+        Refresh
+      </message>
+
+      <!-- title -->
+      <message name="IDS_LOGIN_TITLE" use_name_for_id="true">Log in</message>
+
+      <!-- 输入不完整提示 -->
+      <message name="IDS_LOGIN_NO_ID" use_name_for_id="true">
+        Username required
+      </message>
+      <message name="IDS_LOGIN_NO_PASSWARD" use_name_for_id="true">
+        Password required
+      </message>
+      <message name="IDS_LOGIN_NO_CAPTCHA" use_name_for_id="true">
+        Captcha required
+      </message>
+
+      <!-- 状态 -->
+      <message name="IDS_LOGINING" use_name_for_id="true">
+        Logining...
+      </message>
+
+      <!-- button -->
+      <message name="IDS_LOGIN" use_name_for_id="true">
+        login
+      </message>
+
+      <!-- 错误提示 -->
+      <message name="IDS_LOGIN_NERWORK_BROKEN" use_name_for_id="true">
+        network broken
+      </message>
+      <message name="IDS_LOGIN_ERROR_ELSE" use_name_for_id="true">
+        Unable to connect to the server. please check the network or firewall
+      </message>
+      <message name="IDS_LOGIN_ERROR" use_name_for_id="true">
+        Login failed. please retype account/password.
+      </message>
+      <message name="IDS_LOGIN_PASSWORD_LEAK" use_name_for_id="true">
+        Password is not conform to the server, please retype!
+      </message>
+      <message name="IDS_LOGIN_PASSWORD_ERROR" use_name_for_id="true">
+        password error
+      </message>
+      <message name="IDS_LOGIN_TOKEN_ERROR" use_name_for_id="true">
+        token error
+      </message>
+      <message name="IDS_LOGIN_ABNORMAL_ACCOUNT" use_name_for_id="true">
+        The account is abnormal, please login to the web page to view and verify account information
+      </message>
+      <message name="IDS_LOGIN_ERROR_STATUS_PHONE" use_name_for_id="true">
+        The account need bind phone number
+      </message>
+      <message name="IDS_LOGIN_ERROR_STATUS_DEVICE" use_name_for_id="true">
+        The account need vertify your device
+      </message>
+      <message name="IDS_LOGIN_ERROR_STATUS_DEFAULT" use_name_for_id="true">
+        The account is abnormal
+      </message>
+
+      <!-- LOGIN end -->
+
+      <!-- captcha begin -->
+      <message name="IDS_LOGIN_PASSWORD_REPLACEMENT_CHAR" use_name_for_id="true">
+        ●
+      </message>
+      <!-- captcha end -->
+
+      <!-- third_party_streaming begin -->
+      <message name="IDS_TPS_TITLE_FULLNAME" use_name_for_id="true">第三方推流模式</message>
+      <message name="IDS_TPS_STEP_FIRST" use_name_for_id="true">获取推流地址和推流码</message>
+      <message name="IDS_TPS_STEP_SECOND" use_name_for_id="true">填入OBS等第三方推流软件</message>
+      <message name="IDS_TPS_STEP_THIRD" use_name_for_id="true">第三方推流软件点击开播</message>
+      <message name="IDS_TPS_STEP_FOURTH" use_name_for_id="true">直播姬选择分区自动开播</message>
+      <message name="IDS_TPS_COPY" use_name_for_id="true">复制</message>
+      <!-- third_party_streaming end -->
+
+      <!-- GAIN -->
+      <message name="IDS_GAIN_TXT" use_name_for_id="true">Gain</message>
+
+      <message name="IDS_TIP_LIVEROOM_LOCK" use_name_for_id="true">
+          live room is locked
+      </message>
+      <message name="IDS_LIVEROOM_CUT_MESSAGE" use_name_for_id="true">
+        Stream is cut off!
+      </message>
+
+      <!-- Runtime validation -->
+      <message name="IDS_D3D_COMPONENT_ERROR_DLG_TITLE" use_name_for_id="true">DirectX validation Failure</message>
+      <message name="IDS_D3D_COMPONENT_NOT_FOUND" use_name_for_id="true">
+          No D3DCompiler dll found! Please install DirectX first!
+      </message>
+      <message name="IDS_D3D_COMPONENT_INVALID" use_name_for_id="true">
+          Invalid D3DCompiler dll! Please remove this dll and then install correct DirectX!
+      </message>
+      <!-- Runtime validation -->
+
+      <!-- OBS Core initialization failure -->
+      <message name="IDS_INITIALIZE_OBS_CORE_ERROR_TITLE" use_name_for_id="true">Critical Failure</message>
+      <message name="IDS_INITIALIZE_OBS_CORE_ERROR_MSG" use_name_for_id="true">
+        Failed to initialize core component! Please ensure whole program has installed correctly!
+      </message>
+      <message name="IDS_VIDEO_HARDWARE_NOT_SUPPORTED" use_name_for_id="true">
+        Graphic card or driver of the graphic card is not supported!
+      </message>
+      <!-- OBS Core initialization failure -->
+
+      <!-- REALNAME_AUTH begin -->
+      <message name="IDS_REALNAME_AUTH" use_name_for_id="true">Request for access</message>
+      <!-- REALNAME_AUTH end -->
+
+	<!-- STOP_DIALOG begin -->
+	<message name="IDS_STOP_DIALOG_MSGBOX_DF_TITTLE" use_name_for_id="true">是否设置为默认生成直播回放？</message>
+	<message name="IDS_STOP_DIALOG_MSGBOX_DF_TEXT" use_name_for_id="true">后续仍可在设置项中改为“每次询问”</message>
+	<message name="IDS_STOP_DIALOG_MSGBOX_DF_CONFIRM" use_name_for_id="true">默认生成</message>
+    <message name="IDS_STOP_DIALOG_MSGBOX_MORE_THINK" use_name_for_id="true">我再想想</message>
+	<!-- STOP_DIALOG end -->
+
+    <!-- CAMERA_BEAUTY 2.0 begin -->
+    <message name="IDS_CAMERA_BEAUTY_ADJUST_CAMERA"  use_name_for_id="true">Change Quality</message>
+    <message name="IDS_CAMERA_BEAUTY_CHOICE_ANGLE"  use_name_for_id="true">Angle</message>
+    <message name="IDS_CAMERA_BEAUTY_DANMAKU_MASK"  use_name_for_id="true">Block with Flying Comments</message>
+    <message name="IDS_CAMERA_BEAUTY_DANMAKU_MASK_TEXT"  use_name_for_id="true">Human Figure Blocking-free Feature</message>
+    <message name="IDS_CAMERA_BEAUTY_DANMAKU_MASK_TIP"  use_name_for_id="true">Flying comments won't block a human figure in live stream after the feature is enabled.</message>
+
+    <message name="IDS_CAMERA_BEAUTY_CAMERA"  use_name_for_id="true">Camera</message>
+    <message name="IDS_CAMERA_BEAUTY_MAKE_UP_2" use_name_for_id="true">妆容</message>
+    <message name="IDS_CAMERA_BEAUTY_AUDIO_SETTING" use_name_for_id="true">Audio Settings</message>
+    <message name="IDS_CAMERA_BEAUTY_ERASE_BACKGROUND" use_name_for_id="true">Remove Background</message>
+
+    <message name="IDS_CAMERA_BEAUTY_TIP3" use_name_for_id="true">确定清空所有美颜效果吗？</message>
+    <message name="IDS_CAMERA_BEAUTY_RESET" use_name_for_id="true">重置</message>
+      <!-- CAMERA_BEAUTY 2.0 begin -->
+
+    <!-- CONFIG_PATH -->
+    <message name="IDS_CONFIG_UPDATE_PATH" use_name_for_id="true">人脸识别特效</message>
+    <message name="IDS_CONFIG_OTHER_PATH" use_name_for_id="true">人脸识别特效</message>
+    <message name="IDS_CONFIG_OTHER_PATH_TIP" use_name_for_id="true">人脸识别特效</message>
+
+    <!--NOTICE-->
+      <message name="IDS_NOTICE_New_ROOM_EDITTEXT" use_name_for_id="true">未填写内容时，主播公告将隐藏</message>
+      <message name="IDS_NOTICE_WINDOW_TITLE" use_name_for_id="true">设置主播公告</message>
+      <message name="IDS_NOTICE_TITLE" use_name_for_id="true">我的公告</message>
+      <message name="IDS_NOTICE_DESCRIPTION_TITLE" use_name_for_id="true">主播公告说明</message>
+      <message name="IDS_NOTICE_DESCRIPTION" use_name_for_id="true">主播公告可以向用户介绍你的直播内容与后续直播计划，能吸引小伙伴们停留</message>
+      <message name="IDS_NOTICE_DESCRIPTION_PART" use_name_for_id="true">且不错过你的每场直播噢～</message>
+      <message name="IDS_NOTICE_LIVEROOM_NEW" use_name_for_id="true">新版直播间</message>
+      <message name="IDS_NOTICE_LIVEROOM_OLD" use_name_for_id="true">旧版直播间</message>
+      <message name="IDS_NOTICE_LIVEROOM_WEB" use_name_for_id="true">网页版直播间</message>
+      <message name="IDS_NOTICE_PAGE_FLOOW" use_name_for_id="true">关注页面</message>
+      <message name="IDS_NOTICE_SERVER_CONNNECT_FAIL" use_name_for_id="true">服务连接失败，请稍后再试试~</message>
+      <message name="IDS_NOTICE_SENSITIVE_INFORMATION" use_name_for_id="true">包含敏感信息，请修改内容</message>
+      <message name="IDS_NOTICE_NOTICE_SET_SUCCESS" use_name_for_id="true">主播公告设置成功~</message>
+      <message name="IDS_NOTICE_EMPTY" use_name_for_id="true">未填写任何内容，主播公告将不展示</message>
+    <!--NOTICE-->
+
+      <!-- preset_material_background_preview_view.cpp 图片预设名字 -->
+      <message name="IDS_PRESET_MATERIAL_BACKGROUND_PREVIEW_VIEW_BACKGROUND_NAME" use_name_for_id="true">Background</message>
+      <message name="IDS_DANMAKU_INTERFACTION_SEND" use_name_for_id="true">Send</message>
+      <message name="IDS_DANMAKU_INTERFACTION_PLACEHOLDER" use_name_for_id="true">Interact with the audience</message>
+      <message name="IDS_DANMAKU_INTERFACTION_SEND_FAIL" use_name_for_id="true">Network error. Please try again later.</message>
+
+      <!-- TEMP_SET -->
+      <message name="IDS_TEMP_SET_DANMU_HUDONG" use_name_for_id="true">Activity Feed</message>
+
+      <message name="IDS_TABAREA_MATERIALS_WIDGET_TITLE" use_name_for_id="true">Add Source</message>
+
+      <message name="IDS_CONFIG_LANGUAGE_TAB" use_name_for_id="true">Languages</message>
+      <message name="IDS_CONFIG_LANGUAGE_TITLE" use_name_for_id="true">Interface Language</message>
+      
+      <!-- OPEN_LIVE -->
+      <message name="IDS_OPEN_LIVE_FAILED" use_name_for_id="true">Failed to Start Live Stream</message>
+      <message name="IDS_OPEN_LIVE_FAILED_APPLY_THAI" use_name_for_id="true">Thailand</message>
+      <message name="IDS_OPEN_LIVE_FAILED_APPLY_INDONESIA" use_name_for_id="true">Indonesia</message>
+      <message name="IDS_OPEN_LIVE_FAILED_MESSAGE" use_name_for_id="true">You cannot start live stream because your account is not granted the related permissions. To start live stream on Bilibili, click Apply for Live Streaming to submit your information. You can start live stream after approval. Thanks for your support!</message>
+      <message name="IDS_STREAMING_WARNING_NOTIFY_LAGGING" use_name_for_id="true">Laggy Live Stream</message>
+      <message name="IDS_STREAMING_WARNING_USE_HARD_ENCODE" use_name_for_id="true">The system detects that the live stream is laggy. We recommend that you close irrelevant applications or use a computer with a discrete graphics card to start your live stream.</message>
+      <message name="IDS_STREAMING_WARNING_NET_LOSS" use_name_for_id="true">The system detects that the live stream is laggy. We recommend that you check your network status.</message>
+      <message name="IDS_STREAMING_WARNING_NET_LOSS_AUTO" use_name_for_id="true">The system detects that the live stream is laggy. We recommend that you check your network status. You can select Automatic when you configure quality.</message>
+      <message name="IDS_STREAMING_WARNING_CHANGE_GAME_SETTING" use_name_for_id="true">The system detects that the live stream is laggy. We recommend that you close irrelevant software or decrease the game quality.</message>
+      <message name="IDS_STREAMING_WARNING_CHANGE_LIVEHIME_SETTING" use_name_for_id="true">The system detects that the live stream is laggy with FPS dropping. We recommend that you decrease your bitrate, resolution, and FPS. You can select Automatic when you configure quality.</message>
+      <message name="IDS_STREAMING_SETTING_TITLE" use_name_for_id="true">Push Stream Quality</message>
+      <message name="IDS_STREAMING_CHECKBOX_LAGGING" use_name_for_id="true">Notification of Laggy Live Stream</message>
+      <message name="IDS_STREAMING_CHECKBOX_LAGGING_LABEL" use_name_for_id="true">After you enable this feature, you can be notified of specific reasons for laggy live stream.</message>
+      <message name="IDS_STREAMING_SETTING_STATISTICS_LABEL" use_name_for_id="true">All Performance Metrics</message>
+      <message name="IDS_STREAMING_SETTING_STATISTICS_SEC_LABEL" use_name_for_id="true">Change in all performance metrics within seconds</message>
+      <message name="IDS_SEC_LABEL" use_name_for_id="true">Seconds</message>
+      <message name="IDS_STREAMING_SETTING_CPU_LABEL" use_name_for_id="true">CPU Utilization:</message>
+      <message name="IDS_STREAMING_SETTING_GPU_LABEL" use_name_for_id="true">GPU Utilization:</message>
+      <message name="IDS_STREAMING_SETTING_MEM_LABEL" use_name_for_id="true">Memory Usage:</message>
+      <message name="IDS_STREAMING_SETTING_P_CPU_LABEL" use_name_for_id="true">CPU Utilization of Bilibili Studio (Beta):</message>
+      <message name="IDS_STREAMING_SETTING_P_MEM_LABEL" use_name_for_id="true">Memory Usage of Bilibili Studio (Beta):</message>
+      <message name="IDS_STREAMING_SETTING_NDF_LABEL" use_name_for_id="true">Network-related FPS Drops:</message>
+      <message name="IDS_STREAMING_SETTING_EDF_LABEL" use_name_for_id="true">Encoding-related FPS Drops:</message>
+      <message name="IDS_STREAMING_SETTING_RDF_LABEL" use_name_for_id="true">Rendering-related FPS Drops:</message>
+      <message name="IDS_STREAMING_SETTING_GRAB_SAMPLING_LABEL" use_name_for_id="true">Instantaneous Sampling</message>
+      <message name="IDS_STREAMING_SETTING_HARDWARE_BTN_LABEL" use_name_for_id="true">Hardware Encoding-related</message>
+      <message name="IDS_STREAMING_SETTING_SOFTWARE_BTN_LABEL" use_name_for_id="true">Software Encoding-related</message>
+      
+      <!-- Login module -->
+      <message name="IDS_WEB_CORE_INVALID" use_name_for_id="true">Failed to initialize core components and load web pages.</message>
+      <message name="IDS_WEB_MINI_LOGIN_INFO" use_name_for_id="true">Obtaining user info...</message>
+      <message name="IDS_WEB_MINI_LOGIN_AUTO_LOGIN" use_name_for_id="true">Automatically logging in...</message>
+      
+      <!-- MAIN_VIEW -->
+      <message name="IDS_MAIN_VIEW_FILE_LOSS_LABEL" use_name_for_id="true">The system detects that required program files are missing.</message>
+      <message name="IDS_MAIN_VIEW_FILE_LOSS_LIST_LABEL" use_name_for_id="true">To solve the problem, close your anti-virus software and install Bilibili Studio (Beta) again. \ n %u missing files: \n</message>
+      <message name="IDS_MAIN_VIEW_LOGFILE_DISK" use_name_for_id="true">Locate Files</message>
+      <message name="IDS_MAIN_VIEW_FILE_LOGFILE_UPLOAD" use_name_for_id="true">One-click Upload</message>
+      <message name="IDS_MAIN_VIEW_FILE_LOGFILE_UPLOAD_FINISH" use_name_for_id="true">The log is uploaded. Thanks for your feedback.</message>
+      <message name="IDS_MAIN_VIEW_USER_AGREEMENT" use_name_for_id="true">User Agreements</message>
+      <message name="IDS_MAIN_VIEW_PRIVACY_AGREEMENT" use_name_for_id="true">Privacy Policy</message>
+      
+	    <message name="IDS_DANMAKU_INTERACTION_TIPS" use_name_for_id="true">Welcome to the live streaming studio! We encourage innovative and diversified content. We will take necessary measures to prevent and stop any contents that violate laws and regulations, local regulatory requirements, or ethical codes, infringe on the legitimate rights and interests of others or may affect the safety and health of the community from spreading in the community. In addition, such violations may be reported to the regulatory authority in accordance with applicable laws and regulations.</message>
+	    <message name="IDS_SEND_DANMAKU_PLACEHOLDER" use_name_for_id="true">Send a flying comment~</message>
+	    <message name="IDS_DANMU_NEW_MSG" use_name_for_id="true">New Flying Comments</message>
+	    <message name="IDS_DANMU_NEW" use_name_for_id="true">New</message>
+	    <message name="IDS_DANMU_GOTO_BOTTOM" use_name_for_id="true">Go to Bottom</message>
+	    <message name="IDS_START_PROMPT_TIPS" use_name_for_id="true">Send flying comments after you start your live stream.</message>
+
+      <!-- titlebar_viddup_view -->
+      <message name="IDS_TITLEBAR_MORE_LOG_SUB_MENU_FILE_LOCATE" use_name_for_id="true">Locate Files</message>
+      <message name="IDS_TITLEBAR_MORE_LOG_SUB_MENU_UPLOAD" use_name_for_id="true">One-click Upload</message>
+      <message name="IDS_TITLEBAR_MORE_OPEN_TEST_PAGE" use_name_for_id="true">Pop up Testing Web Pages</message>
+      <message name="IDS_TITLEBAR_MORE_USER_AGREEMENT" use_name_for_id="true">User Agreements</message>
+      <message name="IDS_TITLEBAR_MORE_PRIVACY" use_name_for_id="true">Privacy Policy</message>
+
+      <!-- LANGUAGE_CHANGED_RESTART -->
+      <message name="IDS_LANGUAGE_CHANGED_RESTART_TIP_TITLE" use_name_for_id="true">Restart Required</message>
+      <message name="IDS_LANGUAGE_CHANGED_RESTART_TIP_CONTENT" use_name_for_id="true">To apply your change, restart AppName. Do you want to restart AppName?</message>
+
+      <!-- SELECT_FILE_DIALOG -->
+      <message name="IDS_SELECT_FILE_DIALOG_PATH_TOO_LONG" use_name_for_id="true">The selected file path is too long.</message>
+      <message name="IDS_SELECT_FILE_DIALOG_PATH_INVALID" use_name_for_id="true">Invalid file path!</message>
+      <message name="IDS_SELECT_FILE_DIALOG_PATH_ERROR_FORMAT" use_name_for_id="true">The %d error occurred while selecting the file.</message>
+
+      <message name="IDS_CLEAR_ALL_ADDED_SOURCE" use_name_for_id="true">Do you want to clear all sources in this scenario?</message>
+      <message name="IDS_SCENE_EMPTY_PLACEHOLDER" use_name_for_id="true">Add Source</message>
+      
+      <!-- User info -->
+      <message name="IDS_LIVEHIME_MY_LIVE_ROOM_ID_LABEL" use_name_for_id="true">LiveRoom ID</message>
+      <message name="IDS_LIVEHIME_MY_UID_LABEL" use_name_for_id="true">UID</message>
+
+	  <message name="IDS_LEFT_CLICK_SELECT_COLOR" use_name_for_id="true">Left-click to select a color</message>
+		
+    </messages>
+
+  </release>
+</grit>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{9B20E406-19DB-4A1B-9C36-9F6CBC44A42A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>bililiveobsplugin</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(SolutionDir)path-config.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\..\build\$(Platform)\$(Configuration)\plugins\</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\..\build\$(Platform)\$(Configuration)\plugins\</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\build\$(Platform)\$(Configuration)\plugins\</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\build\$(Platform)\$(Configuration)\plugins\</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;BILILIVEOBSPLUGIN_EXPORTS;_WINDOWS;_USRDLL;_X86_;NOMINMAX;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)..;$(OBSDir);$(OBSDir)libobs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <ImportLibrary>$(OutDir)lib\obs\$(TargetName).lib</ImportLibrary>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>dbghelp.lib;kernel32.lib;psapi.lib;$(OBSCMakeDir)libobs\$(Configuration)\obs.lib;$(OBSCMakeDir)UI\obs-frontend-api\$(Configuration)\obs-frontend-api.lib;$(SolutionDir)..\build\$(Platform)\$(Configuration)\lib\base.lib;$(SolutionDir)..\build\$(Platform)\$(Configuration)\lib\ipc.lib;$(SolutionDir)..\build\$(Platform)\$(Configuration)\lib\base_static.lib;$(SolutionDir)..\build\$(Platform)\$(Configuration)\lib\common.lib;$(SolutionDir)..\build\$(Platform)\$(Configuration)\lib\dynamic_annotations.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;BILILIVEOBSPLUGIN_EXPORTS;_WINDOWS;_USRDLL;_WIN64;_AMD64_;NOMINMAX;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;USE_VIDDUP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)..;$(OBSDir);$(OBSDir)libobs;$(SolutionDir)..\third_party\openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableSpecificWarnings>4311;4302;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <ImportLibrary>$(OutDir)lib\obs\$(TargetName).lib</ImportLibrary>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>dbghelp.lib;kernel32.lib;psapi.lib;$(OBSCMakeDir64)libobs\$(Configuration)\obs.lib;$(OBSCMakeDir64)UI\obs-frontend-api\$(Configuration)\obs-frontend-api.lib;$(SolutionDir)..\build\$(Platform)\$(Configuration)\lib\base.lib;$(SolutionDir)..\build\$(Platform)\$(Configuration)\lib\ipc.lib;$(SolutionDir)..\build\$(Platform)\$(Configuration)\lib\base_static.lib;$(SolutionDir)..\build\$(Platform)\$(Configuration)\lib\common.lib;$(SolutionDir)..\build\$(Platform)\$(Configuration)\lib\dynamic_annotations.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;BILILIVEOBSPLUGIN_EXPORTS;_WINDOWS;_USRDLL;_X86_;NOMINMAX;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)..;$(OBSDir);$(OBSDir)libobs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <ImportLibrary>$(OutDir)lib\obs\$(TargetName).lib</ImportLibrary>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>dbghelp.lib;kernel32.lib;psapi.lib;$(OBSCMakeDir)libobs\$(Configuration)\obs.lib;$(OBSCMakeDir)UI\obs-frontend-api\$(Configuration)\obs-frontend-api.lib;$(SolutionDir)..\build\$(Platform)\$(Configuration)\lib\base.lib;$(SolutionDir)..\build\$(Platform)\$(Configuration)\lib\ipc.lib;$(SolutionDir)..\build\$(Platform)\$(Configuration)\lib\base_static.lib;$(SolutionDir)..\build\$(Platform)\$(Configuration)\lib\common.lib;$(SolutionDir)..\build\$(Platform)\$(Configuration)\lib\dynamic_annotations.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;BILILIVEOBSPLUGIN_EXPORTS;_WINDOWS;_USRDLL;_WIN64;_AMD64_;NOMINMAX;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;USE_VIDDUP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)..;$(OBSDir);$(OBSDir)libobs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DisableSpecificWarnings>4311;4302;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <ImportLibrary>$(OutDir)lib\obs\$(TargetName).lib</ImportLibrary>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>dbghelp.lib;kernel32.lib;psapi.lib;$(OBSCMakeDir64)libobs\$(Configuration)\obs.lib;$(OBSCMakeDir64)UI\obs-frontend-api\$(Configuration)\obs-frontend-api.lib;$(SolutionDir)..\build\$(Platform)\$(Configuration)\lib\base.lib;$(SolutionDir)..\build\$(Platform)\$(Configuration)\lib\ipc.lib;$(SolutionDir)..\build\$(Platform)\$(Configuration)\lib\base_static.lib;$(SolutionDir)..\build\$(Platform)\$(Configuration)\lib\common.lib;$(SolutionDir)..\build\$(Platform)\$(Configuration)\lib\dynamic_annotations.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\bililive\bililive\ipc\bililive_ipc_channel.cc" />
+    <ClCompile Include="..\..\..\bililive\public\common\bililive_constants.cc" />
+    <ClCompile Include="..\..\..\bililive\public\common\bililive_paths.cc" />
+    <ClCompile Include="..\..\..\bililive\public\common\bililive_paths_win.cc" />
+    <ClCompile Include="bililive_obs_plugin.cpp" />
+    <ClCompile Include="obs_livehime_ipc\obs_livehime_ipc_service.cc" />
+    <ClCompile Include="profiles\obs_livehime_profile.cc" />
+    <ClCompile Include="threads\obs_livehime_thread_manager.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\bililive\bililive\ipc\bililive_ipc_channel.h" />
+    <ClInclude Include="..\..\..\bililive\public\bililive\livehime_obs_ipc_message.h" />
+    <ClInclude Include="..\..\..\bililive\public\common\bililive_constants.h" />
+    <ClInclude Include="..\..\..\bililive\public\common\bililive_paths.h" />
+    <ClInclude Include="..\..\..\bililive\public\common\bililive_paths_internal.h" />
+    <ClInclude Include="bililive_obs_plugin.h" />
+    <ClInclude Include="obs_livehime_ipc\obs_livehime_ipc_service.h" />
+    <ClInclude Include="profiles\obs_livehime_profile.h" />
+    <ClInclude Include="public\obs_livehime_pref_constants.h" />
+    <ClInclude Include="threads\obs_livehime_thread_manager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\base\base.vcxproj">
+      <Project>{3533742a-f6e3-a704-c5ef-17db0478af48}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\base\base_static.vcxproj">
+      <Project>{c31b8965-f53c-60c6-dddc-32af0c8c4d4a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ipc\ipc.vcxproj">
+      <Project>{a9003651-185e-964f-61d9-75d08ae908fe}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\third_party\breakpad\src\breakpad\client\windows\common.vcxproj">
+      <Project>{ea1242cf-bb42-b1ac-9b6a-a508d96d1cb7}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\obs-core\obs-core.vcxproj">
+      <Project>{512b27ce-3a5c-47ee-a0b5-17275a14400b}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

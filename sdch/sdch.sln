@@ -1,0 +1,40 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(third_party)", "..\..\third_party", "{89C816A7-DD31-D54C-C69C-5A80E0C49B77}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sdch", "sdch.vcproj", "{76AC2306-D060-6F67-B6D9-1B935D1E4DFF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "..\third_party\zlib\zlib.vcproj", "{005D15C7-6314-26A8-EC8B-257CC1E7F99B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{005D15C7-6314-26A8-EC8B-257CC1E7F99B}.Release|x64.ActiveCfg = Release|x64
+		{005D15C7-6314-26A8-EC8B-257CC1E7F99B}.Release|x64.Build.0 = Release|x64
+		{005D15C7-6314-26A8-EC8B-257CC1E7F99B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{005D15C7-6314-26A8-EC8B-257CC1E7F99B}.Debug|Win32.Build.0 = Debug|Win32
+		{005D15C7-6314-26A8-EC8B-257CC1E7F99B}.Debug|x64.ActiveCfg = Debug|x64
+		{005D15C7-6314-26A8-EC8B-257CC1E7F99B}.Debug|x64.Build.0 = Debug|x64
+		{005D15C7-6314-26A8-EC8B-257CC1E7F99B}.Release|Win32.ActiveCfg = Release|Win32
+		{005D15C7-6314-26A8-EC8B-257CC1E7F99B}.Release|Win32.Build.0 = Release|Win32
+		{76AC2306-D060-6F67-B6D9-1B935D1E4DFF}.Release|x64.ActiveCfg = Release|x64
+		{76AC2306-D060-6F67-B6D9-1B935D1E4DFF}.Release|x64.Build.0 = Release|x64
+		{76AC2306-D060-6F67-B6D9-1B935D1E4DFF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{76AC2306-D060-6F67-B6D9-1B935D1E4DFF}.Debug|Win32.Build.0 = Debug|Win32
+		{76AC2306-D060-6F67-B6D9-1B935D1E4DFF}.Debug|x64.ActiveCfg = Debug|x64
+		{76AC2306-D060-6F67-B6D9-1B935D1E4DFF}.Debug|x64.Build.0 = Debug|x64
+		{76AC2306-D060-6F67-B6D9-1B935D1E4DFF}.Release|Win32.ActiveCfg = Release|Win32
+		{76AC2306-D060-6F67-B6D9-1B935D1E4DFF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{005D15C7-6314-26A8-EC8B-257CC1E7F99B} = {89C816A7-DD31-D54C-C69C-5A80E0C49B77}
+	EndGlobalSection
+EndGlobal

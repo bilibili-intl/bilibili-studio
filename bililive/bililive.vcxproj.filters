@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="%24%28OutDir%29obj">
+      <UniqueIdentifier>{48859c85-247e-417f-bd92-a545404dbd5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{1c0f628f-0892-4d8d-9993-186e7a081b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\_excluded_files">
+      <UniqueIdentifier>{40716e7b-585e-485c-a38f-741e2596d2fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{ae7f4ece-ef54-4d5d-bf5b-dce3ff9500ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{70a0da40-f257-42c4-b8f0-6dbbf72e6736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%24%28OutDir%29obj\global_intermediate">
+      <UniqueIdentifier>{18f816f4-d402-4a10-8f65-6b5230530306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%24%28OutDir%29obj\global_intermediate\bililive_version">
+      <UniqueIdentifier>{0583f704-0a13-4a9f-9321-7e0eafd53726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public">
+      <UniqueIdentifier>{aeec85b8-2bb5-40f3-a0bc-3f7905d4eb20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public\common">
+      <UniqueIdentifier>{61806c35-a616-4cb2-85f7-152e9ddc4d58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bililive">
+      <UniqueIdentifier>{472529c7-c6b8-4631-8b93-8bee7ade7df8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{78d2a055-020c-4c6d-810e-9f145782d2f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="install">
+      <UniqueIdentifier>{0e71dcb2-1191-4eaf-aa31-86017f89a814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="install\event_tracking">
+      <UniqueIdentifier>{4fd8490c-1275-4a9e-a4ad-92343674b7c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClCompile Include="public\common\bililive_constants.cc">
+      <Filter>public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive\startup_task_runner.cc">
+      <Filter>bililive</Filter>
+    </ClCompile>
+    <ClCompile Include="common\bililive_logging.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\bililive_context.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="install\event_tracking\http_request.cpp">
+      <Filter>install\event_tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="install\run_as_reporter.cpp">
+      <Filter>install</Filter>
+    </ClCompile>
+    <ClCompile Include="install\event_tracking\simple_event_reporter.cpp">
+      <Filter>install\event_tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="app\bililive_exe_main_win.cc" />
+    <ClCompile Include="app\main_dll_loader.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="$(OutDir)obj\global_intermediate\bililive_version\bililive_exe_version.rc">
+      <Filter>%24%28OutDir%29obj\global_intermediate\bililive_version</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="app\bililive_exe.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app\resource.h" />
+    <ClInclude Include="public\common\bililive_constants.h">
+      <Filter>public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive\startup_task_runner.h">
+      <Filter>bililive</Filter>
+    </ClInclude>
+    <ClInclude Include="common\bililive_logging.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\bililive_context.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="install\event_tracking\http_request.h">
+      <Filter>install\event_tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="install\run_as_reporter.h">
+      <Filter>install</Filter>
+    </ClInclude>
+    <ClInclude Include="install\event_tracking\simple_event_reporter.h">
+      <Filter>install\event_tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="app\main_dll_loader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app\theme\bililive\danmaku.ico" />
+    <Image Include="app\theme\bililive\bililive.ico" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+#ifndef BILILIVE_BILILIVE_UI_VIEWS_CONTROLS_TABBED_PANE_TABBED_PANE_LISTENER_H
+#define BILILIVE_BILILIVE_UI_VIEWS_CONTROLS_TABBED_PANE_TABBED_PANE_LISTENER_H
+
+class TabbedPaneListener
+{
+public:
+    virtual void TabSelectedAt(int index) = 0;
+
+protected:
+    virtual ~TabbedPaneListener() {}
+};
+
+#endif  // BILILIVE_BILILIVE_UI_VIEWS_CONTROLS_TABBED_PANE_TABBED_PANE_LISTENER_H

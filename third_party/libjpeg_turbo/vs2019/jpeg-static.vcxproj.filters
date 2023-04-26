@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Object Include="..\vs2019\simd\$(Configuration)\jccolss2-64.obj">
+      <Filter>simd</Filter>
+    </Object>
+    <Object Include="..\vs2019\simd\$(Configuration)\jcgrass2-64.obj">
+      <Filter>simd</Filter>
+    </Object>
+    <Object Include="..\vs2019\simd\$(Configuration)\jcqnts2f-64.obj">
+      <Filter>simd</Filter>
+    </Object>
+    <Object Include="..\vs2019\simd\$(Configuration)\jcqnts2i-64.obj">
+      <Filter>simd</Filter>
+    </Object>
+    <Object Include="..\vs2019\simd\$(Configuration)\jcsamss2-64.obj">
+      <Filter>simd</Filter>
+    </Object>
+    <Object Include="..\vs2019\simd\$(Configuration)\jdcolss2-64.obj">
+      <Filter>simd</Filter>
+    </Object>
+    <Object Include="..\vs2019\simd\$(Configuration)\jdmerss2-64.obj">
+      <Filter>simd</Filter>
+    </Object>
+    <Object Include="..\vs2019\simd\$(Configuration)\jdsamss2-64.obj">
+      <Filter>simd</Filter>
+    </Object>
+    <Object Include="..\vs2019\simd\$(Configuration)\jfss2fst-64.obj">
+      <Filter>simd</Filter>
+    </Object>
+    <Object Include="..\vs2019\simd\$(Configuration)\jfss2int-64.obj">
+      <Filter>simd</Filter>
+    </Object>
+    <Object Include="..\vs2019\simd\$(Configuration)\jfsseflt-64.obj">
+      <Filter>simd</Filter>
+    </Object>
+    <Object Include="..\vs2019\simd\$(Configuration)\jiss2flt-64.obj">
+      <Filter>simd</Filter>
+    </Object>
+    <Object Include="..\vs2019\simd\$(Configuration)\jiss2fst-64.obj">
+      <Filter>simd</Filter>
+    </Object>
+    <Object Include="..\vs2019\simd\$(Configuration)\jiss2int-64.obj">
+      <Filter>simd</Filter>
+    </Object>
+    <Object Include="..\vs2019\simd\$(Configuration)\jiss2red-64.obj">
+      <Filter>simd</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\jcapimin.c" />
+    <ClCompile Include="..\jcapistd.c" />
+    <ClCompile Include="..\jccoefct.c" />
+    <ClCompile Include="..\jccolor.c" />
+    <ClCompile Include="..\jcdctmgr.c" />
+    <ClCompile Include="..\jchuff.c" />
+    <ClCompile Include="..\jcinit.c" />
+    <ClCompile Include="..\jcmainct.c" />
+    <ClCompile Include="..\jcmarker.c" />
+    <ClCompile Include="..\jcmaster.c" />
+    <ClCompile Include="..\jcomapi.c" />
+    <ClCompile Include="..\jcparam.c" />
+    <ClCompile Include="..\jcphuff.c" />
+    <ClCompile Include="..\jcprepct.c" />
+    <ClCompile Include="..\jcsample.c" />
+    <ClCompile Include="..\jctrans.c" />
+    <ClCompile Include="..\jdapimin.c" />
+    <ClCompile Include="..\jdapistd.c" />
+    <ClCompile Include="..\jdatadst.c" />
+    <ClCompile Include="..\jdatasrc.c" />
+    <ClCompile Include="..\jdcoefct.c" />
+    <ClCompile Include="..\jdcolor.c" />
+    <ClCompile Include="..\jddctmgr.c" />
+    <ClCompile Include="..\jdhuff.c" />
+    <ClCompile Include="..\jdinput.c" />
+    <ClCompile Include="..\jdmainct.c" />
+    <ClCompile Include="..\jdmarker.c" />
+    <ClCompile Include="..\jdmaster.c" />
+    <ClCompile Include="..\jdmerge.c" />
+    <ClCompile Include="..\jdphuff.c" />
+    <ClCompile Include="..\jdpostct.c" />
+    <ClCompile Include="..\jdsample.c" />
+    <ClCompile Include="..\jdtrans.c" />
+    <ClCompile Include="..\jerror.c" />
+    <ClCompile Include="..\jfdctflt.c" />
+    <ClCompile Include="..\jfdctfst.c" />
+    <ClCompile Include="..\jfdctint.c" />
+    <ClCompile Include="..\jidctflt.c" />
+    <ClCompile Include="..\jidctfst.c" />
+    <ClCompile Include="..\jidctint.c" />
+    <ClCompile Include="..\jidctred.c" />
+    <ClCompile Include="..\jquant1.c" />
+    <ClCompile Include="..\jquant2.c" />
+    <ClCompile Include="..\jutils.c" />
+    <ClCompile Include="..\jmemmgr.c" />
+    <ClCompile Include="..\jmemnobs.c" />
+    <ClCompile Include="..\jaricom.c" />
+    <ClCompile Include="..\jcarith.c" />
+    <ClCompile Include="..\jdarith.c" />
+    <ClCompile Include="..\simd\jsimd_x86_64.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="simd">
+      <UniqueIdentifier>{7978cf4b-edf4-48c7-b9bc-1bc58b06ed4a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

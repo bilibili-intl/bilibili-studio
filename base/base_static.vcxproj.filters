@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win">
+      <UniqueIdentifier>{17b507e8-5253-480a-a860-b3cd8a568250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{7bf432f6-c756-4d58-a037-5fae23e14603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\build">
+      <UniqueIdentifier>{d5c1b9c0-dd62-4b38-a245-3cfe775f3f65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="win\pe_image.cc">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\build\precompile.cc">
+      <Filter>..\build</Filter>
+    </ClCompile>
+    <ClCompile Include="base_switches.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="win\pe_image.h">
+      <Filter>win</Filter>
+    </ClInclude>
+    <ClInclude Include="base_switches.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="base.gyp" />
+  </ItemGroup>
+</Project>

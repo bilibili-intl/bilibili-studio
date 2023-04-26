@@ -1,0 +1,83 @@
+{
+    "view_id": 1003,
+    "type": "grid_layout",
+    "layout": {
+        "insets": {
+            "top": 16,
+            "left": 12,
+            "bottom": 12,
+            "right": 20
+        },
+        "columnset": [
+            {
+                "column_set_id": 0,
+                "columns": [
+                    {
+                        "resize_percent": 0,
+                        "size_type": 1
+                    },
+                    {
+                        "resize_percent": 0,
+                        "size_type": 1
+                    },
+                    {
+                        "resize_percent": 0,
+                        "size_type": 1
+                    },
+                    {
+                        "resize_percent": 0,
+                        "size_type": 1
+                    },
+                    {
+                        "resize_percent": 0,
+                        "size_type": 1
+                    },
+                    {
+                        "resize_percent": 0,
+                        "size_type": 1
+                    },
+                    {
+                        "width": 10
+                    },
+                    {
+                        "resize_percent": 0,
+                        "size_type": 1
+                    },
+                    {
+                        "width": 10
+                    },
+                    {
+                        "resize_percent": 0,
+                        "size_type": 1
+                    },
+                    {
+                        "resize_percent": 0,
+                        "size_type": 1
+                    },
+                    {
+                        "resize_percent": 1.0,
+                        "size_type": 1
+                    },
+                    {
+                        "resize_percent": 0,
+                        "size_type": 1
+                    },
+                    {
+                        "resize_percent": 0,
+                        "size_type": 1
+                    }
+                ]
+            }
+        ],
+        "viewset": [
+            {
+                "column_set_id": 0,
+                "rows": [
+                    {
+                        "views": [ 1004, 1005, 1006, 1007, 1008, 1009, 1015, 1010, 1016, 0, 1012, 1013 ]
+                    }
+                ]
+            }
+        ]
+    }
+}

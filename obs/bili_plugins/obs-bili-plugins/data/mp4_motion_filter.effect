@@ -1,0 +1,53 @@
+uniform float4x4 ViewProj;
+uniform float2 video_size;
+uniform float4 real_frame;
+uniform float4 alpha_frame;
+uniform texture2d image;
+
+struct VertData {
+    float4 pos : POSITION;
+    float2 uv  : TEXCOORD0;
+};
+
+VertData VS_Through(VertData v_in)
+{
+    float2 scale = real_frame.zw / video_size.xy;
+    float2 offset = real_frame.xy / video_size.xy;
+
+    VertData vert_out;
+    vert_out.pos = mul(float4(v_in.pos.xyz, 1.0), ViewProj);
+    vert_out.uv  = v_in.uv * scale + offset;
+
+    return vert_out;
+}
+
+sampler_state samplers2D {
+    Filter    = Linear;
+    AddressU  = Border;
+    AddressV  = Border;
+    BorderColor = 00000000;
+};
+
+float4 PS_Motion(VertData v_in) : TARGET
+{
+    float2 xy = v_in.uv.xy * video_size.xy - real_frame.xy;
+    float2 axy = alpha_frame.xy + alpha_frame.zw * (xy / real_frame.zw);
+    float2 auv = axy / video_size.xy;
+
+    float4 rgba = image.Sample(samplers2D, v_in.uv);
+    float4 alpha = image.Sample(samplers2D, auv);
+    rgba.w = alpha.x;
+    rgba.r = clamp(rgba.r / (alpha.x + 0.000001), 0.0, 1.0);
+    rgba.g = clamp(rgba.g / (alpha.x + 0.000001), 0.0, 1.0);
+    rgba.b = clamp(rgba.b / (alpha.x + 0.000001), 0.0, 1.0);
+    return rgba;
+}
+
+technique Draw
+{
+    pass
+    {
+        vertex_shader = VS_Through(v_in);
+        pixel_shader  = PS_Motion(v_in);
+    }
+}

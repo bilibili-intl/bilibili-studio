@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{31FF70CD-8E42-456F-A1E5-F86B08867C75}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>bililivelive2d</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\build\$(Configuration)\</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\build\$(Configuration)\</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NOMINMAX;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)..;..\third_party\live2d\include;$(ProjectDir)bililive_live2d\framework;$(SolutionDir)..\obs\obs-studio\libobs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <OutputFile>$(OutDir)lib\$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\third_party\live2d\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Live2DCubismCore_MDd.lib;d3dcompiler.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NOMINMAX;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)..;..\third_party\live2d\include;$(ProjectDir)bililive_live2d\framework;$(SolutionDir)..\obs\obs-studio\libobs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <OutputFile>$(OutDir)lib\$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\third_party\live2d\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Live2DCubismCore_MD.lib;d3dcompiler.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="bililive_live2d\framework\CubismCdiJson.cpp" />
+    <ClCompile Include="bililive_live2d\framework\CubismDefaultParameterId.cpp" />
+    <ClCompile Include="bililive_live2d\framework\CubismFramework.cpp" />
+    <ClCompile Include="bililive_live2d\framework\CubismModelSettingJson.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Effect\CubismBreath.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Effect\CubismEyeBlink.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Effect\CubismPose.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Id\CubismId.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Id\CubismIdManager.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Math\CubismMath.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Math\CubismMatrix44.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Math\CubismModelMatrix.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Math\CubismTargetPoint.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Math\CubismVector2.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Math\CubismViewMatrix.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Model\CubismMoc.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Model\CubismModel.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Model\CubismModelUserData.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Model\CubismModelUserDataJson.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Model\CubismUserModel.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Motion\ACubismMotion.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Motion\CubismExpressionMotion.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Motion\CubismMotion.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Motion\CubismMotionJson.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Motion\CubismMotionManager.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Motion\CubismMotionQueueEntry.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Motion\CubismMotionQueueManager.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Physics\CubismPhysics.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Physics\CubismPhysicsJson.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Rendering\CubismRenderer.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Rendering\D3D11\CubismOffscreenSurface_D3D11.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Rendering\D3D11\CubismRenderer_D3D11.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Rendering\D3D11\CubismRenderState_D3D11.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Rendering\D3D11\CubismShader_D3D11.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Type\csmRectF.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Type\csmString.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Utils\CubismDebug.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Utils\CubismJson.cpp" />
+    <ClCompile Include="bililive_live2d\framework\Utils\CubismString.cpp" />
+    <ClCompile Include="bililive_live2d\livehime\file_utils.cpp" />
+    <ClCompile Include="bililive_live2d\livehime\l2d_allocator.cpp" />
+    <ClCompile Include="bililive_live2d\livehime\constants.cpp" />
+    <ClCompile Include="bililive_live2d\livehime\live2d.cpp" />
+    <ClCompile Include="bililive_live2d\livehime\model.cpp" />
+    <ClCompile Include="bililive_live2d\livehime\sprite.cpp" />
+    <ClCompile Include="bililive_live2d\livehime\texture_manager.cpp" />
+    <ClCompile Include="bililive_live2d\livehime\render_view.cpp" />
+    <ClCompile Include="bililive_live2d\livehime\live2d_impl.cpp" />
+    <ClCompile Include="bililive_live2d\math\face_resolver.cpp" />
+    <ClCompile Include="bililive_live2d\obs\live2d_obs_wrapper.cpp" />
+    <ClCompile Include="bililive_live2d\obs\live2d_obs_wrapper_impl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bililive_live2d\framework\CubismCdiJson.hpp" />
+    <ClInclude Include="bililive_live2d\framework\CubismDefaultParameterId.hpp" />
+    <ClInclude Include="bililive_live2d\framework\CubismFramework.hpp" />
+    <ClInclude Include="bililive_live2d\framework\CubismFrameworkConfig.hpp" />
+    <ClInclude Include="bililive_live2d\framework\CubismModelSettingJson.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Effect\CubismBreath.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Effect\CubismEyeBlink.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Effect\CubismPose.hpp" />
+    <ClInclude Include="bililive_live2d\framework\ICubismAllocator.hpp" />
+    <ClInclude Include="bililive_live2d\framework\ICubismModelSetting.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Id\CubismId.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Id\CubismIdManager.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Live2DCubismCore.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Math\CubismMath.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Math\CubismMatrix44.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Math\CubismModelMatrix.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Math\CubismTargetPoint.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Math\CubismVector2.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Math\CubismViewMatrix.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Model\CubismMoc.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Model\CubismModel.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Model\CubismModelUserData.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Model\CubismModelUserDataJson.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Model\CubismUserModel.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Motion\ACubismMotion.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Motion\CubismExpressionMotion.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Motion\CubismMotion.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Motion\CubismMotionInternal.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Motion\CubismMotionJson.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Motion\CubismMotionManager.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Motion\CubismMotionQueueEntry.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Motion\CubismMotionQueueManager.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Physics\CubismPhysics.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Physics\CubismPhysicsInternal.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Physics\CubismPhysicsJson.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Rendering\CubismRenderer.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Rendering\D3D11\CubismNativeInclude_D3D11.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Rendering\D3D11\CubismOffscreenSurface_D3D11.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Rendering\D3D11\CubismRenderer_D3D11.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Rendering\D3D11\CubismRenderState_D3D11.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Rendering\D3D11\CubismShader_D3D11.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Rendering\D3D11\CubismType_D3D11.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Type\csmMap.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Type\csmRectF.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Type\csmString.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Type\csmVector.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Type\CubismBasicType.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Utils\CubismDebug.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Utils\CubismJson.hpp" />
+    <ClInclude Include="bililive_live2d\framework\Utils\CubismString.hpp" />
+    <ClInclude Include="bililive_live2d\livehime\file_utils.h" />
+    <ClInclude Include="bililive_live2d\livehime\l2d_allocator.h" />
+    <ClInclude Include="bililive_live2d\livehime\constants.h" />
+    <ClInclude Include="bililive_live2d\livehime\live2d.h" />
+    <ClInclude Include="bililive_live2d\livehime\model.h" />
+    <ClInclude Include="bililive_live2d\livehime\sprite.h" />
+    <ClInclude Include="bililive_live2d\livehime\texture_manager.h" />
+    <ClInclude Include="bililive_live2d\livehime\render_view.h" />
+    <ClInclude Include="bililive_live2d\livehime\live2d_impl.h" />
+    <ClInclude Include="bililive_live2d\math\face_resolver.h" />
+    <ClInclude Include="bililive_live2d\math\matrix.hpp" />
+    <ClInclude Include="bililive_live2d\math\point.hpp" />
+    <ClInclude Include="bililive_live2d\math\vector.hpp" />
+    <ClInclude Include="bililive_live2d\obs\live2d_obs_wrapper.h" />
+    <ClInclude Include="bililive_live2d\obs\live2d_obs_wrapper_impl.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

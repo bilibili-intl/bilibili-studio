@@ -1,0 +1,44 @@
+uniform float4x4 ViewProj;
+uniform texture2d image;
+
+
+sampler_state textureSampler {
+	Filter    = Linear;
+	AddressU  = Wrap;
+	AddressV  = Wrap;
+};
+
+struct VertData {
+	float4 pos : POSITION;
+	float2 uv  : TEXCOORD0;
+};
+
+VertData VS_Through(VertData v_in)
+{
+	VertData vert_out;
+	vert_out.pos = mul(float4(v_in.pos.xyz, 1.0), ViewProj);
+	vert_out.uv  = v_in.uv;
+	return vert_out;
+}
+
+sampler_state samplers2D {
+	Filter    = Linear;
+	AddressU  = Wrap;
+	AddressV  = Wrap;
+};
+
+
+
+float4 PS_Meshmodel(VertData v_in) : TARGET
+{
+  return image.Sample(samplers2D, v_in.uv);
+}
+
+technique Draw
+{
+	pass
+	{
+		vertex_shader = VS_Through(v_in);
+		pixel_shader  = PS_Meshmodel(v_in);
+	}
+}

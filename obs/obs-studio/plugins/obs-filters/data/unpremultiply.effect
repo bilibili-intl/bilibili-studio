@@ -1,0 +1,40 @@
+uniform float4x4 ViewProj;
+uniform texture2d image;
+
+struct VertData {
+	float4 pos : POSITION;
+	float2 uv  : TEXCOORD0;
+};
+
+VertData VS_Through(VertData v_in)
+{
+	VertData vert_out;
+	vert_out.pos = mul(float4(v_in.pos.xyz, 1.0), ViewProj);
+	vert_out.uv  = v_in.uv;
+	return vert_out;
+}
+
+sampler_state samplers2D {
+	Filter    = Nearest;
+	AddressU  = Wrap;
+	AddressV  = Wrap;
+};
+
+float4 PS_Unmultiply(VertData v_in) : TARGET
+{
+	float4 x = image.Sample(samplers2D, v_in.uv.xy);
+	float r = clamp(x.r / (x.a + 0.000001), 0.0, 1.0);
+	float g = clamp(x.g / (x.a + 0.000001), 0.0, 1.0);
+	float b = clamp(x.b / (x.a + 0.000001), 0.0, 1.0);
+
+	return float4(r, g, b, x.a);
+}
+
+technique Draw
+{
+	pass
+	{
+		vertex_shader = VS_Through(v_in);
+		pixel_shader  = PS_Unmultiply(v_in);
+	}
+}

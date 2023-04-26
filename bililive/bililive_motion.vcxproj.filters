@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="bililive_motion\mp4_motion.cpp" />
+    <ClCompile Include="bililive_motion\bililive_motion.cpp" />
+    <ClCompile Include="bililive_motion\media\iso\iso_media_parser.cpp">
+      <Filter>media\iso</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_motion\media\iso\box\iso_box.cpp">
+      <Filter>media\iso\box</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_motion\media\iso\box\skip_box.cpp">
+      <Filter>media\iso\box</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_motion\media\iso\box\unknown_box.cpp">
+      <Filter>media\iso\box</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_motion\media\iso\box\blpc_box.cpp">
+      <Filter>media\iso\box</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_motion\utils\unicode.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="bililive_motion\utils\Timer.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bililive_motion\mp4_motion.h" />
+    <ClInclude Include="bililive_motion\bililive_motion.h" />
+    <ClInclude Include="bililive_motion\utils\endian.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_motion\utils\endian_ml.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_motion\utils\platform_utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_motion\utils\stream_utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_motion\media\iso\iso_constants.h">
+      <Filter>media\iso</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_motion\media\iso\iso_media_parser.h">
+      <Filter>media\iso</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_motion\media\iso\box\iso_box.h">
+      <Filter>media\iso\box</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_motion\media\iso\box\skip_box.h">
+      <Filter>media\iso\box</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_motion\media\iso\box\unknown_box.h">
+      <Filter>media\iso\box</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_motion\media\iso\box\blpc_box.h">
+      <Filter>media\iso\box</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_motion\utils\unicode.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_motion\utils\Timer.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bililive_motion\mp4_resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="utils">
+      <UniqueIdentifier>{bfdd7db0-28a5-440d-aea9-247dec63dec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="media">
+      <UniqueIdentifier>{a63f2051-9776-429f-8b76-30dcca441653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="media\iso">
+      <UniqueIdentifier>{583e3832-e52e-44df-b326-a1edfecaed06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="media\iso\box">
+      <UniqueIdentifier>{5ec58215-dd9d-4a35-857a-7ac9b17ffb1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hlsl">
+      <UniqueIdentifier>{5d65cc3b-f554-4a91-ad9a-1c9e2ad64b65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="bililive_motion\hlsl\AlphaMix.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="bililive_motion\hlsl\YUV420ToRGB.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="bililive_motion\hlsl\AlphaMix_PS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="bililive_motion\hlsl\Common_VS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="bililive_motion\hlsl\YUV420ToRGB_PS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="bililive_motion\bililive_motion.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bililive_motion\hlsl\Common_VS.cso">
+      <Filter>hlsl</Filter>
+    </None>
+    <None Include="bililive_motion\hlsl\YUV420ToRGB_PS.cso">
+      <Filter>hlsl</Filter>
+    </None>
+    <None Include="bililive_motion\hlsl\AlphaMix_PS.cso">
+      <Filter>hlsl</Filter>
+    </None>
+  </ItemGroup>
+</Project>

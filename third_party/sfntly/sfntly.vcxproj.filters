@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="cpp">
+      <UniqueIdentifier>{e02f0408-0468-4ab6-bd54-2106a8259aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\src">
+      <UniqueIdentifier>{8ad040a9-ddf2-4da8-9b22-b8f6d46aca2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\src\sample">
+      <UniqueIdentifier>{a5d1d0a2-a2d5-4876-a6ae-a355c4b88a91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\src\sample\chromium">
+      <UniqueIdentifier>{1fb4a2d8-07f5-4157-9dc0-e39a7271a622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\src\sfntly">
+      <UniqueIdentifier>{30340b86-7cc3-4056-b174-4bd177df4af1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\src\sfntly\table">
+      <UniqueIdentifier>{f9a990d4-2914-417d-94a2-433dff0a14b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\src\sfntly\table\truetype">
+      <UniqueIdentifier>{65e2cbeb-98f8-4ce0-b68c-e8cc631bf454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\src\sfntly\table\core">
+      <UniqueIdentifier>{d2c78d82-28a1-45c3-8eb5-f4571341ca23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\src\sfntly\table\bitmap">
+      <UniqueIdentifier>{84b625b7-3810-4bad-966d-37cc7c840e46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\src\sfntly\data">
+      <UniqueIdentifier>{374def10-5a3b-40b6-9817-ee58115bcc95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\src\sfntly\port">
+      <UniqueIdentifier>{0cbe09c7-f465-4025-b97d-c0d2e39fe104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\src\sfntly\math">
+      <UniqueIdentifier>{0873394a-65f8-4e9c-bd0a-25848dbd7d13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cpp\src\sample\chromium\font_subsetter.cc">
+      <Filter>cpp\src\sample\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sample\chromium\subsetter_impl.cc">
+      <Filter>cpp\src\sample\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\font.cc">
+      <Filter>cpp\src\sfntly</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\font_factory.cc">
+      <Filter>cpp\src\sfntly</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\tag.cc">
+      <Filter>cpp\src\sfntly</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\byte_array_table_builder.cc">
+      <Filter>cpp\src\sfntly\table</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\font_data_table.cc">
+      <Filter>cpp\src\sfntly\table</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\generic_table_builder.cc">
+      <Filter>cpp\src\sfntly\table</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\header.cc">
+      <Filter>cpp\src\sfntly\table</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\subtable.cc">
+      <Filter>cpp\src\sfntly\table</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\table.cc">
+      <Filter>cpp\src\sfntly\table</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\table_based_table_builder.cc">
+      <Filter>cpp\src\sfntly\table</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\truetype\glyph_table.cc">
+      <Filter>cpp\src\sfntly\table\truetype</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\truetype\loca_table.cc">
+      <Filter>cpp\src\sfntly\table\truetype</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\core\cmap_table.cc">
+      <Filter>cpp\src\sfntly\table\core</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\core\font_header_table.cc">
+      <Filter>cpp\src\sfntly\table\core</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\core\horizontal_device_metrics_table.cc">
+      <Filter>cpp\src\sfntly\table\core</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\core\horizontal_header_table.cc">
+      <Filter>cpp\src\sfntly\table\core</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\core\horizontal_metrics_table.cc">
+      <Filter>cpp\src\sfntly\table\core</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\core\maximum_profile_table.cc">
+      <Filter>cpp\src\sfntly\table\core</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\core\name_table.cc">
+      <Filter>cpp\src\sfntly\table\core</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\core\os2_table.cc">
+      <Filter>cpp\src\sfntly\table\core</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\bitmap\big_glyph_metrics.cc">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\bitmap\bitmap_glyph.cc">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\bitmap\bitmap_glyph_info.cc">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\bitmap\bitmap_size_table.cc">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\bitmap\composite_bitmap_glyph.cc">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\bitmap\ebdt_table.cc">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\bitmap\eblc_table.cc">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\bitmap\ebsc_table.cc">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\bitmap\glyph_metrics.cc">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\bitmap\index_sub_table.cc">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\bitmap\index_sub_table_format1.cc">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\bitmap\index_sub_table_format2.cc">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\bitmap\index_sub_table_format3.cc">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\bitmap\index_sub_table_format4.cc">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\bitmap\index_sub_table_format5.cc">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\bitmap\simple_bitmap_glyph.cc">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\table\bitmap\small_glyph_metrics.cc">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\data\byte_array.cc">
+      <Filter>cpp\src\sfntly\data</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\data\font_data.cc">
+      <Filter>cpp\src\sfntly\data</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\data\font_input_stream.cc">
+      <Filter>cpp\src\sfntly\data</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\data\font_output_stream.cc">
+      <Filter>cpp\src\sfntly\data</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\data\growable_memory_byte_array.cc">
+      <Filter>cpp\src\sfntly\data</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\data\memory_byte_array.cc">
+      <Filter>cpp\src\sfntly\data</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\data\readable_font_data.cc">
+      <Filter>cpp\src\sfntly\data</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\data\writable_font_data.cc">
+      <Filter>cpp\src\sfntly\data</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\port\file_input_stream.cc">
+      <Filter>cpp\src\sfntly\port</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\port\lock.cc">
+      <Filter>cpp\src\sfntly\port</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\port\memory_input_stream.cc">
+      <Filter>cpp\src\sfntly\port</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\src\sfntly\port\memory_output_stream.cc">
+      <Filter>cpp\src\sfntly\port</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cpp\src\sample\chromium\font_subsetter.h">
+      <Filter>cpp\src\sample\chromium</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sample\chromium\subsetter_impl.h">
+      <Filter>cpp\src\sample\chromium</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\font.h">
+      <Filter>cpp\src\sfntly</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\font_factory.h">
+      <Filter>cpp\src\sfntly</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\tag.h">
+      <Filter>cpp\src\sfntly</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\byte_array_table_builder.h">
+      <Filter>cpp\src\sfntly\table</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\font_data_table.h">
+      <Filter>cpp\src\sfntly\table</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\generic_table_builder.h">
+      <Filter>cpp\src\sfntly\table</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\header.h">
+      <Filter>cpp\src\sfntly\table</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\subtable.h">
+      <Filter>cpp\src\sfntly\table</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\subtable_container_table.h">
+      <Filter>cpp\src\sfntly\table</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\table.h">
+      <Filter>cpp\src\sfntly\table</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\table_based_table_builder.h">
+      <Filter>cpp\src\sfntly\table</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\truetype\glyph_table.h">
+      <Filter>cpp\src\sfntly\table\truetype</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\truetype\loca_table.h">
+      <Filter>cpp\src\sfntly\table\truetype</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\core\cmap_table.h">
+      <Filter>cpp\src\sfntly\table\core</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\core\font_header_table.h">
+      <Filter>cpp\src\sfntly\table\core</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\core\horizontal_device_metrics_table.h">
+      <Filter>cpp\src\sfntly\table\core</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\core\horizontal_header_table.h">
+      <Filter>cpp\src\sfntly\table\core</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\core\horizontal_metrics_table.h">
+      <Filter>cpp\src\sfntly\table\core</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\core\maximum_profile_table.h">
+      <Filter>cpp\src\sfntly\table\core</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\core\name_table.h">
+      <Filter>cpp\src\sfntly\table\core</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\core\os2_table.h">
+      <Filter>cpp\src\sfntly\table\core</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\bitmap\big_glyph_metrics.h">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\bitmap\bitmap_glyph.h">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\bitmap\bitmap_glyph_info.h">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\bitmap\bitmap_size_table.h">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\bitmap\composite_bitmap_glyph.h">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\bitmap\ebdt_table.h">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\bitmap\eblc_table.h">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\bitmap\ebsc_table.h">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\bitmap\glyph_metrics.h">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\bitmap\index_sub_table.h">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\bitmap\index_sub_table_format1.h">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\bitmap\index_sub_table_format2.h">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\bitmap\index_sub_table_format3.h">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\bitmap\index_sub_table_format4.h">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\bitmap\index_sub_table_format5.h">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\bitmap\simple_bitmap_glyph.h">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\table\bitmap\small_glyph_metrics.h">
+      <Filter>cpp\src\sfntly\table\bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\data\byte_array.h">
+      <Filter>cpp\src\sfntly\data</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\data\font_data.h">
+      <Filter>cpp\src\sfntly\data</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\data\font_input_stream.h">
+      <Filter>cpp\src\sfntly\data</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\data\font_output_stream.h">
+      <Filter>cpp\src\sfntly\data</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\data\growable_memory_byte_array.h">
+      <Filter>cpp\src\sfntly\data</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\data\memory_byte_array.h">
+      <Filter>cpp\src\sfntly\data</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\data\readable_font_data.h">
+      <Filter>cpp\src\sfntly\data</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\data\writable_font_data.h">
+      <Filter>cpp\src\sfntly\data</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\port\atomic.h">
+      <Filter>cpp\src\sfntly\port</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\port\config.h">
+      <Filter>cpp\src\sfntly\port</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\port\endian.h">
+      <Filter>cpp\src\sfntly\port</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\port\exception_type.h">
+      <Filter>cpp\src\sfntly\port</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\port\file_input_stream.h">
+      <Filter>cpp\src\sfntly\port</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\port\input_stream.h">
+      <Filter>cpp\src\sfntly\port</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\port\lock.h">
+      <Filter>cpp\src\sfntly\port</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\port\memory_input_stream.h">
+      <Filter>cpp\src\sfntly\port</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\port\memory_output_stream.h">
+      <Filter>cpp\src\sfntly\port</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\port\output_stream.h">
+      <Filter>cpp\src\sfntly\port</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\port\refcount.h">
+      <Filter>cpp\src\sfntly\port</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\port\type.h">
+      <Filter>cpp\src\sfntly\port</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\math\fixed1616.h">
+      <Filter>cpp\src\sfntly\math</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\src\sfntly\math\font_math.h">
+      <Filter>cpp\src\sfntly\math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sfntly.gyp" />
+  </ItemGroup>
+</Project>

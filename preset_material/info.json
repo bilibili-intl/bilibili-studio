@@ -1,0 +1,4 @@
+{
+    "horiz" : ["./preset_material/bg_horiz0.png", "./preset_material/bg_horiz1.png", "./preset_material/bg_horiz2.png", "./preset_material/bg_horiz3.png", "./preset_material/bg_horiz4.png", "./preset_material/bg_horiz5.png" ],
+    "vert" : ["./preset_material/bg_vert0.png", "./preset_material/bg_vert1.png", "./preset_material/bg_vert2.png", "./preset_material/bg_vert3.png", "./preset_material/bg_vert4.png", "./preset_material/bg_vert5.png"]
+}

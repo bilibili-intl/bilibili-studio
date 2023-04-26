@@ -1,0 +1,482 @@
+﻿Terms of Service
+
+Currently updated on: 2022.06.08
+
+These Terms of Services together with its amendments and other supplementary agreements that we may provide from time to time (the “Terms”) constitute the agreement between the user (“User” or “you”) and Balaboom Pte. Ltd. (“bilibili”, “we” or “us”). bilibili will provide you with services that are available on our websites, mobile applications, and other associated platforms (“Services”) in accordance with these Terms.
+
+Please read through all of the Terms carefully before you use any of the Services, especially the sections in bold. If you do not agree to any of the Terms, please do not use our Services. If you continue to use any of the Services, you will be regarded as confirming that you can form a binding contract with bilibili and you have understood and accepted the Terms entirely.
+
+Children under the age of 13 are not allowed to register and create their own accounts for the Services. If you are 13 above but are considered a minor in your country (e.g. under 18 years old in some jurisdictions), you must have your parent or legal guardian read through these Terms with you and you represent that you have obtained the permission of your parent or guardian to create your bilibili account.
+
+Children of all ages may use the Services if such use is allowed by their parent or legal guardian. If you are a parent or legal guardian of a minor in your country, please make sure that you have read these Terms before allowing your child to create his/her own account or use the Services. You agree that you will be subject to the Terms and responsible for your child’s activities while using the Services. You agree to supervise your child’s use of the Services and make sure that your child only views the contents that are age appropriate to your children.
+
+ 
+
+1. Scope of Services
+
+1.1 Our Services shall be used only through the methods officially provided by bilibili and only within the bilibili platform in accordance with the Terms. If you register, log in, download or use any of the Services via any other means, channels, or methods or otherwise in violation of the Terms (“Unauthorized Use”), bilibili will not recognize such Unauthorized Use. Once discovered, bilibili has the right to terminate and delete the relevant account and content immediately, temporarily or permanently cease to provide you with part or all of our Services, or take other necessary measures. All the adverse consequences resulted from such Unauthorized Use shall be borne by you.
+
+1.2 Bilibili grants you only a non-transferable, non-exclusive, personal, limited, non-sublicensable license to use the Services (including the bilibili account, marks, gifts and other similar products legally obtained in accordance with bilibili’s relevant rules) in accordance with the Terms. In no event shall the aforesaid license granted be deemed to be a transfer of part or all of bilibili’s Intellectual Property Rights to you. The ownership and intellectual property rights of the Services, and its derivatives, excluding the ownership of any physical products which are purchased or otherwise obtained by you in a legal manner, shall belong to bilibili or its licensors where applicable. All other rights not expressly granted in the Terms shall be reserved by bilibili and/or its licensors and your exercise of these rights shall be subject to the prior written consent from bilibili.
+
+1.3 Under the Terms, “User” includes registered User and non-registered User. Users who have not registered and created account on bilibili but use any of our Services will automatically become bilibili’s “non-registered Users” when they download, install or use the Services.
+
+1.4 Our Services include providing you with various functions such as viewing video sharing, bullet chatting,etc.bilibili has the right, at any time and from time to time, to change, upgrade, modify, terminate, withdraw or transfer the Services in whole or in part, or any functions and applications at any time at its sole and absolute discretion. You agree that bilibili is not required to notify you of, and will not be liable to you for, such change, upgrade, modification termination, withdrawal or transfer. Bilibili may in its sole and absolute discretion to notify you by pop-up announcements, website announcements, in-app notification, etc.
+
+1.5 The Terms apply to you when you use any of the Services, unless there are separate terms of services that are applicable to a specific service on our Platform.
+
+1.6 For the avoidance of doubt, bilibili shall not at any time be obliged to provide any adaptations, enhancements and/or modifications to the Services, including without limitation any updates, patches, bug-fixes and/or upgrades to the Services, or any new versions and/or releases of the Services which incorporate new features or functions.
+
+ 
+
+2. Registration and Account Management
+
+2.1 You may use some of the Services without registering an account. However, to use the complete set of functions of the Services (especially functions like video sharing and bullet chatting,), you need to create an account on bilibili. You may create your account either with your phone number, your email address or third party accounts (e.g. Google, Facebook, Apple). You shall ensure that you provide authentic, correct, and complete information. You agree that if any of the registration information changes or is inaccurate, you will update it or notify bilibili promptly.
+
+2.2 If you register an account or use the Services on behalf of a corporate entity, you hereby represent and warrant that you have been duly authorized and have the right to represent and bind such corporate entity to the terms of the Terms.
+
+2.3 You understand and agree that to the fullest extent by applicable laws, the ownership of the account shall belong to bilibili and you only have the right to use such account subject to the Terms. The right to use an account shall only be vested in the original applicant for registration and shall not be transferred or provided to others in any manner.
+
+2.4 Any act committed under your bilibili account in the Services will be deemed as being done by you or authorized by you, and you shall, therefore, bear the corresponding legal liabilities. You shall keep your account and password secure and confidential, not let others use the Services via your account or disclose your account and/or password to others, strengthen the security of the password, and prevent your account from divulgence or theft. To the maximum extent permitted under applicable law, you understand and agree that bilibili shall not be liable to compensate any losses caused by the divulgence or theft of your bilibili account that is not attributable to bilibili. If you find or suspect that your account and/or password is used without authorization or incurs any other security issue, you shall notify us by the ways provided in Article 14 Contact Information immediately and effectively.
+
+2.5 You understand and agree that all the content of your use of the Services, including acceptance of the Terms and creation of a user account, will be represented by electronic files and all notifications from bilibili to you will be made by email, message or other electronic means. You hereby agree that bilibili may send you notifications and other relevant messages via email, application, web page or other legitimate means.
+
+2.6 You promise not to create or use bilibili account or set your icon, user profile and other information engaging in any of the following acts:
+
+2.6.1 Deliberately and fraudulently using other’s information to create a bilibili account for yourself;
+
+2.6.2 Creating a bilibili account in the name of others without the legal authorization of others;
+
+2.6.3 Impersonating, stealing or embezzling other’s bilibili account number, etc.;
+
+2.6.4 Using words, pictures, icons, etc. that may infringe upon the rights or interests of others (including but not limited to infringement of a third party’s trademark or other similar rights);
+
+2.6.5 Using offensive, abusive, defamatory, vulgar, political and other words, pictures, icons, etc. that violate laws, ethics and public order and good customs;
+
+2.6.6 Illegally occupying bilibili’s related service resources, maliciously exploit website vulnerabilities through proper or improper means;
+
+2.6.7 Other actions that infringe on the legal rights of others or violate applicable laws.
+
+2.7 You agree that without prejudice to any other rights or remedies of bilibili, bilibili has the right to prohibit your registration of an account, delete your account, and/or suspend or terminate providing some or all of the Services to you if you violate the above provisions, with any losses incurred therefrom solely borne by you.
+
+ 
+
+3. User-Generated Content
+
+3.1 The User-Generated Content on bilibili refers to any messages, articles, text, software, images, links, video, audio, music, photos, graphics, comments or any other form of content that is posted, uploaded, disseminated or otherwise transmitted by users to or via the Services (the “User-Generated Content”).
+
+3.2 For any of your User-Generated Content, you represent and warrant that you have fully complied with the bilibili Community Guidelines and especially that you are the rightful owner or licensee of such content, and have the necessary rights or licenses to grant bilibili the license to copy, modify, display, distribute, transmit and promote or otherwise use such User-Generated Content as set out in Article 3.3 below.
+
+3.3 Authorization of User-Generated Content
+
+Unless otherwise specifically agreed between you (or your licensee where applicable) and bilibili, the intellectual property rights of any User-Generated Content posted, uploaded or otherwise transmitted by you to the bilibili platform are owned by you (or your licensors where applicable). By posting, uploading or otherwise transmitting any User-Generated Content to the bilibili platforms, you hereby agree to the followings:
+
+3.3.1 You grant bilibili a permanent, irrevocable, non-exclusive, transferable, sub-licensable and royalty-free license all over the world to reproduce, modify, distribute, transmit, promote or otherwise use part or all of the User-Generated Content for (i) providing or maintaining the Services; (ii) to prevent or address service, support or technical issues; (iii) as required by law or as permitted by the Terms or our privacy policies; and (d) otherwise as expressly permitted by You.
+
+3.3.2 Bilibili reserves the right to refuse to accept, post, display, or transmit any User-Generated Content, and has the right to delete any User-Generated Content uploaded by you that are deemed to have violated the bilibili Users’ Code of Conduct or any applicable laws.
+
+3.3.3 You can voluntarily delete your User-Generated Content in whole or in part, except for the User-Generated Content that has been reposted or otherwise reproduced and distributed by other users.
+
+3.3.4 Bilibili has the right to keep a backup of the aforementioned deleted User-Generated Content and may have kept a backup, but bilibili has no obligation to keep a backup. For all risks or losses arising from your failure to store or back up such deleted User-Generated Content, you should take protective measures on your own. bilibili is not responsible for providing and is not obliged to provide you with backups or files (if any) kept inside bilibili.
+
+3.4 To improve the exposure of your User-Generated Content and to facilitate you in posting, uploading, or otherwise transmitting your User-Generated Content, you agree to authorize bilibili, to the fullest extent allowed by law, to synchronize the User-Generated Content uploaded by you to all other Services operated by bilibili under your bilibili account. Any upload, modification, sharing, posting, deletion or other operations you made to your User-Generated Content will all be synchronized across the Services provided by bilibili.
+
+3.5 You shall be solely responsible for any User-Generated Content posted, uploaded, sharing or otherwise transmitted by you to or via the Services, including but not limited to the form, content and lawfulness thereof. In particular, you shall make sure that any of your User-Generated Content shall be fully in compliance with Section 4 (Rules of Use) of the Terms and the bilibili Users’ Code of Conduct as well as applicable laws.
+
+3.6 Bilibili cannot foresee or control the User-Generated Content uploaded via the Services. You understand and agree that bilibili is an open community platform. Except for certain pages that have limits on viewing age or you have limited the scope of viewers, all Users can freely browse all public pages in bilibili. Therefore, when you post or upload any User-Generated content or chat with other users, you shall be cautious that the information that you disclose may enable strangers or your relatives or friends to identify your identity in real life and may have certain impacts on your real life.
+
+3.7 You shall be solely responsible for the lawful use of any and all User-Generated Content you access via the Services, and shall be responsible for all risks arising out of using the User-Generated Content, including risks arising from reliance on the accuracy, completeness or practicability of the content. bilibili cannot and will not assume any liability for any losses incurred by you due to the aforesaid risks. If you find any User-Generated Content that may have infringed your lawful rights and interests or is otherwise against the bilibili Users’ Code of Conduct or applicable laws, you may report to bilibili immediately. Bilibili has the right to stop the transmission of any content not compliant with the Terms and take corresponding actions in accordance with the law, including but not limited to deleting or restricting the accessibility of certain content, keeping relevant records and reporting to relevant authorities.
+
+ 
+
+4. Rules of Use
+
+4.1 When using the Services, you shall comply with the Terms, other notices, guidelines and operating rules and policies pertaining to the use of the Service which bilibili issues from time to time, in particular the bilibili Community Guidelines. These notices, guidelines and operating rules and policies will generally be issued to you via email and/or publication on bilibili’s websites or such other method of notification as may be designated by bilibili, which you acknowledge shall be sufficient notice for the purpose of this clause.
+
+4.2 You represent and warrant that you shall be acting in full compliance with the applicable laws and regulations in the country or region where you locate. You warrant and represent that bilibili will not be in violation of any relevant laws as a result of your use of the Services and/or any other actions directly or indirectly through your use of the Services.
+
+4.3 Unless otherwise specified, the Services hereunder shall be used for non-commercial purposes only. You undertake not to duplicate, copy, sell, resell or use any part of the Services or the use or acquisition thereof for any commercial purposes including but not limited to advertising.
+
+4.4 You shall not publish any content including the name, brand name, logo or sign of “balaboom”, “bilibili” or affiliates of bilibili such as “cooperated with bilibili/balaboom” and “produced by bilibili/balaboom” or otherwise that may show or indicate any cooperative relationship between you with bilibili or affiliates of bilibili, to or via the Services without the prior written authorization of bilibili. Bilibili has the right to block or delete any such content as it may see fit.
+
+4.5 You understand and agree that once bilibili reasonably believes that the your use of the Services may violate the relevant laws, the Terms or the bilibili Users’ Code of Conduct, bilibili can, in its sole and absolute discretion delete and/or block any content you have made available on your account at any time without any notice, and take any further measures as it may see fit, including without limitation to its rights and remedies at law, suspending, terminating or repossessing your account, restricting, suspending or terminating your use of all or part of the Services.
+
+ 
+
+5. Third-party Services
+
+The Services may allow you to access and/or use third party applications and functions (collectively the “Third Party Services”). These include third party functions embedded in the Services such as payment functions. Such Third Party Services may be subject to additional terms and privacy policies as may be prescribed by the relevant third parties, which you should read, understand and accept before using the Third Party Service. You understand and agree that the Third Party Services are provided by the relevant third parties and not bilibili. Unless otherwise provided, bilibili shall assume no liability for your use of such Third Party Services, nor privacy practices or policies of any such Third Party Services.
+
+ 
+
+6. Intellectual Property Rights
+
+6.1 You understand and agree that unless otherwise specifically stated by bilibili, all the intellectual property rights of the Services, including also the software, technologies, trademarks, materials, etc., used in the Services shall be owned and enjoyed by bilibili or licensed to bilibili as the case may be. Under the Terms, “Intellectual property rights” include any and all rights, and any and all other proprietary rights as specified in the patent law, copyright law, trademark law, fair trade law, trade secret law and other related laws and regulations, and any and all applications, updates, extension and restoration.
+
+6.2 Unless otherwise authorized by bilibili in writing, you shall not (and shall not allow, encourage or facilitate any third party to) modify, copy, adapt, maliciously spread, lease, lend, sell or translate the Services or any part thereof, or create derivative works related to them, and shall not obtain their source code through reverse engineering, de-compilation, disassembly or other similar acts.
+
+6.3 Users shall not delete, cover up or change bilibili’s copyright statement, trademark statement or statement of other rights without authorization. All design drawings and other drawings, product and service names of bilibili are trademarks and marks owned by bilibili and/or its affiliates or other rights holders, and you shall not use, copy or use them for other purposes without bilibili’s prior written authorization.
+
+ 
+
+7. Disclaimer, Exclusion of Liability, Indemnity
+
+7.1 Unless otherwise expressly provided in writing, all Services provided by bilibili to you are provided on an “as is” and “as is available” basis. No warranty of any kind, implied, express or statutory, including but not limited to any warranties of title, non-infringement of third party rights, merchantability, satisfactory quality, fitness for a particular purpose and freedom from computer virus or other malicious, destructive or corrupting code, agent, program or macros, is given in conjunction with the Services or any information, products and materials provided through the Services.
+
+7.2 Without prejudice to the generality of the foregoing, bilibili does not warrant:(i) the accuracy, safety, timeliness, reliability, adequacy or completeness of the Services (ii) that your use of and/or access to the Services, or the operation of the Services, will be uninterrupted, secure or free from errors or omissions or that any identified defect will be corrected; (iii) that the Services will meet your requirements or is free from any virus or other malicious, destructive or corrupting code, agent, program or macros; (iv) that use of the Services by you will not infringe rights of third parties; (v) the accuracy, completeness, correctness or reliability of any content, information or advertisement containing, obtained via or connected to the Services in any way; or (vi) that the products, services, materials and information provided through the Services are appropriate or available for use in your jurisdiction. In the event that the laws of the jurisdiction you are in do not permit or impose restrictions on the access to any content on the Services, you shall forthwith discontinue access to such content or comply with such restrictions (as the case may be).
+
+7.3 You understand and agree that bilibili is unable to guarantee that third parties will not intercept data transmitted over the Internet. As a result, bilibili does not warrant the security of any information transmitted by or to you using the Services. Your use of any content or data downloaded or obtained through the Services shall be at your own risk, and you are fully liable for any damages to your computer systems or loss of data due to such use.
+
+7.4 Under no circumstance shall bilibili be liable for any failure of or delay in providing the Services owing to internet connection failure, breakdown of computers, communication or other systems, power failure, strike, labor dispute, rebellion, insurrection, riot, lack of productivity or production materials, fire, flood, storm, explosion, force majeure, war, government act, order from an international or domestic court, or omission of a third party.
+
+7.5 bilibili shall in no event be liable for any direct, indirect, incidental, derivative or punitive damages, economic loss, business reputation or data, or other tangible or intangible losses, arising from or in connection with:
+
+Ÿ the Services are totally or partially unavailable;
+
+Ÿ any products, materials or services purchased or obtained through the Services;
+
+Ÿ unauthorized use or modification of user information;
+
+Ÿ any other matters related to the Services.
+
+7.6 You understand and agree that you download and use the Services free of charge, at your own discretion and at your own risk, and you are solely liable for all consequences arising from your downloading and use of the Services, such as the damages to your computer system or loss of data.
+
+7.7 You understand and agree that bilibili will not assume any legal liability for unrecoverable loss or reduction of your account or property in your account due to untrue authentication information.
+
+7.8 The exclusions in this Article 7and the other provisions of the Terms shall take effect to the fullest extent permitted by law. If for any reason bilibili’s liability may not be so excluded, to the maximum extent permitted under law, the maximum aggregate liability of bilibili in connection with your use or inability to use the Services and/or otherwise in connection with the Terms or any breach thereof shall not exceed USD100.
+
+ 
+
+8. Liability for Breach and Compensation
+
+8.1 If bilibili discovers or receives reports from others that you have breached the Terms, bilibili shall, without prejudice to its rights and remedies at law, have the right to delete and/or block your User-Generated Content at any time without any notice, and take such further measures as bilibili deems appropriate in its sole and absolute discretion including without limitation restricting, suspending or terminating your use of all or part of the Services, and holding you legally liable.
+
+8.2 You agree that if any claim or demand is made by any third party against bilibili, or any loss is incurred by bilibili, due to or resulting from the information uploaded or disseminated by you through the Services, your use of other functions of the Services, your breach of the Terms or your infringement of any rights or interests of others, you shall make full compensation (including without limitation reasonable attorney’s fees).
+
+ 
+
+9. Changes, Suspension or Termination of the Services
+
+9.1 You understand and agree that, bilibili may at any time and from time to time, change, upgrade, modify, terminate, withdraw or transfer the Services or any part thereof and/or any functions and applications at any time at its sole and absolute discretion. You agree that bilibili does not need to notify you of, obtain your consent or will be liable to you for such change, upgrade, modification termination, withdrawal or transfer per se. You further understand and agree that such change, upgrade, modification termination, withdrawal or transfer does not constitute bilibili’s breach of the Terms. If you do not agree to or do not accept such modification, update, replacement or upgrade, please stop using the Services promptly. If you continue to use the Services, it will be deemed that you have agreed to and accepted the modification, update, replacement, or upgrade of the Services, or any part thereof.
+
+9.2 You understand and agree that bilibili may, from time to time, carry out maintenance or servicing of devices, facilities, software and hardware with which the Services are provided, and that bilibili shall assume no liability if the Services are therefore suspended for a reasonable period. bilibili may make an announcement on the websites or applications in advance where reasonable to do so.
+
+9.3 You understand and agree that if bilibili undergoes a merger, division, acquisition, or asset transfer, bilibili may transfer the relevant assets under these Terms to a third party, and bilibili may also, upon unilateral notice to you, transfer some or all of the Services and the corresponding rights and obligations under the Terms to a third party for operation or performance.
+
+9.4 You understand and agree that if you violate relevant laws and regulations, breach the Terms and other policies of bilibili, bilibili has the right to unilaterally suspend or terminate the provision of some or all of the Services to you without notice and to request you to make compensation for any losses to the extent permitted by law.
+
+9.5 After bilibili terminates the provision of Services to you, we have the right to delete or anonymize your personal data in accordance with the requirements of applicable laws, and we also have the right to continue to save other content and information of yours on our platform in accordance with the time limit and method provided by the law.
+
+ 
+
+10. De-registration of Account
+
+10.1 You have the right to de-register your account by contacting bilibili’s customer service staff or using the de-registration channel offered by our app (except as otherwise provided by relevant laws and regulations or the Terms).
+
+10.2 Special tips: After you de-register your bilibili account, you will no longer be able to log in to and use any of the Services, including those provided in cooperation with third parties, as well as any unconsumed rights or interests (whether already generated or expected in future) under your account, and bilibili will also cease to provide you with any Services under this account at the same time. Once your bilibili account is cancelled, it cannot be restored. Please consider carefully before closing.
+
+10.3 If you decide to de-register your bilibili account, you make sure you have fully understood and confirmed that after the account is de-registered, you will no longer have account-related rights and interests, including but not limited to: (i) to the extent permitted by applicable law, all content, information, data, and records of all Services of bilibili that you have logged in to and used with the account will be deleted or anonymized, and you will no longer be able to search, access, obtain, use or retrieve them, including but not limited to any account information (avatar, nickname, signature, etc.) and any unused user privileges; (ii) The transaction records of the account will be deleted; and (iii) any rights and interests that have been generated but not consumed during the use of the Services as well as the expected rights and interests in the future under the account will no longer be valid and refundable. bilibili will cancel all the rights and interests under the account, including but not limited to your unexpired Premium rights and interests, unused coupons, your identity rights and interests in all Services of bilibili, unexpired online service content that you have purchased in the Services, and other rights and interests that have been generated but not fully consumed or those expected in the future.
+
+10.4 Before you contact us to de-register your bilibili account, in order to protect the security of your account and your property, you shall first check and ensure that the account you are de-registering meets the following conditions, including but not limited to:
+
+10.4.1 The account is registered via an official channel and complies with the Terms and related laws and regulations, and the account number is yours;
+
+10.4.2 The de-registration operation is conducted in accordance with the de-registration process required by the customer service staff;
+
+10.4.3 The account is in a safe status, including: not in the status of applying to retrieve a password or modify a mobile phone number, with no pending complaint or whistle-blowing and no other unsafe/abnormal status;
+
+10.4.4 There is no pending transaction in the account;
+
+10.4.5 There is no lucky draw initiated by you but not completed in the account;
+
+10.4.6 If the account has activated the “automatically renewed monthly/quarterly/annual package” service, you should have cancelled the service by yourself;
+
+10.4.7 Other conditions that should be met.
+
+10.5 If you have fully read and understood Articles 10.2 and 10.3, and confirmed that you have met all the conditions under Article 10.4, you can contact the customer service staff to de-register your account. The customer service staff will review the security status of your account and your usage of relevant products and services, and comprehensively determine whether your account meets the conditions.
+
+10.6 Once your bilibili account is de-registered, the Terms and other relevant agreements that you have entered into with us will be terminated accordingly (except for those that shall continue to be effective as agreed by us or according to their nature or otherwise provided by law). In addition, you understand and agree that even if your account has been de-registered, it will not mitigate or exempt you from the possible liabilities that occur before the de-registration of your account or you shall bear according to relevant laws and regulations, relevant agreements, and rules.
+
+ 
+
+11. Privacy Policy
+
+11.1 Bilibili attaches great importance to protecting Users’ personal data and personal privacy. When you download, install, launch, browse, register, log in to, or use the Services, you acknowledge and agree that bilibili will collect, use, process, disclose and protect your personal data in accordance with the “bilibili Privacy Policy” published on the digital platform of the Services (e.g. website, apps), and hence you should carefully read and fully understand the full text of the “bilibili Privacy Policy”, and when necessary, follow the guidance of the “bilibili Privacy Policy” to make the choices you deem appropriate.
+
+11.2 You should use the Services after carefully reading and fully understanding the “Privacy Policy”. Your use or continued use of the Services provided by bilibili means that you fully understand and agree to all the content of the “bilibili Privacy Policy” (including any updates or amendments to such Privacy Policy from time to time).
+
+11.3 If you have any questions or complaints about the “bilibili Privacy Policy” or your personal data processed by bilibili, you can contact us through the contact information provided in the bilibili Privacy Policy.
+
+ 
+
+12. US Trade Compliance
+
+12.1  Collection of individual's information for sanction compliance purpose.
+
+You understand and agree that (i) for trade compliance purpose, bilibili is obligated to gather information on individuals using bilibili’s services; (ii) bilibili fulfils these obligations by requiring individuals using bilibili’s services to provide the information including name, nationality, birthdate, identify number, IP address, location, and other necessary information; (iii) you agree to provide such information mentioned in item (ii) so that bilibili can confirm the submitter’s identity, and verify that the submitter is not subject to sanctions or other legal restrictions.
+
+ Prohibited use
+
+You promise not to sign up for or use bilibili account to engage in the following acts:
+
+For the purpose of conducting any action which violates, or would assist in violation of, applicable laws, regulations and rules, including restrictions under the U.S. sanctions and export control laws and regulations, or which would involve proceeds of any unlawful activity; any activity which would publish, distribute or disseminate any unlawful material or information.
+
+12.2  Ensuring compliance with applicable sanction laws
+
+You ensure that your use of bilibili's services does and at all times will comply with all applicable laws and regulations, including, without limitation, all OFAC-administered sanctions programs and any other sanctions programs.
+
+12.3  Requirements before closing a bilibili account
+
+Before you apply to us for closing your bilibili account, in order to protect your account security and property rights and interests, you must first check and ensure that the account you are applying for closing meets the following conditions, including but not limited to: there is no violation of any applicable laws and regulations, including, without limitation, all OFAC-administered sanctions programs and any other sanctions programs.
+
+12.4  Our right to decline, suspend, or close your account
+
+We reserve the right to decline to provide our services to you or immediately suspend or close your account, without notice, if we learn or reasonably suspect, in our sole discretion, that you will use or have used your account to engage in unlawful or improper activity in violation of applicable laws or regulations, and/or our other applicable terms of use, including but not limited to a violation of [Section 12.2 prohibited use]. We reserve the right at all times to monitor, review, retain and/or disclose any information as necessary to satisfy any applicable law, regulation, sanctions programs, legal process or governmental request.
+
+ 
+
+13. Application of Law and Jurisdiction
+
+13.1 The Terms and use of the Services shall be governed by and construed in accordance with Singapore law. Any dispute arising out of or in connection with the Terms, including any question regarding its existence, validity or termination, shall be referred to and finally resolved by arbitration administered by the Singapore International Arbitration Centre (“SIAC”) in accordance with the Arbitration Rules of the Singapore International Arbitration Centre (“SIAC Rules”) for the time being in force, which rules are deemed to be incorporated by reference in this Article. The seat of the arbitration shall be Singapore. The Tribunal shall consist of one arbitrator. The language of the arbitration shall be English.
+
+13.2 If any provision hereof is deemed invalid or unenforceable, such provision may be severed and the remaining provisions shall remain legally effective.
+
+ 
+
+14. Modification and Notification of the Terms
+
+14.1 bilibili has the right to modify the Terms and publish the modified version in accordance with changes in national policies, technical conditions, and product functions, etc.
+
+14.2 Once the foregoing content is officially published, bilibili will remind you of the updated content in an appropriate way (including but not limited to pop-up announcements, emails, message, in-app notification, and website announcements, etc.), so that you can keep abreast of the latest version of the Terms.
+
+14.3 You acknowledge that the name of the Terms and the heading of each section are only for the convenience of reading, and because the Terms are displayed on our platform in many places, we may take a period of time to rename all versions. During this period, the simultaneous existence of two names does not affect the meaning or interpretation of any articles in the text.
+
+14.4 The revised content will form an integral part of the Terms, and you and bilibili should also comply with it. If you have any objection to the revised Terms, please stop using the Services immediately. If you continue to use the Services, you will be deemed to have fully read, understood and accepted the revised Terms and are willing to be bound by the revised Terms.
+
+Any person who is not a party to the Terms (whether or not such person shall be named, referred to, or otherwise identified, or shall form part of a class of persons so named, referred to, or identified, in this Agreement) shall have no right whatsoever to enforce the Terms or any of its terms.
+
+ 
+
+15 Miscellaneous
+
+15.1 You may not assign your rights under the Terms without bilibili’s prior written consent. You understand and agree that bilibili may in its sole and absolute discretion transfer all or part of its rights and obligations herein to any third party.
+
+15.2 The Terms bind you, bilibili and bilibili’s respective successors in title and assigns. The Terms will continue to bind you notwithstanding any change in bilibili’s name or constitution or bilibili’s merger, consolidation or amalgamation with or into any other entity (in which case the Terms will bind you to bilibili’s successor entity).
+
+15.3 No failure or delay to exercise bilibili’s rights under the Terms shall operate as a waiver thereof nor shall such failure or delay affect bilibili’s right to enforce its rights under the Terms.
+
+15.4 bilibili’s waiver of its rights hereunder in case of any negligence or breach hereof by the User shall not be construed as its waiver of any other or subsequent similar breach by the User.
+
+15.5 The Terms shall supersede all prior oral and written agreements, arrangements, undertakings and communications reached by the parties in relation to any matters hereof.
+
+ 
+
+16. Contact Information
+
+You may contact us via the online customer service available for each Service or through email: contact@bilibili.tv.
+
+
+Privacy Policy
+
+Last updated: 31/10/2022
+
+Bilibili is a fun place where you can enjoy the videos and various user generated contents including videos, text, comments, pictures, comments, message, article, images, graphics, posts, streaming, or other forms of contents (“UGC”) of different interests uploaded by various creators and personalized recommendation of UGCs based on your selected channels, interest, creators, etc. (your “Viewing Preference”), and you can also interact with various creators and your friends such as by liking the UGC and/or videos or sharing the UGC and/or videos with your friends. Bilibili respects your right to privacy and personal data protection.
+
+This Privacy Policy (“this Policy”) explains who we are, how we collect, share and use personal information about you, and how you can exercise your privacy rights. This Privacy Policy only applies to personal information that we collect through all Bilibili products and services that are offered on our websites, APPs, TV terminal, and other applicable platforms of Bilibili (our “Services”). Our Services are offered and controlled by Balaboom Pte. Ltd.,with its registered address at 11 Collyer Quay, #17-00, The Arcade, Singapore (049317)(“we” or “us” or “Bilibili”).
+
+Your consent to this Policy or continued usage of Bilibili services will be deemed as consent and authorization for us to collect, use, store and process your personal information as per this Policy. We will update this Policy from time to time and will notify you of such in one or several manners by push notification, website announcement or pop-ups.
+
+Please read through this Privacy Policy carefully and fully understand the entire content of this Privacy Policy before using our Services. If you have any questions or concerns about our use of your personal information, please contact us using the contact details provided at the bottom of this Privacy Policy.
+
+However, if you only want to access a particular section of this Privacy Policy, then you can click on the relevant link below to jump to that section.
+1. What personal information about you that we collect and process and why?
+2. How we use your personal data?
+3. Who do we share your personal information with?
+4. The use of cookies and similar technologies
+5. How do we keep your personal information secure?
+6. International data transfers
+7. How long do we retain your personal information?
+8. Your data protection rights
+9. Information relating to children
+10. Updates to this Privacy Policy
+11. How to contact us
+
+1. What personal information about you that we collect and process and why?
+The personal information that we may collect about you broadly falls into the following categories:
+
+Information that you provide voluntarily
+Certain parts of our Services may ask you to provide personal information voluntarily. For example, we may ask you to provide your contact details in order to register an account with us. The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.
+
+1) Registration as a user of our Services
+We offer multiple choices of how you can register as a user of our Services. Please note that registration is not a prerequisite for using our Services. When you sign up and log in to your Bilibili account, you need to complete a series of signup procedures following the guidance. During this process, you need to provide us with the following information: mobile phone number or email , password and we will generate your user ID number on Bilibili. You may fill in relevant information such as your nickname , birthday, personalized signature or profile photo during registration or in future use. You should ensure the correctness of such information. We collect such information to provide account registration and log-in services and to protect your account and prevent safety risks. Our Services support you to log in with an account of a third party platform (including Facebook, Google, Apple, Twitter).
+
+2) Expressing your Viewing Preference
+When you start using our Services, you can provide us with your Viewing Preference by clicking the channels, creators or interest tags, etc. If you would like to follow certain shows or videos that are shown by episode and season, you can set a reminder. We will prompt the relevant UGC based on your View Preference on Bilibili to save your time and hassles in searching for such desired UGC on Bilibili. You can also skip this step if you do not yet have anything in mind that you would like to explore.
+
+3) Uploading your UGC
+If you wish to become a creator, you may need to provide us with your personal information (including your nickname, mobile phone number or email address, Avatar) and your UGC on Bilibili where you wish to post on Bilibili (including contribution and photo album). We will also request the access permission to the photo album or  camera of your mobile phone after obtaining your consent to facilitate your sharing of videos and pictures. If you refuse to provide such access, you can’t use this specific function, without prejudice to your access to other functions of the product and/or service. Meanwhile, you can also open/cancel this access on the product page at any time. You understand and agree that when you upload videos and UGC, your voice, profile and/or any other personal information of yours and/or others contained in the UGC or videos may be obtained and known to other Bilibili users (regardless of whether they have a Bilibili account or not), who may contact and interact with you through Bilibili’s services or in your real life. Your UGCs may be collected by search engines. It is optional to become a creator on Bilibili and you can still use our Services to view your desired UGC and/or videos.
+
+4) Providing your comments or bullet chatting,
+When you use the comment, bullet chatting, sharing, and posting functions, we will collect the above-mentioned text, graphic, video and other content that you actively provide.
+
+5) Creating your profile on Bilibili
+You can go to account setting to provide more personal information about yourself such as data of birth,, nickname, profile picture, personalized signature, choosing the hanger/frame to your profile picture (available for Premium services). Please note that this step is completely optional for you to use our Services.
+
+6) Reaching out to our customer services
+If you do not like or wish to report any of the UGC or any bugs or functionalities to us or express your concerns, you can contact us by access “Feedback” or email us. You may need to provide your contact information such as email, mobile number or other contact if you are expecting a reply from us. We will provide you with customer service based on your communications with us (including text/picture/audio and video) and other necessary information related to your request. During this period, we will collect the personal information you provided, so as to solve your problems.
+
+7) Making payment on Bilibili
+When you choose to become our Premium and activate the Premium service, you need to use the payment function. During the payment process, we may collect the user ID of your third-party payment channel (including information of Apple ID, Google ID). So that we can credit your account with the Premium services, we keep a record of the purchases you make, the time at which you make those purchases and the amount spent. We do not collect any financial or billing information from you in relation to such a transaction. Please review the relevant app store's terms and notices in respect of the handling of such data. Your purchase will be made via your Apple iTunes or Google Play account.
+
+Information that we collect automatically
+When you use our Services, we may collect certain information automatically from your device. In some instances, our use of your personal information may result in automated decisions being taken (including knowing your preference and prompting the relevant UGCs and/or videos to you based on your expressed Viewing Preference). Automated decisions mean that a decision concerning you is made automatically on the basis of a computer determination (using software algorithms), without our human review. You can use the settings on Bilibili to express your preference over certain UGCs and/or videos and the algorithms will record your choice and will accordingly reduce the sharing of such UGCs and/or videos of the similar category to you.
+
+1) Security, administration and management of the platform of our Services
+When providing our Services to you, we will automatically collect your device information (including hardware model, operating system version number, MAC address, network device hardware address, unique device identifier, IP address, software version number, network access method and type, network quality data, log of operation, usage and service, device name, system language, advertising identifier) and your IP address, your application crash message, your login time and attempts, your behavioral information and UGCs and comments etc. We collect such to (i) ensure your safety and security including reviewing UGCs, messages and associated metadata for breach of our Community User Code of Conducts and other inappropriate content; (ii) to help us detect and combat abuse, harmful activity, fraud, spam, and illegal activity on Bilibili; (iii) carry out data analysis and test the Platform to ensure its stability and security; (iv) provide you with user support; (v) enable you use certain practical functions, such as recommending quality videos in your area. We will roughly infer your location based on IP address.
+
+2) Data analytics
+When you enter a search word to search for UGCs and/or videos, your search words and search logs will be analyzed by us among other users of our Services in order for us to find the trends. Please rest assured that your search words will not be disclosed to anyone in our analytics and you can choose to erase your search words.
+
+3) Video display and playback
+You can use video display and playback on Bilibili and we will collect your device information including your IP address, equipment type, model, device name, Universally Unique Identifier, operating system, language setting, APP version and your behavioral information to record where you pause on a specific UGC and/or video.
+
+4) Recommendation of UGC and improvement of our Services
+We may collect search records, browsing records, favorite records, viewing duration, order information, device information, like/sharing/comment/interaction objects, your behavioral information, interest preferences and other information when you use our Services to know more about your Viewing Preference and to, help us better maintain and improve our Services.
+Some of this information may be collected using cookies and similar tracking technology, as explained further under the heading “Cookies and similar tracking technology ” below.
+
+5）Advertisement
+When you use bilibili, we may show you third-party advertisements. You can independently choose to view the content of the ads you are interested in, or you can simply turn them off. We may collect your UID, your approximate location to show you relevant ads, and we may collect your unique device identifier, IP address, software version number, system language and advertising identifier (based on your consent) to conduct data statistics and analysis. When you view or interact with ads we serve on bilibili, the third-party advertising platforms that we work with may collect information about those views or interactions (e.g., watching a video ad, clicking on an ad). They use your information to know about your viewing preferences, which helps make ads on bilibili more relevant to you and to measure the effectiveness of ads.
+
+Information that we obtain from third party sources
+1) Third-party account information
+If you use the account of a third party platform (including Facebook/Twitter/Apple/Google ) to log in our Services, we will obtain the relevant information (including username, nickname, public profile, subject to your authorization), so as to create or log in Bilibili account, provide services enjoyed by log-in users, protect your account and prevent security risks.
+
+2) Third-party payment agency information
+If you purchase our Premium Services or other contents, the third-party payment service providers working with us (including Apple pay, Google pay) will provide us with your payment information or its updated information, so as to verify your payment status and proceed with your paid services.
+
+3) Information obtained from other sources
+From time to time, we may receive personal information about you from third party sources (including certain SDK providers where they record the potential IP address or device ID being identified as a potential security concern if such IP address or device ID has launched cyber security attack before). Our professional security team will reinforce the security of personal information (including reporting of sensitive information, encrypted storage of sensitive information, and access control, etc.).
+
+You understand that it is important and a legitimate interest to us to maintain the security and safety of the community of Bilibili users and our Services, such as to operate our platform and communicating with you as necessary to provide our services to you and for our legitimate commercial interest, for instance, when responding to your queries, improving our platform, undertaking marketing, or for the purposes of detecting or preventing illegal activities. We may have other legitimate interests and if appropriate. In some cases, we may also have a legal obligation to collect personal information from you or may otherwise need the personal information to protect your vital interests or those of another person.
+
+2. How we use your personal data?
+We will use the information we collect about you in the following ways:
+1) enforce our terms, conditions and policies;
+2) provision, processing, maintenance, R&D and improvement of our Services;
+3) personalize the content you receive and provide you with tailored content that will be of interest to you;
+4) communication with you, including sending commercial promotion information, operation activity notice and update of agreement;
+5) ensure your safety and security including reviewing user content, messages and associated metadata for breach of our Community Policies and other inappropriate content;
+6) allow you to participate in interactive features and socialize;
+7) provide you with location-based services (where those services are available in your jurisdiction);
+8) conduct market survey and trend analysis, and comprehensive statistics, data analysis, processing and investigation related to our Services.
+
+In general, we will use the personal information we collect from you only for the purposes described in this Privacy Policy or for purposes that we explain to you at the time we collect your personal information. However, we may also use your personal information for other purposes that are not incompatible with the purposes we have disclosed to you (such as archiving purposes in the public interest, scientific or historical research purposes, or statistical purposes) if and where this is permitted by applicable data protection laws.
+
+3. Who do we share your personal information with?
+You can share your personal information or other information with any third party (including unspecified objects) based on our Services. For example, you can choose social APP (such as Facebook) or other applications to share relevant information when you using the sharing function of our Services. The information you shared to any third-party applications will be controlled and processed by such third party, subject to its service terms and privacy policy. You should solely bear the responsibility for any disclosure, misuse or similar circumstances due to your sharing and we shall bear no responsibilities in this regard.
+
+We may disclose your personal information to the following categories of recipients:
+1) Business partners: if you choose to register to use the Platform using your social network account details (including Facebook, Google, Apple, Twitter), you will provide us or allow your social network to provide us with your username and public profile. Where you opt to share content on social media platforms, the video, username and accompanying text will be shared on that platform or, in the case of sharing via instant messaging platforms such as WhatsApp, Facebook Messenger, Line, Google, a link to the content will be shared.
+
+2) Payment providers: if you choose to become our Premium and activate the Premium Services, we will share data with the relevant payment provider to facilitate this transaction. We share a transaction ID to enable us to identify you once you have made the payment.
+
+3) Service providers: we provide information and content to service providers who support our business, such as cloud service providers and providers of content moderation services to ensure that Bilibili is a safe and enjoyable place.
+
+4) Analytics providers: we use analytics providers (including Appsflyer, Firebase) to help us in the optimization and improvement of our Services. Our third party analytics providers also help us serve targeted advertisements.
+
+5) Logistics service providers. We may share your personal information such as your address, phone number with logistics service providers who provide shipping services such as delivering physical prizes to users.
+
+6) Advertisers and Advertising Networks: we may share information with advertisers, third party advertising platforms and third party measurement companies to show how many and which users of our Services have viewed or clicked on an advertisement. We share your device information(including your device ID , OS type(Android/ios), OS version, ATT status of your iphone, network connection type, area code, device type (phone/pad), device manufacture, device model, MCC mobile signal country code, MNC mobile network number) with third party advertising platforms so that we can show you various  advertisements. We may share your device ID with measurement companies so that we can link your activity on Bilibili with your activity on other websites; we then use this information to show you advertisements which may be of interest to you. Advertisers may learn information from your engagement with their ads on Bilibili. For example, if you click on an external link or ad on our services, that advertiser might figure out that you came from Bilibili, along with other information associated with the ad you clicked, such as characteristics of the audience it was intended to reach and other Bilibili-generated identifiers for that ad. They may also collect other personal information from you, such as cookie identifiers, or your IP address. We promise that without your consent, we will never share any information that will identify you.
+
+7) Bilibili group companies: We may also share your information with other members, subsidiaries, or affiliates of our corporate group, to provide our Services including improving and optimizing our Services, preventing illegal use and supporting users.
+
+8) any competent law enforcement body, regulatory, government agency, court or other third parties where we believe disclosure is necessary (i) as a matter of applicable law or regulation, (ii) to exercise, establish or defend our legal rights, or (iii) to protect your vital interests or those of any other person.; (iv) detect, prevent or otherwise address security, fraud or technical issues; (v) protect the rights, property or safety of us, our users, a third party or the public as required or permitted by law (including exchanging information with other companies and organizations for the purposes of fraud protection and credit risk reduction); (vi) enforce our Terms of Service and other agreements, policies, and standards, including investigation of any potential violation thereof. For example, if the UGC that you upload is in breach of applicable laws in one jurisdiction or more, we may be obligated to provide certain information about you at the request of the competent law enforcement body, regulatory, government agency, court.
+
+9) an actual or potential buyer or investor (and its agents and advisers) in connection with any actual or proposed purchase or sale, merger or acquisition of any part of our business, provided that we inform the buyer it must use your personal information only for the purposes disclosed in this Privacy Policy. If we sell, buy, merge, are acquired by, or partner with other companies or businesses, or sell some or all of our assets. In such transactions, user information may be among the transferred assets. In the event of a business transfer, merger, acquisition or bankruptcy liquidation, which may involve the transfer of personal information, according to the law, the transferee must undertake the same obligations as us and protect and use your personal information in accordance with this Privacy Policy. If there are any changes to the collection and processing methods of personal information agreed in this Privacy Policy, the company or organization will re-seek your authorization and consent.
+
+10) any other person with your consent to the disclosure.
+
+4. Cookies and similar tracking technology
+We and our vendors and service providers may use cookies and other similar technologies (e.g., web beacons, flash cookies, etc.) (“Cookies”) to automatically collect information, measure and analyse which web pages you click on and how you use our Services, enhance your experience using Bilibili, improve our Services, and provide you with targeted advertising on Bilibili across your different devices. Cookies are small files which, when placed on your device, enable the Platform to provide certain features and functionality. Web beacons are very small images or small pieces of data embedded in images, also known as “pixel tags” or “clear GIFs,” that can recognize Cookies, the time and date a page is viewed, a description of the page where the pixel tag is placed, and similar information from your computer or device. For example, we use Cookies and similar tracking technologies offered by AppsFlyer and Google.
+
+1) AppsFlyer: AppsFlyer is a service provided by AppsFlyer for mobile attribution and marketing analytics. AppsFlyer may collect and receive certain device information about you such as your device type, Wi-Fi status, IP address, device ID and information about your engagement with the webpage, applications and ads. For more information about how AppsFlyer collects and processes your information, please visit the privacy policy of AppsFlyer at https://www.appsflyer.com/services-privacy-policy/. To opt-out of AppsFlyer you may visit https://www.appsflyer.com/optout or email at contact@bilibili.tv.
+
+2) Firebase: Firebase is an analytics service provided by Google. We use Firebase to understand how our users use our Services and measure the effectiveness of our advertising. Firebase may collect your technical information, technical identifiers, engagement information, contact information, event data. For more information about how Google may process and use your information, please visit https://firebase.google.com/support/privacy/. You may opt-out of Firebase by visit at https://adssettings.google.com or email at contact@bilibili.tv.
+
+5. How do we keep your personal information secure?
+We use appropriate technical and organizational measures to protect the personal information that we collect and process about you. The measures we use are designed to provide a level of security appropriate to the risk of processing your personal information. For example, we use SSL to encrypt and protect data; we have established an access control mechanism to ensure that only authorized personnel can access personal information of our users; we hold security and privacy protection training courses from time to time to increase employees’ awareness of the importance of protecting personal information.
+
+To prevent the occurrence of security accidents, we have established a special data security department and formulated a proper early warning mechanism and emergency response plan. In the event of a personal information security incident, we will promptly inform you in accordance with the requirements of applicable laws and regulations in a manner that is appropriate and sufficient to bring this to your attention, and we will immediately activate the emergency plan to minimize the loss.
+
+Unfortunately, the transmission of information via the internet is not completely secure. Although we will protect your personal data, for example, by encryption, we cannot guarantee the security of your information transmitted via the Platform; any transmission is at your own risk.
+
+6. International data transfers
+Your personal information will be stored and retained in Singapore and may be transferred to, and processed in, countries other than the country in which you are resident. These countries may have data protection laws that are different from the laws of your country. For the purpose of security maintenance and business intelligence purpose and other necessary purposes, your personal information in Singapore may be accessed by our affiliates of Bilibili group or partners who acting for the operator of Bilibili in other countries (including China) .
+
+However, we have taken appropriate safeguards to require that your personal information will remain protected in accordance with this Privacy Policy. Internally, we also enter into intra-group data transfer agreements with these affiliates of Bilibili group and our services providers or business partners outside Singapore to require them to protect your personal information when processing your personal information to provide Services to you.
+
+7. How long do we retain your personal information?
+Generally, we only need to store your personal information in the shortest period of time possible for provision of our services and after such period, we will delete or anonymize your personal information as per the requirements of relevant laws and regulations. If such information is shared by us to any third party, we will also require such third party to do the same. However, in the following circumstances, we may alter the period for storage of information due to relevant legal requirement:
+1) to follow relevant provisions of applicable laws and regulations;
+2) to follow court decision, ruling or other legal procedures;
+3) to follow the requirements of relevant government organs or statutory authorized organizations;
+4) we deem necessary to follow relevant provisions of laws and regulations;
+5) for proper and necessary purposes to execute relevant service agreement or this Policy, maintain social public interests, and protect the personal and property safety of us, our related companies, our partners, other users or employees, or to protect other lawful rights and interests.
+
+8. Your data protection rights
+As a user of our Services, you have the following data protection rights:
+1) Right to access
+You can inquire or access your relevant personal information in our Services, including:
+Account information: You can log in to your personal account at any time through related product page to access the personal information in your account including profile photo, nickname, birthday and gio;
+Usage information: You can inquire part of your usage information at any time through the related product page, including collection history, viewing history and downloads;
+
+2) Right to correct
+You may rectify/alter part of your personal information by following the operation guide and settings on relevant product pages in Bilibili and you can also contact us to directly modify or alter your data.
+
+3) Right to delete
+You may request deletion of your personal information by emailing us at contact@bilibili.tv. If you want to remove your information of our Services regarding to your Facebook account，you can follow our data deletion instructions URL . For some of your personal information, you can also voluntarily delete the information you provided through the functional pages of related products and services we provide. For example, you can view and delete certain historical records like the videos, pictures and so on you posted in the app by clicking: “Me-History-delete”.
+
+You can directly demand of us to delete your personal information or notify the receiving third party to delete such if we collect, use or share your personal information in violation with relevant laws and regulations, except where such data has been anonymized or otherwise stipulated by relevant laws and regulations.
+
+You understand and agree that once you delete your personal information from our Services by yourself or with our help, we may not immediately delete your information from the backup system subject to applicable laws and regulations and relevant security technology, in which case, we will store your personal information in a secure manner and separate such from any further data processing, till such information is deleted or anonymized during the update of our backup system.
+
+4) Right to limit or refuse processing of personal information
+You may limit or refuse the processing of part of your personal information if such rights are granted to you according to the law of your judicial jurisdiction area and we will handle your request based on such law while considering your actual conditions.
+
+5) Right to cancel your account
+You can also de-register your account by clicking “Me-Feedback-Account Problems”, specify in the “Additional Details” box that you need to de-register your account and input your email address or select other means of contact. We will then contact you and end you our Account Termination Agreement via the contact channel. Please read it carefully. After we verify your identity and obtain your confirmation, we will delete or anonymize all relevant personal data generated by you in Bilibili in accordance with relevant laws and regulations, unless otherwise required by laws and regulations. You can also email us at contact@bilibili.tv to exercise the right.
+
+6) Right to opt-out of marketing communications
+You have the right to opt-out of marketing communications we may send you at any time. You can exercise this right by clicking on the “unsubscribe” or “opt-out” link in the marketing e-mails or SMS we send you.
+
+7) Right to opt-out of personalized recommendation of contents
+You have the right to opt-out of personalized recommendation of contents that you can view on our App. At each video or UGCs, there is an icon for you to click and express your preference and concern on such video or UGCs.
+
+8) Right to withdraw your consent
+If we have collected and processed your personal information with your consent, then you can withdraw your consent at any time. For example, you can withdraw the authorization to use “camera” by clicking “Me-Setting-Permissions”.  Withdrawing your consent will not affect the lawfulness of any processing we conducted prior to your withdrawal, nor will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent.
+
+9) Right to obtain the copy of personal information
+If you need to obtain the copy of your personal information, you can contact us via the contact information in this Policy and upon verifying your identity, we will provide the copy of such information in our services for you within the period prescribed and in accordance with the law, unless otherwise stipulated by the applicable laws and regulations or as otherwise agreed upon in this Policy.
+
+10) Right to complain
+You have the right to complain to a data protection authority about our collection and use of your personal information. For more information, please contact your local data protection authority.
+
+To exercise your rights above you may also contact us using the contact details under the “How to contact us” heading below.We respond to all requests we receive from individuals wishing to exercise their data protection rights in accordance with applicable data protection laws. To protect the security of your account and your personal information, we may ask you to provide certain additional information to verify your identity before we respond to your requests. Generally, we will respond to your request within 30 days upon our receipt of your request.
+
+9. Information relating to children
+Children under the age of 13 are not allowed to register and create their own accounts for the Services. If you are 13 above but are considered a minor in your country (please refer to the following table) , you must have your parent or legal guardian read through this Privacy Policy with you and you represent that you have obtained the permission of your parent or guardian to create your Bilibili account. Children of all ages may use the Services if such use is allowed by their parent or legal guardian. If you are a parent or legal guardian of a minor in your country, please make sure that you have read this Privacy Policy before allowing your children to create his/her own account or to use the Services. You agree that you will be subject to this Privacy Policy and be responsible for your children’s activities while using the Services. You agree to supervise your children’s use of the Services and make sure that your children only view the contents that are age appropriate to your children.
+
+Country / Region in which the user is located Minimum age of the user
+Indonesia 21
+Malaysia 18
+Philippines 18
+Singapore 18
+Vietnam 16
+Thailand 20
+
+10. Updates to this Privacy Policy
+We may update this Privacy Policy from time to time in response to changing legal, technical or business developments. When we update our Privacy Policy, we will take appropriate measures to inform you, consistent with the significance and materiality of the changes we make. We will obtain your consent to any material changes to this Privacy Policy if and where this is required by applicable data protection laws.
+
+You can see when this Privacy Policy was last updated by checking the “last updated” date displayed at the top of this Privacy Policy.
+
+11. How to contact us
+If you have any questions or concerns about this Privacy Policy and our use of your personal information, please contact our Data Protection Office at contact@bilibili.tv. Our Data Protection Office is led by our Data Protection Officer that is responsible for data protection matters.
